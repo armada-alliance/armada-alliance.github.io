@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"MEME Pool MEME\",\"slug\":\"/pool-widget/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386\",\"template\":\"PoolWidgetPage\",\"poolId\":\"c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-18T05:17:04.921Z",
-  "_cachedIn": "150 μs",
-  "_resolvedIn": "150 μs",
+  "_cachedAt": "2021-07-18T06:21:28.133Z",
+  "_cachedIn": "106 μs",
+  "_resolvedIn": "106 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386"
       },
       "description": "They don't know I run a Cardano stake pool.",
-      "image": "https://static.adapools.org/pool_logo/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png",
+      "image": "https://meme.best/icons/apple-touch-icon.png",
       "hasImage": true,
       "ticker": "MEME",
       "addr": "pool1ex4gapjdtnpf9u8fxe560x6p6elcaf3ysxsdskc5h63cv0zq5cv",
@@ -32,7 +32,7 @@
       "totalStake": "74046607160",
       "blocksLifetime": "2",
       "delegators": "16",
-      "saturated": 0.0011279666265136,
+      "saturated": 0.0011279649933606,
       "pledge": "69420000000",
       "pledged": "70400385546",
       "taxRatio": "0.01",
@@ -116,24 +116,52 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null
+      "metadata": {
+        "name": "MEME Pool",
+        "description": "They don't know I run a Cardano stake pool.",
+        "ticker": "MEME",
+        "homepage": "https://meme.best",
+        "extended": "https://meme.best/node/extended.json"
+      },
+      "extended": {
+        "info": {
+          "about": {
+            "me": "",
+            "server": "The MEME stake pool runs on a trio of Raspberry Pi microcomputers with SSD hard drives and a gigabit fiber optic connection to the internet. Our servers consume about 0.2kWh per day, which is about the same as running one 9W (60W equivalent) LED light bulb."
+          },
+          "company": {
+            "city": "New York`",
+            "country": "USA"
+          },
+          "location": "Westchester, New York",
+          "rss": "https://meme.best/rss.xml",
+          "social": {
+            "telegram_handle": "sporke",
+            "twitter_handle": "meme_pool"
+          },
+          "url_png_icon_64x64": "https://meme.best/icons/apple-touch-icon.png",
+          "url_png_logo": "https://meme.best/icons/apple-touch-icon.png"
+        },
+        "my-pool-ids": {
+          "0": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386"
+        }
+      }
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-18T05:17:04.921Z",
-    "component-cached-in": "150 μs",
-    "component-resolved-in": "150 μs"
+    "component-cached-at": "2021-07-18T06:21:28.133Z",
+    "component-cached-in": "106 μs",
+    "component-resolved-in": "106 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-18T05:17:04.921Z",
-      "_cachedIn": "109 μs",
-      "_resolvedIn": "109 μs",
+      "_cachedAt": "2021-07-18T06:21:28.133Z",
+      "_cachedIn": "74 μs",
+      "_resolvedIn": "74 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -142,17 +170,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-18T05:17:04.921Z",
-        "component-cached-in": "109 μs",
-        "component-resolved-in": "109 μs"
+        "component-cached-at": "2021-07-18T06:21:28.133Z",
+        "component-cached-in": "74 μs",
+        "component-resolved-in": "74 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-18T05:17:04.921Z",
-          "_cachedIn": "49 μs",
-          "_resolvedIn": "49 μs",
+          "_cachedAt": "2021-07-18T06:21:28.133Z",
+          "_cachedIn": "42 μs",
+          "_resolvedIn": "42 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -160,7 +188,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-07-18T05:14:47.489Z",
+              "createdAt": "2021-07-18T06:21:20.496Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1605,7 +1633,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.png",
+                "image": "https://stakefornature.com/ico.png",
                 "updatedAt": "2021-07-18T04:43:17.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
@@ -1882,7 +1910,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png",
+                "image": "https://meme.best/icons/apple-touch-icon.png",
                 "updatedAt": "2021-07-18T04:43:17.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
@@ -7210,18 +7238,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-18T05:17:04.921Z",
-            "component-cached-in": "49 μs",
-            "component-resolved-in": "49 μs"
+            "component-cached-at": "2021-07-18T06:21:28.133Z",
+            "component-cached-in": "42 μs",
+            "component-resolved-in": "42 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-18T05:17:04.921Z",
-          "_cachedIn": "83 μs",
-          "_resolvedIn": "83 μs",
+          "_cachedAt": "2021-07-18T06:21:28.133Z",
+          "_cachedIn": "58 μs",
+          "_resolvedIn": "58 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7232,15 +7260,15 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-18T05:17:04.921Z",
-            "component-cached-in": "83 μs",
-            "component-resolved-in": "83 μs"
+            "component-cached-at": "2021-07-18T06:21:28.133Z",
+            "component-cached-in": "58 μs",
+            "component-resolved-in": "58 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-18T05:17:04.921Z",
+              "_cachedAt": "2021-07-18T06:21:28.133Z",
               "_cachedIn": "21 μs",
               "_resolvedIn": "21 μs",
               "id": "SearchBox",
@@ -7302,7 +7330,7 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-18T05:17:04.921Z",
+                "component-cached-at": "2021-07-18T06:21:28.133Z",
                 "component-cached-in": "21 μs",
                 "component-resolved-in": "21 μs"
               },
@@ -7313,9 +7341,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-18T05:17:04.921Z",
-          "_cachedIn": "18 μs",
-          "_resolvedIn": "18 μs",
+          "_cachedAt": "2021-07-18T06:21:28.133Z",
+          "_cachedIn": "14 μs",
+          "_resolvedIn": "14 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7324,9 +7352,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-18T05:17:04.921Z",
-            "component-cached-in": "18 μs",
-            "component-resolved-in": "18 μs"
+            "component-cached-at": "2021-07-18T06:21:28.133Z",
+            "component-cached-in": "14 μs",
+            "component-resolved-in": "14 μs"
           },
           "components": {}
         }
