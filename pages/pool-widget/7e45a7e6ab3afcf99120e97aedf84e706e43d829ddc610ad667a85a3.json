@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"PGWADA Stake pool PGWAD\",\"slug\":\"/pool-widget/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"template\":\"PoolWidgetPage\",\"poolId\":\"7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-30T17:22:11.928Z",
-  "_cachedIn": "112 μs",
-  "_resolvedIn": "112 μs",
+  "_cachedAt": "2021-07-30T21:16:04.511Z",
+  "_cachedIn": "119 μs",
+  "_resolvedIn": "119 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,17 +24,17 @@
         "href": "/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3"
       },
       "description": "Stake pool operated by father and son exploring AI and blockchain",
-      "image": "https://armada-alliance.com/assets/ship-420.png",
-      "hasImage": false,
+      "image": "https://git.io/JBwkE",
+      "hasImage": true,
       "ticker": "PGWAD",
       "addr": "pool10ez60e4t8t70nyfqa9awm7zwwphy8kpfmhrppttx02z6xeyzgyk",
       "website": "https://twitter.com/PgwadaS",
-      "totalStake": "10188210393",
+      "totalStake": "10187422549",
       "blocksLifetime": 0,
       "delegators": 6,
-      "saturated": 0.0001558281144731263,
-      "pledge": "100000000",
-      "pledged": "618165527",
+      "saturated": 0.00015581606444272023,
+      "pledge": "500000000",
+      "pledged": "617377683",
       "taxRatio": 0,
       "taxFix": "340000000",
       "roa": "0",
@@ -97,31 +97,112 @@
               "is_eu": false
             }
           }
+        },
+        {
+          "addr": "pgwpoolrelay1.ddns.net",
+          "port": 6006,
+          "data": {
+            "ip": "73.241.96.50",
+            "type": "ipv4",
+            "continent_code": "NA",
+            "continent_name": "North America",
+            "country_code": "US",
+            "country_name": "United States",
+            "region_code": "CA",
+            "region_name": "California",
+            "city": "Sunnyvale",
+            "zip": "94086",
+            "latitude": 37.36724090576172,
+            "longitude": -122.01216888427734,
+            "location": {
+              "geoname_id": 5400075,
+              "capital": "Washington D.C.",
+              "languages": [
+                {
+                  "code": "en",
+                  "name": "English",
+                  "native": "English"
+                }
+              ],
+              "country_flag": "http://assets.ipstack.com/flags/us.svg",
+              "country_flag_emoji": "🇺🇸",
+              "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+              "calling_code": "1",
+              "is_eu": false
+            }
+          }
         }
       ],
       "metadata": {
         "name": "PGWADA Stake pool",
         "description": "Stake pool operated by father and son exploring AI and blockchain",
         "ticker": "PGWAD",
-        "homepage": "https://twitter.com/PgwadaS"
+        "homepage": "https://twitter.com/PgwadaS",
+        "extended": "https://raw.githubusercontent.com/pgwadapool/pooldata/main/extended.json"
       },
-      "extended": null
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://git.io/JBwkE",
+          "url_png_logo": "https://git.io/JBwkE",
+          "location": "USA",
+          "social": {
+            "twitter_handle": "PgwadaS",
+            "telegram_handle": "Pgwada",
+            "facebook_handle": "",
+            "youtube_handle": "channel/UCnXOz6fuQ1YoUUZJSbgZ8rg",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+          },
+          "company": {
+            "name": "PGWAD"
+          },
+          "about": {
+            "me": "I am AI researcher looking at AI and Blockchain. I have 20+ yrs experience in embbeded systems",
+            "server": "Raspberry Pi and Mini.",
+            "company": "..."
+          },
+          "my-pool-ids": {
+            "0": "pool10ez60e4t8t70nyfqa9awm7zwwphy8kpfmhrppttx02z6xeyzgyk",
+            "1": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
+          },
+          "adapools_ext": {
+            "prometheus": {
+              "0": {
+                "name": "relay 1",
+                "type": "relay",
+                "key": ""
+              },
+              "1": {
+                "name": "relay 2",
+                "type": "relay",
+                "key": ""
+              },
+              "2": {
+                "name": "block producer",
+                "type": "bp",
+                "key": ""
+              }
+            }
+          }
+        }
+      }
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-30T17:22:11.928Z",
-    "component-cached-in": "112 μs",
-    "component-resolved-in": "112 μs"
+    "component-cached-at": "2021-07-30T21:16:04.511Z",
+    "component-cached-in": "119 μs",
+    "component-resolved-in": "119 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-30T17:22:11.928Z",
-      "_cachedIn": "81 μs",
-      "_resolvedIn": "81 μs",
+      "_cachedAt": "2021-07-30T21:16:04.511Z",
+      "_cachedIn": "87 μs",
+      "_resolvedIn": "87 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -130,17 +211,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-30T17:22:11.928Z",
-        "component-cached-in": "81 μs",
-        "component-resolved-in": "81 μs"
+        "component-cached-at": "2021-07-30T21:16:04.511Z",
+        "component-cached-in": "87 μs",
+        "component-resolved-in": "87 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-30T17:22:11.928Z",
-          "_cachedIn": "43 μs",
-          "_resolvedIn": "43 μs",
+          "_cachedAt": "2021-07-30T21:16:04.511Z",
+          "_cachedIn": "37 μs",
+          "_resolvedIn": "37 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -148,7 +229,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-07-30T17:22:00.210Z",
+              "createdAt": "2021-07-30T21:15:55.937Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1879,7 +1960,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "image": "https://git.io/JBwkE",
                 "updatedAt": "2021-07-30T05:56:24.000Z",
                 "filePath": "/en/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3.md"
               },
@@ -7903,18 +7984,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-30T17:22:11.928Z",
-            "component-cached-in": "43 μs",
-            "component-resolved-in": "43 μs"
+            "component-cached-at": "2021-07-30T21:16:04.511Z",
+            "component-cached-in": "37 μs",
+            "component-resolved-in": "37 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-30T17:22:11.928Z",
-          "_cachedIn": "63 μs",
-          "_resolvedIn": "63 μs",
+          "_cachedAt": "2021-07-30T21:16:04.511Z",
+          "_cachedIn": "55 μs",
+          "_resolvedIn": "55 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7925,17 +8006,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-30T17:22:11.928Z",
-            "component-cached-in": "63 μs",
-            "component-resolved-in": "63 μs"
+            "component-cached-at": "2021-07-30T21:16:04.511Z",
+            "component-cached-in": "55 μs",
+            "component-resolved-in": "55 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-30T17:22:11.928Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2021-07-30T21:16:04.511Z",
+              "_cachedIn": "15 μs",
+              "_resolvedIn": "15 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7995,9 +8076,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-30T17:22:11.928Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2021-07-30T21:16:04.511Z",
+                "component-cached-in": "15 μs",
+                "component-resolved-in": "15 μs"
               },
               "components": {}
             }
@@ -8006,9 +8087,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-30T17:22:11.928Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2021-07-30T21:16:04.511Z",
+          "_cachedIn": "14 μs",
+          "_resolvedIn": "14 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8017,9 +8098,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-30T17:22:11.928Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2021-07-30T21:16:04.511Z",
+            "component-cached-in": "14 μs",
+            "component-resolved-in": "14 μs"
           },
           "components": {}
         }
