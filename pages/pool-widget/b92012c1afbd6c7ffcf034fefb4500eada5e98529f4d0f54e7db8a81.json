@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Stale Pool STALE\",\"slug\":\"/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"template\":\"PoolWidgetPage\",\"poolId\":\"b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-01T12:26:43.324Z",
-  "_cachedIn": "113 μs",
-  "_resolvedIn": "113 μs",
+  "_cachedAt": "2021-08-01T12:41:31.717Z",
+  "_cachedIn": "194 μs",
+  "_resolvedIn": "194 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "STALE",
       "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
       "website": "https://discord.com/invite/yA9cAtD3et",
-      "totalStake": "370393652801",
+      "totalStake": "370458724420",
       "blocksLifetime": 15,
       "delegators": 146,
-      "saturated": 0.005665150433922102,
+      "saturated": 0.005666145700735737,
       "pledge": "2000000000",
       "pledged": "6036045181",
       "taxRatio": 0.02,
@@ -122,23 +122,24 @@
         "ticker": "STALE",
         "homepage": "https://discord.com/invite/yA9cAtD3et"
       },
-      "extended": null
+      "extended": null,
+      "qualityScore": 50
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-01T12:26:43.324Z",
-    "component-cached-in": "113 μs",
-    "component-resolved-in": "113 μs"
+    "component-cached-at": "2021-08-01T12:41:31.717Z",
+    "component-cached-in": "194 μs",
+    "component-resolved-in": "194 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.323Z",
-      "_cachedIn": "78 μs",
-      "_resolvedIn": "78 μs",
+      "_cachedAt": "2021-08-01T12:41:31.717Z",
+      "_cachedIn": "83 μs",
+      "_resolvedIn": "83 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -147,17 +148,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-01T12:26:43.323Z",
-        "component-cached-in": "78 μs",
-        "component-resolved-in": "78 μs"
+        "component-cached-at": "2021-08-01T12:41:31.717Z",
+        "component-cached-in": "83 μs",
+        "component-resolved-in": "83 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-01T12:26:43.323Z",
-          "_cachedIn": "41 μs",
-          "_resolvedIn": "41 μs",
+          "_cachedAt": "2021-08-01T12:41:31.717Z",
+          "_cachedIn": "43 μs",
+          "_resolvedIn": "43 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -165,7 +166,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-01T12:26:27.982Z",
+              "createdAt": "2021-08-01T12:41:20.086Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -5947,6 +5948,26 @@
                 "filePath": "/en/terms/public-key.md"
               },
               {
+                "id": "quality-score",
+                "language": "en",
+                "slug": "/terms/quality-score",
+                "url": "https://armada-alliance.com/terms/quality-score",
+                "origin": "/terms/quality-score",
+                "title": "Quality Score",
+                "description": "The Stake Pool Operators of the Armada Alliance have created rules for themselves to follow to ensure quality. You can read more about the quality of each pool by going to the Quality Report section of the pool page.",
+                "aliases": null,
+                "keywords": null,
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-08-01T12:34:52.000Z",
+                "filePath": "/en/terms/quality-score.md"
+              },
+              {
                 "id": "redeemer",
                 "language": "en",
                 "slug": "/terms/redeemer",
@@ -7938,13 +7959,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003281
+                "rate": 0.00003279
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003281
+                "rate": 0.00003279
               },
               {
                 "id": "AUD",
@@ -7962,37 +7983,37 @@
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 5.78
+                "rate": 5.77
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 150.19
+                "rate": 150.12
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 45.02
+                "rate": 45
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-01T12:26:43.323Z",
-            "component-cached-in": "41 μs",
-            "component-resolved-in": "41 μs"
+            "component-cached-at": "2021-08-01T12:41:31.717Z",
+            "component-cached-in": "43 μs",
+            "component-resolved-in": "43 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-01T12:26:43.323Z",
-          "_cachedIn": "61 μs",
-          "_resolvedIn": "61 μs",
+          "_cachedAt": "2021-08-01T12:41:31.717Z",
+          "_cachedIn": "63 μs",
+          "_resolvedIn": "63 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8003,17 +8024,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-01T12:26:43.323Z",
-            "component-cached-in": "61 μs",
-            "component-resolved-in": "61 μs"
+            "component-cached-at": "2021-08-01T12:41:31.717Z",
+            "component-cached-in": "63 μs",
+            "component-resolved-in": "63 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-01T12:26:43.323Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2021-08-01T12:41:31.717Z",
+              "_cachedIn": "20 μs",
+              "_resolvedIn": "20 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8073,9 +8094,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-01T12:26:43.323Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2021-08-01T12:41:31.717Z",
+                "component-cached-in": "20 μs",
+                "component-resolved-in": "20 μs"
               },
               "components": {}
             }
@@ -8084,7 +8105,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-01T12:26:43.323Z",
+          "_cachedAt": "2021-08-01T12:41:31.717Z",
           "_cachedIn": "16 μs",
           "_resolvedIn": "16 μs",
           "id": "Footer",
@@ -8095,7 +8116,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-01T12:26:43.323Z",
+            "component-cached-at": "2021-08-01T12:41:31.717Z",
             "component-cached-in": "16 μs",
             "component-resolved-in": "16 μs"
           },

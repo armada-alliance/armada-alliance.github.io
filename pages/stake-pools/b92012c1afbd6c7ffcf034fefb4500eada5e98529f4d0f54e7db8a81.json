@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"language\":\"en\",\"slug\":\"/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"url\":\"https://armada-alliance.com/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"origin\":\"/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"title\":\"Stale Pool (STALE)\",\"description\":\"Official stake pool of Stale. Stake with me to support me in making all your favourite community Cardano NFT tools, hosting community events and helping new and upcoming NFT creators!\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"stale\",\"role\":\"spo\"}],\"image\":\"https://armada-alliance.com/assets/ship-420.png\",\"updatedAt\":\"2021-07-28T12:47:53.000Z\",\"filePath\":\"/en/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81.md\",\"ticker\":\"STALE\",\"memberSince\":\"2021-07-19T00:00:00.000Z\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-01T12:26:43.198Z",
-  "_cachedIn": "1.98 ms",
-  "_resolvedIn": "1.98 ms",
+  "_cachedAt": "2021-08-01T12:41:31.568Z",
+  "_cachedIn": "2.7 ms",
+  "_resolvedIn": "2.7 ms",
   "id": "PoolDetailPage",
   "type": "PoolDetailPage",
   "status": "resolved",
@@ -49,10 +49,10 @@
       "ticker": "STALE",
       "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
       "website": "https://discord.com/invite/yA9cAtD3et",
-      "totalStake": "370393652801",
+      "totalStake": "370458724420",
       "blocksLifetime": 15,
       "delegators": 146,
-      "saturated": 0.005665150433922102,
+      "saturated": 0.005666145700735737,
       "pledge": "2000000000",
       "pledged": "6036045181",
       "taxRatio": 0.02,
@@ -142,23 +142,24 @@
         "ticker": "STALE",
         "homepage": "https://discord.com/invite/yA9cAtD3et"
       },
-      "extended": null
+      "extended": null,
+      "qualityScore": 50
     }
   },
   "attrs": {
     "component-type": "PoolDetailPage",
     "component-id": "PoolDetailPage",
-    "component-cached-at": "2021-08-01T12:26:43.198Z",
-    "component-cached-in": "1.98 ms",
-    "component-resolved-in": "1.98 ms"
+    "component-cached-at": "2021-08-01T12:41:31.568Z",
+    "component-cached-in": "2.7 ms",
+    "component-resolved-in": "2.7 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.198Z",
-      "_cachedIn": "1.65 ms",
-      "_resolvedIn": "1.65 ms",
+      "_cachedAt": "2021-08-01T12:41:31.568Z",
+      "_cachedIn": "1.66 ms",
+      "_resolvedIn": "1.66 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -167,17 +168,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-01T12:26:43.198Z",
-        "component-cached-in": "1.65 ms",
-        "component-resolved-in": "1.65 ms"
+        "component-cached-at": "2021-08-01T12:41:31.568Z",
+        "component-cached-in": "1.66 ms",
+        "component-resolved-in": "1.66 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-01T12:26:43.197Z",
-          "_cachedIn": "687 μs",
-          "_resolvedIn": "687 μs",
+          "_cachedAt": "2021-08-01T12:41:31.568Z",
+          "_cachedIn": "545 μs",
+          "_resolvedIn": "545 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -185,7 +186,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-01T12:26:27.982Z",
+              "createdAt": "2021-08-01T12:41:20.086Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -5967,6 +5968,26 @@
                 "filePath": "/en/terms/public-key.md"
               },
               {
+                "id": "quality-score",
+                "language": "en",
+                "slug": "/terms/quality-score",
+                "url": "https://armada-alliance.com/terms/quality-score",
+                "origin": "/terms/quality-score",
+                "title": "Quality Score",
+                "description": "The Stake Pool Operators of the Armada Alliance have created rules for themselves to follow to ensure quality. You can read more about the quality of each pool by going to the Quality Report section of the pool page.",
+                "aliases": null,
+                "keywords": null,
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-08-01T12:34:52.000Z",
+                "filePath": "/en/terms/quality-score.md"
+              },
+              {
                 "id": "redeemer",
                 "language": "en",
                 "slug": "/terms/redeemer",
@@ -7958,13 +7979,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003281
+                "rate": 0.00003279
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003281
+                "rate": 0.00003279
               },
               {
                 "id": "AUD",
@@ -7982,37 +8003,37 @@
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 5.78
+                "rate": 5.77
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 150.19
+                "rate": 150.12
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 45.02
+                "rate": 45
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-01T12:26:43.197Z",
-            "component-cached-in": "687 μs",
-            "component-resolved-in": "687 μs"
+            "component-cached-at": "2021-08-01T12:41:31.568Z",
+            "component-cached-in": "545 μs",
+            "component-resolved-in": "545 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-01T12:26:43.198Z",
-          "_cachedIn": "848 μs",
-          "_resolvedIn": "848 μs",
+          "_cachedAt": "2021-08-01T12:41:31.568Z",
+          "_cachedIn": "675 μs",
+          "_resolvedIn": "675 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8023,17 +8044,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-01T12:26:43.198Z",
-            "component-cached-in": "848 μs",
-            "component-resolved-in": "848 μs"
+            "component-cached-at": "2021-08-01T12:41:31.568Z",
+            "component-cached-in": "675 μs",
+            "component-resolved-in": "675 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-01T12:26:43.198Z",
-              "_cachedIn": "155 μs",
-              "_resolvedIn": "155 μs",
+              "_cachedAt": "2021-08-01T12:41:31.568Z",
+              "_cachedIn": "105 μs",
+              "_resolvedIn": "105 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8093,9 +8114,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-01T12:26:43.198Z",
-                "component-cached-in": "155 μs",
-                "component-resolved-in": "155 μs"
+                "component-cached-at": "2021-08-01T12:41:31.568Z",
+                "component-cached-in": "105 μs",
+                "component-resolved-in": "105 μs"
               },
               "components": {}
             }
@@ -8104,9 +8125,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-01T12:26:43.197Z",
-          "_cachedIn": "474 μs",
-          "_resolvedIn": "474 μs",
+          "_cachedAt": "2021-08-01T12:41:31.567Z",
+          "_cachedIn": "277 μs",
+          "_resolvedIn": "277 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8115,9 +8136,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-01T12:26:43.197Z",
-            "component-cached-in": "474 μs",
-            "component-resolved-in": "474 μs"
+            "component-cached-at": "2021-08-01T12:41:31.567Z",
+            "component-cached-in": "277 μs",
+            "component-resolved-in": "277 μs"
           },
           "components": {}
         }
@@ -8126,9 +8147,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.197Z",
-      "_cachedIn": "1.38 ms",
-      "_resolvedIn": "1.38 ms",
+      "_cachedAt": "2021-08-01T12:41:31.567Z",
+      "_cachedIn": "1.36 ms",
+      "_resolvedIn": "1.36 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8160,18 +8181,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-01T12:26:43.197Z",
-        "component-cached-in": "1.38 ms",
-        "component-resolved-in": "1.38 ms"
+        "component-cached-at": "2021-08-01T12:41:31.567Z",
+        "component-cached-in": "1.36 ms",
+        "component-resolved-in": "1.36 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.197Z",
-      "_cachedIn": "1.01 ms",
-      "_resolvedIn": "1.01 ms",
+      "_cachedAt": "2021-08-01T12:41:31.567Z",
+      "_cachedIn": "949 μs",
+      "_resolvedIn": "949 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8183,18 +8204,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-01T12:26:43.197Z",
-        "component-cached-in": "1.01 ms",
-        "component-resolved-in": "1.01 ms"
+        "component-cached-at": "2021-08-01T12:41:31.567Z",
+        "component-cached-in": "949 μs",
+        "component-resolved-in": "949 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.197Z",
-      "_cachedIn": "1.38 ms",
-      "_resolvedIn": "1.38 ms",
+      "_cachedAt": "2021-08-01T12:41:31.567Z",
+      "_cachedIn": "1.36 ms",
+      "_resolvedIn": "1.36 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8213,18 +8234,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-01T12:26:43.197Z",
-        "component-cached-in": "1.38 ms",
-        "component-resolved-in": "1.38 ms"
+        "component-cached-at": "2021-08-01T12:41:31.567Z",
+        "component-cached-in": "1.36 ms",
+        "component-resolved-in": "1.36 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.197Z",
-      "_cachedIn": "1.02 ms",
-      "_resolvedIn": "1.02 ms",
+      "_cachedAt": "2021-08-01T12:41:31.567Z",
+      "_cachedIn": "969 μs",
+      "_resolvedIn": "969 μs",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -8246,18 +8267,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-08-01T12:26:43.197Z",
-        "component-cached-in": "1.02 ms",
-        "component-resolved-in": "1.02 ms"
+        "component-cached-at": "2021-08-01T12:41:31.567Z",
+        "component-cached-in": "969 μs",
+        "component-resolved-in": "969 μs"
       },
       "components": {}
     },
     "ContentSections": {
       "_cacheKey": "{\"component\":{\"type\":\"ContentSections\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.197Z",
-      "_cachedIn": "1.38 ms",
-      "_resolvedIn": "1.38 ms",
+      "_cachedAt": "2021-08-01T12:41:31.567Z",
+      "_cachedIn": "1.37 ms",
+      "_resolvedIn": "1.37 ms",
       "id": "ContentSections",
       "type": "ContentSections",
       "status": "resolved",
@@ -8266,23 +8287,24 @@
       "attrs": {
         "component-type": "ContentSections",
         "component-id": "ContentSections",
-        "component-cached-at": "2021-08-01T12:26:43.197Z",
-        "component-cached-in": "1.38 ms",
-        "component-resolved-in": "1.38 ms"
+        "component-cached-at": "2021-08-01T12:41:31.567Z",
+        "component-cached-in": "1.37 ms",
+        "component-resolved-in": "1.37 ms"
       },
       "components": {}
     },
     "QualityReportSection": {
       "_cacheKey": "{\"component\":{\"type\":\"QualityReportSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.197Z",
-      "_cachedIn": "1.02 ms",
-      "_resolvedIn": "1.02 ms",
+      "_cachedAt": "2021-08-01T12:41:31.567Z",
+      "_cachedIn": "974 μs",
+      "_resolvedIn": "974 μs",
       "id": "QualityReportSection",
       "type": "QualityReportSection",
       "status": "resolved",
       "error": null,
       "props": {
+        "qualityScore": 50,
         "rules": [
           {
             "id": "rule-1",
@@ -8425,18 +8447,18 @@
       "attrs": {
         "component-type": "QualityReportSection",
         "component-id": "QualityReportSection",
-        "component-cached-at": "2021-08-01T12:26:43.197Z",
-        "component-cached-in": "1.02 ms",
-        "component-resolved-in": "1.02 ms"
+        "component-cached-at": "2021-08-01T12:41:31.567Z",
+        "component-cached-in": "974 μs",
+        "component-resolved-in": "974 μs"
       },
       "components": {}
     },
     "DelegationSection": {
       "_cacheKey": "{\"component\":{\"type\":\"DelegationSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-01T12:26:43.197Z",
-      "_cachedIn": "1.02 ms",
-      "_resolvedIn": "1.02 ms",
+      "_cachedAt": "2021-08-01T12:41:31.567Z",
+      "_cachedIn": "978 μs",
+      "_resolvedIn": "978 μs",
       "id": "DelegationSection",
       "type": "DelegationSection",
       "status": "resolved",
@@ -8561,7 +8583,8 @@
             },
             "telegram": "behemothpool",
             "twitter": "Behemothpool",
-            "github": "rakalto"
+            "github": "rakalto",
+            "qualityScore": 87.5
           },
           {
             "id": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
@@ -8680,7 +8703,8 @@
                 "2418ecaae0488bb393a33d4d922aeeb0a7eb7d1f370c158767c13f02"
               ]
             },
-            "github": "jacky4566/CardanoYYC"
+            "github": "jacky4566/CardanoYYC",
+            "qualityScore": 37.5
           },
           {
             "id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
@@ -8810,7 +8834,8 @@
             },
             "twitter": "Armadillo_Pool",
             "github": "Zebra-Danio",
-            "discord": "Zebra Danio#2501"
+            "discord": "Zebra Danio#2501",
+            "qualityScore": 62.5
           },
           {
             "id": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
@@ -9067,7 +9092,8 @@
             },
             "telegram": "berry_pool",
             "twitter": "berry_ales",
-            "github": "alessandrokonrad"
+            "github": "alessandrokonrad",
+            "qualityScore": 100
           },
           {
             "id": "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
@@ -9185,7 +9211,8 @@
               "ticker": "RUBY",
               "homepage": "https://rubypools.com"
             },
-            "extended": null
+            "extended": null,
+            "qualityScore": 37.5
           },
           {
             "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -9331,7 +9358,8 @@
               }
             },
             "telegram": "southtyrolpool",
-            "twitter": "southtyrolpool"
+            "twitter": "southtyrolpool",
+            "qualityScore": 62.5
           },
           {
             "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
@@ -9477,7 +9505,8 @@
             "telegram": "AdaberryPi",
             "twitter": "AdaberryPi",
             "youtube": "https://www.youtube.com/channel/UCyrsltC3pkBcS1gfBfeMoug",
-            "instagram": "adaberry_pi"
+            "instagram": "adaberry_pi",
+            "qualityScore": 100
           },
           {
             "id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
@@ -9647,7 +9676,8 @@
                   "0": "Small pools - support Decentralization"
                 }
               }
-            }
+            },
+            "qualityScore": 50
           },
           {
             "id": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
@@ -9784,7 +9814,8 @@
               }
             },
             "telegram": "sbcpool",
-            "twitter": "MiningSbc"
+            "twitter": "MiningSbc",
+            "qualityScore": 62.5
           },
           {
             "id": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
@@ -9897,7 +9928,8 @@
               }
             },
             "telegram": "zenent",
-            "github": "zenentreadwell"
+            "github": "zenentreadwell",
+            "qualityScore": 50
           },
           {
             "id": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
@@ -10067,7 +10099,8 @@
             },
             "telegram": "ST_4_NA",
             "twitter": "NatureStake",
-            "youtube": "channel/UCK4NaspZepg1_t7TOKltxIw"
+            "youtube": "channel/UCK4NaspZepg1_t7TOKltxIw",
+            "qualityScore": 62.5
           },
           {
             "id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
@@ -10202,7 +10235,8 @@
               }
             },
             "telegram": "thyesMB",
-            "twitter": "Stakepool_RPI"
+            "twitter": "Stakepool_RPI",
+            "qualityScore": 50
           },
           {
             "id": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
@@ -10314,7 +10348,8 @@
               ]
             },
             "telegram": "feu_franco",
-            "github": "karnagge"
+            "github": "karnagge",
+            "qualityScore": 37.5
           },
           {
             "id": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
@@ -10489,7 +10524,8 @@
             },
             "telegram": "Pgwada",
             "twitter": "PgwadaS",
-            "youtube": "channel/UCnXOz6fuQ1YoUUZJSbgZ8rg"
+            "youtube": "channel/UCnXOz6fuQ1YoUUZJSbgZ8rg",
+            "qualityScore": 100
           },
           {
             "id": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
@@ -10608,7 +10644,8 @@
             },
             "telegram": "sublayerio",
             "twitter": "sublayerio",
-            "youtube": "channel/UCligunhcmbMYaBUMvONsKwg"
+            "youtube": "channel/UCligunhcmbMYaBUMvONsKwg",
+            "qualityScore": 87.5
           },
           {
             "id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
@@ -10738,7 +10775,8 @@
             },
             "telegram": "https://t.me/HALOSTAKEPOOL",
             "github": "reignxx",
-            "discord": "https://discord.gg/U93B6XCr6Z"
+            "discord": "https://discord.gg/U93B6XCr6Z",
+            "qualityScore": 50
           },
           {
             "id": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
@@ -10871,7 +10909,8 @@
             },
             "telegram": "solrp_stake_pool",
             "twitter": "SOLRP_StakePool",
-            "github": "canad1an"
+            "github": "canad1an",
+            "qualityScore": 62.5
           },
           {
             "id": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
@@ -11013,7 +11052,8 @@
               "ticker": "BONE",
               "homepage": "https://poolbone.github.io/meta/"
             },
-            "extended": null
+            "extended": null,
+            "qualityScore": 37.5
           },
           {
             "id": "9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
@@ -11149,7 +11189,8 @@
             },
             "twitter": "AstorPool",
             "github": "tdiesler/nessus-cardano",
-            "discord": "#8620"
+            "discord": "#8620",
+            "qualityScore": 25
           },
           {
             "id": "a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
@@ -11287,7 +11328,8 @@
                 }
               }
             },
-            "github": "HofmannZ"
+            "github": "HofmannZ",
+            "qualityScore": 50
           },
           {
             "id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
@@ -11302,10 +11344,10 @@
             "ticker": "PIADA",
             "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
             "website": "https://piada.io",
-            "totalStake": "15550904382517",
+            "totalStake": "15551162464136",
             "blocksLifetime": 39,
             "delegators": 78,
-            "saturated": 0.23785022244382115,
+            "saturated": 0.2378541697879098,
             "pledge": "52000000000",
             "pledged": "53286500310",
             "taxRatio": 0.015,
@@ -11466,7 +11508,8 @@
             "telegram": "piadapool",
             "twitter": "StakePiada",
             "github": "armada-alliance",
-            "youtube": "channel/UCligunhcmbMYaBUMvONsKwg"
+            "youtube": "channel/UCligunhcmbMYaBUMvONsKwg",
+            "qualityScore": 100
           },
           {
             "id": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
@@ -11481,10 +11524,10 @@
             "ticker": "STALE",
             "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
             "website": "https://discord.com/invite/yA9cAtD3et",
-            "totalStake": "370393652801",
+            "totalStake": "370458724420",
             "blocksLifetime": 15,
             "delegators": 146,
-            "saturated": 0.005665150433922102,
+            "saturated": 0.005666145700735737,
             "pledge": "2000000000",
             "pledged": "6036045181",
             "taxRatio": 0.02,
@@ -11574,7 +11617,8 @@
               "ticker": "STALE",
               "homepage": "https://discord.com/invite/yA9cAtD3et"
             },
-            "extended": null
+            "extended": null,
+            "qualityScore": 50
           },
           {
             "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
@@ -11714,7 +11758,8 @@
             },
             "telegram": "mini1pool",
             "twitter": "mini1pool",
-            "github": "jterrier84"
+            "github": "jterrier84",
+            "qualityScore": 87.5
           },
           {
             "id": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
@@ -11867,7 +11912,8 @@
             "telegram": "WCatz",
             "twitter": "OTG_WCat",
             "github": "wcatz",
-            "discord": "WCat#6737"
+            "discord": "WCat#6737",
+            "qualityScore": 100
           },
           {
             "id": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
@@ -12017,7 +12063,8 @@
               }
             },
             "telegram": "sporke",
-            "twitter": "meme_pool"
+            "twitter": "meme_pool",
+            "qualityScore": 100
           },
           {
             "id": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
@@ -12187,7 +12234,8 @@
             "twitter": "ADASRN1",
             "github": "sayshar",
             "facebook": "ADASRN1",
-            "discord": "9fXUEqaYCr"
+            "discord": "9fXUEqaYCr",
+            "qualityScore": 100
           },
           {
             "id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
@@ -12357,7 +12405,8 @@
                 }
               }
             },
-            "twitter": "OystrPool"
+            "twitter": "OystrPool",
+            "qualityScore": 25
           }
         ],
         "pool": {
@@ -12373,10 +12422,10 @@
           "ticker": "STALE",
           "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
           "website": "https://discord.com/invite/yA9cAtD3et",
-          "totalStake": "370393652801",
+          "totalStake": "370458724420",
           "blocksLifetime": 15,
           "delegators": 146,
-          "saturated": 0.005665150433922102,
+          "saturated": 0.005666145700735737,
           "pledge": "2000000000",
           "pledged": "6036045181",
           "taxRatio": 0.02,
@@ -12466,15 +12515,16 @@
             "ticker": "STALE",
             "homepage": "https://discord.com/invite/yA9cAtD3et"
           },
-          "extended": null
+          "extended": null,
+          "qualityScore": 50
         }
       },
       "attrs": {
         "component-type": "DelegationSection",
         "component-id": "DelegationSection",
-        "component-cached-at": "2021-08-01T12:26:43.197Z",
-        "component-cached-in": "1.02 ms",
-        "component-resolved-in": "1.02 ms"
+        "component-cached-at": "2021-08-01T12:41:31.567Z",
+        "component-cached-in": "978 μs",
+        "component-resolved-in": "978 μs"
       },
       "components": {}
     }
