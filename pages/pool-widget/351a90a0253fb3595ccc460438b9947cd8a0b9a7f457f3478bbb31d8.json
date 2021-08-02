@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Quixote Dream Pool QXT\",\"slug\":\"/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"template\":\"PoolWidgetPage\",\"poolId\":\"351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-02T20:20:30.017Z",
-  "_cachedIn": "364 μs",
-  "_resolvedIn": "364 μs",
+  "_cachedAt": "2021-08-02T21:15:19.535Z",
+  "_cachedIn": "365 μs",
+  "_resolvedIn": "365 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -178,8 +178,35 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Quixote Dream Pool",
+        "ticker": "QXT",
+        "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
+        "homepage": "https://quixote.systems",
+        "extended": "https://quixote.systems/ext_metadata.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://quixote.systems/iconoQuixote.png",
+          "location": "Toledo, Spain",
+          "social": {
+            "telegram_handle": "QuixotePool",
+            "twitter_handle": "QuixotePool",
+            "github_handle": "quixotesystems",
+            "instagram_handle": "quixotepool"
+          },
+          "about": {
+            "me": "Single Pool Operator",
+            "server": "Raspberry Pi Producer + Raspberry Pi Relay located in Toledo (Spain) with UPS and FTTx | HW configuration of each Raspberry Pi <CPU:RPi|RAM:8G|SSD:240G"
+          },
+          "my-pool-ids": {
+            "0": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8"
+          },
+          "when-satured-then-recommend": {
+            "0": "Small pools - support Decentralization"
+          }
+        }
+      },
       "telegram": "QuixotePool",
       "twitter": "QuixotePool",
       "github": "quixotesystems",
@@ -189,17 +216,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-02T20:20:30.017Z",
-    "component-cached-in": "364 μs",
-    "component-resolved-in": "364 μs"
+    "component-cached-at": "2021-08-02T21:15:19.535Z",
+    "component-cached-in": "365 μs",
+    "component-resolved-in": "365 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-02T20:20:30.017Z",
-      "_cachedIn": "72 μs",
-      "_resolvedIn": "72 μs",
+      "_cachedAt": "2021-08-02T21:15:19.535Z",
+      "_cachedIn": "67 μs",
+      "_resolvedIn": "67 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -208,17 +235,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-02T20:20:30.017Z",
-        "component-cached-in": "72 μs",
-        "component-resolved-in": "72 μs"
+        "component-cached-at": "2021-08-02T21:15:19.535Z",
+        "component-cached-in": "67 μs",
+        "component-resolved-in": "67 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-02T20:20:30.017Z",
-          "_cachedIn": "41 μs",
-          "_resolvedIn": "41 μs",
+          "_cachedAt": "2021-08-02T21:15:19.535Z",
+          "_cachedIn": "38 μs",
+          "_resolvedIn": "38 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -226,7 +253,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-02T20:20:17.938Z",
+              "createdAt": "2021-08-02T21:15:06.987Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -8041,19 +8068,19 @@
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.3
+                "rate": 1.31
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003336
+                "rate": 0.00003348
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003336
+                "rate": 0.00003348
               },
               {
                 "id": "AUD",
@@ -8065,7 +8092,7 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 8.42
+                "rate": 8.43
               },
               {
                 "id": "MYR",
@@ -8077,31 +8104,31 @@
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 142.49
+                "rate": 142.7
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 42.96
+                "rate": 43.01
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-02T20:20:30.017Z",
-            "component-cached-in": "41 μs",
-            "component-resolved-in": "41 μs"
+            "component-cached-at": "2021-08-02T21:15:19.535Z",
+            "component-cached-in": "38 μs",
+            "component-resolved-in": "38 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-02T20:20:30.017Z",
-          "_cachedIn": "57 μs",
-          "_resolvedIn": "57 μs",
+          "_cachedAt": "2021-08-02T21:15:19.535Z",
+          "_cachedIn": "53 μs",
+          "_resolvedIn": "53 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8112,17 +8139,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-02T20:20:30.017Z",
-            "component-cached-in": "57 μs",
-            "component-resolved-in": "57 μs"
+            "component-cached-at": "2021-08-02T21:15:19.535Z",
+            "component-cached-in": "53 μs",
+            "component-resolved-in": "53 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-02T20:20:30.017Z",
-              "_cachedIn": "16 μs",
-              "_resolvedIn": "16 μs",
+              "_cachedAt": "2021-08-02T21:15:19.535Z",
+              "_cachedIn": "14 μs",
+              "_resolvedIn": "14 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8182,9 +8209,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-02T20:20:30.017Z",
-                "component-cached-in": "16 μs",
-                "component-resolved-in": "16 μs"
+                "component-cached-at": "2021-08-02T21:15:19.535Z",
+                "component-cached-in": "14 μs",
+                "component-resolved-in": "14 μs"
               },
               "components": {}
             }
@@ -8193,9 +8220,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-02T20:20:30.017Z",
-          "_cachedIn": "18 μs",
-          "_resolvedIn": "18 μs",
+          "_cachedAt": "2021-08-02T21:15:19.535Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8204,9 +8231,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-02T20:20:30.017Z",
-            "component-cached-in": "18 μs",
-            "component-resolved-in": "18 μs"
+            "component-cached-at": "2021-08-02T21:15:19.535Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }
