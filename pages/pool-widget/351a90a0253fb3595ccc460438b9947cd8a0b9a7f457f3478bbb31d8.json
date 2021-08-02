@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Quixote Dream Pool QXT\",\"slug\":\"/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"template\":\"PoolWidgetPage\",\"poolId\":\"351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-02T08:33:06.348Z",
-  "_cachedIn": "384 μs",
-  "_resolvedIn": "384 μs",
+  "_cachedAt": "2021-08-02T09:18:29.162Z",
+  "_cachedIn": "487 μs",
+  "_resolvedIn": "487 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "QXT",
       "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
       "website": "https://quixote.systems",
-      "totalStake": "650726364675",
+      "totalStake": "650781875158",
       "blocksLifetime": 1,
-      "delegators": 201,
-      "saturated": 0.009952823757440953,
+      "delegators": 203,
+      "saturated": 0.009953672787208273,
       "pledge": "5000000000",
       "pledged": "5441146410",
       "taxRatio": 0,
@@ -156,8 +156,35 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Quixote Dream Pool",
+        "ticker": "QXT",
+        "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
+        "homepage": "https://quixote.systems",
+        "extended": "https://quixote.systems/ext_metadata.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://quixote.systems/iconoQuixote.png",
+          "location": "Toledo, Spain",
+          "social": {
+            "telegram_handle": "QuixotePool",
+            "twitter_handle": "QuixotePool",
+            "github_handle": "quixotesystems",
+            "instagram_handle": "quixotepool"
+          },
+          "about": {
+            "me": "Single Pool Operator",
+            "server": "Raspberry Pi Producer + Raspberry Pi Relay located in Toledo (Spain) with UPS and FTTx | HW configuration of each Raspberry Pi <CPU:RPi|RAM:8G|SSD:240G"
+          },
+          "my-pool-ids": {
+            "0": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8"
+          },
+          "when-satured-then-recommend": {
+            "0": "Small pools - support Decentralization"
+          }
+        }
+      },
       "telegram": "QuixotePool",
       "twitter": "QuixotePool",
       "github": "quixotesystems",
@@ -167,17 +194,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-02T08:33:06.348Z",
-    "component-cached-in": "384 μs",
-    "component-resolved-in": "384 μs"
+    "component-cached-at": "2021-08-02T09:18:29.162Z",
+    "component-cached-in": "487 μs",
+    "component-resolved-in": "487 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-02T08:33:06.348Z",
-      "_cachedIn": "66 μs",
-      "_resolvedIn": "66 μs",
+      "_cachedAt": "2021-08-02T09:18:29.162Z",
+      "_cachedIn": "86 μs",
+      "_resolvedIn": "86 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -186,17 +213,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-02T08:33:06.348Z",
-        "component-cached-in": "66 μs",
-        "component-resolved-in": "66 μs"
+        "component-cached-at": "2021-08-02T09:18:29.162Z",
+        "component-cached-in": "86 μs",
+        "component-resolved-in": "86 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-02T08:33:06.348Z",
-          "_cachedIn": "38 μs",
-          "_resolvedIn": "38 μs",
+          "_cachedAt": "2021-08-02T09:18:29.162Z",
+          "_cachedIn": "48 μs",
+          "_resolvedIn": "48 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -204,7 +231,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-02T08:32:54.549Z",
+              "createdAt": "2021-08-02T09:18:14.927Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -8025,13 +8052,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.0000333
+                "rate": 0.00003345
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.0000333
+                "rate": 0.00003345
               },
               {
                 "id": "AUD",
@@ -8043,7 +8070,7 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 8.56
+                "rate": 8.55
               },
               {
                 "id": "MYR",
@@ -8055,31 +8082,31 @@
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 145.27
+                "rate": 145.14
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 43.65
+                "rate": 43.63
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-02T08:33:06.348Z",
-            "component-cached-in": "38 μs",
-            "component-resolved-in": "38 μs"
+            "component-cached-at": "2021-08-02T09:18:29.162Z",
+            "component-cached-in": "48 μs",
+            "component-resolved-in": "48 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-02T08:33:06.348Z",
-          "_cachedIn": "52 μs",
-          "_resolvedIn": "52 μs",
+          "_cachedAt": "2021-08-02T09:18:29.162Z",
+          "_cachedIn": "67 μs",
+          "_resolvedIn": "67 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8090,17 +8117,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-02T08:33:06.348Z",
-            "component-cached-in": "52 μs",
-            "component-resolved-in": "52 μs"
+            "component-cached-at": "2021-08-02T09:18:29.162Z",
+            "component-cached-in": "67 μs",
+            "component-resolved-in": "67 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-02T08:33:06.348Z",
-              "_cachedIn": "15 μs",
-              "_resolvedIn": "15 μs",
+              "_cachedAt": "2021-08-02T09:18:29.162Z",
+              "_cachedIn": "19 μs",
+              "_resolvedIn": "19 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8160,9 +8187,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-02T08:33:06.348Z",
-                "component-cached-in": "15 μs",
-                "component-resolved-in": "15 μs"
+                "component-cached-at": "2021-08-02T09:18:29.162Z",
+                "component-cached-in": "19 μs",
+                "component-resolved-in": "19 μs"
               },
               "components": {}
             }
@@ -8171,9 +8198,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-02T08:33:06.348Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2021-08-02T09:18:29.162Z",
+          "_cachedIn": "18 μs",
+          "_resolvedIn": "18 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8182,9 +8209,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-02T08:33:06.348Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2021-08-02T09:18:29.162Z",
+            "component-cached-in": "18 μs",
+            "component-resolved-in": "18 μs"
           },
           "components": {}
         }
