@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Sublayer Pool SBLYR\",\"slug\":\"/pool-widget/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8\",\"template\":\"PoolWidgetPage\",\"poolId\":\"8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-03T11:13:55.916Z",
-  "_cachedIn": "177 μs",
-  "_resolvedIn": "177 μs",
+  "_cachedAt": "2021-08-03T11:44:09.977Z",
+  "_cachedIn": "189 μs",
+  "_resolvedIn": "189 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,12 +29,12 @@
       "ticker": "SBLYR",
       "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
       "website": "https://pool.sublayer.io",
-      "totalStake": "1568264650665",
+      "totalStake": "1568264447368",
       "blocksLifetime": 11,
       "delegators": 20,
-      "saturated": 0.023986521094606437,
+      "saturated": 0.023986517985190064,
       "pledge": "25000000000",
-      "pledged": "27024975294",
+      "pledged": "27024771997",
       "taxRatio": 0.01,
       "taxFix": "340000000",
       "roa": "1.677",
@@ -96,11 +96,45 @@
               "is_eu": true
             }
           }
+        },
+        {
+          "addr": "relaynode2.sublayer.io",
+          "port": 6002,
+          "data": {
+            "ip": "31.21.179.23",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "NL",
+            "country_name": "Netherlands",
+            "region_code": "NH",
+            "region_name": "North Holland",
+            "city": "Diemen",
+            "zip": "1101",
+            "latitude": 52.309051513671875,
+            "longitude": 4.940189838409424,
+            "location": {
+              "geoname_id": 2756888,
+              "capital": "Amsterdam",
+              "languages": [
+                {
+                  "code": "nl",
+                  "name": "Dutch",
+                  "native": "Nederlands"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/nl.svg",
+              "country_flag_emoji": "🇳🇱",
+              "country_flag_emoji_unicode": "U+1F1F3 U+1F1F1",
+              "calling_code": "31",
+              "is_eu": true
+            }
+          }
         }
       ],
       "metadata": {
         "name": "Sublayer Pool",
-        "description": "Providing marketing pages and educational content for stake pool operators.",
+        "description": "A low-cost, energy-efficient 🌍🍃 stake pool with a fixed margin fee of just 1%. Support me in growing 🌱 armada-alliance.com, decentralizing the network using Raspberry Pi's 🍓.",
         "ticker": "SBLYR",
         "homepage": "https://pool.sublayer.io",
         "extended": "https://cdn.sublayer.io/poolExtended.json"
@@ -134,23 +168,23 @@
       "telegram": "sublayerio",
       "twitter": "sublayerio",
       "youtube": "channel/UCligunhcmbMYaBUMvONsKwg",
-      "qualityScore": 87.5
+      "qualityScore": 100
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-03T11:13:55.916Z",
-    "component-cached-in": "177 μs",
-    "component-resolved-in": "177 μs"
+    "component-cached-at": "2021-08-03T11:44:09.977Z",
+    "component-cached-in": "189 μs",
+    "component-resolved-in": "189 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-03T11:13:55.916Z",
-      "_cachedIn": "74 μs",
-      "_resolvedIn": "74 μs",
+      "_cachedAt": "2021-08-03T11:44:09.977Z",
+      "_cachedIn": "75 μs",
+      "_resolvedIn": "75 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -159,17 +193,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-03T11:13:55.916Z",
-        "component-cached-in": "74 μs",
-        "component-resolved-in": "74 μs"
+        "component-cached-at": "2021-08-03T11:44:09.977Z",
+        "component-cached-in": "75 μs",
+        "component-resolved-in": "75 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-03T11:13:55.916Z",
-          "_cachedIn": "40 μs",
-          "_resolvedIn": "40 μs",
+          "_cachedAt": "2021-08-03T11:44:09.977Z",
+          "_cachedIn": "41 μs",
+          "_resolvedIn": "41 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -177,7 +211,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-03T11:13:43.413Z",
+              "createdAt": "2021-08-03T11:43:57.430Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1946,7 +1980,7 @@
                 "image": "https://cdn.sublayer.io/logo.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md",
-                "rank": 13
+                "rank": 0
               },
               {
                 "id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
@@ -7986,7 +8020,7 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.1
+                "rate": 1.09
               },
               {
                 "id": "USD",
@@ -7998,13 +8032,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003364
+                "rate": 0.00003366
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003364
+                "rate": 0.00003366
               },
               {
                 "id": "AUD",
@@ -8016,43 +8050,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 8.43
+                "rate": 8.39
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 5.51
+                "rate": 5.48
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 142.43
+                "rate": 141.68
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 43.07
+                "rate": 42.84
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-03T11:13:55.916Z",
-            "component-cached-in": "40 μs",
-            "component-resolved-in": "40 μs"
+            "component-cached-at": "2021-08-03T11:44:09.977Z",
+            "component-cached-in": "41 μs",
+            "component-resolved-in": "41 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-03T11:13:55.916Z",
-          "_cachedIn": "58 μs",
-          "_resolvedIn": "58 μs",
+          "_cachedAt": "2021-08-03T11:44:09.977Z",
+          "_cachedIn": "59 μs",
+          "_resolvedIn": "59 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8063,17 +8097,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-03T11:13:55.916Z",
-            "component-cached-in": "58 μs",
-            "component-resolved-in": "58 μs"
+            "component-cached-at": "2021-08-03T11:44:09.977Z",
+            "component-cached-in": "59 μs",
+            "component-resolved-in": "59 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-03T11:13:55.916Z",
-              "_cachedIn": "17 μs",
-              "_resolvedIn": "17 μs",
+              "_cachedAt": "2021-08-03T11:44:09.977Z",
+              "_cachedIn": "18 μs",
+              "_resolvedIn": "18 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8133,9 +8167,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-03T11:13:55.916Z",
-                "component-cached-in": "17 μs",
-                "component-resolved-in": "17 μs"
+                "component-cached-at": "2021-08-03T11:44:09.977Z",
+                "component-cached-in": "18 μs",
+                "component-resolved-in": "18 μs"
               },
               "components": {}
             }
@@ -8144,9 +8178,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-03T11:13:55.916Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2021-08-03T11:44:09.977Z",
+          "_cachedIn": "16 μs",
+          "_resolvedIn": "16 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8155,9 +8189,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-03T11:13:55.916Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2021-08-03T11:44:09.977Z",
+            "component-cached-in": "16 μs",
+            "component-resolved-in": "16 μs"
           },
           "components": {}
         }
