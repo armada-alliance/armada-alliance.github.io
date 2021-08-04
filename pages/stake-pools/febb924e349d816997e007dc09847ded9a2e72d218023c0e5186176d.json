@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"language\":\"en\",\"slug\":\"/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"url\":\"https://armada-alliance.com/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"origin\":\"/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"title\":\"Oyster_Pool (OYSTR)\",\"description\":\"Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"paul-oystr\",\"role\":\"spo\"}],\"image\":\"https://armada-alliance.com/assets/ship-420.png\",\"updatedAt\":\"2021-08-04T12:37:13.000Z\",\"filePath\":\"/en/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.md\",\"rank\":25,\"ticker\":\"OYSTR\",\"memberSince\":\"2021-04-28T00:00:00.000Z\",\"nodes\":[{\"role\":\"producer\",\"name\":\"backup producer\",\"deviceId\":\"raspberry-pi-4-8gb\",\"storage\":\"Samsung 860 EVO 500GB\",\"isBackup\":true},{\"role\":\"producer\",\"name\":\"Producer VPS\"},{\"role\":\"relay\",\"name\":\"Relay 1\",\"deviceId\":\"raspberry-pi-4-8gb\",\"storage\":\"Samsung 860 EVO 500GB\"},{\"role\":\"relay\",\"name\":\"Relay 2\",\"deviceId\":\"raspberry-pi-4-8gb\",\"storage\":\"Samsung 860 EVO 500GB\"},{\"role\":\"relay\",\"name\":\"Relay 3 VPS\"}],\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-04T18:25:07.254Z",
-  "_cachedIn": "468 μs",
-  "_resolvedIn": "468 μs",
+  "_cachedAt": "2021-08-04T19:19:46.638Z",
+  "_cachedIn": "715 μs",
+  "_resolvedIn": "715 μs",
   "id": "PoolDetailPage",
   "type": "PoolDetailPage",
   "status": "resolved",
@@ -79,10 +79,10 @@
       "ticker": "OYSTR",
       "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
       "website": "https://twitter.com/OystrPool",
-      "totalStake": "3395011725250",
+      "totalStake": "3392221582501",
       "blocksLifetime": 299,
-      "delegators": 290,
-      "saturated": 0.051926516566967305,
+      "delegators": 289,
+      "saturated": 0.05188384148793809,
       "pledge": "555400000000",
       "pledged": "572388449530",
       "taxRatio": 0.03,
@@ -272,17 +272,17 @@
   "attrs": {
     "component-type": "PoolDetailPage",
     "component-id": "PoolDetailPage",
-    "component-cached-at": "2021-08-04T18:25:07.254Z",
-    "component-cached-in": "468 μs",
-    "component-resolved-in": "468 μs"
+    "component-cached-at": "2021-08-04T19:19:46.638Z",
+    "component-cached-in": "715 μs",
+    "component-resolved-in": "715 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "297 μs",
-      "_resolvedIn": "297 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "496 μs",
+      "_resolvedIn": "496 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -291,17 +291,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "297 μs",
-        "component-resolved-in": "297 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "496 μs",
+        "component-resolved-in": "496 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-04T18:25:07.254Z",
-          "_cachedIn": "104 μs",
-          "_resolvedIn": "104 μs",
+          "_cachedAt": "2021-08-04T19:19:46.638Z",
+          "_cachedIn": "201 μs",
+          "_resolvedIn": "201 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -309,7 +309,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-04T18:23:42.095Z",
+              "createdAt": "2021-08-04T19:19:33.104Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1920,7 +1920,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://quixote.systems/logoQuixote.png",
+                "image": "https://quixote.systems/quixoteLogo.png",
                 "updatedAt": "2021-08-04T14:55:25.000Z",
                 "filePath": "/en/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.md",
                 "rank": 0
@@ -8118,73 +8118,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.13
+                "rate": 1.16
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.34
+                "rate": 1.37
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003528
+                "rate": 0.00003468
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003528
+                "rate": 0.00003468
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 1.81
+                "rate": 1.86
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 8.66
+                "rate": 8.89
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 5.67
+                "rate": 5.8
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 146.24
+                "rate": 150.41
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 44.35
+                "rate": 45.53
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-04T18:25:07.254Z",
-            "component-cached-in": "104 μs",
-            "component-resolved-in": "104 μs"
+            "component-cached-at": "2021-08-04T19:19:46.638Z",
+            "component-cached-in": "201 μs",
+            "component-resolved-in": "201 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-04T18:25:07.254Z",
-          "_cachedIn": "118 μs",
-          "_resolvedIn": "118 μs",
+          "_cachedAt": "2021-08-04T19:19:46.638Z",
+          "_cachedIn": "221 μs",
+          "_resolvedIn": "221 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8195,17 +8195,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-04T18:25:07.254Z",
-            "component-cached-in": "118 μs",
-            "component-resolved-in": "118 μs"
+            "component-cached-at": "2021-08-04T19:19:46.638Z",
+            "component-cached-in": "221 μs",
+            "component-resolved-in": "221 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-04T18:25:07.254Z",
-              "_cachedIn": "28 μs",
-              "_resolvedIn": "28 μs",
+              "_cachedAt": "2021-08-04T19:19:46.638Z",
+              "_cachedIn": "37 μs",
+              "_resolvedIn": "37 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8265,9 +8265,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-04T18:25:07.254Z",
-                "component-cached-in": "28 μs",
-                "component-resolved-in": "28 μs"
+                "component-cached-at": "2021-08-04T19:19:46.638Z",
+                "component-cached-in": "37 μs",
+                "component-resolved-in": "37 μs"
               },
               "components": {}
             }
@@ -8276,9 +8276,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-04T18:25:07.254Z",
-          "_cachedIn": "72 μs",
-          "_resolvedIn": "72 μs",
+          "_cachedAt": "2021-08-04T19:19:46.638Z",
+          "_cachedIn": "153 μs",
+          "_resolvedIn": "153 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8287,9 +8287,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-04T18:25:07.254Z",
-            "component-cached-in": "72 μs",
-            "component-resolved-in": "72 μs"
+            "component-cached-at": "2021-08-04T19:19:46.638Z",
+            "component-cached-in": "153 μs",
+            "component-resolved-in": "153 μs"
           },
           "components": {}
         }
@@ -8298,9 +8298,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "255 μs",
-      "_resolvedIn": "255 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "442 μs",
+      "_resolvedIn": "442 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8335,18 +8335,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "255 μs",
-        "component-resolved-in": "255 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "442 μs",
+        "component-resolved-in": "442 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "195 μs",
-      "_resolvedIn": "195 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "334 μs",
+      "_resolvedIn": "334 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8358,18 +8358,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "195 μs",
-        "component-resolved-in": "195 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "334 μs",
+        "component-resolved-in": "334 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "255 μs",
-      "_resolvedIn": "255 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "443 μs",
+      "_resolvedIn": "443 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8388,18 +8388,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "255 μs",
-        "component-resolved-in": "255 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "443 μs",
+        "component-resolved-in": "443 μs"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "207 μs",
-      "_resolvedIn": "207 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "354 μs",
+      "_resolvedIn": "354 μs",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -8448,18 +8448,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "207 μs",
-        "component-resolved-in": "207 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "354 μs",
+        "component-resolved-in": "354 μs"
       },
       "components": {}
     },
     "ContentSections": {
       "_cacheKey": "{\"component\":{\"type\":\"ContentSections\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "252 μs",
-      "_resolvedIn": "252 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "444 μs",
+      "_resolvedIn": "444 μs",
       "id": "ContentSections",
       "type": "ContentSections",
       "status": "resolved",
@@ -8468,18 +8468,18 @@
       "attrs": {
         "component-type": "ContentSections",
         "component-id": "ContentSections",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "252 μs",
-        "component-resolved-in": "252 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "444 μs",
+        "component-resolved-in": "444 μs"
       },
       "components": {}
     },
     "QualityReportSection": {
       "_cacheKey": "{\"component\":{\"type\":\"QualityReportSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "207 μs",
-      "_resolvedIn": "207 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "358 μs",
+      "_resolvedIn": "358 μs",
       "id": "QualityReportSection",
       "type": "QualityReportSection",
       "status": "resolved",
@@ -8628,18 +8628,18 @@
       "attrs": {
         "component-type": "QualityReportSection",
         "component-id": "QualityReportSection",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "207 μs",
-        "component-resolved-in": "207 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "358 μs",
+        "component-resolved-in": "358 μs"
       },
       "components": {}
     },
     "DelegationSection": {
       "_cacheKey": "{\"component\":{\"type\":\"DelegationSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-04T18:25:07.254Z",
-      "_cachedIn": "208 μs",
-      "_resolvedIn": "208 μs",
+      "_cachedAt": "2021-08-04T19:19:46.638Z",
+      "_cachedIn": "361 μs",
+      "_resolvedIn": "361 μs",
       "id": "DelegationSection",
       "type": "DelegationSection",
       "status": "resolved",
@@ -9048,10 +9048,10 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "17877072934028",
-            "blocksLifetime": 183,
+            "totalStake": "17871451319738",
+            "blocksLifetime": 184,
             "delegators": 372,
-            "saturated": 0.273428841783847,
+            "saturated": 0.27334285950420073,
             "pledge": "450000000000",
             "pledged": "475601175308",
             "taxRatio": 0.015,
@@ -9777,7 +9777,7 @@
               "href": "/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8"
             },
             "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
-            "image": "https://quixote.systems/logoQuixote.png",
+            "image": "https://quixote.systems/quixoteLogo.png",
             "hasImage": true,
             "ticker": "QXT",
             "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
@@ -9941,7 +9941,7 @@
             "extended": {
               "info": {
                 "url_png_icon_64x64": "https://quixote.systems/iconoQuixote.png",
-                "url_png_logo": "https://quixote.systems/logoQuixote.png",
+                "url_png_logo": "https://quixote.systems/quixoteLogo.png",
                 "location": "Toledo, Spain",
                 "social": {
                   "telegram_handle": "QuixotePool",
@@ -11420,10 +11420,10 @@
             "ticker": "ASTOR",
             "addr": "pool1n6qqnvjfzskcq9zdld5pnp8q3ktd28pqsh5tkmvarqcayr76puv",
             "website": "http://astorpool.net",
-            "totalStake": "1043575816222",
+            "totalStake": "1043355542716",
             "blocksLifetime": 44,
             "delegators": 70,
-            "saturated": 0.015961434391201623,
+            "saturated": 0.015958065320110203,
             "pledge": "200000000000",
             "pledged": "211558116010",
             "taxRatio": 0.01,
@@ -11893,10 +11893,10 @@
             "ticker": "STALE",
             "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
             "website": "https://discord.com/invite/yA9cAtD3et",
-            "totalStake": "391837948864",
+            "totalStake": "391929269266",
             "blocksLifetime": 15,
             "delegators": 148,
-            "saturated": 0.005993139756168205,
+            "saturated": 0.005994536496666062,
             "pledge": "2000000000",
             "pledged": "6036045181",
             "taxRatio": 0.02,
@@ -12619,10 +12619,10 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "3395011725250",
+            "totalStake": "3392221582501",
             "blocksLifetime": 299,
-            "delegators": 290,
-            "saturated": 0.051926516566967305,
+            "delegators": 289,
+            "saturated": 0.05188384148793809,
             "pledge": "555400000000",
             "pledged": "572388449530",
             "taxRatio": 0.03,
@@ -12822,10 +12822,10 @@
           "ticker": "OYSTR",
           "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
           "website": "https://twitter.com/OystrPool",
-          "totalStake": "3395011725250",
+          "totalStake": "3392221582501",
           "blocksLifetime": 299,
-          "delegators": 290,
-          "saturated": 0.051926516566967305,
+          "delegators": 289,
+          "saturated": 0.05188384148793809,
           "pledge": "555400000000",
           "pledged": "572388449530",
           "taxRatio": 0.03,
@@ -13015,9 +13015,9 @@
       "attrs": {
         "component-type": "DelegationSection",
         "component-id": "DelegationSection",
-        "component-cached-at": "2021-08-04T18:25:07.254Z",
-        "component-cached-in": "208 μs",
-        "component-resolved-in": "208 μs"
+        "component-cached-at": "2021-08-04T19:19:46.638Z",
+        "component-cached-in": "361 μs",
+        "component-resolved-in": "361 μs"
       },
       "components": {}
     }
