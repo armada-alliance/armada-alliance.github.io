@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node-using-a-prebuilt-image\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node-using-a-prebuilt-image\",\"url\":\"https://armada-alliance.com/guides/run-a-cardano-node-using-a-prebuilt-image\",\"origin\":\"/guides/run-a-cardano-node-using-a-prebuilt-image\",\"title\":\"Run a Cardano Node using a prebuilt image\",\"description\":\"Download a preconfigured image with everything installed to run a Cardano Node on a Raspberry Pi out of the box.\",\"aliases\":null,\"keywords\":[\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wcat-otg\",\"role\":\"author\"}],\"icon\":\"🍓\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node-using-a-prebuilt-image.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/intermediate-guide/pi-pool-tutorial\",\"body\":\"Pi-Pool was originally an image Alessandro Konrad hosted on his [GitHub](https://github.com/alessandrokonrad/Pi-Pool). It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.\\n\\nIt was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool shit Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.\\n\\nI tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.\\n\\nI am proud to host a snapshot of the database folder that allows one to burn the image pull a chain snapshot with wget and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a Raspberry Pi.\\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,m=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var d=(a,o,e)=>o in a?p(a,o,{enumerable:!0,configurable:!0,writable:!0,value:e}):a[o]=e,s=(a,o)=>{for(var e in o||(o={}))r.call(o,e)&&d(a,e,o[e]);if(n)for(var e of n(o))i.call(o,e)&&d(a,e,o[e]);return a},h=(a,o)=>m(a,u(o));var l=(a,o)=>{var e={};for(var t in a)r.call(a,t)&&o.indexOf(t)<0&&(e[t]=a[t]);if(a!=null&&n)for(var t of n(a))o.indexOf(t)<0&&i.call(a,t)&&(e[t]=a[t]);return e};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var t=e,{components:a}=t,o=l(t,[\\\"components\\\"]);return mdx(MDXLayout,h(s(s({},layoutProps),o),{components:a,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Pi-Pool was originally an image Alessandro Konrad hosted on his \\\",mdx(\\\"a\\\",s({parentName:\\\"p\\\"},{href:\\\"https://github.com/alessandrokonrad/Pi-Pool\\\"}),\\\"GitHub\\\"),\\\". It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.\\\"),mdx(\\\"p\\\",null,\\\"It was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool shit Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.\\\"),mdx(\\\"p\\\",null,\\\"I tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.\\\"),mdx(\\\"p\\\",null,\\\"I am proud to host a snapshot of the database folder that allows one to burn the image pull a chain snapshot with wget and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a Raspberry Pi.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-06T05:15:11.186Z",
-  "_cachedIn": "279 ms",
-  "_resolvedIn": "279 ms",
+  "_cachedAt": "2021-08-06T06:22:24.175Z",
+  "_cachedIn": "394 ms",
+  "_resolvedIn": "394 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-08-06T05:15:11.186Z",
-    "component-cached-in": "279 ms",
-    "component-resolved-in": "279 ms"
+    "component-cached-at": "2021-08-06T06:22:24.175Z",
+    "component-cached-in": "394 ms",
+    "component-resolved-in": "394 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-06T05:15:11.186Z",
-      "_cachedIn": "211 μs",
-      "_resolvedIn": "211 μs",
+      "_cachedAt": "2021-08-06T06:22:24.175Z",
+      "_cachedIn": "222 μs",
+      "_resolvedIn": "222 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-06T05:15:11.186Z",
-        "component-cached-in": "211 μs",
-        "component-resolved-in": "211 μs"
+        "component-cached-at": "2021-08-06T06:22:24.175Z",
+        "component-cached-in": "222 μs",
+        "component-resolved-in": "222 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-06T05:15:11.186Z",
-          "_cachedIn": "109 μs",
-          "_resolvedIn": "109 μs",
+          "_cachedAt": "2021-08-06T06:22:24.175Z",
+          "_cachedIn": "130 μs",
+          "_resolvedIn": "130 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-06T05:14:55.592Z",
+              "createdAt": "2021-08-06T06:22:07.927Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7890,73 +7890,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.16
+                "rate": 1.18
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.38
+                "rate": 1.39
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003415
+                "rate": 0.00003404
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003415
+                "rate": 0.00003404
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 1.86
+                "rate": 1.88
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 8.9
+                "rate": 8.99
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 5.81
+                "rate": 5.87
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 151.17
+                "rate": 152.79
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 45.95
+                "rate": 46.43
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-06T05:15:11.186Z",
-            "component-cached-in": "109 μs",
-            "component-resolved-in": "109 μs"
+            "component-cached-at": "2021-08-06T06:22:24.175Z",
+            "component-cached-in": "130 μs",
+            "component-resolved-in": "130 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-06T05:15:11.186Z",
-          "_cachedIn": "139 μs",
-          "_resolvedIn": "139 μs",
+          "_cachedAt": "2021-08-06T06:22:24.175Z",
+          "_cachedIn": "154 μs",
+          "_resolvedIn": "154 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7967,17 +7967,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-06T05:15:11.186Z",
-            "component-cached-in": "139 μs",
-            "component-resolved-in": "139 μs"
+            "component-cached-at": "2021-08-06T06:22:24.175Z",
+            "component-cached-in": "154 μs",
+            "component-resolved-in": "154 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-06T05:15:11.186Z",
-              "_cachedIn": "33 μs",
-              "_resolvedIn": "33 μs",
+              "_cachedAt": "2021-08-06T06:22:24.175Z",
+              "_cachedIn": "43 μs",
+              "_resolvedIn": "43 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8037,9 +8037,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-06T05:15:11.186Z",
-                "component-cached-in": "33 μs",
-                "component-resolved-in": "33 μs"
+                "component-cached-at": "2021-08-06T06:22:24.175Z",
+                "component-cached-in": "43 μs",
+                "component-resolved-in": "43 μs"
               },
               "components": {}
             }
@@ -8048,9 +8048,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-06T05:15:11.186Z",
-          "_cachedIn": "64 μs",
-          "_resolvedIn": "64 μs",
+          "_cachedAt": "2021-08-06T06:22:24.175Z",
+          "_cachedIn": "79 μs",
+          "_resolvedIn": "79 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8059,9 +8059,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-06T05:15:11.186Z",
-            "component-cached-in": "64 μs",
-            "component-resolved-in": "64 μs"
+            "component-cached-at": "2021-08-06T06:22:24.175Z",
+            "component-cached-in": "79 μs",
+            "component-resolved-in": "79 μs"
           },
           "components": {}
         }
@@ -8070,9 +8070,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-06T05:15:11.186Z",
-      "_cachedIn": "134 μs",
-      "_resolvedIn": "134 μs",
+      "_cachedAt": "2021-08-06T06:22:24.175Z",
+      "_cachedIn": "158 μs",
+      "_resolvedIn": "158 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8104,18 +8104,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-06T05:15:11.186Z",
-        "component-cached-in": "134 μs",
-        "component-resolved-in": "134 μs"
+        "component-cached-at": "2021-08-06T06:22:24.175Z",
+        "component-cached-in": "158 μs",
+        "component-resolved-in": "158 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-06T05:15:11.186Z",
-      "_cachedIn": "67 μs",
-      "_resolvedIn": "67 μs",
+      "_cachedAt": "2021-08-06T06:22:24.175Z",
+      "_cachedIn": "82 μs",
+      "_resolvedIn": "82 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8127,18 +8127,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-06T05:15:11.186Z",
-        "component-cached-in": "67 μs",
-        "component-resolved-in": "67 μs"
+        "component-cached-at": "2021-08-06T06:22:24.175Z",
+        "component-cached-in": "82 μs",
+        "component-resolved-in": "82 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-06T05:15:11.186Z",
-      "_cachedIn": "133 μs",
-      "_resolvedIn": "133 μs",
+      "_cachedAt": "2021-08-06T06:22:24.175Z",
+      "_cachedIn": "157 μs",
+      "_resolvedIn": "157 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8162,9 +8162,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-06T05:15:11.186Z",
-        "component-cached-in": "133 μs",
-        "component-resolved-in": "133 μs"
+        "component-cached-at": "2021-08-06T06:22:24.175Z",
+        "component-cached-in": "157 μs",
+        "component-resolved-in": "157 μs"
       },
       "components": {}
     }
