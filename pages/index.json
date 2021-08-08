@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"HomePage\",\"version\":1},\"props\":{\"id\":\"\",\"language\":\"en\",\"slug\":\"/\",\"url\":\"https://armada-alliance.com/\",\"origin\":\"/\",\"title\":\"Armada Alliance\",\"aliases\":null,\"keywords\":null,\"template\":\"HomePage\",\"updatedAt\":\"2021-07-15T10:44:01.000Z\",\"filePath\":\"/en/index.md\",\"heroSection\":{\"text\":\"The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡\\n\"},\"statsSection\":{\"pretitle\":\"Live stats\",\"title\":\"An alliance of independent stake pool operators\",\"description\":\"${data.poolCount} stake pools operated across ${data.countryCount} different countries 🌍\"},\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-08T05:14:49.692Z",
-  "_cachedIn": "119 ms",
-  "_resolvedIn": "119 ms",
+  "_cachedAt": "2021-08-08T05:32:18.013Z",
+  "_cachedIn": "203 ms",
+  "_resolvedIn": "203 ms",
   "id": "HomePage",
   "type": "HomePage",
   "status": "resolved",
@@ -38,17 +38,17 @@
   "attrs": {
     "component-type": "HomePage",
     "component-id": "HomePage",
-    "component-cached-at": "2021-08-08T05:14:49.692Z",
-    "component-cached-in": "119 ms",
-    "component-resolved-in": "119 ms"
+    "component-cached-at": "2021-08-08T05:32:18.013Z",
+    "component-cached-in": "203 ms",
+    "component-resolved-in": "203 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T05:14:49.692Z",
-      "_cachedIn": "112 ms",
-      "_resolvedIn": "112 ms",
+      "_cachedAt": "2021-08-08T05:32:18.013Z",
+      "_cachedIn": "196 ms",
+      "_resolvedIn": "196 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -57,17 +57,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-08T05:14:49.692Z",
-        "component-cached-in": "112 ms",
-        "component-resolved-in": "112 ms"
+        "component-cached-at": "2021-08-08T05:32:18.013Z",
+        "component-cached-in": "196 ms",
+        "component-resolved-in": "196 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T05:14:49.692Z",
-          "_cachedIn": "589 μs",
-          "_resolvedIn": "589 μs",
+          "_cachedAt": "2021-08-08T05:32:18.013Z",
+          "_cachedIn": "752 μs",
+          "_resolvedIn": "752 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -75,7 +75,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-08T05:14:37.002Z",
+              "createdAt": "2021-08-08T05:32:02.683Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -251,6 +251,34 @@
                 "filePath": "/en/aaips.md"
               },
               {
+                "id": "Blockchain_AI",
+                "language": "en",
+                "slug": "/blogs/Blockchain_AI",
+                "url": "https://armada-alliance.com/blogs/Blockchain_AI",
+                "origin": "/blogs/Blockchain_AI",
+                "title": "Blockchain AI with NuNET SingularityNet and Cardano",
+                "description": "In this video we talk about distributed computing. NuNET is the framework from SingularityNet. SingularityNet plans to run on Cardano once Smart contracts is available. The DeepChainAda mainly looks into distributed learning in this framework.",
+                "aliases": null,
+                "keywords": [
+                  "Cardano",
+                  "singularityNet",
+                  "NuNet",
+                  "DeepchainAda",
+                  "AI",
+                  "Deeplearning"
+                ],
+                "template": "BlogDetailPage",
+                "identities": [
+                  {
+                    "id": "wadi",
+                    "role": "author"
+                  }
+                ],
+                "icon": "💰",
+                "updatedAt": "2021-08-08T05:31:25.000Z",
+                "filePath": "/en/blogs/Blockchain_AI.md"
+              },
+              {
                 "id": "register-your-stake-pool",
                 "language": "en",
                 "slug": "/blogs/register-your-stake-pool",
@@ -423,34 +451,6 @@
                 "slug": "/delegation-widget",
                 "template": "DelegationWidgetPage",
                 "hidden": true
-              },
-              {
-                "id": "Blockchain_AI",
-                "language": "en",
-                "slug": "/guides/Blockchain_AI",
-                "url": "https://armada-alliance.com/guides/Blockchain_AI",
-                "origin": "/guides/Blockchain_AI",
-                "title": "Blockchain AI with NuNET SingularityNet and Cardano",
-                "description": "In this video we talk about distributed computing. NuNET is the framework from SingularityNet. SingularityNet plans to run on Cardano once Smart contracts is available. The DeepChainAda mainly looks into distributed learning in this framework.",
-                "aliases": null,
-                "keywords": [
-                  "Cardano",
-                  "singularityNet",
-                  "NuNet",
-                  "DeepchainAda",
-                  "AI",
-                  "Deeplearning"
-                ],
-                "template": "GuideDetailPage",
-                "identities": [
-                  {
-                    "id": "wadi",
-                    "role": "author"
-                  }
-                ],
-                "icon": "💰",
-                "updatedAt": "2021-08-08T04:44:47.000Z",
-                "filePath": "/en/guides/Blockchain_AI.md"
               },
               {
                 "id": "add-widgets-to-your-website",
@@ -7937,67 +7937,67 @@
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.45
+                "rate": 1.46
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003278
+                "rate": 0.00003282
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003278
+                "rate": 0.00003282
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 1.98
+                "rate": 1.99
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 9.42
+                "rate": 9.47
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 6.13
+                "rate": 6.16
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 160.18
+                "rate": 161
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 48.57
+                "rate": 48.82
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-08T05:14:49.692Z",
-            "component-cached-in": "589 μs",
-            "component-resolved-in": "589 μs"
+            "component-cached-at": "2021-08-08T05:32:18.013Z",
+            "component-cached-in": "752 μs",
+            "component-resolved-in": "752 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T05:14:49.692Z",
-          "_cachedIn": "903 μs",
-          "_resolvedIn": "903 μs",
+          "_cachedAt": "2021-08-08T05:32:18.013Z",
+          "_cachedIn": "1.09 ms",
+          "_resolvedIn": "1.09 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8008,17 +8008,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-08T05:14:49.692Z",
-            "component-cached-in": "903 μs",
-            "component-resolved-in": "903 μs"
+            "component-cached-at": "2021-08-08T05:32:18.013Z",
+            "component-cached-in": "1.09 ms",
+            "component-resolved-in": "1.09 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-08T05:14:49.692Z",
-              "_cachedIn": "224 μs",
-              "_resolvedIn": "224 μs",
+              "_cachedAt": "2021-08-08T05:32:18.013Z",
+              "_cachedIn": "219 μs",
+              "_resolvedIn": "219 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8078,9 +8078,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-08T05:14:49.692Z",
-                "component-cached-in": "224 μs",
-                "component-resolved-in": "224 μs"
+                "component-cached-at": "2021-08-08T05:32:18.013Z",
+                "component-cached-in": "219 μs",
+                "component-resolved-in": "219 μs"
               },
               "components": {}
             }
@@ -8089,9 +8089,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T05:14:49.691Z",
-          "_cachedIn": "182 μs",
-          "_resolvedIn": "182 μs",
+          "_cachedAt": "2021-08-08T05:32:18.012Z",
+          "_cachedIn": "210 μs",
+          "_resolvedIn": "210 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8100,9 +8100,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-08T05:14:49.691Z",
-            "component-cached-in": "182 μs",
-            "component-resolved-in": "182 μs"
+            "component-cached-at": "2021-08-08T05:32:18.012Z",
+            "component-cached-in": "210 μs",
+            "component-resolved-in": "210 μs"
           },
           "components": {}
         }
@@ -8111,9 +8111,9 @@
     "HeroSection": {
       "_cacheKey": "{\"component\":{\"type\":\"HeroSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T05:14:49.581Z",
-      "_cachedIn": "5.77 ms",
-      "_resolvedIn": "5.77 ms",
+      "_cachedAt": "2021-08-08T05:32:17.817Z",
+      "_cachedIn": "6.02 ms",
+      "_resolvedIn": "6.02 ms",
       "id": "HeroSection",
       "type": "HeroSection",
       "status": "resolved",
@@ -8125,18 +8125,18 @@
       "attrs": {
         "component-type": "HeroSection",
         "component-id": "HeroSection",
-        "component-cached-at": "2021-08-08T05:14:49.581Z",
-        "component-cached-in": "5.77 ms",
-        "component-resolved-in": "5.77 ms"
+        "component-cached-at": "2021-08-08T05:32:17.817Z",
+        "component-cached-in": "6.02 ms",
+        "component-resolved-in": "6.02 ms"
       },
       "components": {}
     },
     "StatsSection": {
       "_cacheKey": "{\"component\":{\"type\":\"StatsSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T05:14:49.691Z",
-      "_cachedIn": "117 ms",
-      "_resolvedIn": "117 ms",
+      "_cachedAt": "2021-08-08T05:32:18.012Z",
+      "_cachedIn": "201 ms",
+      "_resolvedIn": "201 ms",
       "id": "StatsSection",
       "type": "StatsSection",
       "status": "resolved",
@@ -8158,9 +8158,9 @@
             "id": "liveStake",
             "title": "Live stake",
             "prev": 50061509288921,
-            "value": 50044231302866,
-            "diff": -17277986055,
-            "diffPct": -0.03451351407582062
+            "value": 50043871099261,
+            "diff": -17638189660,
+            "diffPct": -0.035233036140010006
           },
           {
             "id": "delegatorCount",
@@ -8182,7 +8182,7 @@
         },
         "delegatorCount": 1485,
         "mintedBlocksCount": 993,
-        "liveStake": 50044231302866,
+        "liveStake": 50043871099261,
         "pools": [
           {
             "id": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
@@ -8586,10 +8586,10 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "17936734960220",
+            "totalStake": "17936374756615",
             "blocksLifetime": 200,
             "delegators": 389,
-            "saturated": 0.27434136917467644,
+            "saturated": 0.27433585988046005,
             "pledge": "450000000000",
             "pledged": "475601175308",
             "taxRatio": 0.015,
@@ -12382,9 +12382,9 @@
       "attrs": {
         "component-type": "StatsSection",
         "component-id": "StatsSection",
-        "component-cached-at": "2021-08-08T05:14:49.691Z",
-        "component-cached-in": "117 ms",
-        "component-resolved-in": "117 ms"
+        "component-cached-at": "2021-08-08T05:32:18.012Z",
+        "component-cached-in": "201 ms",
+        "component-resolved-in": "201 ms"
       },
       "components": {}
     }
