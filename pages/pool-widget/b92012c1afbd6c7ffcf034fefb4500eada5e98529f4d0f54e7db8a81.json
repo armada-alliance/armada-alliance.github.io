@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Stale Pool STALE\",\"slug\":\"/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"template\":\"PoolWidgetPage\",\"poolId\":\"b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-08T17:20:24.102Z",
-  "_cachedIn": "217 μs",
-  "_resolvedIn": "217 μs",
+  "_cachedAt": "2021-08-08T17:58:07.051Z",
+  "_cachedIn": "351 μs",
+  "_resolvedIn": "351 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "STALE",
       "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
       "website": "https://discord.com/invite/yA9cAtD3et",
-      "totalStake": "391039909418",
+      "totalStake": "391060807972",
       "blocksLifetime": 15,
       "delegators": 149,
-      "saturated": 0.005980933786979466,
+      "saturated": 0.005981253429207042,
       "pledge": "2000000000",
       "pledged": "6036045181",
       "taxRatio": 0.02,
@@ -129,17 +129,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-08T17:20:24.102Z",
-    "component-cached-in": "217 μs",
-    "component-resolved-in": "217 μs"
+    "component-cached-at": "2021-08-08T17:58:07.051Z",
+    "component-cached-in": "351 μs",
+    "component-resolved-in": "351 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T17:20:24.102Z",
-      "_cachedIn": "82 μs",
-      "_resolvedIn": "82 μs",
+      "_cachedAt": "2021-08-08T17:58:07.051Z",
+      "_cachedIn": "165 μs",
+      "_resolvedIn": "165 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -148,17 +148,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-08T17:20:24.102Z",
-        "component-cached-in": "82 μs",
-        "component-resolved-in": "82 μs"
+        "component-cached-at": "2021-08-08T17:58:07.051Z",
+        "component-cached-in": "165 μs",
+        "component-resolved-in": "165 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T17:20:24.102Z",
-          "_cachedIn": "40 μs",
-          "_resolvedIn": "40 μs",
+          "_cachedAt": "2021-08-08T17:58:07.051Z",
+          "_cachedIn": "85 μs",
+          "_resolvedIn": "85 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -166,7 +166,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-08T17:20:09.882Z",
+              "createdAt": "2021-08-08T17:57:50.084Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1467,6 +1467,21 @@
                 "filePath": "/en/identities/starlink.md"
               },
               {
+                "id": "stoppi",
+                "language": "en",
+                "slug": "/identities/stoppi",
+                "url": "https://armada-alliance.com/identities/stoppi",
+                "origin": "/identities/stoppi",
+                "title": "Stoppi",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-08-08T15:00:50.000Z",
+                "filePath": "/en/identities/stoppi.md"
+              },
+              {
                 "id": "sublayerio",
                 "language": "en",
                 "slug": "/identities/sublayerio",
@@ -1985,6 +2000,28 @@
                 "rank": 0
               },
               {
+                "id": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "language": "en",
+                "slug": "/stake-pools/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "url": "https://armada-alliance.com/stake-pools/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "origin": "/stake-pools/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "title": "SolPi - Solar powered Pi (SOLPI)",
+                "description": "A pool, powered by 100% renewable energy.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "stoppi",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-08-08T15:00:50.000Z",
+                "filePath": "/en/stake-pools/827900818541013d518ee6b2af343a973c8d836884fb000742307400.md",
+                "rank": 13
+              },
+              {
                 "id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
                 "language": "en",
                 "slug": "/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
@@ -2370,6 +2407,14 @@
                 "slug": "/pool-widget/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
                 "template": "PoolWidgetPage",
                 "poolId": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "SolPi - Solar powered Pi SOLPI",
+                "slug": "/pool-widget/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "template": "PoolWidgetPage",
+                "poolId": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
                 "hidden": true
               },
               {
@@ -8028,67 +8073,67 @@
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.43
+                "rate": 1.44
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003274
+                "rate": 0.00003279
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003274
+                "rate": 0.00003279
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 1.95
+                "rate": 1.96
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 9.28
+                "rate": 9.32
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 6.04
+                "rate": 6.07
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 157.68
+                "rate": 158.49
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 47.88
+                "rate": 48.12
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-08T17:20:24.102Z",
-            "component-cached-in": "40 μs",
-            "component-resolved-in": "40 μs"
+            "component-cached-at": "2021-08-08T17:58:07.051Z",
+            "component-cached-in": "85 μs",
+            "component-resolved-in": "85 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T17:20:24.102Z",
-          "_cachedIn": "60 μs",
-          "_resolvedIn": "60 μs",
+          "_cachedAt": "2021-08-08T17:58:07.051Z",
+          "_cachedIn": "112 μs",
+          "_resolvedIn": "112 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8099,17 +8144,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-08T17:20:24.102Z",
-            "component-cached-in": "60 μs",
-            "component-resolved-in": "60 μs"
+            "component-cached-at": "2021-08-08T17:58:07.051Z",
+            "component-cached-in": "112 μs",
+            "component-resolved-in": "112 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-08T17:20:24.102Z",
-              "_cachedIn": "19 μs",
-              "_resolvedIn": "19 μs",
+              "_cachedAt": "2021-08-08T17:58:07.051Z",
+              "_cachedIn": "26 μs",
+              "_resolvedIn": "26 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8169,9 +8214,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-08T17:20:24.102Z",
-                "component-cached-in": "19 μs",
-                "component-resolved-in": "19 μs"
+                "component-cached-at": "2021-08-08T17:58:07.051Z",
+                "component-cached-in": "26 μs",
+                "component-resolved-in": "26 μs"
               },
               "components": {}
             }
@@ -8180,9 +8225,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T17:20:24.102Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2021-08-08T17:58:07.051Z",
+          "_cachedIn": "33 μs",
+          "_resolvedIn": "33 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8191,9 +8236,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-08T17:20:24.102Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2021-08-08T17:58:07.051Z",
+            "component-cached-in": "33 μs",
+            "component-resolved-in": "33 μs"
           },
           "components": {}
         }
