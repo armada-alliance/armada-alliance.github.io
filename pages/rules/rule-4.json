@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"RuleDetailPage\",\"version\":1},\"props\":{\"id\":\"rule-4\",\"language\":\"en\",\"slug\":\"/rules/rule-4\",\"url\":\"https://armada-alliance.com/rules/rule-4\",\"origin\":\"/rules/rule-4\",\"title\":\"Pool should have an image\",\"description\":\"Make sure to have a logo of your pool specified in a extended metadata json file.\",\"aliases\":null,\"keywords\":null,\"template\":\"RuleDetailPage\",\"updatedAt\":\"2021-07-24T17:52:06.000Z\",\"filePath\":\"/en/rules/rule-4.md\",\"number\":4,\"body\":\"## Add extended metadata to your metadata file\\n\\nMake sure to have the extended property defined in you metadata.json file.\\n\\n```json\\n{\\n    \\\"name\\\": \\\"Sublayer Pool\\\",\\n    \\\"description\\\": \\\"Providing marketing pages and educational content for stake pool operators.\\\",\\n    \\\"ticker\\\": \\\"SBLYR\\\",\\n    \\\"homepage\\\": \\\"https://pool.sublayer.io\\\",\\n    \\\"extended\\\": \\\"https://cdn.sublayer.io/poolExtended.json\\\"\\n}\\n```\\n\\nExample: https://cdn.sublayer.io/poolMetaData.json\\n\\n**Note:** The extended property is not mandatory, but recommended for all metadata other than required by the Cardano network. If you don't have the extended metadata url specified and you're going to update the metadata.json file, make sure to regenerate the metadata hash and update your pool.cert file.\\n\\n## Upload the extended metadata file\\n\\nMake sure to specify `info.url_png_logo` and `info.url_png_icon64x64`. The Armada Alliance website will scrape this information and use it to display your logo.\\n\\n```json\\n{\\n  \\\"info\\\": {\\n    \\\"url_png_icon_64x64\\\": \\\"https://cdn.sublayer.io/logo_64x64.png\\\",\\n    \\\"url_png_logo\\\": \\\"https://cdn.sublayer.io/logo.png\\\",\\n    \\\"location\\\": \\\"Sommelsdijk, The Netherlands\\\",\\n    \\\"social\\\": {\\n      \\\"telegram_handle\\\": \\\"sublayerio\\\",\\n      \\\"twitter_handle\\\": \\\"sublayerio\\\",\\n      \\\"youtube_handle\\\": \\\"channel/UCligunhcmbMYaBUMvONsKwg\\\"\\n    },\\n    \\\"company\\\": {\\n      \\\"name\\\": \\\"Sublayer\\\"\\n    },\\n    \\\"about\\\": {\\n      \\\"me\\\": \\\"As an independent stake pool operator it is my goal to educate people about Cardano and true decentralisation by providing educational content through the Armada Alliance platform (armada-alliance.com).\\\",\\n      \\\"server\\\": \\\"Running on low power consuming ARM-based devices (Raspberry Pis & Apple SOC) with an average pool energy consumption of less than 40 Watts💡, always online, 100MB up/down, solar energy. Margin stays 1%.\\\"\\n    }\\n  },\\n  \\\"adapools\\\": \\\"ed6d9672a5ea74667cb0ca867d7479fb\\\",\\n  \\\"my-pool-ids\\\": [\\\"8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8\\\"],\\n  \\\"when-satured-then-recommend\\\": [\\n    \\\"b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65\\\"\\n  ]\\n}\\n```\\n\\nExample: https://cdn.sublayer.io/poolExtended.json\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var d=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var l=(e,a,o)=>a in e?c(e,a,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[a]=o,n=(e,a)=>{for(var o in a||(a={}))r.call(a,o)&&l(e,o,a[o]);if(d)for(var o of d(a))p.call(a,o)&&l(e,o,a[o]);return e},s=(e,a)=>u(e,m(a));var i=(e,a)=>{var o={};for(var t in e)r.call(e,t)&&a.indexOf(t)<0&&(o[t]=e[t]);if(e!=null&&d)for(var t of d(e))a.indexOf(t)<0&&p.call(e,t)&&(o[t]=e[t]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var t=o,{components:e}=t,a=i(t,[\\\"components\\\"]);return mdx(MDXLayout,s(n(n({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Add extended metadata to your metadata file\\\"),mdx(\\\"p\\\",null,\\\"Make sure to have the extended property defined in you metadata.json file.\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-json\\\"}),`{\\n    \\\"name\\\": \\\"Sublayer Pool\\\",\\n    \\\"description\\\": \\\"Providing marketing pages and educational content for stake pool operators.\\\",\\n    \\\"ticker\\\": \\\"SBLYR\\\",\\n    \\\"homepage\\\": \\\"https://pool.sublayer.io\\\",\\n    \\\"extended\\\": \\\"https://cdn.sublayer.io/poolExtended.json\\\"\\n}\\n`)),mdx(\\\"p\\\",null,\\\"Example: \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://cdn.sublayer.io/poolMetaData.json\\\"}),\\\"https://cdn.sublayer.io/poolMetaData.json\\\")),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Note:\\\"),\\\" The extended property is not mandatory, but recommended for all metadata other than required by the Cardano network. If you don't have the extended metadata url specified and you're going to update the metadata.json file, make sure to regenerate the metadata hash and update your pool.cert file.\\\"),mdx(\\\"h2\\\",null,\\\"Upload the extended metadata file\\\"),mdx(\\\"p\\\",null,\\\"Make sure to specify \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"info.url_png_logo\\\"),\\\" and \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"info.url_png_icon64x64\\\"),\\\". The Armada Alliance website will scrape this information and use it to display your logo.\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-json\\\"}),`{\\n  \\\"info\\\": {\\n    \\\"url_png_icon_64x64\\\": \\\"https://cdn.sublayer.io/logo_64x64.png\\\",\\n    \\\"url_png_logo\\\": \\\"https://cdn.sublayer.io/logo.png\\\",\\n    \\\"location\\\": \\\"Sommelsdijk, The Netherlands\\\",\\n    \\\"social\\\": {\\n      \\\"telegram_handle\\\": \\\"sublayerio\\\",\\n      \\\"twitter_handle\\\": \\\"sublayerio\\\",\\n      \\\"youtube_handle\\\": \\\"channel/UCligunhcmbMYaBUMvONsKwg\\\"\\n    },\\n    \\\"company\\\": {\\n      \\\"name\\\": \\\"Sublayer\\\"\\n    },\\n    \\\"about\\\": {\\n      \\\"me\\\": \\\"As an independent stake pool operator it is my goal to educate people about Cardano and true decentralisation by providing educational content through the Armada Alliance platform (armada-alliance.com).\\\",\\n      \\\"server\\\": \\\"Running on low power consuming ARM-based devices (Raspberry Pis & Apple SOC) with an average pool energy consumption of less than 40 Watts\\\\u{1F4A1}, always online, 100MB up/down, solar energy. Margin stays 1%.\\\"\\n    }\\n  },\\n  \\\"adapools\\\": \\\"ed6d9672a5ea74667cb0ca867d7479fb\\\",\\n  \\\"my-pool-ids\\\": [\\\"8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8\\\"],\\n  \\\"when-satured-then-recommend\\\": [\\n    \\\"b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65\\\"\\n  ]\\n}\\n`)),mdx(\\\"p\\\",null,\\\"Example: \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://cdn.sublayer.io/poolExtended.json\\\"}),\\\"https://cdn.sublayer.io/poolExtended.json\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-08T05:32:19.606Z",
-  "_cachedIn": "808 μs",
-  "_resolvedIn": "808 μs",
+  "_cachedAt": "2021-08-08T05:46:13.106Z",
+  "_cachedIn": "1.21 ms",
+  "_resolvedIn": "1.21 ms",
   "id": "RuleDetailPage",
   "type": "RuleDetailPage",
   "status": "resolved",
@@ -32,17 +32,17 @@
   "attrs": {
     "component-type": "RuleDetailPage",
     "component-id": "RuleDetailPage",
-    "component-cached-at": "2021-08-08T05:32:19.606Z",
-    "component-cached-in": "808 μs",
-    "component-resolved-in": "808 μs"
+    "component-cached-at": "2021-08-08T05:46:13.106Z",
+    "component-cached-in": "1.21 ms",
+    "component-resolved-in": "1.21 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T05:32:19.606Z",
-      "_cachedIn": "610 μs",
-      "_resolvedIn": "610 μs",
+      "_cachedAt": "2021-08-08T05:46:13.106Z",
+      "_cachedIn": "863 μs",
+      "_resolvedIn": "863 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -51,17 +51,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-08T05:32:19.606Z",
-        "component-cached-in": "610 μs",
-        "component-resolved-in": "610 μs"
+        "component-cached-at": "2021-08-08T05:46:13.106Z",
+        "component-cached-in": "863 μs",
+        "component-resolved-in": "863 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T05:32:19.606Z",
-          "_cachedIn": "382 μs",
-          "_resolvedIn": "382 μs",
+          "_cachedAt": "2021-08-08T05:46:13.105Z",
+          "_cachedIn": "507 μs",
+          "_resolvedIn": "507 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -69,7 +69,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-08T05:32:02.683Z",
+              "createdAt": "2021-08-08T05:45:58.572Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -251,7 +251,6 @@
                 "url": "https://armada-alliance.com/blogs/Blockchain_AI",
                 "origin": "/blogs/Blockchain_AI",
                 "title": "Blockchain AI with NuNET SingularityNet and Cardano",
-                "description": "In this video we talk about distributed computing. NuNET is the framework from SingularityNet. SingularityNet plans to run on Cardano once Smart contracts is available. The DeepChainAda mainly looks into distributed learning in this framework.",
                 "aliases": null,
                 "keywords": [
                   "Cardano",
@@ -269,7 +268,7 @@
                   }
                 ],
                 "icon": "💰",
-                "updatedAt": "2021-08-08T05:31:25.000Z",
+                "updatedAt": "2021-08-08T05:45:26.000Z",
                 "filePath": "/en/blogs/Blockchain_AI.md"
               },
               {
@@ -7925,73 +7924,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.24
+                "rate": 1.25
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.46
+                "rate": 1.47
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003282
+                "rate": 0.00003298
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003282
+                "rate": 0.00003298
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 1.99
+                "rate": 2
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 9.47
+                "rate": 9.55
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 6.16
+                "rate": 6.22
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 161
+                "rate": 162.4
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 48.82
+                "rate": 49.25
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-08T05:32:19.606Z",
-            "component-cached-in": "382 μs",
-            "component-resolved-in": "382 μs"
+            "component-cached-at": "2021-08-08T05:46:13.105Z",
+            "component-cached-in": "507 μs",
+            "component-resolved-in": "507 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T05:32:19.606Z",
-          "_cachedIn": "467 μs",
-          "_resolvedIn": "467 μs",
+          "_cachedAt": "2021-08-08T05:46:13.106Z",
+          "_cachedIn": "649 μs",
+          "_resolvedIn": "649 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8002,17 +8001,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-08T05:32:19.606Z",
-            "component-cached-in": "467 μs",
-            "component-resolved-in": "467 μs"
+            "component-cached-at": "2021-08-08T05:46:13.106Z",
+            "component-cached-in": "649 μs",
+            "component-resolved-in": "649 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-08T05:32:19.606Z",
-              "_cachedIn": "115 μs",
-              "_resolvedIn": "115 μs",
+              "_cachedAt": "2021-08-08T05:46:13.105Z",
+              "_cachedIn": "141 μs",
+              "_resolvedIn": "141 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8072,9 +8071,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-08T05:32:19.606Z",
-                "component-cached-in": "115 μs",
-                "component-resolved-in": "115 μs"
+                "component-cached-at": "2021-08-08T05:46:13.105Z",
+                "component-cached-in": "141 μs",
+                "component-resolved-in": "141 μs"
               },
               "components": {}
             }
@@ -8083,9 +8082,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-08T05:32:19.606Z",
-          "_cachedIn": "157 μs",
-          "_resolvedIn": "157 μs",
+          "_cachedAt": "2021-08-08T05:46:13.105Z",
+          "_cachedIn": "242 μs",
+          "_resolvedIn": "242 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8094,9 +8093,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-08T05:32:19.606Z",
-            "component-cached-in": "157 μs",
-            "component-resolved-in": "157 μs"
+            "component-cached-at": "2021-08-08T05:46:13.105Z",
+            "component-cached-in": "242 μs",
+            "component-resolved-in": "242 μs"
           },
           "components": {}
         }
@@ -8105,9 +8104,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T05:32:19.606Z",
-      "_cachedIn": "412 μs",
-      "_resolvedIn": "412 μs",
+      "_cachedAt": "2021-08-08T05:46:13.105Z",
+      "_cachedIn": "563 μs",
+      "_resolvedIn": "563 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8120,18 +8119,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-08T05:32:19.606Z",
-        "component-cached-in": "412 μs",
-        "component-resolved-in": "412 μs"
+        "component-cached-at": "2021-08-08T05:46:13.105Z",
+        "component-cached-in": "563 μs",
+        "component-resolved-in": "563 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T05:32:19.606Z",
-      "_cachedIn": "171 μs",
-      "_resolvedIn": "171 μs",
+      "_cachedAt": "2021-08-08T05:46:13.105Z",
+      "_cachedIn": "244 μs",
+      "_resolvedIn": "244 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8143,18 +8142,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-08T05:32:19.606Z",
-        "component-cached-in": "171 μs",
-        "component-resolved-in": "171 μs"
+        "component-cached-at": "2021-08-08T05:46:13.105Z",
+        "component-cached-in": "244 μs",
+        "component-resolved-in": "244 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-08T05:32:19.606Z",
-      "_cachedIn": "413 μs",
-      "_resolvedIn": "413 μs",
+      "_cachedAt": "2021-08-08T05:46:13.105Z",
+      "_cachedIn": "567 μs",
+      "_resolvedIn": "567 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8173,9 +8172,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-08T05:32:19.606Z",
-        "component-cached-in": "413 μs",
-        "component-resolved-in": "413 μs"
+        "component-cached-at": "2021-08-08T05:46:13.105Z",
+        "component-cached-in": "567 μs",
+        "component-resolved-in": "567 μs"
       },
       "components": {}
     }
