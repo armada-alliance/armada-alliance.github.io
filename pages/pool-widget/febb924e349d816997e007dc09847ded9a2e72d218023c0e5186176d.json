@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Oyster_Pool OYSTR\",\"slug\":\"/pool-widget/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"template\":\"PoolWidgetPage\",\"poolId\":\"febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-10T19:14:02.118Z",
-  "_cachedIn": "199 μs",
-  "_resolvedIn": "199 μs",
+  "_cachedAt": "2021-08-10T22:51:10.724Z",
+  "_cachedIn": "255 μs",
+  "_resolvedIn": "255 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "OYSTR",
       "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
       "website": "https://twitter.com/OystrPool",
-      "totalStake": "3107676827009",
+      "totalStake": "3111303904804",
       "blocksLifetime": 305,
-      "delegators": 267,
-      "saturated": 0.04753174519024092,
+      "delegators": 266,
+      "saturated": 0.047587221144509646,
       "pledge": "555400000000",
       "pledged": "571388280421",
       "taxRatio": 0.03,
@@ -221,17 +221,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-10T19:14:02.118Z",
-    "component-cached-in": "199 μs",
-    "component-resolved-in": "199 μs"
+    "component-cached-at": "2021-08-10T22:51:10.724Z",
+    "component-cached-in": "255 μs",
+    "component-resolved-in": "255 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-10T19:14:02.118Z",
-      "_cachedIn": "69 μs",
-      "_resolvedIn": "69 μs",
+      "_cachedAt": "2021-08-10T22:51:10.724Z",
+      "_cachedIn": "92 μs",
+      "_resolvedIn": "92 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -240,17 +240,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-10T19:14:02.118Z",
-        "component-cached-in": "69 μs",
-        "component-resolved-in": "69 μs"
+        "component-cached-at": "2021-08-10T22:51:10.724Z",
+        "component-cached-in": "92 μs",
+        "component-resolved-in": "92 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-10T19:14:02.118Z",
-          "_cachedIn": "37 μs",
-          "_resolvedIn": "37 μs",
+          "_cachedAt": "2021-08-10T22:51:10.724Z",
+          "_cachedIn": "50 μs",
+          "_resolvedIn": "50 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -258,7 +258,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-10T19:13:47.472Z",
+              "createdAt": "2021-08-10T22:50:55.440Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1559,6 +1559,21 @@
                 "filePath": "/en/identities/starlink.md"
               },
               {
+                "id": "steve-burg",
+                "language": "en",
+                "slug": "/identities/steve-burg",
+                "url": "https://armada-alliance.com/identities/steve-burg",
+                "origin": "/identities/steve-burg",
+                "title": "Steve Burg",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-08-10T21:25:24.000Z",
+                "filePath": "/en/identities/steve-burg.md"
+              },
+              {
                 "id": "stoppi",
                 "language": "en",
                 "slug": "/identities/stoppi",
@@ -1818,6 +1833,28 @@
                 "updatedAt": "2021-08-03T18:54:14.000Z",
                 "filePath": "/en/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.md",
                 "rank": 0
+              },
+              {
+                "id": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
+                "language": "en",
+                "slug": "/stake-pools/29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
+                "url": "https://armada-alliance.com/stake-pools/29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
+                "origin": "/stake-pools/29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
+                "title": "Signal Pool (SIGNL)",
+                "description": "Signal Pool - You can't stop the signal.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "steve-burg",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-08-10T21:27:20.000Z",
+                "filePath": "/en/stake-pools/29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b.md",
+                "rank": 75
               },
               {
                 "id": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
@@ -2403,6 +2440,14 @@
                 "slug": "/pool-widget/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
                 "template": "PoolWidgetPage",
                 "poolId": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Signal Pool SIGNL",
+                "slug": "/pool-widget/29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
+                "template": "PoolWidgetPage",
+                "poolId": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
                 "hidden": true
               },
               {
@@ -8159,73 +8204,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.35
+                "rate": 1.42
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.59
+                "rate": 1.66
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003495
+                "rate": 0.00003645
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003495
+                "rate": 0.00003645
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.16
+                "rate": 2.26
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 10.28
+                "rate": 10.77
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 6.7
+                "rate": 7.02
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 175.26
+                "rate": 183.6
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 53.04
+                "rate": 55.57
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-10T19:14:02.118Z",
-            "component-cached-in": "37 μs",
-            "component-resolved-in": "37 μs"
+            "component-cached-at": "2021-08-10T22:51:10.724Z",
+            "component-cached-in": "50 μs",
+            "component-resolved-in": "50 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-10T19:14:02.118Z",
-          "_cachedIn": "55 μs",
-          "_resolvedIn": "55 μs",
+          "_cachedAt": "2021-08-10T22:51:10.724Z",
+          "_cachedIn": "73 μs",
+          "_resolvedIn": "73 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8236,17 +8281,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-10T19:14:02.118Z",
-            "component-cached-in": "55 μs",
-            "component-resolved-in": "55 μs"
+            "component-cached-at": "2021-08-10T22:51:10.724Z",
+            "component-cached-in": "73 μs",
+            "component-resolved-in": "73 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-10T19:14:02.118Z",
-              "_cachedIn": "16 μs",
-              "_resolvedIn": "16 μs",
+              "_cachedAt": "2021-08-10T22:51:10.724Z",
+              "_cachedIn": "22 μs",
+              "_resolvedIn": "22 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8306,9 +8351,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-10T19:14:02.118Z",
-                "component-cached-in": "16 μs",
-                "component-resolved-in": "16 μs"
+                "component-cached-at": "2021-08-10T22:51:10.724Z",
+                "component-cached-in": "22 μs",
+                "component-resolved-in": "22 μs"
               },
               "components": {}
             }
@@ -8317,9 +8362,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-10T19:14:02.118Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2021-08-10T22:51:10.724Z",
+          "_cachedIn": "19 μs",
+          "_resolvedIn": "19 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8328,9 +8373,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-10T19:14:02.118Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2021-08-10T22:51:10.724Z",
+            "component-cached-in": "19 μs",
+            "component-resolved-in": "19 μs"
           },
           "components": {}
         }
