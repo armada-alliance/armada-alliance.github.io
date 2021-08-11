@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"data-privacy-Is-it-real\",\"language\":\"en\",\"slug\":\"/blogs/data-privacy-Is-it-real\",\"url\":\"https://armada-alliance.com/blogs/data-privacy-Is-it-real\",\"origin\":\"/blogs/data-privacy-Is-it-real\",\"title\":\"Data Privacy\",\"description\":\"Emperor Wears no clothes!\",\"aliases\":null,\"keywords\":[\"data privacy\",\"amazon\",\"google\",\"facebook\",\"blockchain\",\"ai\",\"artificial intelligence\"],\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"pgwad\",\"role\":\"author\"}],\"icon\":\"🔒\",\"updatedAt\":\"2021-08-11T20:05:57.000Z\",\"filePath\":\"/en/blogs/data-privacy-Is-it-real.md\",\"body\":\"##\\n![AI and Privacy](https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true)\\n##\\n\\nIn the previous blog, we talked about DeepchainADA. The main idea behind this is how to achieve trained AI models using distributed learning. Just to recap, one of the distributed learning is Federated Learning. In this framework, data is distributed and the model gets trained separately.  Then there is a central server that will aggregate the model before sending it for another iteration.\\n\\nThe general assumption is that if the data is in the device then it's all secure right? The AI model is not sending data to the server so all good? Well, the answer is no. There are 2 papers in this area that show these gradient leaks can be used to infer data. So the next time you use a big tech app and it says no end-to-end encryption then hurray you leaked your data. People then keep wondering what happened and why their information got leaked. If you are a stake pool operator you already know the importance of air-gapped-machine.\\n\\nWell AI training cannot be in such closed doors. So we need collaboration and privacy. A technique called Differential privacy was used. In differential privacy, you add statistical noise. Want to understand more then look at this [privacy overview document](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) from [Apple](https://apple.com). In this technique, you get a privacy budget where you choose what information to hide and add noise. It comes with a cost that the model may not be fully accurate. But before you jump to any conclusion looks at this paper\\n\\nAccording to B. Hitaj, G. Ateniese, and F. P ́erez-Cruz, in Proceedings of the 2017 ACM SIGSAC Conference on Computer and\\nCommunications Security, “Deep models under the gan: information leakage from collaborative deep learning”.  ACM, 2017, pp. 603–618.\\n\\nIn this paper, Hitaj et.al. show that Generative Adversal Network (GAN). They show that Generative Adversarial\\nNetwork (GAN) that generates prototypical samples of the targeted training set that was meant to be private and show that differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks.  In the linkability attack, the attacker tries to determine if users in the public database are also in the protected database.\\n\\nAnother technique that was proposed is using homomorphic encryption. \\nFrom Wikipedia, \\\"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\\\".\\n\\nAmazon AWS talks about this for their users who use the services for ML training. This is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others. If a participant is curious then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are writing an exam and you are honest that you will do your job but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants. \\nIn deepchainAda there is no central server as it's based on decentralized Cardano blockchain. So we need a mechanism that has homomorphic properties and also  non-deterministic encryption\\nThe other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet).   \\n\\nSo as you can see Privacy is deep-rooted. Sometimes Big tech companies can just put some buzzwords on privacy and that may not be always true in all scenarios. So next time someone uses these buzz words try and understand if they are just talking superficially to get past a regulator or are they serious about it. \\n\\nOne last note Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. Your crypto wallet keys are secret.\\n\\nYou can watch my video here\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=1N7_sXG622g\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,u=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))r.call(t,a)&&p(e,a,t[a]);if(n)for(var a of n(t))s.call(t,a)&&p(e,a,t[a]);return e},h=(e,t)=>u(e,l(t));var d=(e,t)=>{var a={};for(var o in e)r.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",i({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=d(o,[\\\"components\\\"]);return mdx(MDXLayout,h(i(i({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null),mdx(\\\"p\\\",null,mdx(\\\"img\\\",i({parentName:\\\"p\\\"},{src:\\\"https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true\\\",alt:\\\"AI and Privacy\\\"}))),mdx(\\\"h2\\\",null),mdx(\\\"p\\\",null,\\\"In the previous blog, we talked about DeepchainADA. The main idea behind this is how to achieve trained AI models using distributed learning. Just to recap, one of the distributed learning is Federated Learning. In this framework, data is distributed and the model gets trained separately.  Then there is a central server that will aggregate the model before sending it for another iteration.\\\"),mdx(\\\"p\\\",null,\\\"The general assumption is that if the data is in the device then it's all secure right? The AI model is not sending data to the server so all good? Well, the answer is no. There are 2 papers in this area that show these gradient leaks can be used to infer data. So the next time you use a big tech app and it says no end-to-end encryption then hurray you leaked your data. People then keep wondering what happened and why their information got leaked. If you are a stake pool operator you already know the importance of air-gapped-machine.\\\"),mdx(\\\"p\\\",null,\\\"Well AI training cannot be in such closed doors. So we need collaboration and privacy. A technique called Differential privacy was used. In differential privacy, you add statistical noise. Want to understand more then look at this \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf\\\"}),\\\"privacy overview document\\\"),\\\" from \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://apple.com\\\"}),\\\"Apple\\\"),\\\". In this technique, you get a privacy budget where you choose what information to hide and add noise. It comes with a cost that the model may not be fully accurate. But before you jump to any conclusion looks at this paper\\\"),mdx(\\\"p\\\",null,`According to B. Hitaj, G. Ateniese, and F. P \\\\u0301erez-Cruz, in Proceedings of the 2017 ACM SIGSAC Conference on Computer and\\nCommunications Security, \\\\u201CDeep models under the gan: information leakage from collaborative deep learning\\\\u201D.  ACM, 2017, pp. 603\\\\u2013618.`),mdx(\\\"p\\\",null,`In this paper, Hitaj et.al. show that Generative Adversal Network (GAN). They show that Generative Adversarial\\nNetwork (GAN) that generates prototypical samples of the targeted training set that was meant to be private and show that differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks.  In the linkability attack, the attacker tries to determine if users in the public database are also in the protected database.`),mdx(\\\"p\\\",null,`Another technique that was proposed is using homomorphic encryption.\\nFrom Wikipedia, \\\"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\\\".`),mdx(\\\"p\\\",null,`Amazon AWS talks about this for their users who use the services for ML training. This is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others. If a participant is curious then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are writing an exam and you are honest that you will do your job but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\\nIn deepchainAda there is no central server as it's based on decentralized Cardano blockchain. So we need a mechanism that has homomorphic properties and also  non-deterministic encryption\\nThe other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet).   `),mdx(\\\"p\\\",null,\\\"So as you can see Privacy is deep-rooted. Sometimes Big tech companies can just put some buzzwords on privacy and that may not be always true in all scenarios. So next time someone uses these buzz words try and understand if they are just talking superficially to get past a regulator or are they serious about it. \\\"),mdx(\\\"p\\\",null,\\\"One last note Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. Your crypto wallet keys are secret.\\\"),mdx(\\\"p\\\",null,\\\"You can watch my video here\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=1N7_sXG622g\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-11T20:17:55.820Z",
-  "_cachedIn": "7.41 ms",
-  "_resolvedIn": "7.41 ms",
+  "_cachedAt": "2021-08-11T21:16:22.154Z",
+  "_cachedIn": "13 ms",
+  "_resolvedIn": "13 ms",
   "id": "BlogDetailPage",
   "type": "BlogDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "BlogDetailPage",
     "component-id": "BlogDetailPage",
-    "component-cached-at": "2021-08-11T20:17:55.820Z",
-    "component-cached-in": "7.41 ms",
-    "component-resolved-in": "7.41 ms"
+    "component-cached-at": "2021-08-11T21:16:22.154Z",
+    "component-cached-in": "13 ms",
+    "component-resolved-in": "13 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-11T20:17:55.819Z",
-      "_cachedIn": "4.73 ms",
-      "_resolvedIn": "4.73 ms",
+      "_cachedAt": "2021-08-11T21:16:22.154Z",
+      "_cachedIn": "8.42 ms",
+      "_resolvedIn": "8.42 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,17 +65,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-11T20:17:55.819Z",
-        "component-cached-in": "4.73 ms",
-        "component-resolved-in": "4.73 ms"
+        "component-cached-at": "2021-08-11T21:16:22.154Z",
+        "component-cached-in": "8.42 ms",
+        "component-resolved-in": "8.42 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-11T20:17:55.818Z",
-          "_cachedIn": "1.05 ms",
-          "_resolvedIn": "1.05 ms",
+          "_cachedAt": "2021-08-11T21:16:22.151Z",
+          "_cachedIn": "1.95 ms",
+          "_resolvedIn": "1.95 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -83,7 +83,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-11T20:17:46.018Z",
+              "createdAt": "2021-08-11T21:16:08.446Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -8058,73 +8058,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.59
+                "rate": 1.54
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.87
+                "rate": 1.81
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00004023
+                "rate": 0.00003925
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00004023
+                "rate": 0.00003925
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.54
+                "rate": 2.46
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 12.13
+                "rate": 11.74
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 7.94
+                "rate": 7.68
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 206.73
+                "rate": 200.03
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 62.02
+                "rate": 60.07
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-11T20:17:55.818Z",
-            "component-cached-in": "1.05 ms",
-            "component-resolved-in": "1.05 ms"
+            "component-cached-at": "2021-08-11T21:16:22.151Z",
+            "component-cached-in": "1.95 ms",
+            "component-resolved-in": "1.95 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-11T20:17:55.819Z",
-          "_cachedIn": "2.56 ms",
-          "_resolvedIn": "2.56 ms",
+          "_cachedAt": "2021-08-11T21:16:22.152Z",
+          "_cachedIn": "3.15 ms",
+          "_resolvedIn": "3.15 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8135,17 +8135,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-11T20:17:55.819Z",
-            "component-cached-in": "2.56 ms",
-            "component-resolved-in": "2.56 ms"
+            "component-cached-at": "2021-08-11T21:16:22.152Z",
+            "component-cached-in": "3.15 ms",
+            "component-resolved-in": "3.15 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-11T20:17:55.819Z",
-              "_cachedIn": "913 μs",
-              "_resolvedIn": "913 μs",
+              "_cachedAt": "2021-08-11T21:16:22.152Z",
+              "_cachedIn": "677 μs",
+              "_resolvedIn": "677 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8205,9 +8205,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-11T20:17:55.819Z",
-                "component-cached-in": "913 μs",
-                "component-resolved-in": "913 μs"
+                "component-cached-at": "2021-08-11T21:16:22.152Z",
+                "component-cached-in": "677 μs",
+                "component-resolved-in": "677 μs"
               },
               "components": {}
             }
@@ -8216,9 +8216,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-11T20:17:55.817Z",
-          "_cachedIn": "22 μs",
-          "_resolvedIn": "22 μs",
+          "_cachedAt": "2021-08-11T21:16:22.149Z",
+          "_cachedIn": "146 μs",
+          "_resolvedIn": "146 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8227,9 +8227,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-11T20:17:55.817Z",
-            "component-cached-in": "22 μs",
-            "component-resolved-in": "22 μs"
+            "component-cached-at": "2021-08-11T21:16:22.149Z",
+            "component-cached-in": "146 μs",
+            "component-resolved-in": "146 μs"
           },
           "components": {}
         }
@@ -8238,9 +8238,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-11T20:17:55.817Z",
-      "_cachedIn": "2.58 ms",
-      "_resolvedIn": "2.58 ms",
+      "_cachedAt": "2021-08-11T21:16:22.150Z",
+      "_cachedIn": "4.68 ms",
+      "_resolvedIn": "4.68 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8270,18 +8270,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-11T20:17:55.817Z",
-        "component-cached-in": "2.58 ms",
-        "component-resolved-in": "2.58 ms"
+        "component-cached-at": "2021-08-11T21:16:22.150Z",
+        "component-cached-in": "4.68 ms",
+        "component-resolved-in": "4.68 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-11T20:17:55.816Z",
-      "_cachedIn": "1.66 ms",
-      "_resolvedIn": "1.66 ms",
+      "_cachedAt": "2021-08-11T21:16:22.149Z",
+      "_cachedIn": "2.98 ms",
+      "_resolvedIn": "2.98 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8293,18 +8293,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-11T20:17:55.816Z",
-        "component-cached-in": "1.66 ms",
-        "component-resolved-in": "1.66 ms"
+        "component-cached-at": "2021-08-11T21:16:22.149Z",
+        "component-cached-in": "2.98 ms",
+        "component-resolved-in": "2.98 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-11T20:17:55.817Z",
-      "_cachedIn": "2.59 ms",
-      "_resolvedIn": "2.59 ms",
+      "_cachedAt": "2021-08-11T21:16:22.150Z",
+      "_cachedIn": "4.68 ms",
+      "_resolvedIn": "4.68 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8323,9 +8323,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-11T20:17:55.817Z",
-        "component-cached-in": "2.59 ms",
-        "component-resolved-in": "2.59 ms"
+        "component-cached-at": "2021-08-11T21:16:22.150Z",
+        "component-cached-in": "4.68 ms",
+        "component-resolved-in": "4.68 ms"
       },
       "components": {}
     }
