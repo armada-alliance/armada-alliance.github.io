@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"RuleDetailPage\",\"version\":1},\"props\":{\"id\":\"rule-6\",\"language\":\"en\",\"slug\":\"/rules/rule-6\",\"url\":\"https://armada-alliance.com/rules/rule-6\",\"origin\":\"/rules/rule-6\",\"title\":\"Pool should have their nodes defined\",\"description\":\"Make sure to define your nodes in the pool markdown file.\",\"aliases\":null,\"keywords\":null,\"template\":\"RuleDetailPage\",\"updatedAt\":\"2021-07-24T17:52:06.000Z\",\"filePath\":\"/en/rules/rule-6.md\",\"number\":6,\"body\":\"```yaml\\n---\\ntemplate: PoolDetailPage\\nticker: SBLYR\\nmemberSince: 2021-04-18\\nidentities: \\n  - id: sublayerio\\n    role: spo\\nnodes:\\n  - role: producer\\n    deviceId: mac-mini-m1-16gb\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n---\\n```\\n[View source](https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md)\\n\\n## Fields\\n\\n### role\\n\\nThe available options for `role` are: \\n- `relay`\\n- `producer`\\n\\n### deviceId\\n`deviceId` is not required. The available options for `deviceId` are: \\n- `raspberry-pi-4-8gb`\\n- `mac-mini-16gb`\\n\\n### name\\nYou're also allowed to just specify a `name` for your node:\\n\\n```yaml\\n---\\nnodes:\\n  - role: producer\\n    name: VPS in the cloud\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n```\\n\\n### storage\\n\\nStorage is a text describing the storage of the node. It will get displayed on the website.\\n\\n### processor\\n\\nProcessor is a text describing the processor of the node. It will get displayed on the website.\\n\\n### memory\\n\\nMemory is a text describing the memory of the node. It will get displayed on the website.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,m=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,t=Object.prototype.propertyIsEnumerable;var p=(e,a,i)=>a in e?c(e,a,{enumerable:!0,configurable:!0,writable:!0,value:i}):e[a]=i,n=(e,a)=>{for(var i in a||(a={}))l.call(a,i)&&p(e,i,a[i]);if(o)for(var i of o(a))t.call(a,i)&&p(e,i,a[i]);return e},d=(e,a)=>m(e,u(a));var s=(e,a)=>{var i={};for(var r in e)l.call(e,r)&&a.indexOf(r)<0&&(i[r]=e[r]);if(e!=null&&o)for(var r of o(e))a.indexOf(r)<0&&t.call(e,r)&&(i[r]=e[r]);return i};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(i){var r=i,{components:e}=r,a=s(r,[\\\"components\\\"]);return mdx(MDXLayout,d(n(n({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-yaml\\\"}),`---\\ntemplate: PoolDetailPage\\nticker: SBLYR\\nmemberSince: 2021-04-18\\nidentities: \\n  - id: sublayerio\\n    role: spo\\nnodes:\\n  - role: producer\\n    deviceId: mac-mini-m1-16gb\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n---\\n`)),mdx(\\\"p\\\",null,mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md\\\"}),\\\"View source\\\")),mdx(\\\"h2\\\",null,\\\"Fields\\\"),mdx(\\\"h3\\\",null,\\\"role\\\"),mdx(\\\"p\\\",null,\\\"The available options for \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"role\\\"),\\\" are: \\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"relay\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"producer\\\"))),mdx(\\\"h3\\\",null,\\\"deviceId\\\"),mdx(\\\"p\\\",null,mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"deviceId\\\"),\\\" is not required. The available options for \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"deviceId\\\"),\\\" are: \\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"raspberry-pi-4-8gb\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"mac-mini-16gb\\\"))),mdx(\\\"h3\\\",null,\\\"name\\\"),mdx(\\\"p\\\",null,\\\"You're also allowed to just specify a \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"name\\\"),\\\" for your node:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-yaml\\\"}),`---\\nnodes:\\n  - role: producer\\n    name: VPS in the cloud\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n`)),mdx(\\\"h3\\\",null,\\\"storage\\\"),mdx(\\\"p\\\",null,\\\"Storage is a text describing the storage of the node. It will get displayed on the website.\\\"),mdx(\\\"h3\\\",null,\\\"processor\\\"),mdx(\\\"p\\\",null,\\\"Processor is a text describing the processor of the node. It will get displayed on the website.\\\"),mdx(\\\"h3\\\",null,\\\"memory\\\"),mdx(\\\"p\\\",null,\\\"Memory is a text describing the memory of the node. It will get displayed on the website.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-12T06:22:08.296Z",
-  "_cachedIn": "799 μs",
-  "_resolvedIn": "799 μs",
+  "_cachedAt": "2021-08-12T07:01:27.228Z",
+  "_cachedIn": "742 μs",
+  "_resolvedIn": "742 μs",
   "id": "RuleDetailPage",
   "type": "RuleDetailPage",
   "status": "resolved",
@@ -32,17 +32,17 @@
   "attrs": {
     "component-type": "RuleDetailPage",
     "component-id": "RuleDetailPage",
-    "component-cached-at": "2021-08-12T06:22:08.296Z",
-    "component-cached-in": "799 μs",
-    "component-resolved-in": "799 μs"
+    "component-cached-at": "2021-08-12T07:01:27.228Z",
+    "component-cached-in": "742 μs",
+    "component-resolved-in": "742 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-12T06:22:08.296Z",
-      "_cachedIn": "568 μs",
-      "_resolvedIn": "568 μs",
+      "_cachedAt": "2021-08-12T07:01:27.227Z",
+      "_cachedIn": "405 μs",
+      "_resolvedIn": "405 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -51,17 +51,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-12T06:22:08.296Z",
-        "component-cached-in": "568 μs",
-        "component-resolved-in": "568 μs"
+        "component-cached-at": "2021-08-12T07:01:27.227Z",
+        "component-cached-in": "405 μs",
+        "component-resolved-in": "405 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-12T06:22:08.295Z",
-          "_cachedIn": "325 μs",
-          "_resolvedIn": "325 μs",
+          "_cachedAt": "2021-08-12T07:01:27.227Z",
+          "_cachedIn": "174 μs",
+          "_resolvedIn": "174 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -69,7 +69,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-12T06:21:56.435Z",
+              "createdAt": "2021-08-12T07:01:11.149Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -245,33 +245,6 @@
                 "filePath": "/en/aaips.md"
               },
               {
-                "id": "DeepchainAda",
-                "language": "en",
-                "slug": "/blogs/DeepchainAda",
-                "url": "https://armada-alliance.com/blogs/DeepchainAda",
-                "origin": "/blogs/DeepchainAda",
-                "title": "PGWAD Stake-Pool & DeepchainAda",
-                "description": "What is PGWAD and what is the DeepchainAda project?",
-                "aliases": null,
-                "keywords": [
-                  "data privacy",
-                  "Federated Learning",
-                  "blockchain",
-                  "ai",
-                  "artificial intelligence"
-                ],
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "pgwad",
-                    "role": "author"
-                  }
-                ],
-                "icon": "🔒",
-                "updatedAt": "2021-08-12T04:21:25.000Z",
-                "filePath": "/en/blogs/DeepchainAda.md"
-              },
-              {
                 "id": "blockchain-ai-with-nunet-singularitynet-and-cardano",
                 "language": "en",
                 "slug": "/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano",
@@ -430,6 +403,33 @@
                 "icon": "📱",
                 "updatedAt": "2021-07-28T01:40:59.000Z",
                 "filePath": "/en/blogs/what-is-a-dapp.md"
+              },
+              {
+                "id": "what-is-pgwad-and-what-is-the-deepchainada-project",
+                "language": "en",
+                "slug": "/blogs/what-is-pgwad-and-what-is-the-deepchainada-project",
+                "url": "https://armada-alliance.com/blogs/what-is-pgwad-and-what-is-the-deepchainada-project",
+                "origin": "/blogs/what-is-pgwad-and-what-is-the-deepchainada-project",
+                "title": "PGWAD Stake-Pool & DeepchainAda",
+                "description": "What is PGWAD and what is the DeepchainAda project?",
+                "aliases": null,
+                "keywords": [
+                  "data privacy",
+                  "Federated Learning",
+                  "blockchain",
+                  "ai",
+                  "artificial intelligence"
+                ],
+                "template": "BlogDetailPage",
+                "identities": [
+                  {
+                    "id": "pgwad",
+                    "role": "author"
+                  }
+                ],
+                "icon": "🔒",
+                "updatedAt": "2021-08-12T07:00:20.000Z",
+                "filePath": "/en/blogs/what-is-pgwad-and-what-is-the-deepchainada-project.md"
               },
               {
                 "id": "what-is-staking",
@@ -1024,6 +1024,36 @@
                 "filePath": "/en/identities/daniel-recuenco.md"
               },
               {
+                "id": "dr-ben-goertzel",
+                "language": "en",
+                "slug": "/identities/dr-ben-goertzel",
+                "url": "https://armada-alliance.com/identities/dr-ben-goertzel",
+                "origin": "/identities/dr-ben-goertzel",
+                "title": "Dr. Ben Goertzel",
+                "description": "CEO and Chief Scientist",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/ben-goertzel.jpeg",
+                "updatedAt": "2021-08-12T07:00:20.000Z",
+                "filePath": "/en/identities/dr-ben-goertzel.md"
+              },
+              {
+                "id": "dr-kabir-veitas",
+                "language": "en",
+                "slug": "/identities/dr-kabir-veitas",
+                "url": "https://armada-alliance.com/identities/dr-kabir-veitas",
+                "origin": "/identities/dr-kabir-veitas",
+                "title": "Dr. Kabir Veitas",
+                "description": "CEO of NuNET",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/kabir-veitas.jpeg",
+                "updatedAt": "2021-08-12T07:00:20.000Z",
+                "filePath": "/en/identities/dr-kabir-veitas.md"
+              },
+              {
                 "id": "geoff",
                 "language": "en",
                 "slug": "/identities/geoff",
@@ -1219,6 +1249,21 @@
                 "filePath": "/en/identities/nami.md"
               },
               {
+                "id": "nunet",
+                "language": "en",
+                "slug": "/identities/nunet",
+                "url": "https://armada-alliance.com/identities/nunet",
+                "origin": "/identities/nunet",
+                "title": "NuNet",
+                "description": "NuNet lets anyone share and monetize their computing resources at scale and provides globally-distributed, optimized computing power for decentralized networks.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/nunet.jpg",
+                "updatedAt": "2021-08-12T07:00:20.000Z",
+                "filePath": "/en/identities/nunet.md"
+              },
+              {
                 "id": "pascal-berry",
                 "language": "en",
                 "slug": "/identities/pascal-berry",
@@ -1352,6 +1397,21 @@
                 "image": "/sbc-mining.jpg",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
+              },
+              {
+                "id": "singularitynet",
+                "language": "en",
+                "slug": "/identities/singularitynet",
+                "url": "https://armada-alliance.com/identities/singularitynet",
+                "origin": "/identities/singularitynet",
+                "title": "SingularityNET",
+                "description": "SingularityNET was born from a collective will to distribute the power of AI. Sophia, the world’s most expressive robot, is one of our first use cases.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/singularitynet.jpg",
+                "updatedAt": "2021-08-12T07:00:20.000Z",
+                "filePath": "/en/identities/singularitynet.md"
               },
               {
                 "id": "skeeter",
@@ -8074,73 +8134,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.5
+                "rate": 1.51
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.76
+                "rate": 1.77
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003916
+                "rate": 0.00003934
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003916
+                "rate": 0.00003934
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.4
+                "rate": 2.41
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 11.42
+                "rate": 11.48
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 7.46
+                "rate": 7.5
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 194.63
+                "rate": 195.75
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 58.38
+                "rate": 58.62
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-12T06:22:08.295Z",
-            "component-cached-in": "325 μs",
-            "component-resolved-in": "325 μs"
+            "component-cached-at": "2021-08-12T07:01:27.227Z",
+            "component-cached-in": "174 μs",
+            "component-resolved-in": "174 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-12T06:22:08.296Z",
-          "_cachedIn": "422 μs",
-          "_resolvedIn": "422 μs",
+          "_cachedAt": "2021-08-12T07:01:27.227Z",
+          "_cachedIn": "258 μs",
+          "_resolvedIn": "258 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8151,17 +8211,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-12T06:22:08.296Z",
-            "component-cached-in": "422 μs",
-            "component-resolved-in": "422 μs"
+            "component-cached-at": "2021-08-12T07:01:27.227Z",
+            "component-cached-in": "258 μs",
+            "component-resolved-in": "258 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-12T06:22:08.295Z",
-              "_cachedIn": "121 μs",
-              "_resolvedIn": "121 μs",
+              "_cachedAt": "2021-08-12T07:01:27.227Z",
+              "_cachedIn": "40 μs",
+              "_resolvedIn": "40 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8221,9 +8281,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-12T06:22:08.295Z",
-                "component-cached-in": "121 μs",
-                "component-resolved-in": "121 μs"
+                "component-cached-at": "2021-08-12T07:01:27.227Z",
+                "component-cached-in": "40 μs",
+                "component-resolved-in": "40 μs"
               },
               "components": {}
             }
@@ -8232,9 +8292,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-12T06:22:08.295Z",
-          "_cachedIn": "150 μs",
-          "_resolvedIn": "150 μs",
+          "_cachedAt": "2021-08-12T07:01:27.227Z",
+          "_cachedIn": "43 μs",
+          "_resolvedIn": "43 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8243,9 +8303,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-12T06:22:08.295Z",
-            "component-cached-in": "150 μs",
-            "component-resolved-in": "150 μs"
+            "component-cached-at": "2021-08-12T07:01:27.227Z",
+            "component-cached-in": "43 μs",
+            "component-resolved-in": "43 μs"
           },
           "components": {}
         }
@@ -8254,9 +8314,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-12T06:22:08.295Z",
-      "_cachedIn": "349 μs",
-      "_resolvedIn": "349 μs",
+      "_cachedAt": "2021-08-12T07:01:27.227Z",
+      "_cachedIn": "356 μs",
+      "_resolvedIn": "356 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8269,18 +8329,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-12T06:22:08.295Z",
-        "component-cached-in": "349 μs",
-        "component-resolved-in": "349 μs"
+        "component-cached-at": "2021-08-12T07:01:27.227Z",
+        "component-cached-in": "356 μs",
+        "component-resolved-in": "356 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-12T06:22:08.295Z",
-      "_cachedIn": "168 μs",
-      "_resolvedIn": "168 μs",
+      "_cachedAt": "2021-08-12T07:01:27.227Z",
+      "_cachedIn": "214 μs",
+      "_resolvedIn": "214 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8292,18 +8352,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-12T06:22:08.295Z",
-        "component-cached-in": "168 μs",
-        "component-resolved-in": "168 μs"
+        "component-cached-at": "2021-08-12T07:01:27.227Z",
+        "component-cached-in": "214 μs",
+        "component-resolved-in": "214 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-12T06:22:08.295Z",
-      "_cachedIn": "349 μs",
-      "_resolvedIn": "349 μs",
+      "_cachedAt": "2021-08-12T07:01:27.227Z",
+      "_cachedIn": "359 μs",
+      "_resolvedIn": "359 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8322,9 +8382,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-12T06:22:08.295Z",
-        "component-cached-in": "349 μs",
-        "component-resolved-in": "349 μs"
+        "component-cached-at": "2021-08-12T07:01:27.227Z",
+        "component-cached-in": "359 μs",
+        "component-resolved-in": "359 μs"
       },
       "components": {}
     }
