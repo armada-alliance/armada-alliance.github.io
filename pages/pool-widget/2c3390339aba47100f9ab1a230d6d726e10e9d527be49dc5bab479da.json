@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Ruby Pool RUBY\",\"slug\":\"/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-14T08:19:05.816Z",
-  "_cachedIn": "263 μs",
-  "_resolvedIn": "263 μs",
+  "_cachedAt": "2021-08-14T09:17:09.084Z",
+  "_cachedIn": "189 μs",
+  "_resolvedIn": "189 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,8 +24,8 @@
         "href": "/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da"
       },
       "description": "Mission driven Cardano Stake Pool with a percentage of our rewards going to Children Education. Come delegate to us!",
-      "image": "https://armada-alliance.com/assets/ship-420.png",
-      "hasImage": false,
+      "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
+      "hasImage": true,
       "ticker": "RUBY",
       "addr": "pool19seeqvu6hfr3qru6kx3rp4khymssa82j00jfm3d6k3ua590wdwv",
       "website": "https://rubypools.com",
@@ -34,7 +34,7 @@
       "delegators": 3,
       "saturated": 0.00006131396017134344,
       "pledge": "1000000000",
-      "pledged": "1099502088",
+      "pledged": "1099306359",
       "taxRatio": 0.035,
       "taxFix": "340000000",
       "roa": "0",
@@ -154,28 +154,50 @@
         "name": "Ruby Pool",
         "description": "Mission driven Cardano Stake Pool with a percentage of our rewards going to Children Education. Come delegate to us!",
         "ticker": "RUBY",
-        "homepage": "https://rubypools.com"
+        "homepage": "https://rubypools.com",
+        "extended": "https://raw.githubusercontent.com/ruby-pool/ruby-web-app/main/extended-metadata-pool.json"
       },
-      "extended": null,
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/ruby-pool/ruby-web-app/main/logo_64x64.ico",
+          "url_png_logo": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
+          "location": "Canada",
+          "social": {
+            "twitter_handle": "rubypools",
+            "telegram_handle": "LeviiiAckermannnn",
+            "github_handle": "ruby-pool"
+          },
+          "company": {
+            "name": "RUBY"
+          },
+          "about": {
+            "me": "An independent and mission-driven Cardano Stake Pool dedicated to participating in the decentralized infrastructure of Cardano in a sustainable manner, all the while working with our ADA stake delegators to earn passive staking profits",
+            "server": "Located in Surrey/Canada and Toronto/Canada, our relays currently operate on Cloud-Server, with an upcoming planned migration to said ARM devives of Raspberry Pi 4 powered by solar energy"
+          }
+        },
+        "my-pool-ids": [
+          "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da"
+        ]
+      },
       "twitter": "rubypools",
       "github": "ruby-pool",
-      "qualityScore": 62.5
+      "qualityScore": 75
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-14T08:19:05.816Z",
-    "component-cached-in": "263 μs",
-    "component-resolved-in": "263 μs"
+    "component-cached-at": "2021-08-14T09:17:09.084Z",
+    "component-cached-in": "189 μs",
+    "component-resolved-in": "189 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-14T08:19:05.816Z",
-      "_cachedIn": "126 μs",
-      "_resolvedIn": "126 μs",
+      "_cachedAt": "2021-08-14T09:17:09.084Z",
+      "_cachedIn": "66 μs",
+      "_resolvedIn": "66 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -184,17 +206,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-14T08:19:05.816Z",
-        "component-cached-in": "126 μs",
-        "component-resolved-in": "126 μs"
+        "component-cached-at": "2021-08-14T09:17:09.084Z",
+        "component-cached-in": "66 μs",
+        "component-resolved-in": "66 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-14T08:19:05.816Z",
-          "_cachedIn": "78 μs",
-          "_resolvedIn": "78 μs",
+          "_cachedAt": "2021-08-14T09:17:09.084Z",
+          "_cachedIn": "36 μs",
+          "_resolvedIn": "36 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -202,7 +224,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-14T08:18:50.811Z",
+              "createdAt": "2021-08-14T09:16:57.759Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1965,10 +1987,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
                 "updatedAt": "2021-08-06T16:40:16.000Z",
                 "filePath": "/en/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.md",
-                "rank": 38
+                "rank": 25
               },
               {
                 "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -8267,73 +8289,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.83
+                "rate": 1.86
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.16
+                "rate": 2.19
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00004538
+                "rate": 0.00004592
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00004538
+                "rate": 0.00004592
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.93
+                "rate": 2.97
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 13.99
+                "rate": 14.19
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 9.15
+                "rate": 9.28
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 236.75
+                "rate": 240.05
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 71.98
+                "rate": 72.99
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-14T08:19:05.816Z",
-            "component-cached-in": "78 μs",
-            "component-resolved-in": "78 μs"
+            "component-cached-at": "2021-08-14T09:17:09.084Z",
+            "component-cached-in": "36 μs",
+            "component-resolved-in": "36 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-14T08:19:05.816Z",
-          "_cachedIn": "104 μs",
-          "_resolvedIn": "104 μs",
+          "_cachedAt": "2021-08-14T09:17:09.084Z",
+          "_cachedIn": "52 μs",
+          "_resolvedIn": "52 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8344,17 +8366,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-14T08:19:05.816Z",
-            "component-cached-in": "104 μs",
-            "component-resolved-in": "104 μs"
+            "component-cached-at": "2021-08-14T09:17:09.084Z",
+            "component-cached-in": "52 μs",
+            "component-resolved-in": "52 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-14T08:19:05.816Z",
-              "_cachedIn": "29 μs",
-              "_resolvedIn": "29 μs",
+              "_cachedAt": "2021-08-14T09:17:09.084Z",
+              "_cachedIn": "16 μs",
+              "_resolvedIn": "16 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8414,9 +8436,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-14T08:19:05.816Z",
-                "component-cached-in": "29 μs",
-                "component-resolved-in": "29 μs"
+                "component-cached-at": "2021-08-14T09:17:09.084Z",
+                "component-cached-in": "16 μs",
+                "component-resolved-in": "16 μs"
               },
               "components": {}
             }
@@ -8425,9 +8447,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-14T08:19:05.816Z",
-          "_cachedIn": "35 μs",
-          "_resolvedIn": "35 μs",
+          "_cachedAt": "2021-08-14T09:17:09.084Z",
+          "_cachedIn": "14 μs",
+          "_resolvedIn": "14 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8436,9 +8458,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-14T08:19:05.816Z",
-            "component-cached-in": "35 μs",
-            "component-resolved-in": "35 μs"
+            "component-cached-at": "2021-08-14T09:17:09.084Z",
+            "component-cached-in": "14 μs",
+            "component-resolved-in": "14 μs"
           },
           "components": {}
         }
