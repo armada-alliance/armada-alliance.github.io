@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Halo Stake Pool HALO\",\"slug\":\"/pool-widget/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8\",\"template\":\"PoolWidgetPage\",\"poolId\":\"96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-19T16:27:20.309Z",
-  "_cachedIn": "213 μs",
-  "_resolvedIn": "213 μs",
+  "_cachedAt": "2021-08-19T17:20:42.103Z",
+  "_cachedIn": "237 μs",
+  "_resolvedIn": "237 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8"
       },
       "description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
-      "image": "https://static.adapools.org/pool_logo/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png",
+      "image": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_small.png",
       "hasImage": true,
       "ticker": "HALO",
       "addr": "pool1jc24u7v5xsaw9dw6s0vftjat8ssc8ru4c0uhrj8zpm3usnrp03t",
@@ -32,7 +32,7 @@
       "totalStake": "62073782426",
       "blocksLifetime": 0,
       "delegators": 7,
-      "saturated": 0.0009471508457262863,
+      "saturated": 0.0009471508639823616,
       "pledge": "3000000000",
       "pledged": "3002007384",
       "taxRatio": 0,
@@ -90,7 +90,58 @@
         "extended": "https://raw.githubusercontent.com/reignxx/m/master/Xmeta.json",
         "nonce": "1620699514"
       },
-      "extended": null,
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_64px.png",
+          "url_png_logo": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_small.png",
+          "location": "Omaha, Nebraska",
+          "social": {
+            "twitter_handle": "",
+            "telegram_handle": "https://t.me/HALOSTAKEPOOL",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "https://discord.gg/U93B6XCr6Z",
+            "github_handle": "reignxx"
+          },
+          "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "",
+            "server": "Raspberry Pi Cluster hosted on dedicated connection. Super fast 99.9% uptime.",
+            "company": ""
+          }
+        },
+        "my-pool-ids": {
+          "0": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8"
+        },
+        "when-satured-then-recommend": {
+          "0": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8"
+        },
+        "telegram-admin-handle": {
+          "0": "Chris_Rain"
+        },
+        "adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "Relay 1 Omaha",
+              "type": "relay",
+              "key": "8ea5662d9edf7b75ceafa833ff4816be"
+            },
+            "1": {
+              "name": "Core",
+              "type": "bp",
+              "key": "e77c6fbd3b4937aa38bd165d2ba8365f"
+            }
+          }
+        }
+      },
       "telegram": "https://t.me/HALOSTAKEPOOL",
       "github": "reignxx",
       "discord": "https://discord.gg/U93B6XCr6Z",
@@ -100,17 +151,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-19T16:27:20.309Z",
-    "component-cached-in": "213 μs",
-    "component-resolved-in": "213 μs"
+    "component-cached-at": "2021-08-19T17:20:42.103Z",
+    "component-cached-in": "237 μs",
+    "component-resolved-in": "237 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-19T16:27:20.309Z",
-      "_cachedIn": "77 μs",
-      "_resolvedIn": "77 μs",
+      "_cachedAt": "2021-08-19T17:20:42.103Z",
+      "_cachedIn": "88 μs",
+      "_resolvedIn": "88 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -119,17 +170,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-19T16:27:20.309Z",
-        "component-cached-in": "77 μs",
-        "component-resolved-in": "77 μs"
+        "component-cached-at": "2021-08-19T17:20:42.103Z",
+        "component-cached-in": "88 μs",
+        "component-resolved-in": "88 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-19T16:27:20.309Z",
-          "_cachedIn": "41 μs",
-          "_resolvedIn": "41 μs",
+          "_cachedAt": "2021-08-19T17:20:42.103Z",
+          "_cachedIn": "49 μs",
+          "_resolvedIn": "49 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -137,7 +188,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-19T16:26:52.381Z",
+              "createdAt": "2021-08-19T17:20:27.339Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1783,7 +1834,7 @@
                   }
                 ],
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-28T12:47:53.000Z",
+                "updatedAt": "2021-08-19T17:19:44.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md",
                 "rank": 25
               },
@@ -2164,7 +2215,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png",
+                "image": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_small.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.md",
                 "rank": 50
@@ -8281,73 +8332,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.83
+                "rate": 1.9
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.14
+                "rate": 2.22
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00004686
+                "rate": 0.00004875
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00004686
+                "rate": 0.00004875
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.99
+                "rate": 3.11
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 13.91
+                "rate": 14.44
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 9.08
+                "rate": 9.42
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 235.15
+                "rate": 244.08
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 71.38
+                "rate": 74.15
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-19T16:27:20.309Z",
-            "component-cached-in": "41 μs",
-            "component-resolved-in": "41 μs"
+            "component-cached-at": "2021-08-19T17:20:42.103Z",
+            "component-cached-in": "49 μs",
+            "component-resolved-in": "49 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-19T16:27:20.309Z",
-          "_cachedIn": "61 μs",
-          "_resolvedIn": "61 μs",
+          "_cachedAt": "2021-08-19T17:20:42.103Z",
+          "_cachedIn": "69 μs",
+          "_resolvedIn": "69 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8358,17 +8409,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-19T16:27:20.309Z",
-            "component-cached-in": "61 μs",
-            "component-resolved-in": "61 μs"
+            "component-cached-at": "2021-08-19T17:20:42.103Z",
+            "component-cached-in": "69 μs",
+            "component-resolved-in": "69 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-19T16:27:20.309Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2021-08-19T17:20:42.103Z",
+              "_cachedIn": "20 μs",
+              "_resolvedIn": "20 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8428,9 +8479,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-19T16:27:20.309Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2021-08-19T17:20:42.103Z",
+                "component-cached-in": "20 μs",
+                "component-resolved-in": "20 μs"
               },
               "components": {}
             }
@@ -8439,9 +8490,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-19T16:27:20.309Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2021-08-19T17:20:42.103Z",
+          "_cachedIn": "20 μs",
+          "_resolvedIn": "20 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8450,9 +8501,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-19T16:27:20.309Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2021-08-19T17:20:42.103Z",
+            "component-cached-in": "20 μs",
+            "component-resolved-in": "20 μs"
           },
           "components": {}
         }
