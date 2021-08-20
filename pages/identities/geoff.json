@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"geoff\",\"language\":\"en\",\"slug\":\"/identities/geoff\",\"url\":\"https://armada-alliance.com/identities/geoff\",\"origin\":\"/identities/geoff\",\"title\":\"Geoff\",\"description\":\"SPO\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"https://armada-alliance.com/assets/ship-420.png\",\"updatedAt\":\"2021-07-14T18:12:31.000Z\",\"filePath\":\"/en/identities/geoff.md\",\"telegram\":\"Sporke\",\"twitter\":\"MEME_Pool\",\"reddit\":\"MEME-Pool\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-20T07:16:48.801Z",
-  "_cachedIn": "2.7 ms",
-  "_resolvedIn": "2.7 ms",
+  "_cachedAt": "2021-08-20T07:34:44.681Z",
+  "_cachedIn": "2.75 ms",
+  "_resolvedIn": "2.75 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-08-20T07:16:48.801Z",
-    "component-cached-in": "2.7 ms",
-    "component-resolved-in": "2.7 ms"
+    "component-cached-at": "2021-08-20T07:34:44.681Z",
+    "component-cached-in": "2.75 ms",
+    "component-resolved-in": "2.75 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-20T07:16:48.801Z",
-      "_cachedIn": "1.99 ms",
-      "_resolvedIn": "1.99 ms",
+      "_cachedAt": "2021-08-20T07:34:44.681Z",
+      "_cachedIn": "2.2 ms",
+      "_resolvedIn": "2.2 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,17 +69,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-20T07:16:48.801Z",
-        "component-cached-in": "1.99 ms",
-        "component-resolved-in": "1.99 ms"
+        "component-cached-at": "2021-08-20T07:34:44.681Z",
+        "component-cached-in": "2.2 ms",
+        "component-resolved-in": "2.2 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-20T07:16:48.801Z",
-          "_cachedIn": "656 μs",
-          "_resolvedIn": "656 μs",
+          "_cachedAt": "2021-08-20T07:34:44.681Z",
+          "_cachedIn": "752 μs",
+          "_resolvedIn": "752 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -87,7 +87,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-20T07:16:32.073Z",
+              "createdAt": "2021-08-20T07:34:33.018Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -261,6 +261,33 @@
                 "template": "AAIPsPage",
                 "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/aaips.md"
+              },
+              {
+                "id": "blockchain-ai-course",
+                "language": "en",
+                "slug": "/blogs/blockchain-ai-course",
+                "url": "https://armada-alliance.com/blogs/blockchain-ai-course",
+                "origin": "/blogs/blockchain-ai-course",
+                "title": "A course on Cardano Blockchain and Machine learning",
+                "aliases": null,
+                "keywords": [
+                  "blockchain",
+                  "ai",
+                  "artificial intelligence",
+                  "data science",
+                  "cardano",
+                  "blockchain",
+                  "SingularityNet"
+                ],
+                "template": "BlogDetailPage",
+                "identities": [
+                  {
+                    "id": "pgwad",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-08-20T07:33:58.000Z",
+                "filePath": "/en/blogs/blockchain-ai-course.md"
               },
               {
                 "id": "blockchain-ai-with-nunet-singularitynet-and-cardano",
@@ -1824,7 +1851,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
+                "image": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
                 "updatedAt": "2021-08-03T18:54:14.000Z",
                 "filePath": "/en/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.md",
                 "rank": 0
@@ -2029,7 +2056,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.png",
+                "image": "https://stakefornature.com/ico.png",
                 "updatedAt": "2021-08-02T04:05:50.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md",
                 "rank": 13
@@ -2408,7 +2435,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.png",
+                "image": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/3a92d5fd2aa2d9a9ddfa2c8a33885f9f7cabefcb/OYSTR-O-1.png",
                 "updatedAt": "2021-08-04T12:37:13.000Z",
                 "filePath": "/en/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.md",
                 "rank": 13
@@ -8279,73 +8306,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.14
+                "rate": 2.12
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.5
+                "rate": 2.48
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005312
+                "rate": 0.00005282
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005312
+                "rate": 0.00005282
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.51
+                "rate": 3.49
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 16.25
+                "rate": 16.14
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 10.6
+                "rate": 10.52
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 274.27
+                "rate": 272.08
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 83.39
+                "rate": 82.77
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-20T07:16:48.801Z",
-            "component-cached-in": "656 μs",
-            "component-resolved-in": "656 μs"
+            "component-cached-at": "2021-08-20T07:34:44.681Z",
+            "component-cached-in": "752 μs",
+            "component-resolved-in": "752 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-20T07:16:48.801Z",
-          "_cachedIn": "823 μs",
-          "_resolvedIn": "823 μs",
+          "_cachedAt": "2021-08-20T07:34:44.681Z",
+          "_cachedIn": "913 μs",
+          "_resolvedIn": "913 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8356,17 +8383,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-20T07:16:48.801Z",
-            "component-cached-in": "823 μs",
-            "component-resolved-in": "823 μs"
+            "component-cached-at": "2021-08-20T07:34:44.681Z",
+            "component-cached-in": "913 μs",
+            "component-resolved-in": "913 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-20T07:16:48.801Z",
-              "_cachedIn": "148 μs",
-              "_resolvedIn": "148 μs",
+              "_cachedAt": "2021-08-20T07:34:44.681Z",
+              "_cachedIn": "146 μs",
+              "_resolvedIn": "146 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8426,9 +8453,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-20T07:16:48.801Z",
-                "component-cached-in": "148 μs",
-                "component-resolved-in": "148 μs"
+                "component-cached-at": "2021-08-20T07:34:44.681Z",
+                "component-cached-in": "146 μs",
+                "component-resolved-in": "146 μs"
               },
               "components": {}
             }
@@ -8437,9 +8464,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-20T07:16:48.801Z",
-          "_cachedIn": "345 μs",
-          "_resolvedIn": "345 μs",
+          "_cachedAt": "2021-08-20T07:34:44.681Z",
+          "_cachedIn": "409 μs",
+          "_resolvedIn": "409 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8448,9 +8475,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-20T07:16:48.801Z",
-            "component-cached-in": "345 μs",
-            "component-resolved-in": "345 μs"
+            "component-cached-at": "2021-08-20T07:34:44.681Z",
+            "component-cached-in": "409 μs",
+            "component-resolved-in": "409 μs"
           },
           "components": {}
         }
@@ -8459,9 +8486,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-20T07:16:48.801Z",
-      "_cachedIn": "1.63 ms",
-      "_resolvedIn": "1.63 ms",
+      "_cachedAt": "2021-08-20T07:34:44.681Z",
+      "_cachedIn": "1.85 ms",
+      "_resolvedIn": "1.85 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8476,18 +8503,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-20T07:16:48.801Z",
-        "component-cached-in": "1.63 ms",
-        "component-resolved-in": "1.63 ms"
+        "component-cached-at": "2021-08-20T07:34:44.681Z",
+        "component-cached-in": "1.85 ms",
+        "component-resolved-in": "1.85 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-20T07:16:48.801Z",
-      "_cachedIn": "1.23 ms",
-      "_resolvedIn": "1.23 ms",
+      "_cachedAt": "2021-08-20T07:34:44.680Z",
+      "_cachedIn": "1.35 ms",
+      "_resolvedIn": "1.35 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8499,18 +8526,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-20T07:16:48.801Z",
-        "component-cached-in": "1.23 ms",
-        "component-resolved-in": "1.23 ms"
+        "component-cached-at": "2021-08-20T07:34:44.680Z",
+        "component-cached-in": "1.35 ms",
+        "component-resolved-in": "1.35 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-20T07:16:48.801Z",
-      "_cachedIn": "1.63 ms",
-      "_resolvedIn": "1.63 ms",
+      "_cachedAt": "2021-08-20T07:34:44.681Z",
+      "_cachedIn": "1.85 ms",
+      "_resolvedIn": "1.85 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8531,18 +8558,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-20T07:16:48.801Z",
-        "component-cached-in": "1.63 ms",
-        "component-resolved-in": "1.63 ms"
+        "component-cached-at": "2021-08-20T07:34:44.681Z",
+        "component-cached-in": "1.85 ms",
+        "component-resolved-in": "1.85 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-20T07:16:48.801Z",
-      "_cachedIn": "1.23 ms",
-      "_resolvedIn": "1.23 ms",
+      "_cachedAt": "2021-08-20T07:34:44.680Z",
+      "_cachedIn": "1.35 ms",
+      "_resolvedIn": "1.35 ms",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -8573,18 +8600,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-08-20T07:16:48.801Z",
-        "component-cached-in": "1.23 ms",
-        "component-resolved-in": "1.23 ms"
+        "component-cached-at": "2021-08-20T07:34:44.680Z",
+        "component-cached-in": "1.35 ms",
+        "component-resolved-in": "1.35 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-20T07:16:48.801Z",
-      "_cachedIn": "1.23 ms",
-      "_resolvedIn": "1.23 ms",
+      "_cachedAt": "2021-08-20T07:34:44.680Z",
+      "_cachedIn": "1.36 ms",
+      "_resolvedIn": "1.36 ms",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -8618,9 +8645,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-08-20T07:16:48.801Z",
-        "component-cached-in": "1.23 ms",
-        "component-resolved-in": "1.23 ms"
+        "component-cached-at": "2021-08-20T07:34:44.680Z",
+        "component-cached-in": "1.36 ms",
+        "component-resolved-in": "1.36 ms"
       },
       "components": {}
     }
