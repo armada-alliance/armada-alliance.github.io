@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"proof-of-work\",\"language\":\"en\",\"slug\":\"/terms/proof-of-work\",\"url\":\"https://armada-alliance.com/terms/proof-of-work\",\"origin\":\"/terms/proof-of-work\",\"title\":\"Proof of work (PoW)\",\"description\":\"The original consensus algorithm in early blockchain networks, such as Bitcoin. This algorithm is used to confirm transactions and produce new blocks to the chain. With PoW, “miners” (those performing the computational work) compete against each other to complete transactions on the network and get rewarded.\",\"aliases\":[\"pow\",\"proof of work\",\"bitcoin\"],\"keywords\":[\"pow\",\"proof\",\"of\",\"work\",\"bitcoin\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-28T12:47:53.000Z\",\"filePath\":\"/en/terms/proof-of-work.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-19T23:17:28.514Z",
-  "_cachedIn": "445 μs",
-  "_resolvedIn": "445 μs",
+  "_cachedAt": "2021-08-20T00:33:14.970Z",
+  "_cachedIn": "187 μs",
+  "_resolvedIn": "187 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -47,17 +47,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-08-19T23:17:28.514Z",
-    "component-cached-in": "445 μs",
-    "component-resolved-in": "445 μs"
+    "component-cached-at": "2021-08-20T00:33:14.970Z",
+    "component-cached-in": "187 μs",
+    "component-resolved-in": "187 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-19T23:17:28.514Z",
-      "_cachedIn": "343 μs",
-      "_resolvedIn": "343 μs",
+      "_cachedAt": "2021-08-20T00:33:14.970Z",
+      "_cachedIn": "158 μs",
+      "_resolvedIn": "158 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,17 +66,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-19T23:17:28.514Z",
-        "component-cached-in": "343 μs",
-        "component-resolved-in": "343 μs"
+        "component-cached-at": "2021-08-20T00:33:14.970Z",
+        "component-cached-in": "158 μs",
+        "component-resolved-in": "158 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-19T23:17:28.514Z",
-          "_cachedIn": "227 μs",
-          "_resolvedIn": "227 μs",
+          "_cachedAt": "2021-08-20T00:33:14.970Z",
+          "_cachedIn": "107 μs",
+          "_resolvedIn": "107 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -84,7 +84,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-19T23:17:12.427Z",
+              "createdAt": "2021-08-20T00:32:56.920Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -326,19 +326,20 @@
                 "url": "https://armada-alliance.com/blogs/history-of-pow",
                 "origin": "/blogs/history-of-pow",
                 "title": "A Brief History of PoW",
-                "description": "From E-mail to Bitcoin",
+                "description": null,
                 "aliases": [
-                  "dapp",
-                  "dapps",
-                  "decentralized applications",
-                  "what is a dapp"
+                  "proof-of-work",
+                  "pow",
+                  "mining crypto",
+                  "mining btc",
+                  "mining bitcoin",
+                  "bitcoin"
                 ],
                 "keywords": [
-                  "dapps",
-                  "dapp",
-                  "decentalized",
-                  "applications",
-                  "what is a dapp"
+                  "bitcoin",
+                  "bitcoin network",
+                  "crypto",
+                  "proof-of-work"
                 ],
                 "template": "BlogDetailPage",
                 "identities": [
@@ -348,7 +349,7 @@
                   }
                 ],
                 "image": "/PoW.webp",
-                "updatedAt": "2021-08-19T21:43:02.000Z",
+                "updatedAt": "2021-08-20T00:32:14.000Z",
                 "filePath": "/en/blogs/history-of-pow.md"
               },
               {
@@ -8275,73 +8276,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.96
+                "rate": 1.99
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.29
+                "rate": 2.32
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00004913
+                "rate": 0.00004912
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00004913
+                "rate": 0.00004912
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.21
+                "rate": 3.24
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 14.88
+                "rate": 15.06
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 9.71
+                "rate": 9.83
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 251.43
+                "rate": 254.78
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 76.41
+                "rate": 77.34
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-19T23:17:28.514Z",
-            "component-cached-in": "227 μs",
-            "component-resolved-in": "227 μs"
+            "component-cached-at": "2021-08-20T00:33:14.970Z",
+            "component-cached-in": "107 μs",
+            "component-resolved-in": "107 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-19T23:17:28.514Z",
-          "_cachedIn": "276 μs",
-          "_resolvedIn": "276 μs",
+          "_cachedAt": "2021-08-20T00:33:14.970Z",
+          "_cachedIn": "128 μs",
+          "_resolvedIn": "128 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8352,17 +8353,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-19T23:17:28.514Z",
-            "component-cached-in": "276 μs",
-            "component-resolved-in": "276 μs"
+            "component-cached-at": "2021-08-20T00:33:14.970Z",
+            "component-cached-in": "128 μs",
+            "component-resolved-in": "128 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-19T23:17:28.514Z",
-              "_cachedIn": "50 μs",
-              "_resolvedIn": "50 μs",
+              "_cachedAt": "2021-08-20T00:33:14.970Z",
+              "_cachedIn": "31 μs",
+              "_resolvedIn": "31 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8422,9 +8423,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-19T23:17:28.514Z",
-                "component-cached-in": "50 μs",
-                "component-resolved-in": "50 μs"
+                "component-cached-at": "2021-08-20T00:33:14.970Z",
+                "component-cached-in": "31 μs",
+                "component-resolved-in": "31 μs"
               },
               "components": {}
             }
@@ -8433,9 +8434,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-19T23:17:28.514Z",
-          "_cachedIn": "149 μs",
-          "_resolvedIn": "149 μs",
+          "_cachedAt": "2021-08-20T00:33:14.970Z",
+          "_cachedIn": "73 μs",
+          "_resolvedIn": "73 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8444,9 +8445,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-19T23:17:28.514Z",
-            "component-cached-in": "149 μs",
-            "component-resolved-in": "149 μs"
+            "component-cached-at": "2021-08-20T00:33:14.970Z",
+            "component-cached-in": "73 μs",
+            "component-resolved-in": "73 μs"
           },
           "components": {}
         }
@@ -8455,9 +8456,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-19T23:17:28.514Z",
-      "_cachedIn": "245 μs",
-      "_resolvedIn": "245 μs",
+      "_cachedAt": "2021-08-20T00:33:14.970Z",
+      "_cachedIn": "113 μs",
+      "_resolvedIn": "113 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8489,18 +8490,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-19T23:17:28.514Z",
-        "component-cached-in": "245 μs",
-        "component-resolved-in": "245 μs"
+        "component-cached-at": "2021-08-20T00:33:14.970Z",
+        "component-cached-in": "113 μs",
+        "component-resolved-in": "113 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-19T23:17:28.513Z",
-      "_cachedIn": "126 μs",
-      "_resolvedIn": "126 μs",
+      "_cachedAt": "2021-08-20T00:33:14.970Z",
+      "_cachedIn": "58 μs",
+      "_resolvedIn": "58 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8512,18 +8513,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-19T23:17:28.513Z",
-        "component-cached-in": "126 μs",
-        "component-resolved-in": "126 μs"
+        "component-cached-at": "2021-08-20T00:33:14.970Z",
+        "component-cached-in": "58 μs",
+        "component-resolved-in": "58 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-19T23:17:28.514Z",
-      "_cachedIn": "245 μs",
-      "_resolvedIn": "245 μs",
+      "_cachedAt": "2021-08-20T00:33:14.970Z",
+      "_cachedIn": "114 μs",
+      "_resolvedIn": "114 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8542,9 +8543,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-19T23:17:28.514Z",
-        "component-cached-in": "245 μs",
-        "component-resolved-in": "245 μs"
+        "component-cached-at": "2021-08-20T00:33:14.970Z",
+        "component-cached-in": "114 μs",
+        "component-resolved-in": "114 μs"
       },
       "components": {}
     }
