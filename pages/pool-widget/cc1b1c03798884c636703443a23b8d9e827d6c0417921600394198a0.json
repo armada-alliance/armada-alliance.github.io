@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"ADASRN SRN\",\"slug\":\"/pool-widget/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"template\":\"PoolWidgetPage\",\"poolId\":\"cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-22T01:57:09.948Z",
-  "_cachedIn": "170 μs",
-  "_resolvedIn": "170 μs",
+  "_cachedAt": "2021-08-22T02:28:58.389Z",
+  "_cachedIn": "217 μs",
+  "_resolvedIn": "217 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0"
       },
       "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
-      "image": "https://static.adapools.org/pool_logo/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
+      "image": "https://sayshar.github.io/ADASRN_256x256.png",
       "hasImage": true,
       "ticker": "SRN",
       "addr": "pool1esd3cqme3zzvvdnsx3p6ywudn6p86mqyz7fpvqpegxv2qzmtes0",
@@ -32,7 +32,7 @@
       "totalStake": "3296029840769",
       "blocksLifetime": 52,
       "delegators": 22,
-      "saturated": 0.050292239885357005,
+      "saturated": 0.050292240384568074,
       "pledge": "8000000000",
       "pledged": "9795995926",
       "taxRatio": 0.01,
@@ -134,8 +134,52 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "ADASRN",
+        "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
+        "ticker": "SRN",
+        "homepage": "https://www.adasrn.com",
+        "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://sayshar.github.io/ADASRN_64x64.png",
+          "url_png_logo": "https://sayshar.github.io/ADASRN_256x256.png",
+          "location": "Rawang, Malaysia",
+          "social": {
+            "twitter_handle": "ADASRN1",
+            "telegram_handle": "joinchat/-wRavw7JOvo1MmFl",
+            "facebook_handle": "ADASRN1",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "9fXUEqaYCr",
+            "github_handle": "sayshar"
+          },
+          "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "We are Malaysians who want to participate in the Cardano network as we believe DeFi is the future. We are glad to be part of the 100 pools chosen for the second cohort of 2021 to receive the IOG delegation fund. This would help us attract more delegators as we can now prove the capability of our pool operations. We are donating some of our proceedings to charity once we have received enough delegation to become profitable. Follow our Twitter page to chat and/or keep up with us.",
+            "server": "We have 3 separate bare metal nodes which comprise of 2 Relay nodes and 1 Block producing node. As fans of the little Raspberry Pi, 2 of our bare metal nodes (1 relay and 1 block producer), are run from Raspberry Pi 4B 8GB units with binaries built from source for the aarch64 architecture. For redundancy, we have an additional AMD64 Linux PC which can take the place of either the block producer or relay when performing extended maintenance. Our OS of choice is Ubuntu 20.04 LTS (for the relays) and AlpineOS 3.13.5 (for the block producer).",
+            "company": ""
+          },
+          "rss": "http(s) url to valid RSS feed"
+        },
+        "telegram-admin-handle": [
+          ""
+        ],
+        "my-pool-ids": [
+          "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0"
+        ],
+        "when-satured-then-recommend": [
+          "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0"
+        ]
+      },
       "telegram": "joinchat/-wRavw7JOvo1MmFl",
       "twitter": "ADASRN1",
       "github": "sayshar",
@@ -147,17 +191,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-22T01:57:09.948Z",
-    "component-cached-in": "170 μs",
-    "component-resolved-in": "170 μs"
+    "component-cached-at": "2021-08-22T02:28:58.389Z",
+    "component-cached-in": "217 μs",
+    "component-resolved-in": "217 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-22T01:57:09.948Z",
-      "_cachedIn": "59 μs",
-      "_resolvedIn": "59 μs",
+      "_cachedAt": "2021-08-22T02:28:58.389Z",
+      "_cachedIn": "73 μs",
+      "_resolvedIn": "73 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -166,17 +210,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-22T01:57:09.948Z",
-        "component-cached-in": "59 μs",
-        "component-resolved-in": "59 μs"
+        "component-cached-at": "2021-08-22T02:28:58.389Z",
+        "component-cached-in": "73 μs",
+        "component-resolved-in": "73 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-22T01:57:09.948Z",
-          "_cachedIn": "32 μs",
-          "_resolvedIn": "32 μs",
+          "_cachedAt": "2021-08-22T02:28:58.389Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -184,7 +228,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-22T01:56:55.580Z",
+              "createdAt": "2021-08-22T02:28:45.983Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1948,7 +1992,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
+                "image": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
                 "updatedAt": "2021-08-03T18:54:14.000Z",
                 "filePath": "/en/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.md",
                 "rank": 0
@@ -2109,7 +2153,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.png",
+                "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md",
                 "rank": 38
@@ -2444,7 +2488,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+                "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
                 "updatedAt": "2021-07-31T17:40:59.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md",
                 "rank": 13
@@ -2510,7 +2554,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
+                "image": "https://sayshar.github.io/ADASRN_256x256.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.md",
                 "rank": 0
@@ -8403,73 +8447,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.14
+                "rate": 2.15
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.5
+                "rate": 2.52
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005105
+                "rate": 0.00005144
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005105
+                "rate": 0.00005144
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.51
+                "rate": 3.53
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 16.29
+                "rate": 16.37
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 10.62
+                "rate": 10.67
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 275.02
+                "rate": 276.45
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 83.51
+                "rate": 83.95
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-22T01:57:09.948Z",
-            "component-cached-in": "32 μs",
-            "component-resolved-in": "32 μs"
+            "component-cached-at": "2021-08-22T02:28:58.389Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-22T01:57:09.948Z",
-          "_cachedIn": "46 μs",
-          "_resolvedIn": "46 μs",
+          "_cachedAt": "2021-08-22T02:28:58.389Z",
+          "_cachedIn": "58 μs",
+          "_resolvedIn": "58 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8480,17 +8524,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-22T01:57:09.948Z",
-            "component-cached-in": "46 μs",
-            "component-resolved-in": "46 μs"
+            "component-cached-at": "2021-08-22T02:28:58.389Z",
+            "component-cached-in": "58 μs",
+            "component-resolved-in": "58 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-22T01:57:09.948Z",
-              "_cachedIn": "14 μs",
-              "_resolvedIn": "14 μs",
+              "_cachedAt": "2021-08-22T02:28:58.389Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8550,9 +8594,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-22T01:57:09.948Z",
-                "component-cached-in": "14 μs",
-                "component-resolved-in": "14 μs"
+                "component-cached-at": "2021-08-22T02:28:58.389Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -8561,9 +8605,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-22T01:57:09.948Z",
-          "_cachedIn": "14 μs",
-          "_resolvedIn": "14 μs",
+          "_cachedAt": "2021-08-22T02:28:58.389Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8572,9 +8616,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-22T01:57:09.948Z",
-            "component-cached-in": "14 μs",
-            "component-resolved-in": "14 μs"
+            "component-cached-at": "2021-08-22T02:28:58.389Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }

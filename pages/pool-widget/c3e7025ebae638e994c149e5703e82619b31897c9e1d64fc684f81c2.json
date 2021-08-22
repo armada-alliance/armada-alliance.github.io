@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Cardano ADA Mini Pool Switzerland MINI1\",\"slug\":\"/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2\",\"template\":\"PoolWidgetPage\",\"poolId\":\"c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-22T01:57:09.940Z",
-  "_cachedIn": "177 μs",
-  "_resolvedIn": "177 μs",
+  "_cachedAt": "2021-08-22T02:28:58.375Z",
+  "_cachedIn": "237 μs",
+  "_resolvedIn": "237 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2"
       },
       "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
-      "image": "https://static.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+      "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
       "hasImage": true,
       "ticker": "MINI1",
       "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
@@ -32,7 +32,7 @@
       "totalStake": "41400482883",
       "blocksLifetime": 1,
       "delegators": 6,
-      "saturated": 0.0006317063610187674,
+      "saturated": 0.0006317063672892141,
       "pledge": "10000000000",
       "pledged": "10048589953",
       "taxRatio": 0,
@@ -109,8 +109,49 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Cardano ADA Mini Pool Switzerland",
+        "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
+        "ticker": "MINI1",
+        "homepage": "https://www.adaministake.com",
+        "extended": "https://git.io/JGjRk"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/jterrier84/minipool/main/Mini1LogoSmall.png",
+          "url_png_logo": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
+          "location": "Weiningen | Zurich | Switzerland",
+          "social": {
+            "twitter_handle": "mini1pool",
+            "telegram_handle": "mini1pool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "jterrier84"
+          },
+          "company": {
+            "name": "Mini Stake Pool",
+            "addr": "",
+            "city": "Weiningen | Zurich | Switzerland",
+            "country": "CH",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "Dedicated Cardano pool operator located in Weiningen, Zurich. Always put sustainability first. Big supporter of the Cardano dream and vision.",
+            "server": "The entire pool is running on totally 3 Raspberry Pi's, 1 Core and 2 Relays. The entire power consumption including router is 30 Watt. The electricity comes from 100% hydropower-plants from Switzerland and abroad.",
+            "company": ""
+          },
+          "my-pool-ids": {
+            "0": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+            "1": ""
+          },
+          "telegram-admin-handle": {
+            "0": "mini1pool"
+          }
+        }
+      },
       "telegram": "mini1pool",
       "twitter": "mini1pool",
       "github": "jterrier84",
@@ -120,17 +161,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-22T01:57:09.940Z",
-    "component-cached-in": "177 μs",
-    "component-resolved-in": "177 μs"
+    "component-cached-at": "2021-08-22T02:28:58.375Z",
+    "component-cached-in": "237 μs",
+    "component-resolved-in": "237 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-22T01:57:09.940Z",
-      "_cachedIn": "62 μs",
-      "_resolvedIn": "62 μs",
+      "_cachedAt": "2021-08-22T02:28:58.375Z",
+      "_cachedIn": "76 μs",
+      "_resolvedIn": "76 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -139,17 +180,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-22T01:57:09.940Z",
-        "component-cached-in": "62 μs",
-        "component-resolved-in": "62 μs"
+        "component-cached-at": "2021-08-22T02:28:58.375Z",
+        "component-cached-in": "76 μs",
+        "component-resolved-in": "76 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-22T01:57:09.940Z",
-          "_cachedIn": "35 μs",
-          "_resolvedIn": "35 μs",
+          "_cachedAt": "2021-08-22T02:28:58.375Z",
+          "_cachedIn": "41 μs",
+          "_resolvedIn": "41 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -157,7 +198,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-22T01:56:55.580Z",
+              "createdAt": "2021-08-22T02:28:45.983Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1921,7 +1962,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
+                "image": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
                 "updatedAt": "2021-08-03T18:54:14.000Z",
                 "filePath": "/en/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.md",
                 "rank": 0
@@ -2082,7 +2123,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.png",
+                "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md",
                 "rank": 38
@@ -2417,7 +2458,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+                "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
                 "updatedAt": "2021-07-31T17:40:59.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md",
                 "rank": 13
@@ -2483,7 +2524,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
+                "image": "https://sayshar.github.io/ADASRN_256x256.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.md",
                 "rank": 0
@@ -8376,73 +8417,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.14
+                "rate": 2.15
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.5
+                "rate": 2.52
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005105
+                "rate": 0.00005144
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005105
+                "rate": 0.00005144
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.51
+                "rate": 3.53
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 16.29
+                "rate": 16.37
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 10.62
+                "rate": 10.67
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 275.02
+                "rate": 276.45
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 83.51
+                "rate": 83.95
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-22T01:57:09.940Z",
-            "component-cached-in": "35 μs",
-            "component-resolved-in": "35 μs"
+            "component-cached-at": "2021-08-22T02:28:58.375Z",
+            "component-cached-in": "41 μs",
+            "component-resolved-in": "41 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-22T01:57:09.940Z",
-          "_cachedIn": "50 μs",
-          "_resolvedIn": "50 μs",
+          "_cachedAt": "2021-08-22T02:28:58.375Z",
+          "_cachedIn": "59 μs",
+          "_resolvedIn": "59 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8453,17 +8494,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-22T01:57:09.940Z",
-            "component-cached-in": "50 μs",
-            "component-resolved-in": "50 μs"
+            "component-cached-at": "2021-08-22T02:28:58.375Z",
+            "component-cached-in": "59 μs",
+            "component-resolved-in": "59 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-22T01:57:09.940Z",
-              "_cachedIn": "14 μs",
-              "_resolvedIn": "14 μs",
+              "_cachedAt": "2021-08-22T02:28:58.375Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8523,9 +8564,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-22T01:57:09.940Z",
-                "component-cached-in": "14 μs",
-                "component-resolved-in": "14 μs"
+                "component-cached-at": "2021-08-22T02:28:58.375Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -8534,9 +8575,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-22T01:57:09.940Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2021-08-22T02:28:58.375Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8545,9 +8586,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-22T01:57:09.940Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2021-08-22T02:28:58.375Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }
