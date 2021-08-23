@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Oyster_Pool OYSTR\",\"slug\":\"/pool-widget/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"template\":\"PoolWidgetPage\",\"poolId\":\"febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-23T11:14:24.062Z",
-  "_cachedIn": "182 μs",
-  "_resolvedIn": "182 μs",
+  "_cachedAt": "2021-08-23T12:27:54.840Z",
+  "_cachedIn": "232 μs",
+  "_resolvedIn": "232 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d"
       },
       "description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
-      "image": "https://static.adapools.org/pool_logo/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.png",
+      "image": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/3a92d5fd2aa2d9a9ddfa2c8a33885f9f7cabefcb/OYSTR-O-1.png",
       "hasImage": true,
       "ticker": "OYSTR",
       "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
@@ -32,7 +32,7 @@
       "totalStake": "2518012949248",
       "blocksLifetime": 313,
       "delegators": 234,
-      "saturated": 0.038420962857118,
+      "saturated": 0.038420964176145225,
       "pledge": "555400000000",
       "pledged": "571909099596",
       "taxRatio": 0.03,
@@ -145,8 +145,74 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Oyster_Pool",
+        "ticker": "OYSTR",
+        "description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
+        "homepage": "https://twitter.com/OystrPool",
+        "nonce": "1620737313",
+        "extended": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/main/ext.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/3a92d5fd2aa2d9a9ddfa2c8a33885f9f7cabefcb/OYSTR-O-64x64.png",
+          "url_png_logo": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/3a92d5fd2aa2d9a9ddfa2c8a33885f9f7cabefcb/OYSTR-O-1.png",
+          "location": "Cardiff, Wales",
+          "social": {
+            "twitter_handle": "OystrPool",
+            "telegram_handle": "OYSTRPool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+          },
+          "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "Wales",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "Single Pool Operator",
+            "server": "",
+            "company": "..."
+          },
+          "rss": ""
+        },
+        "my-pool-ids": {
+          "0": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
+          "1": ""
+        },
+        "when-satured-then-recommend": {
+          "0": "",
+          "1": ""
+        },
+        "telegram-admin-handle": {
+          "0": ""
+        },
+        "adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "",
+              "type": "",
+              "key": ""
+            },
+            "1": {
+              "name": "",
+              "type": "",
+              "key": ""
+            },
+            "2": {
+              "name": "",
+              "type": "",
+              "key": ""
+            }
+          }
+        }
+      },
       "telegram": "OYSTRPool",
       "twitter": "OystrPool",
       "qualityScore": 87.5
@@ -155,17 +221,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-23T11:14:24.062Z",
-    "component-cached-in": "182 μs",
-    "component-resolved-in": "182 μs"
+    "component-cached-at": "2021-08-23T12:27:54.840Z",
+    "component-cached-in": "232 μs",
+    "component-resolved-in": "232 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-23T11:14:24.062Z",
-      "_cachedIn": "62 μs",
-      "_resolvedIn": "62 μs",
+      "_cachedAt": "2021-08-23T12:27:54.840Z",
+      "_cachedIn": "95 μs",
+      "_resolvedIn": "95 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -174,17 +240,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-23T11:14:24.062Z",
-        "component-cached-in": "62 μs",
-        "component-resolved-in": "62 μs"
+        "component-cached-at": "2021-08-23T12:27:54.840Z",
+        "component-cached-in": "95 μs",
+        "component-resolved-in": "95 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-23T11:14:24.062Z",
-          "_cachedIn": "34 μs",
-          "_resolvedIn": "34 μs",
+          "_cachedAt": "2021-08-23T12:27:54.840Z",
+          "_cachedIn": "47 μs",
+          "_resolvedIn": "47 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -192,7 +258,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-23T11:14:10.431Z",
+              "createdAt": "2021-08-23T12:27:39.046Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2540,7 +2606,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.png",
+                "image": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/3a92d5fd2aa2d9a9ddfa2c8a33885f9f7cabefcb/OYSTR-O-1.png",
                 "updatedAt": "2021-08-04T12:37:13.000Z",
                 "filePath": "/en/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.md",
                 "rank": 13
@@ -8411,7 +8477,7 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.4
+                "rate": 2.39
               },
               {
                 "id": "USD",
@@ -8423,61 +8489,61 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005615
+                "rate": 0.0000559
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005615
+                "rate": 0.0000559
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.92
+                "rate": 3.91
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 18.25
+                "rate": 18.2
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 11.89
+                "rate": 11.86
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 309.86
+                "rate": 308.88
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 93.87
+                "rate": 93.62
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-23T11:14:24.062Z",
-            "component-cached-in": "34 μs",
-            "component-resolved-in": "34 μs"
+            "component-cached-at": "2021-08-23T12:27:54.840Z",
+            "component-cached-in": "47 μs",
+            "component-resolved-in": "47 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-23T11:14:24.062Z",
-          "_cachedIn": "48 μs",
-          "_resolvedIn": "48 μs",
+          "_cachedAt": "2021-08-23T12:27:54.840Z",
+          "_cachedIn": "69 μs",
+          "_resolvedIn": "69 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8488,17 +8554,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-23T11:14:24.062Z",
-            "component-cached-in": "48 μs",
-            "component-resolved-in": "48 μs"
+            "component-cached-at": "2021-08-23T12:27:54.840Z",
+            "component-cached-in": "69 μs",
+            "component-resolved-in": "69 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-23T11:14:24.062Z",
-              "_cachedIn": "13 μs",
-              "_resolvedIn": "13 μs",
+              "_cachedAt": "2021-08-23T12:27:54.840Z",
+              "_cachedIn": "20 μs",
+              "_resolvedIn": "20 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8558,9 +8624,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-23T11:14:24.062Z",
-                "component-cached-in": "13 μs",
-                "component-resolved-in": "13 μs"
+                "component-cached-at": "2021-08-23T12:27:54.840Z",
+                "component-cached-in": "20 μs",
+                "component-resolved-in": "20 μs"
               },
               "components": {}
             }
@@ -8569,9 +8635,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-23T11:14:24.062Z",
-          "_cachedIn": "13 μs",
-          "_resolvedIn": "13 μs",
+          "_cachedAt": "2021-08-23T12:27:54.840Z",
+          "_cachedIn": "18 μs",
+          "_resolvedIn": "18 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8580,9 +8646,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-23T11:14:24.062Z",
-            "component-cached-in": "13 μs",
-            "component-resolved-in": "13 μs"
+            "component-cached-at": "2021-08-23T12:27:54.840Z",
+            "component-cached-in": "18 μs",
+            "component-resolved-in": "18 μs"
           },
           "components": {}
         }
