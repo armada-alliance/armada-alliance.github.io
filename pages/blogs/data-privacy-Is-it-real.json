@@ -1,9 +1,9 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"data-privacy-Is-it-real\",\"language\":\"en\",\"slug\":\"/blogs/data-privacy-Is-it-real\",\"url\":\"https://armada-alliance.com/blogs/data-privacy-Is-it-real\",\"origin\":\"/blogs/data-privacy-Is-it-real\",\"title\":\"Data Privacy\",\"description\":\"Emperor Wears no clothes!\",\"aliases\":null,\"keywords\":[\"data privacy\",\"amazon\",\"google\",\"facebook\",\"blockchain\",\"ai\",\"artificial intelligence\",\"data science\",\"cardano\",\"blockchain\"],\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"pgwad\",\"role\":\"author\"}],\"icon\":\"🔒\",\"updatedAt\":\"2021-08-12T03:33:19.000Z\",\"filePath\":\"/en/blogs/data-privacy-Is-it-real.md\",\"body\":\"##\\n![AI and Privacy](https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true)\\n\\n##\\n\\n## ***Privacy, AI and Data***\\nIn the [previous blog](/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano), we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately.  Then there is a central server that will aggregate the model before sending it for another iteration.\\n\\nThe general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \\\"no end-to-end encryption\\\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.\\n\\n## ***AI Privacy Techniques***\\nWell, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this [privacy overview document](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) from [Apple](https://apple.com). \\n\\nBut before you jump to any conclusions take a look at this research article, ***[Deep models under the gan: information leakage from collaborative deep learning](https://doi.org/10.1145/3133956.3134012)***, by B. Hitaj, G. Ateniese, and F. P ́erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks.  In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\\n\\nAnother technique proposed is using homomorphic encryption. From [Wikipedia](https://en.wikipedia.org/wiki/Homomorphic_encryption), \\\"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\\\".\\n\\nAmazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\\n\\n## ***DeepchainAda & Privacy***\\nIn deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\\n\\nOne last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\\n\\nYou can watch my video here\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=1N7_sXG622g\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,u=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var h=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&h(e,a,t[a]);if(r)for(var a of r(t))s.call(t,a)&&h(e,a,t[a]);return e},p=(e,t)=>u(e,l(t));var d=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",i({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=d(o,[\\\"components\\\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null),mdx(\\\"p\\\",null,mdx(\\\"img\\\",i({parentName:\\\"p\\\"},{src:\\\"https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true\\\",alt:\\\"AI and Privacy\\\"}))),mdx(\\\"h2\\\",null),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Privacy, AI and Data\\\"))),mdx(\\\"p\\\",null,\\\"In the \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano\\\"}),\\\"previous blog\\\"),\\\", we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately.  Then there is a central server that will aggregate the model before sending it for another iteration.\\\"),mdx(\\\"p\\\",null,'The general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \\\"no end-to-end encryption\\\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.'),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"AI Privacy Techniques\\\"))),mdx(\\\"p\\\",null,\\\"Well, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf\\\"}),\\\"privacy overview document\\\"),\\\" from \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://apple.com\\\"}),\\\"Apple\\\"),\\\". \\\"),mdx(\\\"p\\\",null,\\\"But before you jump to any conclusions take a look at this research article, \\\",mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},mdx(\\\"a\\\",i({parentName:\\\"em\\\"},{href:\\\"https://doi.org/10.1145/3133956.3134012\\\"}),\\\"Deep models under the gan: information leakage from collaborative deep learning\\\"))),\\\", by B. Hitaj, G. Ateniese, and F. P \\\\u0301erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks.  In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\\\"),mdx(\\\"p\\\",null,\\\"Another technique proposed is using homomorphic encryption. From \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://en.wikipedia.org/wiki/Homomorphic_encryption\\\"}),\\\"Wikipedia\\\"),', \\\"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\\\".'),mdx(\\\"p\\\",null,\\\"Amazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\\\"),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"DeepchainAda & Privacy\\\"))),mdx(\\\"p\\\",null,\\\"In deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\\\"),mdx(\\\"p\\\",null,\\\"One last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\\\"),mdx(\\\"p\\\",null,\\\"You can watch my video here\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=1N7_sXG622g\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
+  "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"data-privacy-Is-it-real\",\"language\":\"en\",\"slug\":\"/blogs/data-privacy-Is-it-real\",\"url\":\"https://armada-alliance.com/blogs/data-privacy-Is-it-real\",\"origin\":\"/blogs/data-privacy-Is-it-real\",\"title\":\"Data Privacy\",\"description\":\"Emperor Wears no clothes!\",\"aliases\":null,\"keywords\":[\"data privacy\",\"amazon\",\"google\",\"facebook\",\"blockchain\",\"ai\",\"artificial intelligence\",\"data science\",\"cardano\",\"blockchain\"],\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"pgwad\",\"role\":\"author\"}],\"icon\":\"🔐\",\"updatedAt\":\"2021-08-26T05:35:07.000Z\",\"filePath\":\"/en/blogs/data-privacy-Is-it-real.md\",\"body\":\"##\\n\\n![AI and Privacy](https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true)\\n\\n##\\n\\n## **_Privacy, AI and Data_**\\n\\nIn the [previous blog](/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano), we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately. Then there is a central server that will aggregate the model before sending it for another iteration.\\n\\nThe general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \\\"no end-to-end encryption\\\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.\\n\\n## **_AI Privacy Techniques_**\\n\\nWell, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this [privacy overview document](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) from [Apple](https://apple.com).\\n\\nBut before you jump to any conclusions take a look at this research article, **_[Deep models under the gan: information leakage from collaborative deep learning](https://doi.org/10.1145/3133956.3134012)_**, by B. Hitaj, G. Ateniese, and F. P ́erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks. In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\\n\\nAnother technique proposed is using homomorphic encryption. From [Wikipedia](https://en.wikipedia.org/wiki/Homomorphic_encryption), \\\"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\\\".\\n\\nAmazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\\n\\n## **_DeepchainAda & Privacy_**\\n\\nIn deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\\n\\nOne last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\\n\\nYou can watch my video here\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=1N7_sXG622g\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,u=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var h=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&h(e,a,t[a]);if(r)for(var a of r(t))s.call(t,a)&&h(e,a,t[a]);return e},p=(e,t)=>u(e,l(t));var d=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",i({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=d(o,[\\\"components\\\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null),mdx(\\\"p\\\",null,mdx(\\\"img\\\",i({parentName:\\\"p\\\"},{src:\\\"https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true\\\",alt:\\\"AI and Privacy\\\"}))),mdx(\\\"h2\\\",null),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Privacy, AI and Data\\\"))),mdx(\\\"p\\\",null,\\\"In the \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano\\\"}),\\\"previous blog\\\"),\\\", we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately. Then there is a central server that will aggregate the model before sending it for another iteration.\\\"),mdx(\\\"p\\\",null,'The general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \\\"no end-to-end encryption\\\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.'),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"AI Privacy Techniques\\\"))),mdx(\\\"p\\\",null,\\\"Well, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf\\\"}),\\\"privacy overview document\\\"),\\\" from \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://apple.com\\\"}),\\\"Apple\\\"),\\\".\\\"),mdx(\\\"p\\\",null,\\\"But before you jump to any conclusions take a look at this research article, \\\",mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},mdx(\\\"a\\\",i({parentName:\\\"em\\\"},{href:\\\"https://doi.org/10.1145/3133956.3134012\\\"}),\\\"Deep models under the gan: information leakage from collaborative deep learning\\\"))),\\\", by B. Hitaj, G. Ateniese, and F. P \\\\u0301erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks. In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\\\"),mdx(\\\"p\\\",null,\\\"Another technique proposed is using homomorphic encryption. From \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://en.wikipedia.org/wiki/Homomorphic_encryption\\\"}),\\\"Wikipedia\\\"),', \\\"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\\\".'),mdx(\\\"p\\\",null,\\\"Amazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\\\"),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"DeepchainAda & Privacy\\\"))),mdx(\\\"p\\\",null,\\\"In deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\\\"),mdx(\\\"p\\\",null,\\\"One last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\\\"),mdx(\\\"p\\\",null,\\\"You can watch my video here\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=1N7_sXG622g\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-25T21:13:43.537Z",
-  "_cachedIn": "205 ms",
-  "_resolvedIn": "205 ms",
+  "_cachedAt": "2021-08-26T06:35:57.605Z",
+  "_cachedIn": "5.62 ms",
+  "_resolvedIn": "5.62 ms",
   "id": "BlogDetailPage",
   "type": "BlogDetailPage",
   "status": "resolved",
@@ -36,12 +36,12 @@
         "role": "author"
       }
     ],
-    "icon": "🔒",
-    "updatedAt": "2021-08-12T03:33:19.000Z",
+    "icon": "🔐",
+    "updatedAt": "2021-08-26T05:35:07.000Z",
     "filePath": "/en/blogs/data-privacy-Is-it-real.md",
-    "body": "##\n![AI and Privacy](https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true)\n\n##\n\n## ***Privacy, AI and Data***\nIn the [previous blog](/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano), we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately.  Then there is a central server that will aggregate the model before sending it for another iteration.\n\nThe general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \"no end-to-end encryption\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.\n\n## ***AI Privacy Techniques***\nWell, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this [privacy overview document](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) from [Apple](https://apple.com). \n\nBut before you jump to any conclusions take a look at this research article, ***[Deep models under the gan: information leakage from collaborative deep learning](https://doi.org/10.1145/3133956.3134012)***, by B. Hitaj, G. Ateniese, and F. P ́erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks.  In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\n\nAnother technique proposed is using homomorphic encryption. From [Wikipedia](https://en.wikipedia.org/wiki/Homomorphic_encryption), \"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\".\n\nAmazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\n\n## ***DeepchainAda & Privacy***\nIn deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\n\nOne last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\n\nYou can watch my video here\n\n<YoutubeVideo url=\"https://www.youtube.com/watch?v=1N7_sXG622g\" />\n",
+    "body": "##\n\n![AI and Privacy](https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true)\n\n##\n\n## **_Privacy, AI and Data_**\n\nIn the [previous blog](/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano), we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately. Then there is a central server that will aggregate the model before sending it for another iteration.\n\nThe general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \"no end-to-end encryption\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.\n\n## **_AI Privacy Techniques_**\n\nWell, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this [privacy overview document](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf) from [Apple](https://apple.com).\n\nBut before you jump to any conclusions take a look at this research article, **_[Deep models under the gan: information leakage from collaborative deep learning](https://doi.org/10.1145/3133956.3134012)_**, by B. Hitaj, G. Ateniese, and F. P ́erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks. In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\n\nAnother technique proposed is using homomorphic encryption. From [Wikipedia](https://en.wikipedia.org/wiki/Homomorphic_encryption), \"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\".\n\nAmazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\n\n## **_DeepchainAda & Privacy_**\n\nIn deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\n\nOne last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\n\nYou can watch my video here\n\n<YoutubeVideo url=\"https://www.youtube.com/watch?v=1N7_sXG622g\" />\n",
     "mdxSource": {
-      "compiledSource": "var c=Object.defineProperty,u=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var h=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&h(e,a,t[a]);if(r)for(var a of r(t))s.call(t,a)&&h(e,a,t[a]);return e},p=(e,t)=>u(e,l(t));var d=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\"Component \"+e+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",i({},a))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=d(o,[\"components\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"h2\",null),mdx(\"p\",null,mdx(\"img\",i({parentName:\"p\"},{src:\"https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true\",alt:\"AI and Privacy\"}))),mdx(\"h2\",null),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"Privacy, AI and Data\"))),mdx(\"p\",null,\"In the \",mdx(\"a\",i({parentName:\"p\"},{href:\"/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano\"}),\"previous blog\"),\", we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately.  Then there is a central server that will aggregate the model before sending it for another iteration.\"),mdx(\"p\",null,'The general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \"no end-to-end encryption\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.'),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"AI Privacy Techniques\"))),mdx(\"p\",null,\"Well, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf\"}),\"privacy overview document\"),\" from \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://apple.com\"}),\"Apple\"),\". \"),mdx(\"p\",null,\"But before you jump to any conclusions take a look at this research article, \",mdx(\"strong\",{parentName:\"p\"},mdx(\"em\",{parentName:\"strong\"},mdx(\"a\",i({parentName:\"em\"},{href:\"https://doi.org/10.1145/3133956.3134012\"}),\"Deep models under the gan: information leakage from collaborative deep learning\"))),\", by B. Hitaj, G. Ateniese, and F. P \\u0301erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks.  In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\"),mdx(\"p\",null,\"Another technique proposed is using homomorphic encryption. From \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://en.wikipedia.org/wiki/Homomorphic_encryption\"}),\"Wikipedia\"),', \"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\".'),mdx(\"p\",null,\"Amazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\"),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"DeepchainAda & Privacy\"))),mdx(\"p\",null,\"In deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\"),mdx(\"p\",null,\"One last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\"),mdx(\"p\",null,\"You can watch my video here\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=1N7_sXG622g\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
+      "compiledSource": "var c=Object.defineProperty,u=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var h=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&h(e,a,t[a]);if(r)for(var a of r(t))s.call(t,a)&&h(e,a,t[a]);return e},p=(e,t)=>u(e,l(t));var d=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\"Component \"+e+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",i({},a))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=d(o,[\"components\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"h2\",null),mdx(\"p\",null,mdx(\"img\",i({parentName:\"p\"},{src:\"https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true\",alt:\"AI and Privacy\"}))),mdx(\"h2\",null),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"Privacy, AI and Data\"))),mdx(\"p\",null,\"In the \",mdx(\"a\",i({parentName:\"p\"},{href:\"/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano\"}),\"previous blog\"),\", we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately. Then there is a central server that will aggregate the model before sending it for another iteration.\"),mdx(\"p\",null,'The general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \"no end-to-end encryption\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.'),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"AI Privacy Techniques\"))),mdx(\"p\",null,\"Well, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf\"}),\"privacy overview document\"),\" from \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://apple.com\"}),\"Apple\"),\".\"),mdx(\"p\",null,\"But before you jump to any conclusions take a look at this research article, \",mdx(\"strong\",{parentName:\"p\"},mdx(\"em\",{parentName:\"strong\"},mdx(\"a\",i({parentName:\"em\"},{href:\"https://doi.org/10.1145/3133956.3134012\"}),\"Deep models under the gan: information leakage from collaborative deep learning\"))),\", by B. Hitaj, G. Ateniese, and F. P \\u0301erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks. In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\"),mdx(\"p\",null,\"Another technique proposed is using homomorphic encryption. From \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://en.wikipedia.org/wiki/Homomorphic_encryption\"}),\"Wikipedia\"),', \"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\".'),mdx(\"p\",null,\"Amazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\"),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"DeepchainAda & Privacy\"))),mdx(\"p\",null,\"In deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\"),mdx(\"p\",null,\"One last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\"),mdx(\"p\",null,\"You can watch my video here\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=1N7_sXG622g\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
       "scope": {}
     },
     "source": "/pages/blogs/data-privacy-Is-it-real.json"
@@ -49,17 +49,17 @@
   "attrs": {
     "component-type": "BlogDetailPage",
     "component-id": "BlogDetailPage",
-    "component-cached-at": "2021-08-25T21:13:43.537Z",
-    "component-cached-in": "205 ms",
-    "component-resolved-in": "205 ms"
+    "component-cached-at": "2021-08-26T06:35:57.605Z",
+    "component-cached-in": "5.62 ms",
+    "component-resolved-in": "5.62 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-25T21:13:43.537Z",
-      "_cachedIn": "187 ms",
-      "_resolvedIn": "187 ms",
+      "_cachedAt": "2021-08-26T06:35:57.605Z",
+      "_cachedIn": "2.87 ms",
+      "_resolvedIn": "2.87 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -68,17 +68,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-25T21:13:43.537Z",
-        "component-cached-in": "187 ms",
-        "component-resolved-in": "187 ms"
+        "component-cached-at": "2021-08-26T06:35:57.605Z",
+        "component-cached-in": "2.87 ms",
+        "component-resolved-in": "2.87 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-25T21:13:43.536Z",
-          "_cachedIn": "1.11 ms",
-          "_resolvedIn": "1.11 ms",
+          "_cachedAt": "2021-08-26T06:35:57.604Z",
+          "_cachedIn": "1.15 ms",
+          "_resolvedIn": "1.15 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -86,7 +86,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-25T21:13:29.859Z",
+              "createdAt": "2021-08-26T06:35:41.825Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -285,7 +285,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-08-20T20:27:53.000Z",
+                "updatedAt": "2021-08-26T06:35:04.000Z",
                 "filePath": "/en/blogs/blockchain-ai-course.md"
               },
               {
@@ -312,8 +312,8 @@
                     "role": "author"
                   }
                 ],
-                "icon": "💰",
-                "updatedAt": "2021-08-08T07:28:42.000Z",
+                "icon": "🤖",
+                "updatedAt": "2021-08-25T20:57:19.000Z",
                 "filePath": "/en/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano.md"
               },
               {
@@ -344,8 +344,8 @@
                     "role": "author"
                   }
                 ],
-                "icon": "🔒",
-                "updatedAt": "2021-08-12T03:33:19.000Z",
+                "icon": "🔐",
+                "updatedAt": "2021-08-26T05:35:07.000Z",
                 "filePath": "/en/blogs/data-privacy-Is-it-real.md"
               },
               {
@@ -380,6 +380,25 @@
                 "image": "/PoW.webp",
                 "updatedAt": "2021-08-20T00:32:14.000Z",
                 "filePath": "/en/blogs/history-of-pow.md"
+              },
+              {
+                "id": "marlowe",
+                "language": "en",
+                "slug": "/blogs/marlowe",
+                "url": "https://armada-alliance.com/blogs/marlowe",
+                "origin": "/blogs/marlowe",
+                "title": "Marlowe: The Future of Decentralized Finance",
+                "aliases": null,
+                "keywords": null,
+                "template": "BlogDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-08-26T05:35:07.000Z",
+                "filePath": "/en/blogs/marlowe.md"
               },
               {
                 "id": "register-your-stake-pool",
@@ -504,8 +523,7 @@
                     "role": "author"
                   }
                 ],
-                "icon": "🔒",
-                "updatedAt": "2021-08-12T07:00:20.000Z",
+                "updatedAt": "2021-08-25T23:42:29.000Z",
                 "filePath": "/en/blogs/what-is-pgwad-and-what-is-the-deepchainada-project.md"
               },
               {
@@ -787,7 +805,7 @@
                 "slug": "/guides/run-a-cardano-node-on-alpine-linux-os",
                 "url": "https://armada-alliance.com/guides/run-a-cardano-node-on-alpine-linux-os",
                 "origin": "/guides/run-a-cardano-node-on-alpine-linux-os",
-                "title": "Run a Cardano Node on Alpine Linux OS",
+                "title": "Run a Alpine Linux OS RPi Cardano Node",
                 "description": "Set up and run a Cardano Node on a very lightweight Linux distribution.",
                 "aliases": null,
                 "keywords": [
@@ -803,7 +821,7 @@
                   }
                 ],
                 "icon": "🗻",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-08-26T05:35:07.000Z",
                 "filePath": "/en/guides/run-a-cardano-node-on-alpine-linux-os.md"
               },
               {
@@ -812,8 +830,8 @@
                 "slug": "/guides/run-a-cardano-node-using-a-prebuilt-image",
                 "url": "https://armada-alliance.com/guides/run-a-cardano-node-using-a-prebuilt-image",
                 "origin": "/guides/run-a-cardano-node-using-a-prebuilt-image",
-                "title": "Run a Cardano Node using a prebuilt image",
-                "description": "Download a preconfigured image with everything installed to run a Cardano Node on a Raspberry Pi out of the box.",
+                "title": "Raspberry Pi Stake Pool",
+                "description": "Download a pre-configured image with everything installed to run a Cardano Node on a Raspberry Pi out of the box.",
                 "aliases": null,
                 "keywords": [
                   "Stake Pool Operation",
@@ -827,8 +845,8 @@
                     "role": "author"
                   }
                 ],
-                "icon": "🍓",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "icon": "🥧",
+                "updatedAt": "2021-08-26T05:35:07.000Z",
                 "filePath": "/en/guides/run-a-cardano-node-using-a-prebuilt-image.md"
               },
               {
@@ -864,7 +882,7 @@
                   }
                 ],
                 "icon": "🍓",
-                "updatedAt": "2021-08-25T20:13:46.000Z",
+                "updatedAt": "2021-08-26T05:35:07.000Z",
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
@@ -2303,7 +2321,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-08-21T23:01:47.000Z",
+                "updatedAt": "2021-08-26T05:35:07.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md",
                 "rank": 0
               },
@@ -8305,73 +8323,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.32
+                "rate": 2.23
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.73
+                "rate": 2.62
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005601
+                "rate": 0.00005565
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005601
+                "rate": 0.00005565
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.76
+                "rate": 3.61
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 17.7
+                "rate": 17.01
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 11.49
+                "rate": 10.99
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 300.59
+                "rate": 288.59
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 89.7
+                "rate": 85.91
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-25T21:13:43.536Z",
-            "component-cached-in": "1.11 ms",
-            "component-resolved-in": "1.11 ms"
+            "component-cached-at": "2021-08-26T06:35:57.604Z",
+            "component-cached-in": "1.15 ms",
+            "component-resolved-in": "1.15 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-25T21:13:43.537Z",
-          "_cachedIn": "1.59 ms",
-          "_resolvedIn": "1.59 ms",
+          "_cachedAt": "2021-08-26T06:35:57.605Z",
+          "_cachedIn": "1.49 ms",
+          "_resolvedIn": "1.49 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8382,17 +8400,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-25T21:13:43.537Z",
-            "component-cached-in": "1.59 ms",
-            "component-resolved-in": "1.59 ms"
+            "component-cached-at": "2021-08-26T06:35:57.605Z",
+            "component-cached-in": "1.49 ms",
+            "component-resolved-in": "1.49 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-25T21:13:43.537Z",
-              "_cachedIn": "373 μs",
-              "_resolvedIn": "373 μs",
+              "_cachedAt": "2021-08-26T06:35:57.604Z",
+              "_cachedIn": "261 μs",
+              "_resolvedIn": "261 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8452,9 +8470,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-25T21:13:43.537Z",
-                "component-cached-in": "373 μs",
-                "component-resolved-in": "373 μs"
+                "component-cached-at": "2021-08-26T06:35:57.604Z",
+                "component-cached-in": "261 μs",
+                "component-resolved-in": "261 μs"
               },
               "components": {}
             }
@@ -8463,9 +8481,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-25T21:13:43.536Z",
-          "_cachedIn": "524 μs",
-          "_resolvedIn": "524 μs",
+          "_cachedAt": "2021-08-26T06:35:57.604Z",
+          "_cachedIn": "470 μs",
+          "_resolvedIn": "470 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8474,9 +8492,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-25T21:13:43.536Z",
-            "component-cached-in": "524 μs",
-            "component-resolved-in": "524 μs"
+            "component-cached-at": "2021-08-26T06:35:57.604Z",
+            "component-cached-in": "470 μs",
+            "component-resolved-in": "470 μs"
           },
           "components": {}
         }
@@ -8485,9 +8503,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-25T21:13:43.536Z",
-      "_cachedIn": "186 ms",
-      "_resolvedIn": "186 ms",
+      "_cachedAt": "2021-08-26T06:35:57.604Z",
+      "_cachedIn": "2.08 ms",
+      "_resolvedIn": "2.08 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8517,18 +8535,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-25T21:13:43.536Z",
-        "component-cached-in": "186 ms",
-        "component-resolved-in": "186 ms"
+        "component-cached-at": "2021-08-26T06:35:57.604Z",
+        "component-cached-in": "2.08 ms",
+        "component-resolved-in": "2.08 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-25T21:13:43.535Z",
-      "_cachedIn": "185 ms",
-      "_resolvedIn": "185 ms",
+      "_cachedAt": "2021-08-26T06:35:57.603Z",
+      "_cachedIn": "1.32 ms",
+      "_resolvedIn": "1.32 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8540,29 +8558,29 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-25T21:13:43.535Z",
-        "component-cached-in": "185 ms",
-        "component-resolved-in": "185 ms"
+        "component-cached-at": "2021-08-26T06:35:57.603Z",
+        "component-cached-in": "1.32 ms",
+        "component-resolved-in": "1.32 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-25T21:13:43.536Z",
-      "_cachedIn": "186 ms",
-      "_resolvedIn": "186 ms",
+      "_cachedAt": "2021-08-26T06:35:57.604Z",
+      "_cachedIn": "2.07 ms",
+      "_resolvedIn": "2.07 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
       "error": null,
       "props": {
         "mdxSource": {
-          "compiledSource": "var c=Object.defineProperty,u=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var h=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&h(e,a,t[a]);if(r)for(var a of r(t))s.call(t,a)&&h(e,a,t[a]);return e},p=(e,t)=>u(e,l(t));var d=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\"Component \"+e+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",i({},a))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=d(o,[\"components\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"h2\",null),mdx(\"p\",null,mdx(\"img\",i({parentName:\"p\"},{src:\"https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true\",alt:\"AI and Privacy\"}))),mdx(\"h2\",null),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"Privacy, AI and Data\"))),mdx(\"p\",null,\"In the \",mdx(\"a\",i({parentName:\"p\"},{href:\"/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano\"}),\"previous blog\"),\", we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately.  Then there is a central server that will aggregate the model before sending it for another iteration.\"),mdx(\"p\",null,'The general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \"no end-to-end encryption\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.'),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"AI Privacy Techniques\"))),mdx(\"p\",null,\"Well, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf\"}),\"privacy overview document\"),\" from \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://apple.com\"}),\"Apple\"),\". \"),mdx(\"p\",null,\"But before you jump to any conclusions take a look at this research article, \",mdx(\"strong\",{parentName:\"p\"},mdx(\"em\",{parentName:\"strong\"},mdx(\"a\",i({parentName:\"em\"},{href:\"https://doi.org/10.1145/3133956.3134012\"}),\"Deep models under the gan: information leakage from collaborative deep learning\"))),\", by B. Hitaj, G. Ateniese, and F. P \\u0301erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks.  In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\"),mdx(\"p\",null,\"Another technique proposed is using homomorphic encryption. From \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://en.wikipedia.org/wiki/Homomorphic_encryption\"}),\"Wikipedia\"),', \"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\".'),mdx(\"p\",null,\"Amazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\"),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"DeepchainAda & Privacy\"))),mdx(\"p\",null,\"In deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\"),mdx(\"p\",null,\"One last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\"),mdx(\"p\",null,\"You can watch my video here\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=1N7_sXG622g\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
+          "compiledSource": "var c=Object.defineProperty,u=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var h=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&h(e,a,t[a]);if(r)for(var a of r(t))s.call(t,a)&&h(e,a,t[a]);return e},p=(e,t)=>u(e,l(t));var d=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\"Component \"+e+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",i({},a))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=d(o,[\"components\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"h2\",null),mdx(\"p\",null,mdx(\"img\",i({parentName:\"p\"},{src:\"https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true\",alt:\"AI and Privacy\"}))),mdx(\"h2\",null),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"Privacy, AI and Data\"))),mdx(\"p\",null,\"In the \",mdx(\"a\",i({parentName:\"p\"},{href:\"/blogs/blockchain-ai-with-nunet-singularitynet-and-cardano\"}),\"previous blog\"),\", we talked about DeepchainADA. The main idea behind DeepchainADA is to achieve trained AI models using distributed learning. If you recall, one of the distributed learning frameworks is Federated Learning. In this framework, data is distributed and the model gets trained separately. Then there is a central server that will aggregate the model before sending it for another iteration.\"),mdx(\"p\",null,'The general assumption is if the data is in the device, then it must be all secure. Right? The AI model is not sending data to the server, so all good? Well, the answer is no. There are two papers in this area that show gradient leaks can be used to infer data. So the next time you use a big tech app where it says \"no end-to-end encryption\" then hurray you leaked your data. Users then keep wondering what happened, why, and how did their private information get exposed. If you are a stake pool operator you already know the importance of air-gapped-machine.'),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"AI Privacy Techniques\"))),mdx(\"p\",null,\"Well, AI training cannot be behind such closed doors. We need both collaboration and privacy to train AI algorithms. One technique called Differential privacy attempts to accomplish this. In this technique, you get a privacy budget where you choose what information to hide and what information to add statistical noise. However, this method does come with a cost that the model may not be accurate. To understand differential privacy more take a look at this \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf\"}),\"privacy overview document\"),\" from \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://apple.com\"}),\"Apple\"),\".\"),mdx(\"p\",null,\"But before you jump to any conclusions take a look at this research article, \",mdx(\"strong\",{parentName:\"p\"},mdx(\"em\",{parentName:\"strong\"},mdx(\"a\",i({parentName:\"em\"},{href:\"https://doi.org/10.1145/3133956.3134012\"}),\"Deep models under the gan: information leakage from collaborative deep learning\"))),\", by B. Hitaj, G. Ateniese, and F. P \\u0301erez-Cruz. In this paper, Hitaj et.al. show that the Generative Adversarial Network (GAN) generates prototypical samples of the targeted training set that are meant to be private and reveals the differential privacy applied to the shared parameters of the model is ineffective. Not only this, the intermediate gradients can still be used to cause linkability attacks. In linkability attacks, the attacker attempts to determine if users in a public database are also in the protected database.\"),mdx(\"p\",null,\"Another technique proposed is using homomorphic encryption. From \",mdx(\"a\",i({parentName:\"p\"},{href:\"https://en.wikipedia.org/wiki/Homomorphic_encryption\"}),\"Wikipedia\"),', \"Homomorphic encryption is a form of encryption that permits users to perform computations on its encrypted data without first decrypting it. These resulting computations are left in an encrypted form which, when decrypted, resulting in an identical output to that produced had the operations been performed on the unencrypted data\".'),mdx(\"p\",null,\"Amazon AWS talks about homomorphic encryption for the users of their various ML training services, which is good if you are the only participant. Homomorphic encryption protects you from a federated server. However, in distributed learning, there will be others on the network. If a participant is curious enough then this technique will fail. It's important to distinguish between honest vs curious. A participant can be honest but also curious. It's like you are taking an exam where you are honest that you will do your work, but you are curious to understand what the person in front of you is writing. So homomorphic encryption can fail with curious participants.\"),mdx(\"h2\",null,mdx(\"strong\",{parentName:\"h2\"},mdx(\"em\",{parentName:\"strong\"},\"DeepchainAda & Privacy\"))),mdx(\"p\",null,\"In deepchainAda, there is no central server since it's based on a decentralized distributed network, the Cardano blockchain. So we need a mechanism that has both homomorphic properties and also non-deterministic encryption. The other challenge in DeepchainAda is if we want to support distributed computing like NuNet (from SingularityNet). So as you can see, privacy is deep-rooted in the ethos of DeepchainAda. Sometimes big tech companies like Amazon just put some buzzwords about privacy that may not always be true in all scenarios. So next time someone uses these buzzwords try and understand if they are talking superficially to get past a regulator or are they serious about it.\"),mdx(\"p\",null,\"One last note, Data Privacy is not equal to Data secrecy. These two are independent. In this blog, we talk only about data privacy. For example, the information you share with your healthcare provider is private but not secret. On the other hand, your crypto wallet keys are secret.\"),mdx(\"p\",null,\"You can watch my video here\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=1N7_sXG622g\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
           "scope": {}
         },
         "filePath": "/en/blogs/data-privacy-Is-it-real.md",
-        "updatedAt": "2021-08-12T03:33:19.000Z",
+        "updatedAt": "2021-08-26T05:35:07.000Z",
         "editOnGitHubLink": {
           "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//en/blogs/data-privacy-Is-it-real.md"
         }
@@ -8570,9 +8588,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-25T21:13:43.536Z",
-        "component-cached-in": "186 ms",
-        "component-resolved-in": "186 ms"
+        "component-cached-at": "2021-08-26T06:35:57.604Z",
+        "component-cached-in": "2.07 ms",
+        "component-resolved-in": "2.07 ms"
       },
       "components": {}
     }
