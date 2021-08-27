@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"𝛑 + ₳ = ∞ PIADA\",\"slug\":\"/pool-widget/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65\",\"template\":\"PoolWidgetPage\",\"poolId\":\"b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-27T16:54:16.479Z",
-  "_cachedIn": "278 μs",
-  "_resolvedIn": "278 μs",
+  "_cachedAt": "2021-08-27T17:21:15.850Z",
+  "_cachedIn": "225 μs",
+  "_resolvedIn": "225 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
       },
       "description": "PIADA provides educational content specializing in Raspberry Pi and ARM 64-bit SoC based stake pool operations.",
-      "image": "https://static.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+      "image": "https://piada.io/piadaFull.png",
       "hasImage": true,
       "ticker": "PIADA",
       "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
@@ -32,7 +32,7 @@
       "totalStake": "15187303622770",
       "blocksLifetime": 107,
       "delegators": 94,
-      "saturated": 0.23162448067260302,
+      "saturated": 0.23162448450781228,
       "pledge": "55000000000",
       "pledged": "55040014394",
       "taxRatio": 0.015,
@@ -146,8 +146,50 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "𝛑 + ₳ = ∞",
+        "description": "PIADA provides educational content specializing in Raspberry Pi and ARM 64-bit SoC based stake pool operations.",
+        "ticker": "PIADA",
+        "homepage": "https://tinyurl.com/3n6ftstn",
+        "extended": "https://piada.io/piada.extended-metadata.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://piada.io/piada64.png",
+          "url_png_logo": "https://piada.io/piadaFull.png",
+          "location": "Virginia, USA",
+          "social": {
+            "twitter_handle": "StakePiada",
+            "telegram_handle": "piadapool",
+            "youtube_handle": "channel/UCligunhcmbMYaBUMvONsKwg",
+            "github_handle": "AstroWa3l"
+          },
+          "company": {
+            "name": "PIADA",
+            "addr": "",
+            "city": "",
+            "country": "United States",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "https://armada-alliance.gitbook.io/raspi-spo/",
+            "server": "3 x Raspberry Pi 4B 8GB",
+            "company": "PIADA provides educational content specializing in Raspberry Pi and ARM 64-bit SoC based stake pool operations."
+          },
+          "rss": ""
+        },
+        "telegram-admin-handle": {
+          "0": "eastpiada",
+          "1": "Qwailman"
+        },
+        "my-pool-ids": [
+          "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+        ],
+        "when-satured-then-recommend": [
+          "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
+        ]
+      },
       "telegram": "piadapool",
       "twitter": "StakePiada",
       "github": "AstroWa3l",
@@ -158,17 +200,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-27T16:54:16.479Z",
-    "component-cached-in": "278 μs",
-    "component-resolved-in": "278 μs"
+    "component-cached-at": "2021-08-27T17:21:15.850Z",
+    "component-cached-in": "225 μs",
+    "component-resolved-in": "225 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-27T16:54:16.479Z",
-      "_cachedIn": "164 μs",
-      "_resolvedIn": "164 μs",
+      "_cachedAt": "2021-08-27T17:21:15.850Z",
+      "_cachedIn": "85 μs",
+      "_resolvedIn": "85 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -177,17 +219,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-27T16:54:16.479Z",
-        "component-cached-in": "164 μs",
-        "component-resolved-in": "164 μs"
+        "component-cached-at": "2021-08-27T17:21:15.850Z",
+        "component-cached-in": "85 μs",
+        "component-resolved-in": "85 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-27T16:54:16.479Z",
-          "_cachedIn": "68 μs",
-          "_resolvedIn": "68 μs",
+          "_cachedAt": "2021-08-27T17:21:15.850Z",
+          "_cachedIn": "46 μs",
+          "_resolvedIn": "46 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -195,7 +237,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-27T16:53:54.100Z",
+              "createdAt": "2021-08-27T17:21:01.226Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1914,10 +1956,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-08-19T17:19:44.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md",
-                "rank": 13
+                "rank": 25
               },
               {
                 "id": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
@@ -2410,7 +2452,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+                "image": "https://piada.io/piadaFull.png",
                 "updatedAt": "2021-08-26T05:35:07.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md",
                 "rank": 0
@@ -8413,73 +8455,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.42
+                "rate": 2.43
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.86
+                "rate": 2.87
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005916
+                "rate": 0.00005937
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005916
+                "rate": 0.00005937
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.91
+                "rate": 3.93
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 18.49
+                "rate": 18.57
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 11.97
+                "rate": 12.04
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 313.8
+                "rate": 315.23
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 92.99
+                "rate": 93.36
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-27T16:54:16.479Z",
-            "component-cached-in": "68 μs",
-            "component-resolved-in": "68 μs"
+            "component-cached-at": "2021-08-27T17:21:15.850Z",
+            "component-cached-in": "46 μs",
+            "component-resolved-in": "46 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-27T16:54:16.479Z",
-          "_cachedIn": "82 μs",
-          "_resolvedIn": "82 μs",
+          "_cachedAt": "2021-08-27T17:21:15.850Z",
+          "_cachedIn": "67 μs",
+          "_resolvedIn": "67 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8490,17 +8532,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-27T16:54:16.479Z",
-            "component-cached-in": "82 μs",
-            "component-resolved-in": "82 μs"
+            "component-cached-at": "2021-08-27T17:21:15.850Z",
+            "component-cached-in": "67 μs",
+            "component-resolved-in": "67 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-27T16:54:16.479Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2021-08-27T17:21:15.850Z",
+              "_cachedIn": "20 μs",
+              "_resolvedIn": "20 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8560,9 +8602,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-27T16:54:16.479Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2021-08-27T17:21:15.850Z",
+                "component-cached-in": "20 μs",
+                "component-resolved-in": "20 μs"
               },
               "components": {}
             }
@@ -8571,9 +8613,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-27T16:54:16.479Z",
-          "_cachedIn": "37 μs",
-          "_resolvedIn": "37 μs",
+          "_cachedAt": "2021-08-27T17:21:15.850Z",
+          "_cachedIn": "18 μs",
+          "_resolvedIn": "18 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8582,9 +8624,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-27T16:54:16.479Z",
-            "component-cached-in": "37 μs",
-            "component-resolved-in": "37 μs"
+            "component-cached-at": "2021-08-27T17:21:15.850Z",
+            "component-cached-in": "18 μs",
+            "component-resolved-in": "18 μs"
           },
           "components": {}
         }
