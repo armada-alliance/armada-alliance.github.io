@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Sublayer Pool SBLYR\",\"slug\":\"/pool-widget/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8\",\"template\":\"PoolWidgetPage\",\"poolId\":\"8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-27T07:16:47.735Z",
-  "_cachedIn": "185 μs",
-  "_resolvedIn": "185 μs",
+  "_cachedAt": "2021-08-27T07:45:41.663Z",
+  "_cachedIn": "198 μs",
+  "_resolvedIn": "198 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
       },
       "description": "A low-cost, energy-efficient 🌍🍃 stake pool with a fixed margin fee of just 1%. Support me in growing 🌱 armada-alliance.com, decentralizing the network using Raspberry Pi's 🍓.",
-      "image": "https://static.adapools.org/pool_logo/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png",
+      "image": "https://cdn.sublayer.io/logo.png",
       "hasImage": true,
       "ticker": "SBLYR",
       "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
@@ -32,7 +32,7 @@
       "totalStake": "1520999523641",
       "blocksLifetime": 21,
       "delegators": 21,
-      "saturated": 0.023197048844010672,
+      "saturated": 0.023197049060765626,
       "pledge": "25000000000",
       "pledged": "25057323505",
       "taxRatio": 0.01,
@@ -132,8 +132,39 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Sublayer Pool",
+        "description": "A low-cost, energy-efficient 🌍🍃 stake pool with a fixed margin fee of just 1%. Support me in growing 🌱 armada-alliance.com, decentralizing the network using Raspberry Pi's 🍓.",
+        "ticker": "SBLYR",
+        "homepage": "https://pool.sublayer.io",
+        "extended": "https://cdn.sublayer.io/poolExtended.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://cdn.sublayer.io/logo_64x64.png",
+          "url_png_logo": "https://cdn.sublayer.io/logo.png",
+          "location": "Sommelsdijk, The Netherlands",
+          "social": {
+            "telegram_handle": "sublayerio",
+            "twitter_handle": "sublayerio",
+            "youtube_handle": "channel/UCligunhcmbMYaBUMvONsKwg"
+          },
+          "company": {
+            "name": "Sublayer"
+          },
+          "about": {
+            "me": "As an independent stake pool operator it is my goal to educate people about Cardano and true decentralisation by providing educational content through the Armada Alliance platform (armada-alliance.com).",
+            "server": "Running on low power consuming ARM-based devices (Raspberry Pis & Apple SOC) with an average pool energy consumption of less than 40 Watts💡, always online, 100MB up/down, solar energy. Margin stays 1%."
+          }
+        },
+        "adapools": "ed6d9672a5ea74667cb0ca867d7479fb",
+        "my-pool-ids": [
+          "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
+        ],
+        "when-satured-then-recommend": [
+          "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+        ]
+      },
       "telegram": "sublayerio",
       "twitter": "sublayerio",
       "youtube": "channel/UCligunhcmbMYaBUMvONsKwg",
@@ -143,17 +174,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-08-27T07:16:47.735Z",
-    "component-cached-in": "185 μs",
-    "component-resolved-in": "185 μs"
+    "component-cached-at": "2021-08-27T07:45:41.663Z",
+    "component-cached-in": "198 μs",
+    "component-resolved-in": "198 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-27T07:16:47.735Z",
-      "_cachedIn": "89 μs",
-      "_resolvedIn": "89 μs",
+      "_cachedAt": "2021-08-27T07:45:41.663Z",
+      "_cachedIn": "77 μs",
+      "_resolvedIn": "77 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -162,17 +193,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-27T07:16:47.735Z",
-        "component-cached-in": "89 μs",
-        "component-resolved-in": "89 μs"
+        "component-cached-at": "2021-08-27T07:45:41.663Z",
+        "component-cached-in": "77 μs",
+        "component-resolved-in": "77 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-27T07:16:47.735Z",
-          "_cachedIn": "58 μs",
-          "_resolvedIn": "58 μs",
+          "_cachedAt": "2021-08-27T07:45:41.663Z",
+          "_cachedIn": "43 μs",
+          "_resolvedIn": "43 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -180,7 +211,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-27T07:16:32.970Z",
+              "createdAt": "2021-08-27T07:45:27.337Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -474,25 +505,6 @@
                 "image": "/PoW.webp",
                 "updatedAt": "2021-08-20T00:32:14.000Z",
                 "filePath": "/en/blogs/history-of-pow.md"
-              },
-              {
-                "id": "marlowe",
-                "language": "en",
-                "slug": "/blogs/marlowe",
-                "url": "https://armada-alliance.com/blogs/marlowe",
-                "origin": "/blogs/marlowe",
-                "title": "Marlowe: The Future of Decentralized Finance",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "sublayerio",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-08-26T05:35:07.000Z",
-                "filePath": "/en/blogs/marlowe.md"
               },
               {
                 "id": "register-your-stake-pool",
@@ -2256,7 +2268,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png",
+                "image": "https://cdn.sublayer.io/logo.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md",
                 "rank": 0
@@ -8417,73 +8429,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.2
+                "rate": 2.23
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.59
+                "rate": 2.62
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005496
+                "rate": 0.00005525
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005496
+                "rate": 0.00005525
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.58
+                "rate": 3.61
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 16.81
+                "rate": 16.96
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 10.87
+                "rate": 10.97
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 285.3
+                "rate": 288
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 84.57
+                "rate": 85.37
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-27T07:16:47.735Z",
-            "component-cached-in": "58 μs",
-            "component-resolved-in": "58 μs"
+            "component-cached-at": "2021-08-27T07:45:41.663Z",
+            "component-cached-in": "43 μs",
+            "component-resolved-in": "43 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-27T07:16:47.735Z",
-          "_cachedIn": "74 μs",
-          "_resolvedIn": "74 μs",
+          "_cachedAt": "2021-08-27T07:45:41.663Z",
+          "_cachedIn": "61 μs",
+          "_resolvedIn": "61 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8494,17 +8506,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-27T07:16:47.735Z",
-            "component-cached-in": "74 μs",
-            "component-resolved-in": "74 μs"
+            "component-cached-at": "2021-08-27T07:45:41.663Z",
+            "component-cached-in": "61 μs",
+            "component-resolved-in": "61 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-27T07:16:47.735Z",
-              "_cachedIn": "16 μs",
-              "_resolvedIn": "16 μs",
+              "_cachedAt": "2021-08-27T07:45:41.663Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8564,9 +8576,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-27T07:16:47.735Z",
-                "component-cached-in": "16 μs",
-                "component-resolved-in": "16 μs"
+                "component-cached-at": "2021-08-27T07:45:41.663Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -8575,9 +8587,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-27T07:16:47.735Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2021-08-27T07:45:41.663Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8586,9 +8598,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-27T07:16:47.735Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2021-08-27T07:45:41.663Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }
