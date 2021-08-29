@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https://armada-alliance.com/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"🌊\",\"updatedAt\":\"2021-07-13T15:34:16.000Z\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n<\\\\/script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-29T18:19:51.363Z",
-  "_cachedIn": "184 ms",
-  "_resolvedIn": "184 ms",
+  "_cachedAt": "2021-08-29T18:37:45.303Z",
+  "_cachedIn": "265 ms",
+  "_resolvedIn": "265 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-08-29T18:19:51.363Z",
-    "component-cached-in": "184 ms",
-    "component-resolved-in": "184 ms"
+    "component-cached-at": "2021-08-29T18:37:45.303Z",
+    "component-cached-in": "265 ms",
+    "component-resolved-in": "265 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:51.363Z",
-      "_cachedIn": "1.84 ms",
-      "_resolvedIn": "1.84 ms",
+      "_cachedAt": "2021-08-29T18:37:45.303Z",
+      "_cachedIn": "221 μs",
+      "_resolvedIn": "221 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,17 +67,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-29T18:19:51.363Z",
-        "component-cached-in": "1.84 ms",
-        "component-resolved-in": "1.84 ms"
+        "component-cached-at": "2021-08-29T18:37:45.303Z",
+        "component-cached-in": "221 μs",
+        "component-resolved-in": "221 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-29T18:19:51.363Z",
-          "_cachedIn": "1.7 ms",
-          "_resolvedIn": "1.7 ms",
+          "_cachedAt": "2021-08-29T18:37:45.303Z",
+          "_cachedIn": "129 μs",
+          "_resolvedIn": "129 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -85,7 +85,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-29T18:19:34.248Z",
+              "createdAt": "2021-08-29T18:37:29.347Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1338,6 +1338,21 @@
                 "filePath": "/en/identities/nami.md"
               },
               {
+                "id": "nampool",
+                "language": "en",
+                "slug": "/identities/nampool",
+                "url": "https://armada-alliance.com/identities/nampool",
+                "origin": "/identities/nampool",
+                "title": "nampool",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://nampool.org/logo.png",
+                "updatedAt": "2021-08-29T18:36:25.000Z",
+                "filePath": "/en/identities/nampool.md"
+              },
+              {
                 "id": "nunet",
                 "language": "en",
                 "slug": "/identities/nunet",
@@ -2170,6 +2185,28 @@
                 "rank": 13
               },
               {
+                "id": "9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "language": "en",
+                "slug": "/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "url": "https://armada-alliance.com/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "origin": "/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "title": "Nam Pool (NAM)",
+                "description": "Our mission as a nonprofit organization is providing clean drinking water 🚰 to as many people as possible in Northern Thailand by running a low-cost, energy-efficient 🌍🍃 stake pool with a fixed margin fee of just 1%.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "nampool",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://nampool.org/logo.png",
+                "updatedAt": "2021-08-29T18:34:17.000Z",
+                "filePath": "/en/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc.md",
+                "rank": 0
+              },
+              {
                 "id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
                 "language": "en",
                 "slug": "/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
@@ -2593,6 +2630,14 @@
                 "slug": "/pool-widget/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
                 "template": "PoolWidgetPage",
                 "poolId": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Nam Pool NAM",
+                "slug": "/pool-widget/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "template": "PoolWidgetPage",
+                "poolId": "9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
                 "hidden": true
               },
               {
@@ -8339,19 +8384,19 @@
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.86
+                "rate": 2.87
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005873
+                "rate": 0.00005874
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005873
+                "rate": 0.00005874
               },
               {
                 "id": "AUD",
@@ -8363,43 +8408,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 18.53
+                "rate": 18.55
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 12.01
+                "rate": 12.03
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 314.51
+                "rate": 314.89
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 93.15
+                "rate": 93.26
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-29T18:19:51.363Z",
-            "component-cached-in": "1.7 ms",
-            "component-resolved-in": "1.7 ms"
+            "component-cached-at": "2021-08-29T18:37:45.303Z",
+            "component-cached-in": "129 μs",
+            "component-resolved-in": "129 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-29T18:19:51.363Z",
-          "_cachedIn": "1.75 ms",
-          "_resolvedIn": "1.75 ms",
+          "_cachedAt": "2021-08-29T18:37:45.303Z",
+          "_cachedIn": "150 μs",
+          "_resolvedIn": "150 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8410,17 +8455,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-29T18:19:51.363Z",
-            "component-cached-in": "1.75 ms",
-            "component-resolved-in": "1.75 ms"
+            "component-cached-at": "2021-08-29T18:37:45.303Z",
+            "component-cached-in": "150 μs",
+            "component-resolved-in": "150 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-29T18:19:51.363Z",
-              "_cachedIn": "89 μs",
-              "_resolvedIn": "89 μs",
+              "_cachedAt": "2021-08-29T18:37:45.303Z",
+              "_cachedIn": "40 μs",
+              "_resolvedIn": "40 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8480,9 +8525,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-29T18:19:51.363Z",
-                "component-cached-in": "89 μs",
-                "component-resolved-in": "89 μs"
+                "component-cached-at": "2021-08-29T18:37:45.303Z",
+                "component-cached-in": "40 μs",
+                "component-resolved-in": "40 μs"
               },
               "components": {}
             }
@@ -8491,9 +8536,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-29T18:19:51.361Z",
-          "_cachedIn": "102 μs",
-          "_resolvedIn": "102 μs",
+          "_cachedAt": "2021-08-29T18:37:45.303Z",
+          "_cachedIn": "76 μs",
+          "_resolvedIn": "76 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8502,9 +8547,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-29T18:19:51.361Z",
-            "component-cached-in": "102 μs",
-            "component-resolved-in": "102 μs"
+            "component-cached-at": "2021-08-29T18:37:45.303Z",
+            "component-cached-in": "76 μs",
+            "component-resolved-in": "76 μs"
           },
           "components": {}
         }
@@ -8513,9 +8558,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:51.363Z",
-      "_cachedIn": "1.7 ms",
-      "_resolvedIn": "1.7 ms",
+      "_cachedAt": "2021-08-29T18:37:45.303Z",
+      "_cachedIn": "160 μs",
+      "_resolvedIn": "160 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8564,18 +8609,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-29T18:19:51.363Z",
-        "component-cached-in": "1.7 ms",
-        "component-resolved-in": "1.7 ms"
+        "component-cached-at": "2021-08-29T18:37:45.303Z",
+        "component-cached-in": "160 μs",
+        "component-resolved-in": "160 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:51.361Z",
-      "_cachedIn": "105 μs",
-      "_resolvedIn": "105 μs",
+      "_cachedAt": "2021-08-29T18:37:45.303Z",
+      "_cachedIn": "89 μs",
+      "_resolvedIn": "89 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8587,18 +8632,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-29T18:19:51.361Z",
-        "component-cached-in": "105 μs",
-        "component-resolved-in": "105 μs"
+        "component-cached-at": "2021-08-29T18:37:45.303Z",
+        "component-cached-in": "89 μs",
+        "component-resolved-in": "89 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:51.363Z",
-      "_cachedIn": "1.71 ms",
-      "_resolvedIn": "1.71 ms",
+      "_cachedAt": "2021-08-29T18:37:45.303Z",
+      "_cachedIn": "149 μs",
+      "_resolvedIn": "149 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8619,9 +8664,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-29T18:19:51.363Z",
-        "component-cached-in": "1.71 ms",
-        "component-resolved-in": "1.71 ms"
+        "component-cached-at": "2021-08-29T18:37:45.303Z",
+        "component-cached-in": "149 μs",
+        "component-resolved-in": "149 μs"
       },
       "components": {}
     }

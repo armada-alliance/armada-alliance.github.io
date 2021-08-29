@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"alice-bob\",\"language\":\"en\",\"slug\":\"/terms/alice-bob\",\"url\":\"https://armada-alliance.com/terms/alice-bob\",\"origin\":\"/terms/alice-bob\",\"title\":\"Alice and Bob\",\"description\":\"Cryptographic protocols are often made clearer by considering parties A and B, or Alice and Bob, performing some protocol.\",\"aliases\":[\"alice and bob\",\"alice\",\"bob\",\"cryptography\",\"blockchain glossary\",\"crypto glossary\",\"understanding blockchains\",\"crypto whitepaper\"],\"keywords\":[\"alice\",\"bob\",\"eve\",\"paul\",\"vics\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-28T12:47:53.000Z\",\"filePath\":\"/en/terms/alice-bob.md\",\"body\":\"Eve the eavesdropper, Paul the prover, and Vic the verifier are other common stand-in names.\\n\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,y=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(e,o,t)=>o in e?m(e,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[o]=t,a=(e,o)=>{for(var t in o||(o={}))p.call(o,t)&&u(e,t,o[t]);if(r)for(var t of r(o))s.call(o,t)&&u(e,t,o[t]);return e},c=(e,o)=>y(e,D(o));var i=(e,o)=>{var t={};for(var n in e)p.call(e,n)&&o.indexOf(n)<0&&(t[n]=e[n]);if(e!=null&&r)for(var n of r(e))o.indexOf(n)<0&&s.call(e,n)&&(t[n]=e[n]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var n=t,{components:e}=n,o=i(n,[\\\"components\\\"]);return mdx(MDXLayout,c(a(a({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Eve the eavesdropper, Paul the prover, and Vic the verifier are other common stand-in names.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-08-29T18:19:52.639Z",
-  "_cachedIn": "1.12 ms",
-  "_resolvedIn": "1.12 ms",
+  "_cachedAt": "2021-08-29T18:37:46.551Z",
+  "_cachedIn": "1.75 ms",
+  "_resolvedIn": "1.75 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -52,17 +52,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-08-29T18:19:52.639Z",
-    "component-cached-in": "1.12 ms",
-    "component-resolved-in": "1.12 ms"
+    "component-cached-at": "2021-08-29T18:37:46.551Z",
+    "component-cached-in": "1.75 ms",
+    "component-resolved-in": "1.75 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:52.639Z",
-      "_cachedIn": "855 μs",
-      "_resolvedIn": "855 μs",
+      "_cachedAt": "2021-08-29T18:37:46.551Z",
+      "_cachedIn": "1.27 ms",
+      "_resolvedIn": "1.27 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -71,17 +71,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-08-29T18:19:52.639Z",
-        "component-cached-in": "855 μs",
-        "component-resolved-in": "855 μs"
+        "component-cached-at": "2021-08-29T18:37:46.551Z",
+        "component-cached-in": "1.27 ms",
+        "component-resolved-in": "1.27 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-29T18:19:52.639Z",
-          "_cachedIn": "494 μs",
-          "_resolvedIn": "494 μs",
+          "_cachedAt": "2021-08-29T18:37:46.551Z",
+          "_cachedIn": "612 μs",
+          "_resolvedIn": "612 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -89,7 +89,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-08-29T18:19:34.248Z",
+              "createdAt": "2021-08-29T18:37:29.347Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1342,6 +1342,21 @@
                 "filePath": "/en/identities/nami.md"
               },
               {
+                "id": "nampool",
+                "language": "en",
+                "slug": "/identities/nampool",
+                "url": "https://armada-alliance.com/identities/nampool",
+                "origin": "/identities/nampool",
+                "title": "nampool",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://nampool.org/logo.png",
+                "updatedAt": "2021-08-29T18:36:25.000Z",
+                "filePath": "/en/identities/nampool.md"
+              },
+              {
                 "id": "nunet",
                 "language": "en",
                 "slug": "/identities/nunet",
@@ -2174,6 +2189,28 @@
                 "rank": 13
               },
               {
+                "id": "9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "language": "en",
+                "slug": "/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "url": "https://armada-alliance.com/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "origin": "/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "title": "Nam Pool (NAM)",
+                "description": "Our mission as a nonprofit organization is providing clean drinking water 🚰 to as many people as possible in Northern Thailand by running a low-cost, energy-efficient 🌍🍃 stake pool with a fixed margin fee of just 1%.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "nampool",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://nampool.org/logo.png",
+                "updatedAt": "2021-08-29T18:34:17.000Z",
+                "filePath": "/en/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc.md",
+                "rank": 0
+              },
+              {
                 "id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
                 "language": "en",
                 "slug": "/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
@@ -2597,6 +2634,14 @@
                 "slug": "/pool-widget/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
                 "template": "PoolWidgetPage",
                 "poolId": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Nam Pool NAM",
+                "slug": "/pool-widget/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
+                "template": "PoolWidgetPage",
+                "poolId": "9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
                 "hidden": true
               },
               {
@@ -8343,19 +8388,19 @@
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.86
+                "rate": 2.87
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005873
+                "rate": 0.00005874
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005873
+                "rate": 0.00005874
               },
               {
                 "id": "AUD",
@@ -8367,43 +8412,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 18.53
+                "rate": 18.55
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 12.01
+                "rate": 12.03
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 314.51
+                "rate": 314.89
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 93.15
+                "rate": 93.26
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-08-29T18:19:52.639Z",
-            "component-cached-in": "494 μs",
-            "component-resolved-in": "494 μs"
+            "component-cached-at": "2021-08-29T18:37:46.551Z",
+            "component-cached-in": "612 μs",
+            "component-resolved-in": "612 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-29T18:19:52.639Z",
-          "_cachedIn": "645 μs",
-          "_resolvedIn": "645 μs",
+          "_cachedAt": "2021-08-29T18:37:46.551Z",
+          "_cachedIn": "1.04 ms",
+          "_resolvedIn": "1.04 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8414,17 +8459,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-08-29T18:19:52.639Z",
-            "component-cached-in": "645 μs",
-            "component-resolved-in": "645 μs"
+            "component-cached-at": "2021-08-29T18:37:46.551Z",
+            "component-cached-in": "1.04 ms",
+            "component-resolved-in": "1.04 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-08-29T18:19:52.639Z",
-              "_cachedIn": "148 μs",
-              "_resolvedIn": "148 μs",
+              "_cachedAt": "2021-08-29T18:37:46.551Z",
+              "_cachedIn": "399 μs",
+              "_resolvedIn": "399 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8484,9 +8529,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-08-29T18:19:52.639Z",
-                "component-cached-in": "148 μs",
-                "component-resolved-in": "148 μs"
+                "component-cached-at": "2021-08-29T18:37:46.551Z",
+                "component-cached-in": "399 μs",
+                "component-resolved-in": "399 μs"
               },
               "components": {}
             }
@@ -8495,9 +8540,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-08-29T18:19:52.639Z",
-          "_cachedIn": "274 μs",
-          "_resolvedIn": "274 μs",
+          "_cachedAt": "2021-08-29T18:37:46.550Z",
+          "_cachedIn": "299 μs",
+          "_resolvedIn": "299 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8506,9 +8551,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-08-29T18:19:52.639Z",
-            "component-cached-in": "274 μs",
-            "component-resolved-in": "274 μs"
+            "component-cached-at": "2021-08-29T18:37:46.550Z",
+            "component-cached-in": "299 μs",
+            "component-resolved-in": "299 μs"
           },
           "components": {}
         }
@@ -8517,9 +8562,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:52.639Z",
-      "_cachedIn": "564 μs",
-      "_resolvedIn": "564 μs",
+      "_cachedAt": "2021-08-29T18:37:46.551Z",
+      "_cachedIn": "643 μs",
+      "_resolvedIn": "643 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8551,18 +8596,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-08-29T18:19:52.639Z",
-        "component-cached-in": "564 μs",
-        "component-resolved-in": "564 μs"
+        "component-cached-at": "2021-08-29T18:37:46.551Z",
+        "component-cached-in": "643 μs",
+        "component-resolved-in": "643 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:52.639Z",
-      "_cachedIn": "275 μs",
-      "_resolvedIn": "275 μs",
+      "_cachedAt": "2021-08-29T18:37:46.550Z",
+      "_cachedIn": "256 μs",
+      "_resolvedIn": "256 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8574,18 +8619,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-08-29T18:19:52.639Z",
-        "component-cached-in": "275 μs",
-        "component-resolved-in": "275 μs"
+        "component-cached-at": "2021-08-29T18:37:46.550Z",
+        "component-cached-in": "256 μs",
+        "component-resolved-in": "256 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-08-29T18:19:52.639Z",
-      "_cachedIn": "564 μs",
-      "_resolvedIn": "564 μs",
+      "_cachedAt": "2021-08-29T18:37:46.551Z",
+      "_cachedIn": "646 μs",
+      "_resolvedIn": "646 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8604,9 +8649,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-08-29T18:19:52.639Z",
-        "component-cached-in": "564 μs",
-        "component-resolved-in": "564 μs"
+        "component-cached-at": "2021-08-29T18:37:46.551Z",
+        "component-cached-in": "646 μs",
+        "component-resolved-in": "646 μs"
       },
       "components": {}
     }
