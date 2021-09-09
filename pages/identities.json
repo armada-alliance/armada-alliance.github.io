@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentitiesPage\",\"version\":1},\"props\":{\"id\":\"identities\",\"language\":\"en\",\"slug\":\"/identities\",\"url\":\"https://armada-alliance.com/identities\",\"origin\":\"/identities\",\"title\":\"Identities\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentitiesPage\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/identities.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-09-07T09:16:53.257Z",
-  "_cachedIn": "272 ms",
-  "_resolvedIn": "272 ms",
+  "_cachedAt": "2021-09-09T07:08:32.345Z",
+  "_cachedIn": "356 ms",
+  "_resolvedIn": "356 ms",
   "id": "IdentitiesPage",
   "type": "IdentitiesPage",
   "status": "resolved",
@@ -256,6 +256,23 @@
         },
         "pools": [
           "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386"
+        ]
+      },
+      {
+        "id": "george-vela",
+        "name": "George (Vela Pool)",
+        "description": "SPO",
+        "image": "/george-vela.jpg",
+        "telegram": "velapool",
+        "twitter": "georgeACL1",
+        "website": "https://adacardano.cl",
+        "linkedin": "jorge-sobenes-05b6b11b",
+        "link": {
+          "name": "George (Vela Pool)",
+          "href": "/identities/george-vela"
+        },
+        "pools": [
+          "de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef"
         ]
       },
       {
@@ -930,17 +947,17 @@
   "attrs": {
     "component-type": "IdentitiesPage",
     "component-id": "IdentitiesPage",
-    "component-cached-at": "2021-09-07T09:16:53.257Z",
-    "component-cached-in": "272 ms",
-    "component-resolved-in": "272 ms"
+    "component-cached-at": "2021-09-09T07:08:32.345Z",
+    "component-cached-in": "356 ms",
+    "component-resolved-in": "356 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-07T09:16:53.257Z",
-      "_cachedIn": "265 ms",
-      "_resolvedIn": "265 ms",
+      "_cachedAt": "2021-09-09T07:08:32.345Z",
+      "_cachedIn": "348 ms",
+      "_resolvedIn": "348 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -949,17 +966,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-09-07T09:16:53.257Z",
-        "component-cached-in": "265 ms",
-        "component-resolved-in": "265 ms"
+        "component-cached-at": "2021-09-09T07:08:32.345Z",
+        "component-cached-in": "348 ms",
+        "component-resolved-in": "348 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-07T09:16:53.256Z",
-          "_cachedIn": "789 μs",
-          "_resolvedIn": "789 μs",
+          "_cachedAt": "2021-09-09T07:08:32.344Z",
+          "_cachedIn": "1.49 ms",
+          "_resolvedIn": "1.49 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -967,7 +984,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-09-07T09:16:38.402Z",
+              "createdAt": "2021-09-09T07:08:15.671Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2135,6 +2152,21 @@
                 "filePath": "/en/identities/geoff.md"
               },
               {
+                "id": "george-vela",
+                "language": "en",
+                "slug": "/identities/george-vela",
+                "url": "https://armada-alliance.com/identities/george-vela",
+                "origin": "/identities/george-vela",
+                "title": "George (Vela Pool)",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/george-vela.jpg",
+                "updatedAt": "2021-09-09T04:02:45.000Z",
+                "filePath": "/en/identities/george-vela.md"
+              },
+              {
                 "id": "iog",
                 "language": "en",
                 "slug": "/identities/iog",
@@ -2826,10 +2858,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "image": "https://behemothpool.files.wordpress.com/2021/09/bhmt_logo_400x400.png",
                 "updatedAt": "2021-08-19T17:19:44.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md",
-                "rank": 13
+                "rank": 0
               },
               {
                 "id": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
@@ -3482,6 +3514,28 @@
                 "rank": 0
               },
               {
+                "id": "de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
+                "language": "en",
+                "slug": "/stake-pools/de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
+                "url": "https://armada-alliance.com/stake-pools/de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
+                "origin": "/stake-pools/de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
+                "title": "VELA Pool (VELA)",
+                "description": "Energy-efficient stake pool to sail to your finance freedom 🌱, armada-alliance.com, decentralizing the network using Raspberry Pi's 🍓.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "george-vela",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://adacardano.cl/logo.png",
+                "updatedAt": "2021-09-09T04:03:30.000Z",
+                "filePath": "/en/stake-pools/de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef.md",
+                "rank": 0
+              },
+              {
                 "id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
                 "language": "en",
                 "slug": "/stake-pools/e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
@@ -3763,6 +3817,14 @@
                 "slug": "/pool-widget/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
                 "template": "PoolWidgetPage",
                 "poolId": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "VELA Pool VELA",
+                "slug": "/pool-widget/de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
+                "template": "PoolWidgetPage",
+                "poolId": "de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
                 "hidden": true
               },
               {
@@ -9442,73 +9504,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.22
+                "rate": 2.13
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.64
+                "rate": 2.52
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005135
+                "rate": 0.0000546
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005135
+                "rate": 0.0000546
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.56
+                "rate": 3.42
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 17.04
+                "rate": 16.28
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 10.96
+                "rate": 10.46
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 289.97
+                "rate": 277.27
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 86
+                "rate": 82.51
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-09-07T09:16:53.256Z",
-            "component-cached-in": "789 μs",
-            "component-resolved-in": "789 μs"
+            "component-cached-at": "2021-09-09T07:08:32.344Z",
+            "component-cached-in": "1.49 ms",
+            "component-resolved-in": "1.49 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-07T09:16:53.256Z",
-          "_cachedIn": "1 ms",
-          "_resolvedIn": "1 ms",
+          "_cachedAt": "2021-09-09T07:08:32.344Z",
+          "_cachedIn": "2.02 ms",
+          "_resolvedIn": "2.02 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9519,17 +9581,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-09-07T09:16:53.256Z",
-            "component-cached-in": "1 ms",
-            "component-resolved-in": "1 ms"
+            "component-cached-at": "2021-09-09T07:08:32.344Z",
+            "component-cached-in": "2.02 ms",
+            "component-resolved-in": "2.02 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-09-07T09:16:53.256Z",
-              "_cachedIn": "280 μs",
-              "_resolvedIn": "280 μs",
+              "_cachedAt": "2021-09-09T07:08:32.344Z",
+              "_cachedIn": "655 μs",
+              "_resolvedIn": "655 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9589,9 +9651,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-09-07T09:16:53.256Z",
-                "component-cached-in": "280 μs",
-                "component-resolved-in": "280 μs"
+                "component-cached-at": "2021-09-09T07:08:32.344Z",
+                "component-cached-in": "655 μs",
+                "component-resolved-in": "655 μs"
               },
               "components": {}
             }
@@ -9600,9 +9662,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-07T09:16:53.256Z",
-          "_cachedIn": "510 μs",
-          "_resolvedIn": "510 μs",
+          "_cachedAt": "2021-09-09T07:08:32.343Z",
+          "_cachedIn": "898 μs",
+          "_resolvedIn": "898 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9611,9 +9673,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-09-07T09:16:53.256Z",
-            "component-cached-in": "510 μs",
-            "component-resolved-in": "510 μs"
+            "component-cached-at": "2021-09-09T07:08:32.343Z",
+            "component-cached-in": "898 μs",
+            "component-resolved-in": "898 μs"
           },
           "components": {}
         }
