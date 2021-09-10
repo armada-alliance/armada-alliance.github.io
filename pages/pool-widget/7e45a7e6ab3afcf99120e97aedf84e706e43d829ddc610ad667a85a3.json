@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"PGWADA Stake pool PGWAD\",\"slug\":\"/pool-widget/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"template\":\"PoolWidgetPage\",\"poolId\":\"7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-09-10T06:02:04.772Z",
-  "_cachedIn": "236 μs",
-  "_resolvedIn": "236 μs",
+  "_cachedAt": "2021-09-10T10:01:37.714Z",
+  "_cachedIn": "266 μs",
+  "_resolvedIn": "266 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "11501274419",
       "blocksLifetime": 0,
       "delegators": 6,
-      "saturated": 0.0001751643423776452,
+      "saturated": 0.00017516435779599761,
       "pledge": "500000000",
       "pledged": "617377683",
       "taxRatio": 0,
@@ -196,17 +196,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-09-10T06:02:04.772Z",
-    "component-cached-in": "236 μs",
-    "component-resolved-in": "236 μs"
+    "component-cached-at": "2021-09-10T10:01:37.714Z",
+    "component-cached-in": "266 μs",
+    "component-resolved-in": "266 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-10T06:02:04.772Z",
-      "_cachedIn": "90 μs",
-      "_resolvedIn": "90 μs",
+      "_cachedAt": "2021-09-10T10:01:37.714Z",
+      "_cachedIn": "80 μs",
+      "_resolvedIn": "80 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -215,17 +215,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-09-10T06:02:04.772Z",
-        "component-cached-in": "90 μs",
-        "component-resolved-in": "90 μs"
+        "component-cached-at": "2021-09-10T10:01:37.714Z",
+        "component-cached-in": "80 μs",
+        "component-resolved-in": "80 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-10T06:02:04.772Z",
-          "_cachedIn": "56 μs",
-          "_resolvedIn": "56 μs",
+          "_cachedAt": "2021-09-10T10:01:37.714Z",
+          "_cachedIn": "45 μs",
+          "_resolvedIn": "45 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -233,7 +233,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-09-10T06:01:48.111Z",
+              "createdAt": "2021-09-10T10:01:24.005Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2046,6 +2046,21 @@
                 "filePath": "/en/identities/world-mobile.md"
               },
               {
+                "id": "zella-siberia",
+                "language": "en",
+                "slug": "/identities/zella-siberia",
+                "url": "https://armada-alliance.com/identities/zella-siberia",
+                "origin": "/identities/zella-siberia",
+                "title": "Andrey Zelyaev",
+                "description": "Software engineer, SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://github.com/zella.png",
+                "updatedAt": "2021-09-09T15:03:06.000Z",
+                "filePath": "/en/identities/zella-siberia.md"
+              },
+              {
                 "id": "zenent",
                 "language": "en",
                 "slug": "/identities/zenent",
@@ -2111,6 +2126,28 @@
                 "updatedAt": "2021-08-19T17:19:44.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md",
                 "rank": 0
+              },
+              {
+                "id": "1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
+                "language": "en",
+                "slug": "/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
+                "url": "https://armada-alliance.com/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
+                "origin": "/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
+                "title": "Siberia (SBR)",
+                "description": "Eco-pool from Russia with Love",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "zella-siberia",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://github.com/siberiapool/siberiapool.github.io/blob/main/logo_925x885.jpg",
+                "updatedAt": "2021-09-09T15:26:19.000Z",
+                "filePath": "/en/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.md",
+                "rank": 25
               },
               {
                 "id": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
@@ -2834,6 +2871,14 @@
                 "slug": "/pool-widget/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
                 "template": "PoolWidgetPage",
                 "poolId": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Siberia SBR",
+                "slug": "/pool-widget/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
+                "template": "PoolWidgetPage",
+                "poolId": "1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
                 "hidden": true
               },
               {
@@ -8753,73 +8798,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.16
+                "rate": 2.1
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.56
+                "rate": 2.48
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005462
+                "rate": 0.00005356
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005462
+                "rate": 0.00005356
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.47
+                "rate": 3.35
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 16.49
+                "rate": 15.98
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 10.59
+                "rate": 10.26
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 281.14
+                "rate": 272.85
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 83.63
+                "rate": 81.04
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-09-10T06:02:04.772Z",
-            "component-cached-in": "56 μs",
-            "component-resolved-in": "56 μs"
+            "component-cached-at": "2021-09-10T10:01:37.714Z",
+            "component-cached-in": "45 μs",
+            "component-resolved-in": "45 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-10T06:02:04.772Z",
-          "_cachedIn": "71 μs",
-          "_resolvedIn": "71 μs",
+          "_cachedAt": "2021-09-10T10:01:37.714Z",
+          "_cachedIn": "62 μs",
+          "_resolvedIn": "62 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8830,17 +8875,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-09-10T06:02:04.772Z",
-            "component-cached-in": "71 μs",
-            "component-resolved-in": "71 μs"
+            "component-cached-at": "2021-09-10T10:01:37.714Z",
+            "component-cached-in": "62 μs",
+            "component-resolved-in": "62 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-09-10T06:02:04.772Z",
-              "_cachedIn": "17 μs",
-              "_resolvedIn": "17 μs",
+              "_cachedAt": "2021-09-10T10:01:37.714Z",
+              "_cachedIn": "18 μs",
+              "_resolvedIn": "18 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8900,9 +8945,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-09-10T06:02:04.772Z",
-                "component-cached-in": "17 μs",
-                "component-resolved-in": "17 μs"
+                "component-cached-at": "2021-09-10T10:01:37.714Z",
+                "component-cached-in": "18 μs",
+                "component-resolved-in": "18 μs"
               },
               "components": {}
             }
@@ -8911,7 +8956,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-10T06:02:04.772Z",
+          "_cachedAt": "2021-09-10T10:01:37.714Z",
           "_cachedIn": "18 μs",
           "_resolvedIn": "18 μs",
           "id": "Footer",
@@ -8922,7 +8967,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-09-10T06:02:04.772Z",
+            "component-cached-at": "2021-09-10T10:01:37.714Z",
             "component-cached-in": "18 μs",
             "component-resolved-in": "18 μs"
           },
