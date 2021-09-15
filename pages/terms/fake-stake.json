@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"fake-stake\",\"language\":\"en\",\"slug\":\"/terms/fake-stake\",\"url\":\"https://armada-alliance.com/terms/fake-stake\",\"origin\":\"/terms/fake-stake\",\"title\":\"Fake Stake Attack\",\"description\":\"This is the umbrella term that references the various vulnerabilities of Proof-of-Stake cryptocurrencies like Cardano.\",\"aliases\":[\"fake stake attacks\",\"fake stake attack\",\"fake stake attack cardano\",\"cardano hack\",\"PoS hacks\",\"proof-of-stake hacks\",\"proof-of-stake attacks\",\"proof-of-stake vulnerabilities\",\"utxo model hacks\"],\"keywords\":[\"vulnerabilities\",\"fake\",\"stake\",\"attack\",\"attacks\",\"cardano\",\"hack\",\"hacks\",\"PoSv3\",\"3rd-generation\",\"blockchain\",\"PoS\",\"ada\",\"51%\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-28T12:47:53.000Z\",\"filePath\":\"/en/terms/fake-stake.md\",\"body\":\"We call the vulnerabilities we found “Fake Stake” attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\\n\",\"mdxSource\":{\"compiledSource\":\"var k=Object.defineProperty,m=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var r=(e,t,a)=>t in e?k(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,s=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&r(e,a,t[a]);if(n)for(var a of n(t))c.call(t,a)&&r(e,a,t[a]);return e},l=(e,t)=>m(e,d(t));var u=(e,t)=>{var a={};for(var o in e)i.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&c.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,l(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"We call the vulnerabilities we found \\\\u201CFake Stake\\\\u201D attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-09-15T15:01:50.860Z",
-  "_cachedIn": "1.81 ms",
-  "_resolvedIn": "1.81 ms",
+  "_cachedAt": "2021-09-15T16:02:20.665Z",
+  "_cachedIn": "1.06 ms",
+  "_resolvedIn": "1.06 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -62,17 +62,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-09-15T15:01:50.860Z",
-    "component-cached-in": "1.81 ms",
-    "component-resolved-in": "1.81 ms"
+    "component-cached-at": "2021-09-15T16:02:20.665Z",
+    "component-cached-in": "1.06 ms",
+    "component-resolved-in": "1.06 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-15T15:01:50.860Z",
-      "_cachedIn": "1.5 ms",
-      "_resolvedIn": "1.5 ms",
+      "_cachedAt": "2021-09-15T16:02:20.665Z",
+      "_cachedIn": "889 μs",
+      "_resolvedIn": "889 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -81,17 +81,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-09-15T15:01:50.860Z",
-        "component-cached-in": "1.5 ms",
-        "component-resolved-in": "1.5 ms"
+        "component-cached-at": "2021-09-15T16:02:20.665Z",
+        "component-cached-in": "889 μs",
+        "component-resolved-in": "889 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-15T15:01:50.860Z",
-          "_cachedIn": "1.18 ms",
-          "_resolvedIn": "1.18 ms",
+          "_cachedAt": "2021-09-15T16:02:20.665Z",
+          "_cachedIn": "655 μs",
+          "_resolvedIn": "655 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -99,7 +99,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-09-15T15:01:33.963Z",
+              "createdAt": "2021-09-15T16:02:01.921Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -8664,73 +8664,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 2.13
+                "rate": 2.18
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.52
+                "rate": 2.57
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00005267
+                "rate": 0.00005324
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00005267
+                "rate": 0.00005324
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.44
+                "rate": 3.51
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 16.21
+                "rate": 16.56
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 10.48
+                "rate": 10.71
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 275.44
+                "rate": 281.58
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 82.85
+                "rate": 84.7
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-09-15T15:01:50.860Z",
-            "component-cached-in": "1.18 ms",
-            "component-resolved-in": "1.18 ms"
+            "component-cached-at": "2021-09-15T16:02:20.665Z",
+            "component-cached-in": "655 μs",
+            "component-resolved-in": "655 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-15T15:01:50.860Z",
-          "_cachedIn": "1.33 ms",
-          "_resolvedIn": "1.33 ms",
+          "_cachedAt": "2021-09-15T16:02:20.665Z",
+          "_cachedIn": "762 μs",
+          "_resolvedIn": "762 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8741,17 +8741,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-09-15T15:01:50.860Z",
-            "component-cached-in": "1.33 ms",
-            "component-resolved-in": "1.33 ms"
+            "component-cached-at": "2021-09-15T16:02:20.665Z",
+            "component-cached-in": "762 μs",
+            "component-resolved-in": "762 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-09-15T15:01:50.860Z",
-              "_cachedIn": "155 μs",
-              "_resolvedIn": "155 μs",
+              "_cachedAt": "2021-09-15T16:02:20.665Z",
+              "_cachedIn": "113 μs",
+              "_resolvedIn": "113 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8811,9 +8811,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-09-15T15:01:50.860Z",
-                "component-cached-in": "155 μs",
-                "component-resolved-in": "155 μs"
+                "component-cached-at": "2021-09-15T16:02:20.665Z",
+                "component-cached-in": "113 μs",
+                "component-resolved-in": "113 μs"
               },
               "components": {}
             }
@@ -8822,9 +8822,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-15T15:01:50.860Z",
-          "_cachedIn": "927 μs",
-          "_resolvedIn": "927 μs",
+          "_cachedAt": "2021-09-15T16:02:20.665Z",
+          "_cachedIn": "493 μs",
+          "_resolvedIn": "493 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8833,9 +8833,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-09-15T15:01:50.860Z",
-            "component-cached-in": "927 μs",
-            "component-resolved-in": "927 μs"
+            "component-cached-at": "2021-09-15T16:02:20.665Z",
+            "component-cached-in": "493 μs",
+            "component-resolved-in": "493 μs"
           },
           "components": {}
         }
@@ -8844,9 +8844,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-15T15:01:50.860Z",
-      "_cachedIn": "1.2 ms",
-      "_resolvedIn": "1.2 ms",
+      "_cachedAt": "2021-09-15T16:02:20.665Z",
+      "_cachedIn": "688 μs",
+      "_resolvedIn": "688 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8878,18 +8878,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-09-15T15:01:50.860Z",
-        "component-cached-in": "1.2 ms",
-        "component-resolved-in": "1.2 ms"
+        "component-cached-at": "2021-09-15T16:02:20.665Z",
+        "component-cached-in": "688 μs",
+        "component-resolved-in": "688 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-15T15:01:50.859Z",
-      "_cachedIn": "289 μs",
-      "_resolvedIn": "289 μs",
+      "_cachedAt": "2021-09-15T16:02:20.664Z",
+      "_cachedIn": "250 μs",
+      "_resolvedIn": "250 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8901,18 +8901,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-09-15T15:01:50.859Z",
-        "component-cached-in": "289 μs",
-        "component-resolved-in": "289 μs"
+        "component-cached-at": "2021-09-15T16:02:20.664Z",
+        "component-cached-in": "250 μs",
+        "component-resolved-in": "250 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-15T15:01:50.860Z",
-      "_cachedIn": "1.2 ms",
-      "_resolvedIn": "1.2 ms",
+      "_cachedAt": "2021-09-15T16:02:20.665Z",
+      "_cachedIn": "690 μs",
+      "_resolvedIn": "690 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8931,9 +8931,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-09-15T15:01:50.860Z",
-        "component-cached-in": "1.2 ms",
-        "component-resolved-in": "1.2 ms"
+        "component-cached-at": "2021-09-15T16:02:20.665Z",
+        "component-cached-in": "690 μs",
+        "component-resolved-in": "690 μs"
       },
       "components": {}
     }
