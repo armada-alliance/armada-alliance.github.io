@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"RuleDetailPage\",\"version\":1},\"props\":{\"id\":\"rule-6\",\"language\":\"en\",\"slug\":\"/rules/rule-6\",\"url\":\"https://armada-alliance.com/rules/rule-6\",\"origin\":\"/rules/rule-6\",\"title\":\"Pool should have their nodes defined\",\"description\":\"Make sure to define your nodes in the pool markdown file.\",\"aliases\":null,\"keywords\":null,\"template\":\"RuleDetailPage\",\"updatedAt\":\"2021-07-24T17:52:06.000Z\",\"filePath\":\"/en/rules/rule-6.md\",\"number\":6,\"body\":\"```yaml\\n---\\ntemplate: PoolDetailPage\\nticker: SBLYR\\nmemberSince: 2021-04-18\\nidentities: \\n  - id: sublayerio\\n    role: spo\\nnodes:\\n  - role: producer\\n    deviceId: mac-mini-m1-16gb\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n---\\n```\\n[View source](https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md)\\n\\n## Fields\\n\\n### role\\n\\nThe available options for `role` are: \\n- `relay`\\n- `producer`\\n\\n### deviceId\\n`deviceId` is not required. The available options for `deviceId` are: \\n- `raspberry-pi-4-8gb`\\n- `mac-mini-16gb`\\n\\n### name\\nYou're also allowed to just specify a `name` for your node:\\n\\n```yaml\\n---\\nnodes:\\n  - role: producer\\n    name: VPS in the cloud\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n```\\n\\n### storage\\n\\nStorage is a text describing the storage of the node. It will get displayed on the website.\\n\\n### processor\\n\\nProcessor is a text describing the processor of the node. It will get displayed on the website.\\n\\n### memory\\n\\nMemory is a text describing the memory of the node. It will get displayed on the website.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,m=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,t=Object.prototype.propertyIsEnumerable;var p=(e,a,i)=>a in e?c(e,a,{enumerable:!0,configurable:!0,writable:!0,value:i}):e[a]=i,n=(e,a)=>{for(var i in a||(a={}))l.call(a,i)&&p(e,i,a[i]);if(o)for(var i of o(a))t.call(a,i)&&p(e,i,a[i]);return e},d=(e,a)=>m(e,u(a));var s=(e,a)=>{var i={};for(var r in e)l.call(e,r)&&a.indexOf(r)<0&&(i[r]=e[r]);if(e!=null&&o)for(var r of o(e))a.indexOf(r)<0&&t.call(e,r)&&(i[r]=e[r]);return i};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(i){var r=i,{components:e}=r,a=s(r,[\\\"components\\\"]);return mdx(MDXLayout,d(n(n({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-yaml\\\"}),`---\\ntemplate: PoolDetailPage\\nticker: SBLYR\\nmemberSince: 2021-04-18\\nidentities: \\n  - id: sublayerio\\n    role: spo\\nnodes:\\n  - role: producer\\n    deviceId: mac-mini-m1-16gb\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n---\\n`)),mdx(\\\"p\\\",null,mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md\\\"}),\\\"View source\\\")),mdx(\\\"h2\\\",null,\\\"Fields\\\"),mdx(\\\"h3\\\",null,\\\"role\\\"),mdx(\\\"p\\\",null,\\\"The available options for \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"role\\\"),\\\" are: \\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"relay\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"producer\\\"))),mdx(\\\"h3\\\",null,\\\"deviceId\\\"),mdx(\\\"p\\\",null,mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"deviceId\\\"),\\\" is not required. The available options for \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"deviceId\\\"),\\\" are: \\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"raspberry-pi-4-8gb\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"mac-mini-16gb\\\"))),mdx(\\\"h3\\\",null,\\\"name\\\"),mdx(\\\"p\\\",null,\\\"You're also allowed to just specify a \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"name\\\"),\\\" for your node:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-yaml\\\"}),`---\\nnodes:\\n  - role: producer\\n    name: VPS in the cloud\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n`)),mdx(\\\"h3\\\",null,\\\"storage\\\"),mdx(\\\"p\\\",null,\\\"Storage is a text describing the storage of the node. It will get displayed on the website.\\\"),mdx(\\\"h3\\\",null,\\\"processor\\\"),mdx(\\\"p\\\",null,\\\"Processor is a text describing the processor of the node. It will get displayed on the website.\\\"),mdx(\\\"h3\\\",null,\\\"memory\\\"),mdx(\\\"p\\\",null,\\\"Memory is a text describing the memory of the node. It will get displayed on the website.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-09-19T03:34:52.733Z",
-  "_cachedIn": "898 μs",
-  "_resolvedIn": "898 μs",
+  "_cachedAt": "2021-09-19T04:01:32.938Z",
+  "_cachedIn": "1.02 ms",
+  "_resolvedIn": "1.02 ms",
   "id": "RuleDetailPage",
   "type": "RuleDetailPage",
   "status": "resolved",
@@ -32,17 +32,17 @@
   "attrs": {
     "component-type": "RuleDetailPage",
     "component-id": "RuleDetailPage",
-    "component-cached-at": "2021-09-19T03:34:52.733Z",
-    "component-cached-in": "898 μs",
-    "component-resolved-in": "898 μs"
+    "component-cached-at": "2021-09-19T04:01:32.938Z",
+    "component-cached-in": "1.02 ms",
+    "component-resolved-in": "1.02 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-19T03:34:52.733Z",
-      "_cachedIn": "746 μs",
-      "_resolvedIn": "746 μs",
+      "_cachedAt": "2021-09-19T04:01:32.938Z",
+      "_cachedIn": "538 μs",
+      "_resolvedIn": "538 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -51,17 +51,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-09-19T03:34:52.733Z",
-        "component-cached-in": "746 μs",
-        "component-resolved-in": "746 μs"
+        "component-cached-at": "2021-09-19T04:01:32.938Z",
+        "component-cached-in": "538 μs",
+        "component-resolved-in": "538 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-19T03:34:52.733Z",
-          "_cachedIn": "316 μs",
-          "_resolvedIn": "316 μs",
+          "_cachedAt": "2021-09-19T04:01:32.938Z",
+          "_cachedIn": "238 μs",
+          "_resolvedIn": "238 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -69,7 +69,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-09-19T03:34:31.407Z",
+              "createdAt": "2021-09-19T04:01:11.994Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -8760,67 +8760,67 @@
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.35
+                "rate": 2.36
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00004909
+                "rate": 0.00004917
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00004909
+                "rate": 0.00004917
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.24
+                "rate": 3.25
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 15.22
+                "rate": 15.25
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 9.82
+                "rate": 9.84
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 258.7
+                "rate": 259.26
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 78.4
+                "rate": 78.6
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-09-19T03:34:52.733Z",
-            "component-cached-in": "316 μs",
-            "component-resolved-in": "316 μs"
+            "component-cached-at": "2021-09-19T04:01:32.938Z",
+            "component-cached-in": "238 μs",
+            "component-resolved-in": "238 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-19T03:34:52.733Z",
-          "_cachedIn": "397 μs",
-          "_resolvedIn": "397 μs",
+          "_cachedAt": "2021-09-19T04:01:32.938Z",
+          "_cachedIn": "350 μs",
+          "_resolvedIn": "350 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8831,17 +8831,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-09-19T03:34:52.733Z",
-            "component-cached-in": "397 μs",
-            "component-resolved-in": "397 μs"
+            "component-cached-at": "2021-09-19T04:01:32.938Z",
+            "component-cached-in": "350 μs",
+            "component-resolved-in": "350 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-09-19T03:34:52.733Z",
-              "_cachedIn": "91 μs",
-              "_resolvedIn": "91 μs",
+              "_cachedAt": "2021-09-19T04:01:32.938Z",
+              "_cachedIn": "48 μs",
+              "_resolvedIn": "48 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8901,9 +8901,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-09-19T03:34:52.733Z",
-                "component-cached-in": "91 μs",
-                "component-resolved-in": "91 μs"
+                "component-cached-at": "2021-09-19T04:01:32.938Z",
+                "component-cached-in": "48 μs",
+                "component-resolved-in": "48 μs"
               },
               "components": {}
             }
@@ -8912,9 +8912,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-19T03:34:52.733Z",
-          "_cachedIn": "195 μs",
-          "_resolvedIn": "195 μs",
+          "_cachedAt": "2021-09-19T04:01:32.938Z",
+          "_cachedIn": "50 μs",
+          "_resolvedIn": "50 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8923,9 +8923,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-09-19T03:34:52.733Z",
-            "component-cached-in": "195 μs",
-            "component-resolved-in": "195 μs"
+            "component-cached-at": "2021-09-19T04:01:32.938Z",
+            "component-cached-in": "50 μs",
+            "component-resolved-in": "50 μs"
           },
           "components": {}
         }
@@ -8934,9 +8934,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-19T03:34:52.733Z",
-      "_cachedIn": "591 μs",
-      "_resolvedIn": "591 μs",
+      "_cachedAt": "2021-09-19T04:01:32.938Z",
+      "_cachedIn": "505 μs",
+      "_resolvedIn": "505 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -8949,18 +8949,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-09-19T03:34:52.733Z",
-        "component-cached-in": "591 μs",
-        "component-resolved-in": "591 μs"
+        "component-cached-at": "2021-09-19T04:01:32.938Z",
+        "component-cached-in": "505 μs",
+        "component-resolved-in": "505 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-19T03:34:52.733Z",
-      "_cachedIn": "391 μs",
-      "_resolvedIn": "391 μs",
+      "_cachedAt": "2021-09-19T04:01:32.938Z",
+      "_cachedIn": "295 μs",
+      "_resolvedIn": "295 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8972,18 +8972,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-09-19T03:34:52.733Z",
-        "component-cached-in": "391 μs",
-        "component-resolved-in": "391 μs"
+        "component-cached-at": "2021-09-19T04:01:32.938Z",
+        "component-cached-in": "295 μs",
+        "component-resolved-in": "295 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-19T03:34:52.733Z",
-      "_cachedIn": "592 μs",
-      "_resolvedIn": "592 μs",
+      "_cachedAt": "2021-09-19T04:01:32.938Z",
+      "_cachedIn": "507 μs",
+      "_resolvedIn": "507 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9002,9 +9002,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-09-19T03:34:52.733Z",
-        "component-cached-in": "592 μs",
-        "component-resolved-in": "592 μs"
+        "component-cached-at": "2021-09-19T04:01:32.938Z",
+        "component-cached-in": "507 μs",
+        "component-resolved-in": "507 μs"
       },
       "components": {}
     }
