@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node-on-alpine-linux-os\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node-on-alpine-linux-os\",\"url\":\"https://armada-alliance.com/guides/run-a-cardano-node-on-alpine-linux-os\",\"origin\":\"/guides/run-a-cardano-node-on-alpine-linux-os\",\"title\":\"Alpine Linux OS RPi Cardano Node\",\"description\":\"Set up and run a Cardano Node on a very lightweight Linux distribution.\",\"aliases\":null,\"keywords\":[\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"sayshar-srn\",\"role\":\"author\"}],\"icon\":\"🗻\",\"updatedAt\":\"2021-08-30T21:36:08.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node-on-alpine-linux-os.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/intermediate-guide/alpine-linux-os\",\"body\":\"<ImagesSection\\nimages={[\\n{ url: '/adasrn_system_info.png' },\\n{ url: '/UPS_for_Pi_only.jpg' }\\n]}\\n/>\\n\\n## Why use AlpineOS on the Raspberry Pi?\\n\\n- **Very low memory consumption** (~50MB utilized during idle vs ~350MB for Ubuntu 20.04).\\n- **Lower CPU overhead** (27 tasks/ 31 threads active for Alpine vs 57 tasks / 111 threads for Ubuntu when cardano-node is running).\\n- **Cooler Pi** 😎 (Literally, CPU runs cooler❄️ because of the lower CPU overhead).\\n- And finally, **why not?** If you're gonna use static binaries, might as well take advantage of a fully static operating system like AlpineOS 😜\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,d=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,o,n)=>o in e?m(e,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[o]=n,a=(e,o)=>{for(var n in o||(o={}))i.call(o,n)&&l(e,n,o[n]);if(r)for(var n of r(o))s.call(o,n)&&l(e,n,o[n]);return e},u=(e,o)=>d(e,c(o));var p=(e,o)=>{var n={};for(var t in e)i.call(e,t)&&o.indexOf(t)<0&&(n[t]=e[t]);if(e!=null&&r)for(var t of r(e))o.indexOf(t)<0&&s.call(e,t)&&(n[t]=e[t]);return n};const makeShortcode=e=>function(n){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",a({},n))},ImagesSection=makeShortcode(\\\"ImagesSection\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var t=n,{components:e}=t,o=p(t,[\\\"components\\\"]);return mdx(MDXLayout,u(a(a({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(ImagesSection,{images:[{url:\\\"/adasrn_system_info.png\\\"},{url:\\\"/UPS_for_Pi_only.jpg\\\"}],mdxType:\\\"ImagesSection\\\"}),mdx(\\\"h2\\\",null,\\\"Why use AlpineOS on the Raspberry Pi?\\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},\\\"Very low memory consumption\\\"),\\\" (~50MB utilized during idle vs ~350MB for Ubuntu 20.04).\\\"),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},\\\"Lower CPU overhead\\\"),\\\" (27 tasks/ 31 threads active for Alpine vs 57 tasks / 111 threads for Ubuntu when cardano-node is running).\\\"),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},\\\"Cooler Pi\\\"),\\\" \\\\u{1F60E} (Literally, CPU runs cooler\\\\u2744\\\\uFE0F because of the lower CPU overhead).\\\"),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},\\\"And finally, \\\",mdx(\\\"strong\\\",{parentName:\\\"li\\\"},\\\"why not?\\\"),\\\" If you're gonna use static binaries, might as well take advantage of a fully static operating system like AlpineOS \\\\u{1F61C}\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-09-30T16:02:07.441Z",
-  "_cachedIn": "174 ms",
-  "_resolvedIn": "174 ms",
+  "_cachedAt": "2021-09-30T17:09:48.153Z",
+  "_cachedIn": "109 ms",
+  "_resolvedIn": "109 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-09-30T16:02:07.441Z",
-    "component-cached-in": "174 ms",
-    "component-resolved-in": "174 ms"
+    "component-cached-at": "2021-09-30T17:09:48.153Z",
+    "component-cached-in": "109 ms",
+    "component-resolved-in": "109 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-30T16:02:07.441Z",
-      "_cachedIn": "160 μs",
-      "_resolvedIn": "160 μs",
+      "_cachedAt": "2021-09-30T17:09:48.153Z",
+      "_cachedIn": "179 μs",
+      "_resolvedIn": "179 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-09-30T16:02:07.441Z",
-        "component-cached-in": "160 μs",
-        "component-resolved-in": "160 μs"
+        "component-cached-at": "2021-09-30T17:09:48.153Z",
+        "component-cached-in": "179 μs",
+        "component-resolved-in": "179 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-30T16:02:07.441Z",
-          "_cachedIn": "93 μs",
-          "_resolvedIn": "93 μs",
+          "_cachedAt": "2021-09-30T17:09:48.153Z",
+          "_cachedIn": "106 μs",
+          "_resolvedIn": "106 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-09-30T16:01:52.698Z",
+              "createdAt": "2021-09-30T17:09:33.013Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -8826,73 +8826,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.8
+                "rate": 1.81
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.09
+                "rate": 2.1
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00004836
+                "rate": 0.00004859
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00004836
+                "rate": 0.00004859
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.89
+                "rate": 2.91
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 13.45
+                "rate": 13.53
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.73
+                "rate": 8.79
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 232.73
+                "rate": 233.87
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 70.24
+                "rate": 70.7
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-09-30T16:02:07.441Z",
-            "component-cached-in": "93 μs",
-            "component-resolved-in": "93 μs"
+            "component-cached-at": "2021-09-30T17:09:48.153Z",
+            "component-cached-in": "106 μs",
+            "component-resolved-in": "106 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-30T16:02:07.441Z",
-          "_cachedIn": "110 μs",
-          "_resolvedIn": "110 μs",
+          "_cachedAt": "2021-09-30T17:09:48.153Z",
+          "_cachedIn": "124 μs",
+          "_resolvedIn": "124 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -8903,17 +8903,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-09-30T16:02:07.441Z",
-            "component-cached-in": "110 μs",
-            "component-resolved-in": "110 μs"
+            "component-cached-at": "2021-09-30T17:09:48.153Z",
+            "component-cached-in": "124 μs",
+            "component-resolved-in": "124 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-09-30T16:02:07.441Z",
-              "_cachedIn": "29 μs",
-              "_resolvedIn": "29 μs",
+              "_cachedAt": "2021-09-30T17:09:48.153Z",
+              "_cachedIn": "31 μs",
+              "_resolvedIn": "31 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -8973,9 +8973,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-09-30T16:02:07.441Z",
-                "component-cached-in": "29 μs",
-                "component-resolved-in": "29 μs"
+                "component-cached-at": "2021-09-30T17:09:48.153Z",
+                "component-cached-in": "31 μs",
+                "component-resolved-in": "31 μs"
               },
               "components": {}
             }
@@ -8984,9 +8984,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-09-30T16:02:07.441Z",
-          "_cachedIn": "57 μs",
-          "_resolvedIn": "57 μs",
+          "_cachedAt": "2021-09-30T17:09:48.153Z",
+          "_cachedIn": "65 μs",
+          "_resolvedIn": "65 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -8995,9 +8995,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-09-30T16:02:07.441Z",
-            "component-cached-in": "57 μs",
-            "component-resolved-in": "57 μs"
+            "component-cached-at": "2021-09-30T17:09:48.153Z",
+            "component-cached-in": "65 μs",
+            "component-resolved-in": "65 μs"
           },
           "components": {}
         }
@@ -9006,9 +9006,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-30T16:02:07.441Z",
-      "_cachedIn": "115 μs",
-      "_resolvedIn": "115 μs",
+      "_cachedAt": "2021-09-30T17:09:48.153Z",
+      "_cachedIn": "130 μs",
+      "_resolvedIn": "130 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9040,18 +9040,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-09-30T16:02:07.441Z",
-        "component-cached-in": "115 μs",
-        "component-resolved-in": "115 μs"
+        "component-cached-at": "2021-09-30T17:09:48.153Z",
+        "component-cached-in": "130 μs",
+        "component-resolved-in": "130 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-30T16:02:07.441Z",
-      "_cachedIn": "59 μs",
-      "_resolvedIn": "59 μs",
+      "_cachedAt": "2021-09-30T17:09:48.153Z",
+      "_cachedIn": "67 μs",
+      "_resolvedIn": "67 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9063,18 +9063,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-09-30T16:02:07.441Z",
-        "component-cached-in": "59 μs",
-        "component-resolved-in": "59 μs"
+        "component-cached-at": "2021-09-30T17:09:48.153Z",
+        "component-cached-in": "67 μs",
+        "component-resolved-in": "67 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-09-30T16:02:07.441Z",
-      "_cachedIn": "115 μs",
-      "_resolvedIn": "115 μs",
+      "_cachedAt": "2021-09-30T17:09:48.153Z",
+      "_cachedIn": "130 μs",
+      "_resolvedIn": "130 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9098,9 +9098,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-09-30T16:02:07.441Z",
-        "component-cached-in": "115 μs",
-        "component-resolved-in": "115 μs"
+        "component-cached-at": "2021-09-30T17:09:48.153Z",
+        "component-cached-in": "130 μs",
+        "component-resolved-in": "130 μs"
       },
       "components": {}
     }
