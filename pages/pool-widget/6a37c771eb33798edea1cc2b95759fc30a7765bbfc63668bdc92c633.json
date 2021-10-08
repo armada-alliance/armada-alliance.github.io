@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"XOR NAND XORN\",\"slug\":\"/pool-widget/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633\",\"template\":\"PoolWidgetPage\",\"poolId\":\"6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-10-08T00:14:42.587Z",
-  "_cachedIn": "325 μs",
-  "_resolvedIn": "325 μs",
+  "_cachedAt": "2021-10-08T01:55:18.206Z",
+  "_cachedIn": "242 μs",
+  "_resolvedIn": "242 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633"
       },
       "description": "XOR NAND ADA Stake Pool",
-      "image": "https://api.xor-nand.io/xorn.png",
+      "image": "https://static.adapools.org/pool_logo/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.png",
       "hasImage": true,
       "ticker": "XORN",
       "addr": "pool1dgmuwu0txducah4pes4e2avlcv98wedml33kdz7ujtrrxk8xv9y",
@@ -32,7 +32,7 @@
       "totalStake": "807374749863",
       "blocksLifetime": 93,
       "delegators": 15,
-      "saturated": 0.012262153392177802,
+      "saturated": 0.012262153916089898,
       "pledge": "250000000000",
       "pledged": "251157821946",
       "taxRatio": 0.013,
@@ -125,47 +125,8 @@
           }
         }
       ],
-      "metadata": {
-        "name": "XOR NAND",
-        "description": "XOR NAND ADA Stake Pool",
-        "ticker": "XORN",
-        "homepage": "https://www.xor-nand.io/",
-        "extended": "https://api.xor-nand.io/xorn_extended.json"
-      },
-      "extended": {
-        "info": {
-          "url_png_icon_64x64": "https://api.xor-nand.io/xorn_64x64.png",
-          "url_png_logo": "https://api.xor-nand.io/xorn.png",
-          "location": "London, England",
-          "social": {
-            "twitter_handle": "xor_nand_xorn"
-          },
-          "about": {
-            "me": "We are a group of top crypto developers taking an active part in the DeFi crypto ecosystem in London, Tel-Aviv & New York startup scene.",
-            "server": "Cloud hosted, high performance & high availability deployment at datacenters around the globe, with a lightning fast file system for higher chances of ADA rewards.",
-            "company": "We invested our hard-earned cash to build super-fast Cardano stake-pool infrastructure."
-          }
-        },
-        "my-pool-ids": {
-          "0": "6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633"
-        },
-        "when-satured-then-recommend": {
-          "0": "bcd7cf751b59f949170a7e6599f9ac03e49b32c19f3f1d8dad3ac210",
-          "1": "e151c6e13d6e6ffe8ed7a99ab40d31164592f8fb1ceeb1b24db49d2f"
-        },
-        "telegram-admin-handle": {
-          "0": "nandxor"
-        },
-        "adapools_ext": {
-          "prometheus": {
-            "0": {
-              "name": "XORN Block Producer",
-              "type": "bp",
-              "key": "b57d9803ce1236ed8064edea8ddaa5e4"
-            }
-          }
-        }
-      },
+      "metadata": null,
+      "extended": null,
       "twitter": "xor_nand_xorn",
       "qualityScore": 75
     }
@@ -173,17 +134,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-10-08T00:14:42.587Z",
-    "component-cached-in": "325 μs",
-    "component-resolved-in": "325 μs"
+    "component-cached-at": "2021-10-08T01:55:18.206Z",
+    "component-cached-in": "242 μs",
+    "component-resolved-in": "242 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-08T00:14:42.587Z",
-      "_cachedIn": "100 μs",
-      "_resolvedIn": "100 μs",
+      "_cachedAt": "2021-10-08T01:55:18.206Z",
+      "_cachedIn": "92 μs",
+      "_resolvedIn": "92 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -192,17 +153,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-10-08T00:14:42.587Z",
-        "component-cached-in": "100 μs",
-        "component-resolved-in": "100 μs"
+        "component-cached-at": "2021-10-08T01:55:18.206Z",
+        "component-cached-in": "92 μs",
+        "component-resolved-in": "92 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-08T00:14:42.587Z",
-          "_cachedIn": "60 μs",
-          "_resolvedIn": "60 μs",
+          "_cachedAt": "2021-10-08T01:55:18.205Z",
+          "_cachedIn": "51 μs",
+          "_resolvedIn": "51 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -210,7 +171,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-10-08T00:14:22.528Z",
+              "createdAt": "2021-10-08T01:54:58.664Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2473,7 +2434,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://api.xor-nand.io/xorn.png",
+                "image": "https://static.adapools.org/pool_logo/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.png",
                 "updatedAt": "2021-10-07T08:26:37.000Z",
                 "filePath": "/en/stake-pools/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.md",
                 "rank": 25
@@ -9030,73 +8991,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.97
+                "rate": 1.98
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.28
+                "rate": 2.29
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00004231
+                "rate": 0.00004215
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00004231
+                "rate": 0.00004215
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 3.12
+                "rate": 3.13
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 14.7
+                "rate": 14.77
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 9.54
+                "rate": 9.58
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 254.67
+                "rate": 256.27
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 77.1
+                "rate": 77.53
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-10-08T00:14:42.587Z",
-            "component-cached-in": "60 μs",
-            "component-resolved-in": "60 μs"
+            "component-cached-at": "2021-10-08T01:55:18.205Z",
+            "component-cached-in": "51 μs",
+            "component-resolved-in": "51 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-08T00:14:42.587Z",
-          "_cachedIn": "81 μs",
-          "_resolvedIn": "81 μs",
+          "_cachedAt": "2021-10-08T01:55:18.206Z",
+          "_cachedIn": "70 μs",
+          "_resolvedIn": "70 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9107,17 +9068,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-10-08T00:14:42.587Z",
-            "component-cached-in": "81 μs",
-            "component-resolved-in": "81 μs"
+            "component-cached-at": "2021-10-08T01:55:18.206Z",
+            "component-cached-in": "70 μs",
+            "component-resolved-in": "70 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-10-08T00:14:42.587Z",
-              "_cachedIn": "22 μs",
-              "_resolvedIn": "22 μs",
+              "_cachedAt": "2021-10-08T01:55:18.205Z",
+              "_cachedIn": "21 μs",
+              "_resolvedIn": "21 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9177,9 +9138,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-10-08T00:14:42.587Z",
-                "component-cached-in": "22 μs",
-                "component-resolved-in": "22 μs"
+                "component-cached-at": "2021-10-08T01:55:18.205Z",
+                "component-cached-in": "21 μs",
+                "component-resolved-in": "21 μs"
               },
               "components": {}
             }
@@ -9188,9 +9149,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-08T00:14:42.587Z",
-          "_cachedIn": "24 μs",
-          "_resolvedIn": "24 μs",
+          "_cachedAt": "2021-10-08T01:55:18.205Z",
+          "_cachedIn": "18 μs",
+          "_resolvedIn": "18 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9199,9 +9160,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-10-08T00:14:42.587Z",
-            "component-cached-in": "24 μs",
-            "component-resolved-in": "24 μs"
+            "component-cached-at": "2021-10-08T01:55:18.205Z",
+            "component-cached-in": "18 μs",
+            "component-resolved-in": "18 μs"
           },
           "components": {}
         }
