@@ -1,16 +1,16 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Ruby Pool RUBY\",\"slug\":\"/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"hidden\":true}}",
+  "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Ruby Stake Pool RUBY\",\"slug\":\"/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-10-14T17:17:05.332Z",
-  "_cachedIn": "241 μs",
-  "_resolvedIn": "241 μs",
+  "_cachedAt": "2021-10-14T18:14:26.262Z",
+  "_cachedIn": "272 μs",
+  "_resolvedIn": "272 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
   "error": null,
   "props": {
     "language": "en",
-    "title": "Ruby Pool RUBY",
+    "title": "Ruby Stake Pool RUBY",
     "slug": "/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
     "template": "PoolWidgetPage",
     "poolId": "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
@@ -18,12 +18,12 @@
     "source": "/pages/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.json",
     "pool": {
       "id": "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
-      "name": "Ruby Pool",
+      "name": "Ruby Stake Pool",
       "link": {
-        "name": "Ruby Pool",
+        "name": "Ruby Stake Pool",
         "href": "/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da"
       },
-      "description": "Mission driven Cardano Stake Pool with a percentage of our rewards going to Children Education. Come delegate to us!",
+      "description": "An Independent and Mission Driven Cardano Stake Pool dedicated to supporting Children Welfare and building on Cardano Blockchain.",
       "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
       "hasImage": true,
       "ticker": "RUBY",
@@ -32,9 +32,9 @@
       "totalStake": "4008411612",
       "blocksLifetime": 0,
       "delegators": 3,
-      "saturated": 0.000060850985467701286,
+      "saturated": 0.000060850986739379375,
       "pledge": "1000000000",
-      "pledged": "1099110630",
+      "pledged": "1098913581",
       "taxRatio": 0.03,
       "taxFix": "340000000",
       "roa": "0",
@@ -77,7 +77,7 @@
       ],
       "relays": [
         {
-          "addr": "165.227.33.203",
+          "addr": "relay1.rubypools.com",
           "port": 6000,
           "data": {
             "ip": "165.227.33.203",
@@ -116,7 +116,7 @@
           }
         },
         {
-          "addr": "167.99.191.65",
+          "addr": "relay2.rubypools.com",
           "port": 6000,
           "data": {
             "ip": "167.99.191.65",
@@ -193,17 +193,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-10-14T17:17:05.332Z",
-    "component-cached-in": "241 μs",
-    "component-resolved-in": "241 μs"
+    "component-cached-at": "2021-10-14T18:14:26.262Z",
+    "component-cached-in": "272 μs",
+    "component-resolved-in": "272 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-14T17:17:05.332Z",
-      "_cachedIn": "85 μs",
-      "_resolvedIn": "85 μs",
+      "_cachedAt": "2021-10-14T18:14:26.262Z",
+      "_cachedIn": "99 μs",
+      "_resolvedIn": "99 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -212,17 +212,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-10-14T17:17:05.332Z",
-        "component-cached-in": "85 μs",
-        "component-resolved-in": "85 μs"
+        "component-cached-at": "2021-10-14T18:14:26.262Z",
+        "component-cached-in": "99 μs",
+        "component-resolved-in": "99 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-14T17:17:05.332Z",
-          "_cachedIn": "48 μs",
-          "_resolvedIn": "48 μs",
+          "_cachedAt": "2021-10-14T18:14:26.262Z",
+          "_cachedIn": "54 μs",
+          "_resolvedIn": "54 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -230,7 +230,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-10-14T17:16:44.471Z",
+              "createdAt": "2021-10-14T18:14:04.425Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2354,8 +2354,8 @@
                 "slug": "/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
                 "url": "https://armada-alliance.com/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
                 "origin": "/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
-                "title": "Ruby Pool (RUBY)",
-                "description": "Mission driven Cardano Stake Pool with a percentage of our rewards going to Children Education. Come delegate to us!",
+                "title": "Ruby Stake Pool (RUBY)",
+                "description": "An Independent and Mission Driven Cardano Stake Pool dedicated to supporting Children Welfare and building on Cardano Blockchain.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -3089,7 +3089,7 @@
               },
               {
                 "language": "en",
-                "title": "Ruby Pool RUBY",
+                "title": "Ruby Stake Pool RUBY",
                 "slug": "/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
                 "template": "PoolWidgetPage",
                 "poolId": "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
@@ -9152,13 +9152,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003829
+                "rate": 0.00003824
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003829
+                "rate": 0.00003824
               },
               {
                 "id": "AUD",
@@ -9170,43 +9170,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 14.12
+                "rate": 14.11
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 9.11
+                "rate": 9.1
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 249.22
+                "rate": 248.97
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 72.77
+                "rate": 72.7
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-10-14T17:17:05.332Z",
-            "component-cached-in": "48 μs",
-            "component-resolved-in": "48 μs"
+            "component-cached-at": "2021-10-14T18:14:26.262Z",
+            "component-cached-in": "54 μs",
+            "component-resolved-in": "54 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-14T17:17:05.332Z",
-          "_cachedIn": "65 μs",
-          "_resolvedIn": "65 μs",
+          "_cachedAt": "2021-10-14T18:14:26.262Z",
+          "_cachedIn": "76 μs",
+          "_resolvedIn": "76 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9217,17 +9217,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-10-14T17:17:05.332Z",
-            "component-cached-in": "65 μs",
-            "component-resolved-in": "65 μs"
+            "component-cached-at": "2021-10-14T18:14:26.262Z",
+            "component-cached-in": "76 μs",
+            "component-resolved-in": "76 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-10-14T17:17:05.332Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2021-10-14T18:14:26.262Z",
+              "_cachedIn": "23 μs",
+              "_resolvedIn": "23 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9287,9 +9287,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-10-14T17:17:05.332Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2021-10-14T18:14:26.262Z",
+                "component-cached-in": "23 μs",
+                "component-resolved-in": "23 μs"
               },
               "components": {}
             }
@@ -9298,9 +9298,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-14T17:17:05.332Z",
-          "_cachedIn": "17 μs",
-          "_resolvedIn": "17 μs",
+          "_cachedAt": "2021-10-14T18:14:26.262Z",
+          "_cachedIn": "19 μs",
+          "_resolvedIn": "19 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9309,9 +9309,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-10-14T17:17:05.332Z",
-            "component-cached-in": "17 μs",
-            "component-resolved-in": "17 μs"
+            "component-cached-at": "2021-10-14T18:14:26.262Z",
+            "component-cached-in": "19 μs",
+            "component-resolved-in": "19 μs"
           },
           "components": {}
         }
