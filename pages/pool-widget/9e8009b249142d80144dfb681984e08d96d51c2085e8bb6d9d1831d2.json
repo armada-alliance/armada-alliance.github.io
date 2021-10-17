@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Docker, Plutus, Research and Charity ASTOR\",\"slug\":\"/pool-widget/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2\",\"template\":\"PoolWidgetPage\",\"poolId\":\"9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-10-17T08:14:04.381Z",
-  "_cachedIn": "255 μs",
-  "_resolvedIn": "255 μs",
+  "_cachedAt": "2021-10-17T09:11:31.916Z",
+  "_cachedIn": "322 μs",
+  "_resolvedIn": "322 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "16141303095063",
       "blocksLifetime": 60,
       "delegators": 73,
-      "saturated": 0.2450386767801087,
+      "saturated": 0.24503867994830028,
       "pledge": "200000000000",
       "pledged": "225989133194",
       "taxRatio": 0.01,
@@ -130,6 +130,40 @@
               "is_eu": false
             }
           }
+        },
+        {
+          "addr": "relay03.astorpool.net",
+          "port": 3001,
+          "data": {
+            "ip": "84.63.194.98",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "DE",
+            "country_name": "Germany",
+            "region_code": "BY",
+            "region_name": "Bavaria",
+            "city": "Weilheim",
+            "zip": "82362",
+            "latitude": 47.8406982421875,
+            "longitude": 11.14210033416748,
+            "location": {
+              "geoname_id": 2812515,
+              "capital": "Berlin",
+              "languages": [
+                {
+                  "code": "de",
+                  "name": "German",
+                  "native": "Deutsch"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/de.svg",
+              "country_flag_emoji": "🇩🇪",
+              "country_flag_emoji_unicode": "U+1F1E9 U+1F1EA",
+              "calling_code": "49",
+              "is_eu": true
+            }
+          }
         }
       ],
       "metadata": {
@@ -207,17 +241,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-10-17T08:14:04.381Z",
-    "component-cached-in": "255 μs",
-    "component-resolved-in": "255 μs"
+    "component-cached-at": "2021-10-17T09:11:31.916Z",
+    "component-cached-in": "322 μs",
+    "component-resolved-in": "322 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-17T08:14:04.381Z",
-      "_cachedIn": "113 μs",
-      "_resolvedIn": "113 μs",
+      "_cachedAt": "2021-10-17T09:11:31.916Z",
+      "_cachedIn": "96 μs",
+      "_resolvedIn": "96 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -226,17 +260,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-10-17T08:14:04.381Z",
-        "component-cached-in": "113 μs",
-        "component-resolved-in": "113 μs"
+        "component-cached-at": "2021-10-17T09:11:31.916Z",
+        "component-cached-in": "96 μs",
+        "component-resolved-in": "96 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-17T08:14:04.381Z",
-          "_cachedIn": "67 μs",
-          "_resolvedIn": "67 μs",
+          "_cachedAt": "2021-10-17T09:11:31.916Z",
+          "_cachedIn": "52 μs",
+          "_resolvedIn": "52 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -244,7 +278,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-10-17T08:13:42.704Z",
+              "createdAt": "2021-10-17T09:11:10.329Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9166,13 +9200,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003591
+                "rate": 0.00003581
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003591
+                "rate": 0.00003581
               },
               {
                 "id": "AUD",
@@ -9184,43 +9218,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 14.03
+                "rate": 14.04
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 9.06
+                "rate": 9.07
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 249.33
+                "rate": 249.5
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 72.94
+                "rate": 72.99
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-10-17T08:14:04.381Z",
-            "component-cached-in": "67 μs",
-            "component-resolved-in": "67 μs"
+            "component-cached-at": "2021-10-17T09:11:31.916Z",
+            "component-cached-in": "52 μs",
+            "component-resolved-in": "52 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-17T08:14:04.381Z",
-          "_cachedIn": "89 μs",
-          "_resolvedIn": "89 μs",
+          "_cachedAt": "2021-10-17T09:11:31.916Z",
+          "_cachedIn": "73 μs",
+          "_resolvedIn": "73 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9231,17 +9265,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-10-17T08:14:04.381Z",
-            "component-cached-in": "89 μs",
-            "component-resolved-in": "89 μs"
+            "component-cached-at": "2021-10-17T09:11:31.916Z",
+            "component-cached-in": "73 μs",
+            "component-resolved-in": "73 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-10-17T08:14:04.381Z",
-              "_cachedIn": "39 μs",
-              "_resolvedIn": "39 μs",
+              "_cachedAt": "2021-10-17T09:11:31.916Z",
+              "_cachedIn": "22 μs",
+              "_resolvedIn": "22 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9301,9 +9335,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-10-17T08:14:04.381Z",
-                "component-cached-in": "39 μs",
-                "component-resolved-in": "39 μs"
+                "component-cached-at": "2021-10-17T09:11:31.916Z",
+                "component-cached-in": "22 μs",
+                "component-resolved-in": "22 μs"
               },
               "components": {}
             }
@@ -9312,9 +9346,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-17T08:14:04.381Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2021-10-17T09:11:31.916Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9323,9 +9357,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-10-17T08:14:04.381Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2021-10-17T09:11:31.916Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }
