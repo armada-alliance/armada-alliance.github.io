@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https://armada-alliance.com/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"🌊\",\"updatedAt\":\"2021-07-13T15:34:16.000Z\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n<\\\\/script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-10-19T12:26:20.834Z",
-  "_cachedIn": "153 ms",
-  "_resolvedIn": "153 ms",
+  "_cachedAt": "2021-10-19T13:02:32.176Z",
+  "_cachedIn": "151 ms",
+  "_resolvedIn": "151 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-10-19T12:26:20.834Z",
-    "component-cached-in": "153 ms",
-    "component-resolved-in": "153 ms"
+    "component-cached-at": "2021-10-19T13:02:32.176Z",
+    "component-cached-in": "151 ms",
+    "component-resolved-in": "151 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-19T12:26:20.834Z",
-      "_cachedIn": "179 μs",
-      "_resolvedIn": "179 μs",
+      "_cachedAt": "2021-10-19T13:02:32.176Z",
+      "_cachedIn": "170 μs",
+      "_resolvedIn": "170 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,17 +67,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-10-19T12:26:20.834Z",
-        "component-cached-in": "179 μs",
-        "component-resolved-in": "179 μs"
+        "component-cached-at": "2021-10-19T13:02:32.176Z",
+        "component-cached-in": "170 μs",
+        "component-resolved-in": "170 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-19T12:26:20.834Z",
-          "_cachedIn": "107 μs",
-          "_resolvedIn": "107 μs",
+          "_cachedAt": "2021-10-19T13:02:32.176Z",
+          "_cachedIn": "102 μs",
+          "_resolvedIn": "102 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -85,7 +85,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-10-19T12:25:57.698Z",
+              "createdAt": "2021-10-19T13:02:12.326Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1124,21 +1124,6 @@
                 "filePath": "/en/identities/DeCentN2Madness.md"
               },
               {
-                "id": "RADAR",
-                "language": "en",
-                "slug": "/identities/RADAR",
-                "url": "https://armada-alliance.com/identities/RADAR",
-                "origin": "/identities/RADAR",
-                "title": "Sully",
-                "description": "SPO",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://user-images.githubusercontent.com/81721934/116164888-a19ca600-a6c8-11eb-8e3a-fae113e66ce2.jpg",
-                "updatedAt": "2021-10-19T12:23:20.000Z",
-                "filePath": "/en/identities/RADAR.md"
-              },
-              {
                 "id": "Zebra_Danio",
                 "language": "en",
                 "slug": "/identities/Zebra_Danio",
@@ -1902,6 +1887,21 @@
                 "image": "https://southtyrolpool.it/wp-content/uploads/2021/03/fotoio-1.png",
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/identities/sudti.md"
+              },
+              {
+                "id": "sullyatRADAR",
+                "language": "en",
+                "slug": "/identities/sullyatRADAR",
+                "url": "https://armada-alliance.com/identities/sullyatRADAR",
+                "origin": "/identities/sullyatRADAR",
+                "title": "Sully",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://user-images.githubusercontent.com/81721934/116164888-a19ca600-a6c8-11eb-8e3a-fae113e66ce2.jpg",
+                "updatedAt": "2021-10-19T13:00:35.000Z",
+                "filePath": "/en/identities/sullyatRADAR.md"
               },
               {
                 "id": "thomas-astor",
@@ -2888,6 +2888,28 @@
                 "rank": 0
               },
               {
+                "id": "fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65",
+                "language": "en",
+                "slug": "/stake-pools/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65",
+                "url": "https://armada-alliance.com/stake-pools/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65",
+                "origin": "/stake-pools/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65",
+                "title": "RADAR Stake Pool (RADAR)",
+                "description": "A low-fee, reliable return, bare-metal stake pool dedicated to true decentralization",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "sullyatRADAR",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://user-images.githubusercontent.com/81721934/116167028-60f35b80-a6cd-11eb-9371-025d8d5bed42.jpg",
+                "updatedAt": "2021-10-19T13:01:30.000Z",
+                "filePath": "/en/stake-pools/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65.md",
+                "rank": 38
+              },
+              {
                 "id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
                 "language": "en",
                 "slug": "/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
@@ -3195,6 +3217,14 @@
                 "slug": "/pool-widget/fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59",
                 "template": "PoolWidgetPage",
                 "poolId": "fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "RADAR Stake Pool RADAR",
+                "slug": "/pool-widget/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65",
+                "template": "PoolWidgetPage",
+                "poolId": "fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65",
                 "hidden": true
               },
               {
@@ -9022,13 +9052,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003419
+                "rate": 0.0000341
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003419
+                "rate": 0.0000341
               },
               {
                 "id": "AUD",
@@ -9040,43 +9070,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 13.61
+                "rate": 13.6
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.89
+                "rate": 8.88
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 243.41
+                "rate": 243.29
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 71.08
+                "rate": 71.02
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-10-19T12:26:20.834Z",
-            "component-cached-in": "107 μs",
-            "component-resolved-in": "107 μs"
+            "component-cached-at": "2021-10-19T13:02:32.176Z",
+            "component-cached-in": "102 μs",
+            "component-resolved-in": "102 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-19T12:26:20.834Z",
-          "_cachedIn": "125 μs",
-          "_resolvedIn": "125 μs",
+          "_cachedAt": "2021-10-19T13:02:32.176Z",
+          "_cachedIn": "119 μs",
+          "_resolvedIn": "119 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9087,17 +9117,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-10-19T12:26:20.834Z",
-            "component-cached-in": "125 μs",
-            "component-resolved-in": "125 μs"
+            "component-cached-at": "2021-10-19T13:02:32.176Z",
+            "component-cached-in": "119 μs",
+            "component-resolved-in": "119 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-10-19T12:26:20.834Z",
-              "_cachedIn": "31 μs",
-              "_resolvedIn": "31 μs",
+              "_cachedAt": "2021-10-19T13:02:32.176Z",
+              "_cachedIn": "29 μs",
+              "_resolvedIn": "29 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9157,9 +9187,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-10-19T12:26:20.834Z",
-                "component-cached-in": "31 μs",
-                "component-resolved-in": "31 μs"
+                "component-cached-at": "2021-10-19T13:02:32.176Z",
+                "component-cached-in": "29 μs",
+                "component-resolved-in": "29 μs"
               },
               "components": {}
             }
@@ -9168,9 +9198,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-19T12:26:20.834Z",
-          "_cachedIn": "70 μs",
-          "_resolvedIn": "70 μs",
+          "_cachedAt": "2021-10-19T13:02:32.176Z",
+          "_cachedIn": "66 μs",
+          "_resolvedIn": "66 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9179,9 +9209,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-10-19T12:26:20.834Z",
-            "component-cached-in": "70 μs",
-            "component-resolved-in": "70 μs"
+            "component-cached-at": "2021-10-19T13:02:32.176Z",
+            "component-cached-in": "66 μs",
+            "component-resolved-in": "66 μs"
           },
           "components": {}
         }
@@ -9190,9 +9220,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-19T12:26:20.834Z",
-      "_cachedIn": "129 μs",
-      "_resolvedIn": "129 μs",
+      "_cachedAt": "2021-10-19T13:02:32.176Z",
+      "_cachedIn": "124 μs",
+      "_resolvedIn": "124 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9241,18 +9271,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-10-19T12:26:20.834Z",
-        "component-cached-in": "129 μs",
-        "component-resolved-in": "129 μs"
+        "component-cached-at": "2021-10-19T13:02:32.176Z",
+        "component-cached-in": "124 μs",
+        "component-resolved-in": "124 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-19T12:26:20.834Z",
-      "_cachedIn": "69 μs",
-      "_resolvedIn": "69 μs",
+      "_cachedAt": "2021-10-19T13:02:32.176Z",
+      "_cachedIn": "67 μs",
+      "_resolvedIn": "67 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9264,18 +9294,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-10-19T12:26:20.834Z",
-        "component-cached-in": "69 μs",
-        "component-resolved-in": "69 μs"
+        "component-cached-at": "2021-10-19T13:02:32.176Z",
+        "component-cached-in": "67 μs",
+        "component-resolved-in": "67 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-19T12:26:20.834Z",
-      "_cachedIn": "128 μs",
-      "_resolvedIn": "128 μs",
+      "_cachedAt": "2021-10-19T13:02:32.176Z",
+      "_cachedIn": "122 μs",
+      "_resolvedIn": "122 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9296,9 +9326,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-10-19T12:26:20.834Z",
-        "component-cached-in": "128 μs",
-        "component-resolved-in": "128 μs"
+        "component-cached-at": "2021-10-19T13:02:32.176Z",
+        "component-cached-in": "122 μs",
+        "component-resolved-in": "122 μs"
       },
       "components": {}
     }
