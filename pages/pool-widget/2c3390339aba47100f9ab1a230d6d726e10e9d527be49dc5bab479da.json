@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Ruby Stake Pool RUBY\",\"slug\":\"/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-10-26T16:18:26.130Z",
-  "_cachedIn": "262 μs",
-  "_resolvedIn": "262 μs",
+  "_cachedAt": "2021-10-26T17:17:44.197Z",
+  "_cachedIn": "310 μs",
+  "_resolvedIn": "310 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,12 +29,12 @@
       "ticker": "RUBY",
       "addr": "pool19seeqvu6hfr3qru6kx3rp4khymssa82j00jfm3d6k3ua590wdwv",
       "website": "http://rubypools.com",
-      "totalStake": "2898367865",
+      "totalStake": "2898170904",
       "blocksLifetime": 0,
       "delegators": 2,
-      "saturated": 0.00004395987222442304,
+      "saturated": 0.000043956886780645155,
       "pledge": "1000000000",
-      "pledged": "1098913581",
+      "pledged": "1098716620",
       "taxRatio": 0.03,
       "taxFix": "340000000",
       "roa": "0",
@@ -75,23 +75,23 @@
       ],
       "relays": [
         {
-          "addr": "relay1.rubypools.com",
-          "port": 6000,
+          "addr": "relay.rubypools.com",
+          "port": 6001,
           "data": {
-            "ip": "165.227.33.203",
+            "ip": "66.183.104.145",
             "type": "ipv4",
             "continent_code": "NA",
             "continent_name": "North America",
             "country_code": "CA",
             "country_name": "Canada",
-            "region_code": "ON",
-            "region_name": "Ontario",
-            "city": "Toronto",
-            "zip": "M3H 6A7",
-            "latitude": 43.70317077636719,
-            "longitude": -79.51219177246094,
+            "region_code": "BC",
+            "region_name": "British Columbia",
+            "city": "New Westminster",
+            "zip": "V3R 0A1",
+            "latitude": 49.180938720703125,
+            "longitude": -122.81128692626953,
             "location": {
-              "geoname_id": 6167865,
+              "geoname_id": 6087844,
               "capital": "Ottawa",
               "languages": [
                 {
@@ -114,8 +114,8 @@
           }
         },
         {
-          "addr": "relay2.rubypools.com",
-          "port": 6000,
+          "addr": "relay.rubypools.com",
+          "port": 6002,
           "data": {
             "ip": "66.183.104.145",
             "type": "ipv4",
@@ -191,17 +191,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-10-26T16:18:26.130Z",
-    "component-cached-in": "262 μs",
-    "component-resolved-in": "262 μs"
+    "component-cached-at": "2021-10-26T17:17:44.197Z",
+    "component-cached-in": "310 μs",
+    "component-resolved-in": "310 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-10-26T16:18:26.130Z",
-      "_cachedIn": "92 μs",
-      "_resolvedIn": "92 μs",
+      "_cachedAt": "2021-10-26T17:17:44.197Z",
+      "_cachedIn": "103 μs",
+      "_resolvedIn": "103 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -210,17 +210,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-10-26T16:18:26.130Z",
-        "component-cached-in": "92 μs",
-        "component-resolved-in": "92 μs"
+        "component-cached-at": "2021-10-26T17:17:44.197Z",
+        "component-cached-in": "103 μs",
+        "component-resolved-in": "103 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-26T16:18:26.130Z",
-          "_cachedIn": "50 μs",
-          "_resolvedIn": "50 μs",
+          "_cachedAt": "2021-10-26T17:17:44.197Z",
+          "_cachedIn": "57 μs",
+          "_resolvedIn": "57 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -228,7 +228,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-10-26T16:17:55.219Z",
+              "createdAt": "2021-10-26T17:17:22.161Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9219,67 +9219,67 @@
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.16
+                "rate": 2.17
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003456
+                "rate": 0.00003472
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003456
+                "rate": 0.00003472
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.88
+                "rate": 2.89
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 13.8
+                "rate": 13.83
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.97
+                "rate": 8.99
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 246.91
+                "rate": 247.25
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 71.83
+                "rate": 71.98
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-10-26T16:18:26.130Z",
-            "component-cached-in": "50 μs",
-            "component-resolved-in": "50 μs"
+            "component-cached-at": "2021-10-26T17:17:44.197Z",
+            "component-cached-in": "57 μs",
+            "component-resolved-in": "57 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-26T16:18:26.130Z",
-          "_cachedIn": "70 μs",
-          "_resolvedIn": "70 μs",
+          "_cachedAt": "2021-10-26T17:17:44.197Z",
+          "_cachedIn": "79 μs",
+          "_resolvedIn": "79 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9290,17 +9290,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-10-26T16:18:26.130Z",
-            "component-cached-in": "70 μs",
-            "component-resolved-in": "70 μs"
+            "component-cached-at": "2021-10-26T17:17:44.197Z",
+            "component-cached-in": "79 μs",
+            "component-resolved-in": "79 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-10-26T16:18:26.130Z",
-              "_cachedIn": "21 μs",
-              "_resolvedIn": "21 μs",
+              "_cachedAt": "2021-10-26T17:17:44.197Z",
+              "_cachedIn": "22 μs",
+              "_resolvedIn": "22 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9360,9 +9360,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-10-26T16:18:26.130Z",
-                "component-cached-in": "21 μs",
-                "component-resolved-in": "21 μs"
+                "component-cached-at": "2021-10-26T17:17:44.197Z",
+                "component-cached-in": "22 μs",
+                "component-resolved-in": "22 μs"
               },
               "components": {}
             }
@@ -9371,9 +9371,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-10-26T16:18:26.130Z",
-          "_cachedIn": "17 μs",
-          "_resolvedIn": "17 μs",
+          "_cachedAt": "2021-10-26T17:17:44.197Z",
+          "_cachedIn": "21 μs",
+          "_resolvedIn": "21 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9382,9 +9382,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-10-26T16:18:26.130Z",
-            "component-cached-in": "17 μs",
-            "component-resolved-in": "17 μs"
+            "component-cached-at": "2021-10-26T17:17:44.197Z",
+            "component-cached-in": "21 μs",
+            "component-resolved-in": "21 μs"
           },
           "components": {}
         }
