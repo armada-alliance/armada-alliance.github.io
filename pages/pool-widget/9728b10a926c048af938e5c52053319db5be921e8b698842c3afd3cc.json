@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"SOLAR Raspberry PI SOLRP\",\"slug\":\"/pool-widget/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc\",\"template\":\"PoolWidgetPage\",\"poolId\":\"9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-02T18:16:34.876Z",
-  "_cachedIn": "263 μs",
-  "_resolvedIn": "263 μs",
+  "_cachedAt": "2021-11-02T19:10:30.866Z",
+  "_cachedIn": "480 μs",
+  "_resolvedIn": "480 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,15 +24,15 @@
         "href": "/stake-pools/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc"
       },
       "description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
-      "image": "https://static.adapools.org/pool_logo/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc.png",
-      "hasImage": true,
+      "image": "https://armada-alliance.com/assets/ship-420.png",
+      "hasImage": false,
       "ticker": "SOLRP",
       "addr": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
       "website": "https://solarcardano.com/",
       "totalStake": "51891611894",
       "blocksLifetime": 77,
       "delegators": 30,
-      "saturated": 0.0007788341322542923,
+      "saturated": 0.0007788341482110421,
       "pledge": "2000000000",
       "pledged": "2009935058",
       "taxRatio": 0.01,
@@ -130,28 +130,55 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "SOLAR Raspberry PI",
+        "ticker": "SOLRP",
+        "description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
+        "homepage": "https://solarcardano.com/",
+        "nonce": "1623102206",
+        "extended": "https://solarcardano.com/ext_metadata.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://solarcardano.com/icon.png",
+          "location": "Texas, USA",
+          "social": {
+            "telegram_handle": "solrp_stake_pool",
+            "github_handle": "canad1an",
+            "twitter_handle": "SOLRP_StakePool"
+          },
+          "about": {
+            "me": "Single Pool Operator",
+            "server": "Raspberry Pi Producer + Raspberry 2 Pi Relay located in Fort Worth Texas, USA running 500gb ssd all solar powered with very low energy draw."
+          },
+          "my-pool-ids": {
+            "0": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc"
+          },
+          "when-satured-then-recommend": {
+            "0": "Small pools - support Decentralization"
+          }
+        }
+      },
       "telegram": "solrp_stake_pool",
       "twitter": "SOLRP_StakePool",
       "github": "canad1an",
-      "qualityScore": 100
+      "qualityScore": 87.5
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-11-02T18:16:34.876Z",
-    "component-cached-in": "263 μs",
-    "component-resolved-in": "263 μs"
+    "component-cached-at": "2021-11-02T19:10:30.866Z",
+    "component-cached-in": "480 μs",
+    "component-resolved-in": "480 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-02T18:16:34.876Z",
-      "_cachedIn": "102 μs",
-      "_resolvedIn": "102 μs",
+      "_cachedAt": "2021-11-02T19:10:30.866Z",
+      "_cachedIn": "191 μs",
+      "_resolvedIn": "191 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -160,17 +187,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-02T18:16:34.876Z",
-        "component-cached-in": "102 μs",
-        "component-resolved-in": "102 μs"
+        "component-cached-at": "2021-11-02T19:10:30.866Z",
+        "component-cached-in": "191 μs",
+        "component-resolved-in": "191 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-02T18:16:34.876Z",
-          "_cachedIn": "46 μs",
-          "_resolvedIn": "46 μs",
+          "_cachedAt": "2021-11-02T19:10:30.866Z",
+          "_cachedIn": "63 μs",
+          "_resolvedIn": "63 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -178,7 +205,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-02T18:13:59.318Z",
+              "createdAt": "2021-11-02T19:10:00.207Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2685,10 +2712,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc.png",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-09-01T22:06:46.000Z",
                 "filePath": "/en/stake-pools/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc.md",
-                "rank": 0
+                "rank": 13
               },
               {
                 "id": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
@@ -9175,13 +9202,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.0000312
+                "rate": 0.00003123
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.0000312
+                "rate": 0.00003123
               },
               {
                 "id": "AUD",
@@ -9193,43 +9220,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 12.66
+                "rate": 12.65
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.21
+                "rate": 8.2
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 225.28
+                "rate": 225.33
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 65.81
+                "rate": 65.8
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-02T18:16:34.876Z",
-            "component-cached-in": "46 μs",
-            "component-resolved-in": "46 μs"
+            "component-cached-at": "2021-11-02T19:10:30.866Z",
+            "component-cached-in": "63 μs",
+            "component-resolved-in": "63 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-02T18:16:34.876Z",
-          "_cachedIn": "64 μs",
-          "_resolvedIn": "64 μs",
+          "_cachedAt": "2021-11-02T19:10:30.866Z",
+          "_cachedIn": "155 μs",
+          "_resolvedIn": "155 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9240,17 +9267,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-02T18:16:34.876Z",
-            "component-cached-in": "64 μs",
-            "component-resolved-in": "64 μs"
+            "component-cached-at": "2021-11-02T19:10:30.866Z",
+            "component-cached-in": "155 μs",
+            "component-resolved-in": "155 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-02T18:16:34.876Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2021-11-02T19:10:30.866Z",
+              "_cachedIn": "25 μs",
+              "_resolvedIn": "25 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9310,9 +9337,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-02T18:16:34.876Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2021-11-02T19:10:30.866Z",
+                "component-cached-in": "25 μs",
+                "component-resolved-in": "25 μs"
               },
               "components": {}
             }
@@ -9321,9 +9348,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-02T18:16:34.876Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2021-11-02T19:10:30.866Z",
+          "_cachedIn": "19 μs",
+          "_resolvedIn": "19 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9332,9 +9359,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-02T18:16:34.876Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2021-11-02T19:10:30.866Z",
+            "component-cached-in": "19 μs",
+            "component-resolved-in": "19 μs"
           },
           "components": {}
         }
