@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"RISC-V powered Stake Pool RV64\",\"slug\":\"/pool-widget/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"template\":\"PoolWidgetPage\",\"poolId\":\"277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-03T09:12:45.488Z",
-  "_cachedIn": "331 μs",
-  "_resolvedIn": "331 μs",
+  "_cachedAt": "2021-11-03T19:20:42.263Z",
+  "_cachedIn": "222 μs",
+  "_resolvedIn": "222 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,12 +29,12 @@
       "ticker": "RV64",
       "addr": "pool1yaa5mte7s5y5gyktj3ccjxkqf9dptpu52x9us2ecmjnqw29ja2v",
       "website": "https://riscv-pool.tech/",
-      "totalStake": "47549302177",
+      "totalStake": "47549102488",
       "blocksLifetime": 1,
       "delegators": 6,
-      "saturated": 0.0007136612926962306,
-      "pledge": "25000000000",
-      "pledged": "25530821313",
+      "saturated": 0.0007136585645455003,
+      "pledge": "25500000000",
+      "pledged": "25530621624",
       "taxRatio": 0.005,
       "taxFix": "340000000",
       "roa": "3.333",
@@ -78,76 +78,7 @@
           "deviceId": "raspberry-pi-3-1gb"
         }
       ],
-      "relays": [
-        {
-          "addr": "mainnet-relay1.riscv-pool.tech",
-          "port": 3001,
-          "data": {
-            "ip": "161.35.157.9",
-            "type": "ipv4",
-            "continent_code": "NA",
-            "continent_name": "North America",
-            "country_code": "US",
-            "country_name": "United States",
-            "region_code": "MA",
-            "region_name": "Massachusetts",
-            "city": "Westford",
-            "zip": "01886",
-            "latitude": 42.5890007019043,
-            "longitude": -71.44174194335938,
-            "location": {
-              "geoname_id": 4955219,
-              "capital": "Washington D.C.",
-              "languages": [
-                {
-                  "code": "en",
-                  "name": "English",
-                  "native": "English"
-                }
-              ],
-              "country_flag": "https://assets.ipstack.com/flags/us.svg",
-              "country_flag_emoji": "🇺🇸",
-              "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
-              "calling_code": "1",
-              "is_eu": false
-            }
-          }
-        },
-        {
-          "addr": "mainnet-relay2.riscv-pool.tech",
-          "port": 3001,
-          "data": {
-            "ip": "45.83.233.6",
-            "type": "ipv4",
-            "continent_code": "EU",
-            "continent_name": "Europe",
-            "country_code": "NL",
-            "country_name": "Netherlands",
-            "region_code": "NH",
-            "region_name": "North Holland",
-            "city": "Diemen",
-            "zip": "1101",
-            "latitude": 52.309051513671875,
-            "longitude": 4.940189838409424,
-            "location": {
-              "geoname_id": 2756888,
-              "capital": "Amsterdam",
-              "languages": [
-                {
-                  "code": "nl",
-                  "name": "Dutch",
-                  "native": "Nederlands"
-                }
-              ],
-              "country_flag": "https://assets.ipstack.com/flags/nl.svg",
-              "country_flag_emoji": "🇳🇱",
-              "country_flag_emoji_unicode": "U+1F1F3 U+1F1F1",
-              "calling_code": "31",
-              "is_eu": true
-            }
-          }
-        }
-      ],
+      "relays": [],
       "metadata": {
         "name": "RISC-V powered Stake Pool",
         "description": "RISC-V ISA powered Stake Pool",
@@ -187,23 +118,23 @@
       "twitter": "rv64stakepool",
       "github": "RV64-Stake-Pool",
       "youtube": "channel/UCWEeOlhT7b0TClzlqyeBRhw",
-      "qualityScore": 75
+      "qualityScore": 62.5
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-11-03T09:12:45.488Z",
-    "component-cached-in": "331 μs",
-    "component-resolved-in": "331 μs"
+    "component-cached-at": "2021-11-03T19:20:42.263Z",
+    "component-cached-in": "222 μs",
+    "component-resolved-in": "222 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-03T09:12:45.488Z",
-      "_cachedIn": "117 μs",
-      "_resolvedIn": "117 μs",
+      "_cachedAt": "2021-11-03T19:20:42.263Z",
+      "_cachedIn": "75 μs",
+      "_resolvedIn": "75 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -212,17 +143,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-03T09:12:45.488Z",
-        "component-cached-in": "117 μs",
-        "component-resolved-in": "117 μs"
+        "component-cached-at": "2021-11-03T19:20:42.263Z",
+        "component-cached-in": "75 μs",
+        "component-resolved-in": "75 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-03T09:12:45.488Z",
-          "_cachedIn": "67 μs",
-          "_resolvedIn": "67 μs",
+          "_cachedAt": "2021-11-03T19:20:42.263Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -230,7 +161,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-03T09:12:22.410Z",
+              "createdAt": "2021-11-03T19:20:20.570Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1267,6 +1198,21 @@
                 "image": "/decentn2madness.png",
                 "updatedAt": "2021-07-25T21:12:28.000Z",
                 "filePath": "/en/identities/DeCentN2Madness.md"
+              },
+              {
+                "id": "Rhys_STOIC",
+                "language": "en",
+                "slug": "/identities/Rhys_STOIC",
+                "url": "https://armada-alliance.com/identities/Rhys_STOIC",
+                "origin": "/identities/Rhys_STOIC",
+                "title": "Rhys Morgan",
+                "description": "Rhys is the SPO for STOIC Pool",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://stoicpool.com/wp-content/uploads/2021/11/RhysSPOImage.png",
+                "updatedAt": "2021-11-03T13:58:32.000Z",
+                "filePath": "/en/identities/Rhys_STOIC.md"
               },
               {
                 "id": "Zebra_Danio",
@@ -2351,7 +2297,7 @@
                 "image": "https://riscv-pool.tech/extended-metadata/rv64-logo.png",
                 "updatedAt": "2021-11-02T21:10:14.000Z",
                 "filePath": "/en/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607.md",
-                "rank": 25
+                "rank": 38
               },
               {
                 "id": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
@@ -2424,7 +2370,7 @@
                 "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
                 "updatedAt": "2021-10-26T07:27:05.000Z",
                 "filePath": "/en/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.md",
-                "rank": 0
+                "rank": 13
               },
               {
                 "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -3089,7 +3035,7 @@
                 "image": "https://user-images.githubusercontent.com/81721934/116167028-60f35b80-a6cd-11eb-9371-025d8d5bed42.jpg",
                 "updatedAt": "2021-10-22T18:29:54.000Z",
                 "filePath": "/en/stake-pools/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65.md",
-                "rank": 13
+                "rank": 25
               },
               {
                 "id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
@@ -9260,73 +9206,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.83
+                "rate": 1.8
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.12
+                "rate": 2.09
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003361
+                "rate": 0.00003301
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003361
+                "rate": 0.00003301
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.84
+                "rate": 2.8
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 13.53
+                "rate": 13.37
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.79
+                "rate": 8.67
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 240.88
+                "rate": 238
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 70.46
+                "rate": 69.64
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-03T09:12:45.488Z",
-            "component-cached-in": "67 μs",
-            "component-resolved-in": "67 μs"
+            "component-cached-at": "2021-11-03T19:20:42.263Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-03T09:12:45.488Z",
-          "_cachedIn": "91 μs",
-          "_resolvedIn": "91 μs",
+          "_cachedAt": "2021-11-03T19:20:42.263Z",
+          "_cachedIn": "56 μs",
+          "_resolvedIn": "56 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9337,17 +9283,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-03T09:12:45.488Z",
-            "component-cached-in": "91 μs",
-            "component-resolved-in": "91 μs"
+            "component-cached-at": "2021-11-03T19:20:42.263Z",
+            "component-cached-in": "56 μs",
+            "component-resolved-in": "56 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-03T09:12:45.488Z",
-              "_cachedIn": "24 μs",
-              "_resolvedIn": "24 μs",
+              "_cachedAt": "2021-11-03T19:20:42.263Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9407,9 +9353,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-03T09:12:45.488Z",
-                "component-cached-in": "24 μs",
-                "component-resolved-in": "24 μs"
+                "component-cached-at": "2021-11-03T19:20:42.263Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -9418,9 +9364,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-03T09:12:45.488Z",
-          "_cachedIn": "25 μs",
-          "_resolvedIn": "25 μs",
+          "_cachedAt": "2021-11-03T19:20:42.263Z",
+          "_cachedIn": "15 μs",
+          "_resolvedIn": "15 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9429,9 +9375,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-03T09:12:45.488Z",
-            "component-cached-in": "25 μs",
-            "component-resolved-in": "25 μs"
+            "component-cached-at": "2021-11-03T19:20:42.263Z",
+            "component-cached-in": "15 μs",
+            "component-resolved-in": "15 μs"
           },
           "components": {}
         }
