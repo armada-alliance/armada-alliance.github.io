@@ -1,9 +1,9 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"language\":\"en\",\"slug\":\"/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"url\":\"https://armada-alliance.com/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"origin\":\"/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"title\":\"RISC-V powered Stake Pool (RV64)\",\"description\":\"RISC-V ISA powered Stake Pool\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"rv64-woltere\",\"role\":\"spo\"}],\"image\":\"https://riscv-pool.tech/extended-metadata/rv64-logo.png\",\"updatedAt\":\"2021-11-02T21:10:14.000Z\",\"filePath\":\"/en/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607.md\",\"rank\":38,\"ticker\":\"RV64\",\"memberSince\":\"2021-11-02T00:00:00.000Z\",\"nodes\":[{\"role\":\"producer\",\"deviceId\":\"sifive-hifive-unmatched\",\"name\":\"SiFive HiFive Unmatched\",\"isBackup\":false},{\"role\":\"relay\",\"name\":\"SiFive HiFive Unmatched\",\"deviceId\":\"sifive-hifive-unmatched\"},{\"role\":\"relay\",\"name\":\"SiFive HiFive Unmatched\",\"deviceId\":\"sifive-hifive-unmatched\"},{\"role\":\"spare\",\"name\":\"SiFive HiFive Unmatched\",\"deviceId\":\"sifive-hifive-unmatched\"},{\"role\":\"monitor\",\"deviceId\":\"raspberry-pi-3-4gb\",\"storage\":\"SanDisk SD 32GB\"},{\"role\":\"console\",\"deviceId\":\"raspberry-pi-3-1gb\"}],\"contentSections\":[{\"type\":\"ImagesSection\",\"images\":[{\"url\":\"https://riscv-pool.tech/images/about/01_hu8af5677e4fc935bcad5c594c47b823be_466957_464x0_resize_q100_box.jpg\"},{\"url\":\"https://riscv-pool.tech/images/hifive-unmatched_hu3d5e6adb839ea3bcf9bc8f6258dee490_434292_575x0_resize_box_3.png\"}]}],\"body\":\"## Stake Pool Hardware\\n\\nRV64 is the first RISC-V ISA powered cardano stake pool.\\n\\nRISC-V (pronounced \\\"risk-five\\\") is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. The RISC-V ISA is provided under open source licenses that do not require fees to use.\\n\\nRV64 consist of 4 SiFive Unmatched computers running Ubuntu Linux, the servers have a quad core SiFive Freedom U740 SoC superscalar RISC-V CPU @1.4GHz, 16GB RAM and 500GB SSD. All servers have two Gigabit network interfaces. The pool is connected to the internet using 1Gbps up and downstream primary connection and a fallback connection over 4G/LTE. RaspberryPIs is used for console, metrics and alerting. The 1000VA UPS can run the complete stakepool for about 1 hour and 30 minutes as it just uses 100W.\\n\\n\\n### Pool ID\\n\\n277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\n\\n### Pool Stats\\n\\n- [pool.pm](https://pool.pm/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607)\\n- [adapools.org](https://adapools.org/pool/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607)\\n\\n---\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,l=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,o,a)=>o in e?d(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,n=(e,o)=>{for(var a in o||(o={}))s.call(o,a)&&p(e,a,o[a]);if(r)for(var a of r(o))i.call(o,a)&&p(e,a,o[a]);return e},c=(e,o)=>l(e,h(o));var u=(e,o)=>{var a={};for(var t in e)s.call(e,t)&&o.indexOf(t)<0&&(a[t]=e[t]);if(e!=null&&r)for(var t of r(e))o.indexOf(t)<0&&i.call(e,t)&&(a[t]=e[t]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:e}=t,o=u(t,[\\\"components\\\"]);return mdx(MDXLayout,c(n(n({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Stake Pool Hardware\\\"),mdx(\\\"p\\\",null,\\\"RV64 is the first RISC-V ISA powered cardano stake pool.\\\"),mdx(\\\"p\\\",null,'RISC-V (pronounced \\\"risk-five\\\") is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. The RISC-V ISA is provided under open source licenses that do not require fees to use.'),mdx(\\\"p\\\",null,\\\"RV64 consist of 4 SiFive Unmatched computers running Ubuntu Linux, the servers have a quad core SiFive Freedom U740 SoC superscalar RISC-V CPU @1.4GHz, 16GB RAM and 500GB SSD. All servers have two Gigabit network interfaces. The pool is connected to the internet using 1Gbps up and downstream primary connection and a fallback connection over 4G/LTE. RaspberryPIs is used for console, metrics and alerting. The 1000VA UPS can run the complete stakepool for about 1 hour and 30 minutes as it just uses 100W.\\\"),mdx(\\\"h3\\\",null,\\\"Pool ID\\\"),mdx(\\\"p\\\",null,\\\"277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\\"),mdx(\\\"h3\\\",null,\\\"Pool Stats\\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"https://pool.pm/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\\"}),\\\"pool.pm\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"https://adapools.org/pool/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\\"}),\\\"adapools.org\\\"))),mdx(\\\"hr\\\",null))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
+  "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"language\":\"en\",\"slug\":\"/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"url\":\"https://armada-alliance.com/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"origin\":\"/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\",\"title\":\"RISC-V powered Stake Pool (RV64)\",\"description\":\"RISC-V ISA powered Stake Pool\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"rv64-woltere\",\"role\":\"spo\"}],\"image\":\"https://riscv-pool.tech/extended-metadata/rv64-logo.png\",\"updatedAt\":\"2021-11-02T21:10:14.000Z\",\"filePath\":\"/en/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607.md\",\"rank\":25,\"ticker\":\"RV64\",\"memberSince\":\"2021-11-02T00:00:00.000Z\",\"nodes\":[{\"role\":\"producer\",\"deviceId\":\"sifive-hifive-unmatched\",\"name\":\"SiFive HiFive Unmatched\",\"isBackup\":false},{\"role\":\"relay\",\"name\":\"SiFive HiFive Unmatched\",\"deviceId\":\"sifive-hifive-unmatched\"},{\"role\":\"relay\",\"name\":\"SiFive HiFive Unmatched\",\"deviceId\":\"sifive-hifive-unmatched\"},{\"role\":\"spare\",\"name\":\"SiFive HiFive Unmatched\",\"deviceId\":\"sifive-hifive-unmatched\"},{\"role\":\"monitor\",\"deviceId\":\"raspberry-pi-3-4gb\",\"storage\":\"SanDisk SD 32GB\"},{\"role\":\"console\",\"deviceId\":\"raspberry-pi-3-1gb\"}],\"contentSections\":[{\"type\":\"ImagesSection\",\"images\":[{\"url\":\"https://riscv-pool.tech/images/about/01_hu8af5677e4fc935bcad5c594c47b823be_466957_464x0_resize_q100_box.jpg\"},{\"url\":\"https://riscv-pool.tech/images/hifive-unmatched_hu3d5e6adb839ea3bcf9bc8f6258dee490_434292_575x0_resize_box_3.png\"}]}],\"body\":\"## Stake Pool Hardware\\n\\nRV64 is the first RISC-V ISA powered cardano stake pool.\\n\\nRISC-V (pronounced \\\"risk-five\\\") is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. The RISC-V ISA is provided under open source licenses that do not require fees to use.\\n\\nRV64 consist of 4 SiFive Unmatched computers running Ubuntu Linux, the servers have a quad core SiFive Freedom U740 SoC superscalar RISC-V CPU @1.4GHz, 16GB RAM and 500GB SSD. All servers have two Gigabit network interfaces. The pool is connected to the internet using 1Gbps up and downstream primary connection and a fallback connection over 4G/LTE. RaspberryPIs is used for console, metrics and alerting. The 1000VA UPS can run the complete stakepool for about 1 hour and 30 minutes as it just uses 100W.\\n\\n\\n### Pool ID\\n\\n277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\n\\n### Pool Stats\\n\\n- [pool.pm](https://pool.pm/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607)\\n- [adapools.org](https://adapools.org/pool/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607)\\n\\n---\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,l=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,o,a)=>o in e?d(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,n=(e,o)=>{for(var a in o||(o={}))s.call(o,a)&&p(e,a,o[a]);if(r)for(var a of r(o))i.call(o,a)&&p(e,a,o[a]);return e},c=(e,o)=>l(e,h(o));var u=(e,o)=>{var a={};for(var t in e)s.call(e,t)&&o.indexOf(t)<0&&(a[t]=e[t]);if(e!=null&&r)for(var t of r(e))o.indexOf(t)<0&&i.call(e,t)&&(a[t]=e[t]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:e}=t,o=u(t,[\\\"components\\\"]);return mdx(MDXLayout,c(n(n({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Stake Pool Hardware\\\"),mdx(\\\"p\\\",null,\\\"RV64 is the first RISC-V ISA powered cardano stake pool.\\\"),mdx(\\\"p\\\",null,'RISC-V (pronounced \\\"risk-five\\\") is an open standard instruction set architecture (ISA) based on established reduced instruction set computer (RISC) principles. The RISC-V ISA is provided under open source licenses that do not require fees to use.'),mdx(\\\"p\\\",null,\\\"RV64 consist of 4 SiFive Unmatched computers running Ubuntu Linux, the servers have a quad core SiFive Freedom U740 SoC superscalar RISC-V CPU @1.4GHz, 16GB RAM and 500GB SSD. All servers have two Gigabit network interfaces. The pool is connected to the internet using 1Gbps up and downstream primary connection and a fallback connection over 4G/LTE. RaspberryPIs is used for console, metrics and alerting. The 1000VA UPS can run the complete stakepool for about 1 hour and 30 minutes as it just uses 100W.\\\"),mdx(\\\"h3\\\",null,\\\"Pool ID\\\"),mdx(\\\"p\\\",null,\\\"277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\\"),mdx(\\\"h3\\\",null,\\\"Pool Stats\\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"https://pool.pm/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\\"}),\\\"pool.pm\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"https://adapools.org/pool/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607\\\"}),\\\"adapools.org\\\"))),mdx(\\\"hr\\\",null))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-04T08:14:34.746Z",
-  "_cachedIn": "29 ms",
-  "_resolvedIn": "29 ms",
+  "_cachedAt": "2021-11-04T08:55:33.658Z",
+  "_cachedIn": "28 ms",
+  "_resolvedIn": "28 ms",
   "id": "PoolDetailPage",
   "type": "PoolDetailPage",
   "status": "resolved",
@@ -28,7 +28,7 @@
     "image": "https://riscv-pool.tech/extended-metadata/rv64-logo.png",
     "updatedAt": "2021-11-02T21:10:14.000Z",
     "filePath": "/en/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607.md",
-    "rank": 38,
+    "rank": 25,
     "ticker": "RV64",
     "memberSince": "2021-11-02T00:00:00.000Z",
     "nodes": [
@@ -98,7 +98,7 @@
       "totalStake": "47549102488",
       "blocksLifetime": 1,
       "delegators": 6,
-      "saturated": 0.0007136587963262962,
+      "saturated": 0.0007136588046447767,
       "pledge": "25500000000",
       "pledged": "25530621624",
       "taxRatio": 0.005,
@@ -144,7 +144,112 @@
           "deviceId": "raspberry-pi-3-1gb"
         }
       ],
-      "relays": [],
+      "relays": [
+        {
+          "addr": "mainnet-relay1.riscv-pool.tech",
+          "port": 3001,
+          "data": {
+            "ip": "161.35.157.9",
+            "type": "ipv4",
+            "continent_code": "NA",
+            "continent_name": "North America",
+            "country_code": "US",
+            "country_name": "United States",
+            "region_code": "MA",
+            "region_name": "Massachusetts",
+            "city": "Westford",
+            "zip": "01886",
+            "latitude": 42.5890007019043,
+            "longitude": -71.44174194335938,
+            "location": {
+              "geoname_id": 4955219,
+              "capital": "Washington D.C.",
+              "languages": [
+                {
+                  "code": "en",
+                  "name": "English",
+                  "native": "English"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/us.svg",
+              "country_flag_emoji": "🇺🇸",
+              "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+              "calling_code": "1",
+              "is_eu": false
+            },
+            "time_zone": {
+              "id": "America/New_York",
+              "current_time": "2021-11-04T04:55:26-04:00",
+              "gmt_offset": -14400,
+              "code": "EDT",
+              "is_daylight_saving": true
+            },
+            "currency": {
+              "code": "USD",
+              "name": "US Dollar",
+              "plural": "US dollars",
+              "symbol": "$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 14061,
+              "isp": "Digitalocean LLC"
+            }
+          }
+        },
+        {
+          "addr": "mainnet-relay2.riscv-pool.tech",
+          "port": 3001,
+          "data": {
+            "ip": "45.83.233.6",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "NL",
+            "country_name": "Netherlands",
+            "region_code": "NH",
+            "region_name": "North Holland",
+            "city": "Diemen",
+            "zip": "1101",
+            "latitude": 52.309051513671875,
+            "longitude": 4.940189838409424,
+            "location": {
+              "geoname_id": 2756888,
+              "capital": "Amsterdam",
+              "languages": [
+                {
+                  "code": "nl",
+                  "name": "Dutch",
+                  "native": "Nederlands"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/nl.svg",
+              "country_flag_emoji": "🇳🇱",
+              "country_flag_emoji_unicode": "U+1F1F3 U+1F1F1",
+              "calling_code": "31",
+              "is_eu": true
+            },
+            "time_zone": {
+              "id": "Europe/Amsterdam",
+              "current_time": "2021-11-04T09:55:27+01:00",
+              "gmt_offset": 3600,
+              "code": "CET",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "EUR",
+              "name": "Euro",
+              "plural": "euros",
+              "symbol": "€",
+              "symbol_native": "€"
+            },
+            "connection": {
+              "asn": 206238,
+              "isp": "Freedom Internet Bv"
+            }
+          }
+        }
+      ],
       "metadata": {
         "name": "RISC-V powered Stake Pool",
         "description": "RISC-V ISA powered Stake Pool",
@@ -184,23 +289,23 @@
       "twitter": "rv64stakepool",
       "github": "RV64-Stake-Pool",
       "youtube": "channel/UCWEeOlhT7b0TClzlqyeBRhw",
-      "qualityScore": 62.5
+      "qualityScore": 75
     }
   },
   "attrs": {
     "component-type": "PoolDetailPage",
     "component-id": "PoolDetailPage",
-    "component-cached-at": "2021-11-04T08:14:34.746Z",
-    "component-cached-in": "29 ms",
-    "component-resolved-in": "29 ms"
+    "component-cached-at": "2021-11-04T08:55:33.658Z",
+    "component-cached-in": "28 ms",
+    "component-resolved-in": "28 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.746Z",
-      "_cachedIn": "19 ms",
-      "_resolvedIn": "19 ms",
+      "_cachedAt": "2021-11-04T08:55:33.658Z",
+      "_cachedIn": "9.79 ms",
+      "_resolvedIn": "9.79 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -209,17 +314,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-04T08:14:34.746Z",
-        "component-cached-in": "19 ms",
-        "component-resolved-in": "19 ms"
+        "component-cached-at": "2021-11-04T08:55:33.658Z",
+        "component-cached-in": "9.79 ms",
+        "component-resolved-in": "9.79 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-04T08:14:34.745Z",
-          "_cachedIn": "3.54 ms",
-          "_resolvedIn": "3.54 ms",
+          "_cachedAt": "2021-11-04T08:55:33.657Z",
+          "_cachedIn": "3.03 ms",
+          "_resolvedIn": "3.03 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -227,7 +332,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-04T08:14:09.859Z",
+              "createdAt": "2021-11-04T08:55:11.408Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2297,7 +2402,7 @@
                 "image": "https://stoicpool.com/wp-content/uploads/2020/09/STOIC-Pool-Logo.png",
                 "updatedAt": "2021-11-03T19:57:41.000Z",
                 "filePath": "/en/stake-pools/099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba.md",
-                "rank": 25
+                "rank": 13
               },
               {
                 "id": "1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
@@ -2385,7 +2490,7 @@
                 "image": "https://riscv-pool.tech/extended-metadata/rv64-logo.png",
                 "updatedAt": "2021-11-02T21:10:14.000Z",
                 "filePath": "/en/stake-pools/277b4daf3e85094412cb9471891ac0495a158794518bc82b38dca607.md",
-                "rank": 38
+                "rank": 25
               },
               {
                 "id": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
@@ -2458,7 +2563,7 @@
                 "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
                 "updatedAt": "2021-10-26T07:27:05.000Z",
                 "filePath": "/en/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.md",
-                "rank": 13
+                "rank": 0
               },
               {
                 "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -3123,7 +3228,7 @@
                 "image": "https://user-images.githubusercontent.com/81721934/116167028-60f35b80-a6cd-11eb-9371-025d8d5bed42.jpg",
                 "updatedAt": "2021-10-22T18:29:54.000Z",
                 "filePath": "/en/stake-pools/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65.md",
-                "rank": 25
+                "rank": 13
               },
               {
                 "id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
@@ -9314,13 +9419,13 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003252
+                "rate": 0.00003249
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003252
+                "rate": 0.00003249
               },
               {
                 "id": "AUD",
@@ -9332,43 +9437,43 @@
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 12.89
+                "rate": 12.87
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.37
+                "rate": 8.36
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 230.21
+                "rate": 229.32
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 67.38
+                "rate": 67.23
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-04T08:14:34.745Z",
-            "component-cached-in": "3.54 ms",
-            "component-resolved-in": "3.54 ms"
+            "component-cached-at": "2021-11-04T08:55:33.657Z",
+            "component-cached-in": "3.03 ms",
+            "component-resolved-in": "3.03 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-04T08:14:34.746Z",
-          "_cachedIn": "4.34 ms",
-          "_resolvedIn": "4.34 ms",
+          "_cachedAt": "2021-11-04T08:55:33.658Z",
+          "_cachedIn": "3.67 ms",
+          "_resolvedIn": "3.67 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9379,17 +9484,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-04T08:14:34.746Z",
-            "component-cached-in": "4.34 ms",
-            "component-resolved-in": "4.34 ms"
+            "component-cached-at": "2021-11-04T08:55:33.658Z",
+            "component-cached-in": "3.67 ms",
+            "component-resolved-in": "3.67 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-04T08:14:34.745Z",
-              "_cachedIn": "518 μs",
-              "_resolvedIn": "518 μs",
+              "_cachedAt": "2021-11-04T08:55:33.658Z",
+              "_cachedIn": "496 μs",
+              "_resolvedIn": "496 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9449,9 +9554,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-04T08:14:34.745Z",
-                "component-cached-in": "518 μs",
-                "component-resolved-in": "518 μs"
+                "component-cached-at": "2021-11-04T08:55:33.658Z",
+                "component-cached-in": "496 μs",
+                "component-resolved-in": "496 μs"
               },
               "components": {}
             }
@@ -9460,9 +9565,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-04T08:14:34.743Z",
-          "_cachedIn": "1.69 ms",
-          "_resolvedIn": "1.69 ms",
+          "_cachedAt": "2021-11-04T08:55:33.656Z",
+          "_cachedIn": "1.63 ms",
+          "_resolvedIn": "1.63 ms",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9471,9 +9576,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-04T08:14:34.743Z",
-            "component-cached-in": "1.69 ms",
-            "component-resolved-in": "1.69 ms"
+            "component-cached-at": "2021-11-04T08:55:33.656Z",
+            "component-cached-in": "1.63 ms",
+            "component-resolved-in": "1.63 ms"
           },
           "components": {}
         }
@@ -9482,9 +9587,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.744Z",
-      "_cachedIn": "17 ms",
-      "_resolvedIn": "17 ms",
+      "_cachedAt": "2021-11-04T08:55:33.657Z",
+      "_cachedIn": "8.53 ms",
+      "_resolvedIn": "8.53 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9519,18 +9624,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-11-04T08:14:34.744Z",
-        "component-cached-in": "17 ms",
-        "component-resolved-in": "17 ms"
+        "component-cached-at": "2021-11-04T08:55:33.657Z",
+        "component-cached-in": "8.53 ms",
+        "component-resolved-in": "8.53 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.742Z",
-      "_cachedIn": "15 ms",
-      "_resolvedIn": "15 ms",
+      "_cachedAt": "2021-11-04T08:55:33.655Z",
+      "_cachedIn": "6.3 ms",
+      "_resolvedIn": "6.3 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9542,18 +9647,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-11-04T08:14:34.742Z",
-        "component-cached-in": "15 ms",
-        "component-resolved-in": "15 ms"
+        "component-cached-at": "2021-11-04T08:55:33.655Z",
+        "component-cached-in": "6.3 ms",
+        "component-resolved-in": "6.3 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.744Z",
-      "_cachedIn": "17 ms",
-      "_resolvedIn": "17 ms",
+      "_cachedAt": "2021-11-04T08:55:33.657Z",
+      "_cachedIn": "8.53 ms",
+      "_resolvedIn": "8.53 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9572,18 +9677,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-11-04T08:14:34.744Z",
-        "component-cached-in": "17 ms",
-        "component-resolved-in": "17 ms"
+        "component-cached-at": "2021-11-04T08:55:33.657Z",
+        "component-cached-in": "8.53 ms",
+        "component-resolved-in": "8.53 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.742Z",
-      "_cachedIn": "15 ms",
-      "_resolvedIn": "15 ms",
+      "_cachedAt": "2021-11-04T08:55:33.655Z",
+      "_cachedIn": "6.31 ms",
+      "_resolvedIn": "6.31 ms",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -9641,18 +9746,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-11-04T08:14:34.742Z",
-        "component-cached-in": "15 ms",
-        "component-resolved-in": "15 ms"
+        "component-cached-at": "2021-11-04T08:55:33.655Z",
+        "component-cached-in": "6.31 ms",
+        "component-resolved-in": "6.31 ms"
       },
       "components": {}
     },
     "ContentSections": {
       "_cacheKey": "{\"component\":{\"type\":\"ContentSections\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.745Z",
-      "_cachedIn": "18 ms",
-      "_resolvedIn": "18 ms",
+      "_cachedAt": "2021-11-04T08:55:33.658Z",
+      "_cachedIn": "9.28 ms",
+      "_resolvedIn": "9.28 ms",
       "id": "ContentSections",
       "type": "ContentSections",
       "status": "resolved",
@@ -9675,24 +9780,24 @@
       "attrs": {
         "component-type": "ContentSections",
         "component-id": "ContentSections",
-        "component-cached-at": "2021-11-04T08:14:34.745Z",
-        "component-cached-in": "18 ms",
-        "component-resolved-in": "18 ms"
+        "component-cached-at": "2021-11-04T08:55:33.658Z",
+        "component-cached-in": "9.28 ms",
+        "component-resolved-in": "9.28 ms"
       },
       "components": {}
     },
     "QualityReportSection": {
       "_cacheKey": "{\"component\":{\"type\":\"QualityReportSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.742Z",
-      "_cachedIn": "15 ms",
-      "_resolvedIn": "15 ms",
+      "_cachedAt": "2021-11-04T08:55:33.655Z",
+      "_cachedIn": "6.31 ms",
+      "_resolvedIn": "6.31 ms",
       "id": "QualityReportSection",
       "type": "QualityReportSection",
       "status": "resolved",
       "error": null,
       "props": {
-        "qualityScore": 62.5,
+        "qualityScore": 75,
         "rules": [
           {
             "id": "rule-1",
@@ -9773,11 +9878,11 @@
             },
             "checks": [
               {
-                "status": "failed",
-                "message": "Pool does not have enough relays"
+                "status": "passed",
+                "message": "Pool has 2 relays"
               }
             ],
-            "status": "failed"
+            "status": "passed"
           },
           {
             "id": "rule-6",
@@ -9835,18 +9940,18 @@
       "attrs": {
         "component-type": "QualityReportSection",
         "component-id": "QualityReportSection",
-        "component-cached-at": "2021-11-04T08:14:34.742Z",
-        "component-cached-in": "15 ms",
-        "component-resolved-in": "15 ms"
+        "component-cached-at": "2021-11-04T08:55:33.655Z",
+        "component-cached-in": "6.31 ms",
+        "component-resolved-in": "6.31 ms"
       },
       "components": {}
     },
     "DelegationSection": {
       "_cacheKey": "{\"component\":{\"type\":\"DelegationSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-04T08:14:34.742Z",
-      "_cachedIn": "15 ms",
-      "_resolvedIn": "15 ms",
+      "_cachedAt": "2021-11-04T08:55:33.655Z",
+      "_cachedIn": "6.31 ms",
+      "_resolvedIn": "6.31 ms",
       "id": "DelegationSection",
       "type": "DelegationSection",
       "status": "resolved",
@@ -9869,7 +9974,7 @@
             "totalStake": "4844400087",
             "blocksLifetime": 0,
             "delegators": 12,
-            "saturated": 0.00007270902191863521,
+            "saturated": 0.00007270902276613908,
             "pledge": "150000000",
             "pledged": "899967536",
             "taxRatio": 0,
@@ -10038,7 +10143,7 @@
             "totalStake": "1204081675495",
             "blocksLifetime": 107,
             "delegators": 91,
-            "saturated": 0.018071917959527724,
+            "saturated": 0.018071918170175866,
             "pledge": "26800000000",
             "pledged": "27333165454",
             "taxRatio": 0,
@@ -10069,7 +10174,112 @@
                 "storage": "Samsung 980 Pro NVME SSD 250Gb"
               }
             ],
-            "relays": [],
+            "relays": [
+              {
+                "addr": "stoicpool.ddns.net",
+                "port": 3001,
+                "data": {
+                  "ip": "87.80.77.48",
+                  "type": "ipv4",
+                  "continent_code": "EU",
+                  "continent_name": "Europe",
+                  "country_code": "GB",
+                  "country_name": "United Kingdom",
+                  "region_code": "ENG",
+                  "region_name": "England",
+                  "city": "City of Westminster",
+                  "zip": "SW1A",
+                  "latitude": 51.50416946411133,
+                  "longitude": -0.17000000178813934,
+                  "location": {
+                    "geoname_id": 2634341,
+                    "capital": "London",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/gb.svg",
+                    "country_flag_emoji": "🇬🇧",
+                    "country_flag_emoji_unicode": "U+1F1EC U+1F1E7",
+                    "calling_code": "44",
+                    "is_eu": true
+                  },
+                  "time_zone": {
+                    "id": "Europe/London",
+                    "current_time": "2021-11-04T08:55:26+00:00",
+                    "gmt_offset": 0,
+                    "code": "GMT",
+                    "is_daylight_saving": false
+                  },
+                  "currency": {
+                    "code": "GBP",
+                    "name": "British Pound Sterling",
+                    "plural": "British pounds sterling",
+                    "symbol": "£",
+                    "symbol_native": "£"
+                  },
+                  "connection": {
+                    "asn": 5607,
+                    "isp": "Sky Uk Limited"
+                  }
+                }
+              },
+              {
+                "addr": "stoicpool.ddns.net",
+                "port": 3002,
+                "data": {
+                  "ip": "87.80.77.48",
+                  "type": "ipv4",
+                  "continent_code": "EU",
+                  "continent_name": "Europe",
+                  "country_code": "GB",
+                  "country_name": "United Kingdom",
+                  "region_code": "ENG",
+                  "region_name": "England",
+                  "city": "City of Westminster",
+                  "zip": "SW1A",
+                  "latitude": 51.50416946411133,
+                  "longitude": -0.17000000178813934,
+                  "location": {
+                    "geoname_id": 2634341,
+                    "capital": "London",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/gb.svg",
+                    "country_flag_emoji": "🇬🇧",
+                    "country_flag_emoji_unicode": "U+1F1EC U+1F1E7",
+                    "calling_code": "44",
+                    "is_eu": true
+                  },
+                  "time_zone": {
+                    "id": "Europe/London",
+                    "current_time": "2021-11-04T08:55:26+00:00",
+                    "gmt_offset": 0,
+                    "code": "GMT",
+                    "is_daylight_saving": false
+                  },
+                  "currency": {
+                    "code": "GBP",
+                    "name": "British Pound Sterling",
+                    "plural": "British pounds sterling",
+                    "symbol": "£",
+                    "symbol_native": "£"
+                  },
+                  "connection": {
+                    "asn": 5607,
+                    "isp": "Sky Uk Limited"
+                  }
+                }
+              }
+            ],
             "metadata": {
               "name": "Stoic Pool",
               "ticker": "STOIC",
@@ -10133,7 +10343,7 @@
             "telegram": "StoicPool",
             "twitter": "StoicPool",
             "youtube": "Stoic Pool",
-            "qualityScore": 75
+            "qualityScore": 87.5
           },
           {
             "id": "1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed",
@@ -10151,7 +10361,7 @@
             "totalStake": "1097230020",
             "blocksLifetime": 0,
             "delegators": 1,
-            "saturated": 0.00001646819423277014,
+            "saturated": 0.00001646819442472511,
             "pledge": "1000000000",
             "pledged": "1097230020",
             "taxRatio": 0,
@@ -10302,7 +10512,7 @@
             "totalStake": "10060177410",
             "blocksLifetime": 0,
             "delegators": 13,
-            "saturated": 0.00015099200038657933,
+            "saturated": 0.00015099200214655766,
             "pledge": "1000000000",
             "pledged": "3672000000",
             "taxRatio": 0.02,
@@ -10434,7 +10644,7 @@
             "totalStake": "1456761759",
             "blocksLifetime": 0,
             "delegators": 1,
-            "saturated": 0.000021864363133341796,
+            "saturated": 0.00002186436338819507,
             "pledge": "1000000000",
             "pledged": "1456761759",
             "taxRatio": 0,
@@ -10582,7 +10792,7 @@
             "totalStake": "47549102488",
             "blocksLifetime": 1,
             "delegators": 6,
-            "saturated": 0.0007136587963262962,
+            "saturated": 0.0007136588046447767,
             "pledge": "25500000000",
             "pledged": "25530621624",
             "taxRatio": 0.005,
@@ -10628,7 +10838,112 @@
                 "deviceId": "raspberry-pi-3-1gb"
               }
             ],
-            "relays": [],
+            "relays": [
+              {
+                "addr": "mainnet-relay1.riscv-pool.tech",
+                "port": 3001,
+                "data": {
+                  "ip": "161.35.157.9",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "US",
+                  "country_name": "United States",
+                  "region_code": "MA",
+                  "region_name": "Massachusetts",
+                  "city": "Westford",
+                  "zip": "01886",
+                  "latitude": 42.5890007019043,
+                  "longitude": -71.44174194335938,
+                  "location": {
+                    "geoname_id": 4955219,
+                    "capital": "Washington D.C.",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/us.svg",
+                    "country_flag_emoji": "🇺🇸",
+                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                    "calling_code": "1",
+                    "is_eu": false
+                  },
+                  "time_zone": {
+                    "id": "America/New_York",
+                    "current_time": "2021-11-04T04:55:26-04:00",
+                    "gmt_offset": -14400,
+                    "code": "EDT",
+                    "is_daylight_saving": true
+                  },
+                  "currency": {
+                    "code": "USD",
+                    "name": "US Dollar",
+                    "plural": "US dollars",
+                    "symbol": "$",
+                    "symbol_native": "$"
+                  },
+                  "connection": {
+                    "asn": 14061,
+                    "isp": "Digitalocean LLC"
+                  }
+                }
+              },
+              {
+                "addr": "mainnet-relay2.riscv-pool.tech",
+                "port": 3001,
+                "data": {
+                  "ip": "45.83.233.6",
+                  "type": "ipv4",
+                  "continent_code": "EU",
+                  "continent_name": "Europe",
+                  "country_code": "NL",
+                  "country_name": "Netherlands",
+                  "region_code": "NH",
+                  "region_name": "North Holland",
+                  "city": "Diemen",
+                  "zip": "1101",
+                  "latitude": 52.309051513671875,
+                  "longitude": 4.940189838409424,
+                  "location": {
+                    "geoname_id": 2756888,
+                    "capital": "Amsterdam",
+                    "languages": [
+                      {
+                        "code": "nl",
+                        "name": "Dutch",
+                        "native": "Nederlands"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/nl.svg",
+                    "country_flag_emoji": "🇳🇱",
+                    "country_flag_emoji_unicode": "U+1F1F3 U+1F1F1",
+                    "calling_code": "31",
+                    "is_eu": true
+                  },
+                  "time_zone": {
+                    "id": "Europe/Amsterdam",
+                    "current_time": "2021-11-04T09:55:27+01:00",
+                    "gmt_offset": 3600,
+                    "code": "CET",
+                    "is_daylight_saving": false
+                  },
+                  "currency": {
+                    "code": "EUR",
+                    "name": "Euro",
+                    "plural": "euros",
+                    "symbol": "€",
+                    "symbol_native": "€"
+                  },
+                  "connection": {
+                    "asn": 206238,
+                    "isp": "Freedom Internet Bv"
+                  }
+                }
+              }
+            ],
             "metadata": {
               "name": "RISC-V powered Stake Pool",
               "description": "RISC-V ISA powered Stake Pool",
@@ -10668,7 +10983,7 @@
             "twitter": "rv64stakepool",
             "github": "RV64-Stake-Pool",
             "youtube": "channel/UCWEeOlhT7b0TClzlqyeBRhw",
-            "qualityScore": 62.5
+            "qualityScore": 75
           },
           {
             "id": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
@@ -10686,7 +11001,7 @@
             "totalStake": "55112280",
             "blocksLifetime": 0,
             "delegators": 1,
-            "saturated": 8.271736236772058e-7,
+            "saturated": 8.271736333188271e-7,
             "pledge": "50000000",
             "pledged": "55112280",
             "taxRatio": 0,
@@ -10799,10 +11114,10 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "10039784503206",
+            "totalStake": "9700064551679",
             "blocksLifetime": 500,
             "delegators": 2321,
-            "saturated": 0.15068592568580294,
+            "saturated": 0.14558711123255066,
             "pledge": "450000000000",
             "pledged": "490851009618",
             "taxRatio": 0.015,
@@ -11060,7 +11375,7 @@
             "totalStake": "2898231630",
             "blocksLifetime": 0,
             "delegators": 2,
-            "saturated": 0.00004349921214732896,
+            "saturated": 0.00004349921265436027,
             "pledge": "1000000000",
             "pledged": "1098716620",
             "taxRatio": 0.03,
@@ -11101,7 +11416,122 @@
                 "isBackup": false
               }
             ],
-            "relays": [],
+            "relays": [
+              {
+                "addr": "relay.rubypools.com",
+                "port": 6001,
+                "data": {
+                  "ip": "66.183.104.145",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "CA",
+                  "country_name": "Canada",
+                  "region_code": "BC",
+                  "region_name": "British Columbia",
+                  "city": "New Westminster",
+                  "zip": "V3R 0A1",
+                  "latitude": 49.180938720703125,
+                  "longitude": -122.81128692626953,
+                  "location": {
+                    "geoname_id": 6087844,
+                    "capital": "Ottawa",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      },
+                      {
+                        "code": "fr",
+                        "name": "French",
+                        "native": "Français"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/ca.svg",
+                    "country_flag_emoji": "🇨🇦",
+                    "country_flag_emoji_unicode": "U+1F1E8 U+1F1E6",
+                    "calling_code": "1",
+                    "is_eu": false
+                  },
+                  "time_zone": {
+                    "id": "America/Vancouver",
+                    "current_time": "2021-11-04T01:55:27-07:00",
+                    "gmt_offset": -25200,
+                    "code": "PDT",
+                    "is_daylight_saving": true
+                  },
+                  "currency": {
+                    "code": "CAD",
+                    "name": "Canadian Dollar",
+                    "plural": "Canadian dollars",
+                    "symbol": "CA$",
+                    "symbol_native": "$"
+                  },
+                  "connection": {
+                    "asn": 852,
+                    "isp": "Telus Communications Inc."
+                  }
+                }
+              },
+              {
+                "addr": "relay.rubypools.com",
+                "port": 6002,
+                "data": {
+                  "ip": "66.183.104.145",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "CA",
+                  "country_name": "Canada",
+                  "region_code": "BC",
+                  "region_name": "British Columbia",
+                  "city": "New Westminster",
+                  "zip": "V3R 0A1",
+                  "latitude": 49.180938720703125,
+                  "longitude": -122.81128692626953,
+                  "location": {
+                    "geoname_id": 6087844,
+                    "capital": "Ottawa",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      },
+                      {
+                        "code": "fr",
+                        "name": "French",
+                        "native": "Français"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/ca.svg",
+                    "country_flag_emoji": "🇨🇦",
+                    "country_flag_emoji_unicode": "U+1F1E8 U+1F1E6",
+                    "calling_code": "1",
+                    "is_eu": false
+                  },
+                  "time_zone": {
+                    "id": "America/Vancouver",
+                    "current_time": "2021-11-04T01:55:27-07:00",
+                    "gmt_offset": -25200,
+                    "code": "PDT",
+                    "is_daylight_saving": true
+                  },
+                  "currency": {
+                    "code": "CAD",
+                    "name": "Canadian Dollar",
+                    "plural": "Canadian dollars",
+                    "symbol": "CA$",
+                    "symbol_native": "$"
+                  },
+                  "connection": {
+                    "asn": 852,
+                    "isp": "Telus Communications Inc."
+                  }
+                }
+              }
+            ],
             "metadata": {
               "name": "Ruby Stake Pool",
               "description": "An Independent and Mission Driven Cardano Stake Pool dedicated to supporting Children Welfare and building on Cardano Blockchain.",
@@ -11134,7 +11564,7 @@
             "telegram": "LeviiiAckermannnn",
             "twitter": "rubypools",
             "github": "ruby-pool",
-            "qualityScore": 87.5
+            "qualityScore": 100
           },
           {
             "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -11149,10 +11579,10 @@
             "ticker": "SUDTI",
             "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
             "website": "https://southtyrolpool.it",
-            "totalStake": "1347853417211",
+            "totalStake": "1347879091227",
             "blocksLifetime": 8,
-            "delegators": 55,
-            "saturated": 0.020229770847806108,
+            "delegators": 54,
+            "saturated": 0.020230156421848566,
             "pledge": "10000000000",
             "pledged": "10776833663",
             "taxRatio": 0,
@@ -11353,7 +11783,7 @@
             "totalStake": "52026701759",
             "blocksLifetime": 1,
             "delegators": 26,
-            "saturated": 0.0007808625486364435,
+            "saturated": 0.0007808625577382579,
             "pledge": "32000000000",
             "pledged": "33670466025",
             "taxRatio": 0.0314,
@@ -11506,10 +11936,10 @@
             "ticker": "QXT",
             "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
             "website": "https://quixote.systems",
-            "totalStake": "4854304143567",
+            "totalStake": "4854653143567",
             "blocksLifetime": 38,
             "delegators": 487,
-            "saturated": 0.07285767071994827,
+            "saturated": 0.0728629096685345,
             "pledge": "12000000000",
             "pledged": "12727814783",
             "taxRatio": 0,
@@ -11715,7 +12145,7 @@
             "totalStake": "460511957",
             "blocksLifetime": 1,
             "delegators": 3,
-            "saturated": 0.000006911768923702151,
+            "saturated": 0.000006911769004266444,
             "pledge": "100000000",
             "pledged": "452728957",
             "taxRatio": 0.015,
@@ -11853,7 +12283,7 @@
             "totalStake": "910342644",
             "blocksLifetime": 6,
             "delegators": 7,
-            "saturated": 0.000013663223942565407,
+            "saturated": 0.000013663224101825355,
             "pledge": "18000000000",
             "pledged": "0",
             "taxRatio": 0.01,
@@ -11967,7 +12397,7 @@
             "totalStake": "18213842702511",
             "blocksLifetime": 51,
             "delegators": 36,
-            "saturated": 0.2733693882619746,
+            "saturated": 0.2733693914483964,
             "pledge": "13000000000",
             "pledged": "15341474889",
             "taxRatio": 0.03,
@@ -12159,7 +12589,7 @@
             "totalStake": "808766875574",
             "blocksLifetime": 96,
             "delegators": 15,
-            "saturated": 0.012138685374269355,
+            "saturated": 0.012138685515759124,
             "pledge": "250000000000",
             "pledged": "250464395250",
             "taxRatio": 0.013,
@@ -12312,7 +12742,7 @@
             "totalStake": "62099635226",
             "blocksLifetime": 1,
             "delegators": 4,
-            "saturated": 0.0009320460031579728,
+            "saturated": 0.0009320460140219973,
             "pledge": "62000000000",
             "pledged": "62099635226",
             "taxRatio": 0.01,
@@ -12574,7 +13004,7 @@
             "totalStake": "3299208798867",
             "blocksLifetime": 6,
             "delegators": 9,
-            "saturated": 0.04951743055134968,
+            "saturated": 0.04951743112852997,
             "pledge": "500000000",
             "pledged": "1577761843",
             "taxRatio": 0,
@@ -12750,7 +13180,7 @@
             "totalStake": "4816531824549",
             "blocksLifetime": 53,
             "delegators": 25,
-            "saturated": 0.07229075049823343,
+            "saturated": 0.07229075134086188,
             "pledge": "25000000000",
             "pledged": "25372655167",
             "taxRatio": 0.01,
@@ -12904,7 +13334,7 @@
             "totalStake": "59251038831",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.0008892917603205148,
+            "saturated": 0.0008892917706861915,
             "pledge": "1900000000",
             "pledged": "1965448677",
             "taxRatio": 0.01,
@@ -13055,7 +13485,7 @@
             "totalStake": "1169129387",
             "blocksLifetime": 0,
             "delegators": 2,
-            "saturated": 0.000017547323238891592,
+            "saturated": 0.000017547323443425004,
             "pledge": "500000000",
             "pledged": "600297053",
             "taxRatio": 0.01,
@@ -13194,7 +13624,7 @@
             "totalStake": "144698748",
             "blocksLifetime": 0,
             "delegators": 2,
-            "saturated": 0.0000021717662148021247,
+            "saturated": 0.000002171766240116456,
             "pledge": "100000000",
             "pledged": "144698748",
             "taxRatio": 0.01,
@@ -13422,7 +13852,7 @@
             "totalStake": "42068428500",
             "blocksLifetime": 0,
             "delegators": 6,
-            "saturated": 0.0006314000154729662,
+            "saturated": 0.0006314000228326299,
             "pledge": "3000000000",
             "pledged": "3002007384",
             "taxRatio": 0,
@@ -13553,7 +13983,7 @@
             "totalStake": "52224943096",
             "blocksLifetime": 77,
             "delegators": 30,
-            "saturated": 0.0007838379291703082,
+            "saturated": 0.0007838379383068041,
             "pledge": "2000000000",
             "pledged": "2009935058",
             "taxRatio": 0.01,
@@ -13701,7 +14131,7 @@
             "totalStake": "155728313388",
             "blocksLifetime": 12,
             "delegators": 12,
-            "saturated": 0.002337307643492367,
+            "saturated": 0.002337307670736266,
             "pledge": "52000000000",
             "pledged": "62995288425",
             "taxRatio": 0.01,
@@ -13844,7 +14274,7 @@
             "totalStake": "3191115937",
             "blocksLifetime": 0,
             "delegators": 2,
-            "saturated": 0.00004789507770649975,
+            "saturated": 0.00004789507826476972,
             "pledge": "3000000000",
             "pledged": "3052620906",
             "taxRatio": 0.01,
@@ -13974,7 +14404,7 @@
             "totalStake": "15989801663409",
             "blocksLifetime": 92,
             "delegators": 72,
-            "saturated": 0.23998902211633844,
+            "saturated": 0.23998902491367527,
             "pledge": "200000000000",
             "pledged": "201732943828",
             "taxRatio": 0.01,
@@ -14078,6 +14508,58 @@
                     "is_eu": false
                   }
                 }
+              },
+              {
+                "addr": "relay03.astorpool.net",
+                "port": 9005,
+                "data": {
+                  "ip": "82.135.100.138",
+                  "type": "ipv4",
+                  "continent_code": "EU",
+                  "continent_name": "Europe",
+                  "country_code": "DE",
+                  "country_name": "Germany",
+                  "region_code": "BY",
+                  "region_name": "Bavaria",
+                  "city": "Karlsfeld",
+                  "zip": "80992",
+                  "latitude": 48.173988342285156,
+                  "longitude": 11.473739624023438,
+                  "location": {
+                    "geoname_id": 2892874,
+                    "capital": "Berlin",
+                    "languages": [
+                      {
+                        "code": "de",
+                        "name": "German",
+                        "native": "Deutsch"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/de.svg",
+                    "country_flag_emoji": "🇩🇪",
+                    "country_flag_emoji_unicode": "U+1F1E9 U+1F1EA",
+                    "calling_code": "49",
+                    "is_eu": true
+                  },
+                  "time_zone": {
+                    "id": "Europe/Berlin",
+                    "current_time": "2021-11-04T09:55:27+01:00",
+                    "gmt_offset": 3600,
+                    "code": "CET",
+                    "is_daylight_saving": false
+                  },
+                  "currency": {
+                    "code": "EUR",
+                    "name": "Euro",
+                    "plural": "euros",
+                    "symbol": "€",
+                    "symbol_native": "€"
+                  },
+                  "connection": {
+                    "asn": 8767,
+                    "isp": "M-Net Telekommunikations Gmbh"
+                  }
+                }
               }
             ],
             "metadata": {
@@ -14168,7 +14650,7 @@
             "totalStake": "69112802311",
             "blocksLifetime": 0,
             "delegators": 9,
-            "saturated": 0.0010373057897455201,
+            "saturated": 0.0010373058018364636,
             "pledge": "1000000000",
             "pledged": "1004394659",
             "taxRatio": 0.03,
@@ -14324,7 +14806,7 @@
             "totalStake": "164196680292",
             "blocksLifetime": 258,
             "delegators": 62,
-            "saturated": 0.002464408350242474,
+            "saturated": 0.0024644083789678722,
             "pledge": "55000000000",
             "pledged": "55040014394",
             "taxRatio": 0.015,
@@ -14501,10 +14983,10 @@
             "ticker": "STALE",
             "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
             "website": "https://discord.com/invite/yA9cAtD3et",
-            "totalStake": "5564950802000",
+            "totalStake": "5564950832965",
             "blocksLifetime": 44,
             "delegators": 430,
-            "saturated": 0.08352368148216174,
+            "saturated": 0.0835236829204724,
             "pledge": "2000000000",
             "pledged": "9136455560",
             "taxRatio": 0.02,
@@ -14613,7 +15095,7 @@
             "totalStake": "97591519270",
             "blocksLifetime": 3,
             "delegators": 11,
-            "saturated": 0.0014647394488983174,
+            "saturated": 0.0014647394659714718,
             "pledge": "10000000000",
             "pledged": "10002675686",
             "taxRatio": 0,
@@ -14798,7 +15280,7 @@
             "totalStake": "4428333305890",
             "blocksLifetime": 277,
             "delegators": 41,
-            "saturated": 0.06646432532792132,
+            "saturated": 0.06646432610263636,
             "pledge": "500000000000",
             "pledged": "505926385836",
             "taxRatio": 0.0125,
@@ -14953,7 +15435,7 @@
             "totalStake": "78715672440",
             "blocksLifetime": 3,
             "delegators": 23,
-            "saturated": 0.0011814341198074687,
+            "saturated": 0.001181434133578387,
             "pledge": "69420000000",
             "pledged": "70594950802",
             "taxRatio": 0.01,
@@ -15104,7 +15586,7 @@
             "totalStake": "17887408192",
             "blocksLifetime": 79,
             "delegators": 20,
-            "saturated": 0.0002684699717081198,
+            "saturated": 0.0002684699748374335,
             "pledge": "10000000000",
             "pledged": "13972299175",
             "taxRatio": 0.01,
@@ -15275,7 +15757,7 @@
             "totalStake": "31691178565",
             "blocksLifetime": 0,
             "delegators": 10,
-            "saturated": 0.0004756491114541522,
+            "saturated": 0.00047564911699836735,
             "pledge": "18000000000",
             "pledged": "18111772733",
             "taxRatio": 0.01,
@@ -15438,7 +15920,7 @@
             "totalStake": "28767889557",
             "blocksLifetime": 0,
             "delegators": 16,
-            "saturated": 0.00043177381611519863,
+            "saturated": 0.0004317738211479988,
             "pledge": "14500000000",
             "pledged": "14787276374",
             "taxRatio": 0,
@@ -15629,7 +16111,7 @@
             "totalStake": "1420195170",
             "blocksLifetime": 0,
             "delegators": 3,
-            "saturated": 0.000021315539569362136,
+            "saturated": 0.000021315539817818265,
             "pledge": "1000000000",
             "pledged": "1000000000",
             "taxRatio": 0.005,
@@ -15793,7 +16275,7 @@
             "totalStake": "570816152285",
             "blocksLifetime": 287,
             "delegators": 23,
-            "saturated": 0.008567311407531374,
+            "saturated": 0.00856731150739284,
             "pledge": "100000000000",
             "pledged": "107560446489",
             "taxRatio": 0.01,
@@ -15824,7 +16306,112 @@
                 "storage": "SanDisk 256GB Extreme PRO USB 3.2 SSD"
               }
             ],
-            "relays": [],
+            "relays": [
+              {
+                "addr": "sully.crabdance.com",
+                "port": 6000,
+                "data": {
+                  "ip": "173.93.28.12",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "US",
+                  "country_name": "United States",
+                  "region_code": "NC",
+                  "region_name": "North Carolina",
+                  "city": "Wilmington",
+                  "zip": "28403",
+                  "latitude": 34.221920013427734,
+                  "longitude": -77.87039947509766,
+                  "location": {
+                    "geoname_id": 4499379,
+                    "capital": "Washington D.C.",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/us.svg",
+                    "country_flag_emoji": "🇺🇸",
+                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                    "calling_code": "1",
+                    "is_eu": false
+                  },
+                  "time_zone": {
+                    "id": "America/New_York",
+                    "current_time": "2021-11-04T04:55:27-04:00",
+                    "gmt_offset": -14400,
+                    "code": "EDT",
+                    "is_daylight_saving": true
+                  },
+                  "currency": {
+                    "code": "USD",
+                    "name": "US Dollar",
+                    "plural": "US dollars",
+                    "symbol": "$",
+                    "symbol_native": "$"
+                  },
+                  "connection": {
+                    "asn": 11426,
+                    "isp": "Charter Communications Inc"
+                  }
+                }
+              },
+              {
+                "addr": "sully.crabdance.com",
+                "port": 6001,
+                "data": {
+                  "ip": "173.93.28.12",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "US",
+                  "country_name": "United States",
+                  "region_code": "NC",
+                  "region_name": "North Carolina",
+                  "city": "Wilmington",
+                  "zip": "28403",
+                  "latitude": 34.221920013427734,
+                  "longitude": -77.87039947509766,
+                  "location": {
+                    "geoname_id": 4499379,
+                    "capital": "Washington D.C.",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "https://assets.ipstack.com/flags/us.svg",
+                    "country_flag_emoji": "🇺🇸",
+                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                    "calling_code": "1",
+                    "is_eu": false
+                  },
+                  "time_zone": {
+                    "id": "America/New_York",
+                    "current_time": "2021-11-04T04:55:27-04:00",
+                    "gmt_offset": -14400,
+                    "code": "EDT",
+                    "is_daylight_saving": true
+                  },
+                  "currency": {
+                    "code": "USD",
+                    "name": "US Dollar",
+                    "plural": "US dollars",
+                    "symbol": "$",
+                    "symbol_native": "$"
+                  },
+                  "connection": {
+                    "asn": 11426,
+                    "isp": "Charter Communications Inc"
+                  }
+                }
+              }
+            ],
             "metadata": {
               "name": "RADAR Stake Pool",
               "description": "A low-fee, reliable return, bare-metal stake pool dedicated to true decentralization",
@@ -15866,7 +16453,7 @@
             },
             "telegram": "SullyatRadar",
             "twitter": "RADARstakepool",
-            "qualityScore": 75
+            "qualityScore": 87.5
           },
           {
             "id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
@@ -15881,10 +16468,10 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "1079682425273",
+            "totalStake": "1079832897956",
             "blocksLifetime": 333,
             "delegators": 162,
-            "saturated": 0.01620482448074479,
+            "saturated": 0.016207083096171356,
             "pledge": "555400000000",
             "pledged": "578934365247",
             "taxRatio": 0.03,
@@ -16086,7 +16673,7 @@
           "totalStake": "47549102488",
           "blocksLifetime": 1,
           "delegators": 6,
-          "saturated": 0.0007136587963262962,
+          "saturated": 0.0007136588046447767,
           "pledge": "25500000000",
           "pledged": "25530621624",
           "taxRatio": 0.005,
@@ -16132,7 +16719,112 @@
               "deviceId": "raspberry-pi-3-1gb"
             }
           ],
-          "relays": [],
+          "relays": [
+            {
+              "addr": "mainnet-relay1.riscv-pool.tech",
+              "port": 3001,
+              "data": {
+                "ip": "161.35.157.9",
+                "type": "ipv4",
+                "continent_code": "NA",
+                "continent_name": "North America",
+                "country_code": "US",
+                "country_name": "United States",
+                "region_code": "MA",
+                "region_name": "Massachusetts",
+                "city": "Westford",
+                "zip": "01886",
+                "latitude": 42.5890007019043,
+                "longitude": -71.44174194335938,
+                "location": {
+                  "geoname_id": 4955219,
+                  "capital": "Washington D.C.",
+                  "languages": [
+                    {
+                      "code": "en",
+                      "name": "English",
+                      "native": "English"
+                    }
+                  ],
+                  "country_flag": "https://assets.ipstack.com/flags/us.svg",
+                  "country_flag_emoji": "🇺🇸",
+                  "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                  "calling_code": "1",
+                  "is_eu": false
+                },
+                "time_zone": {
+                  "id": "America/New_York",
+                  "current_time": "2021-11-04T04:55:26-04:00",
+                  "gmt_offset": -14400,
+                  "code": "EDT",
+                  "is_daylight_saving": true
+                },
+                "currency": {
+                  "code": "USD",
+                  "name": "US Dollar",
+                  "plural": "US dollars",
+                  "symbol": "$",
+                  "symbol_native": "$"
+                },
+                "connection": {
+                  "asn": 14061,
+                  "isp": "Digitalocean LLC"
+                }
+              }
+            },
+            {
+              "addr": "mainnet-relay2.riscv-pool.tech",
+              "port": 3001,
+              "data": {
+                "ip": "45.83.233.6",
+                "type": "ipv4",
+                "continent_code": "EU",
+                "continent_name": "Europe",
+                "country_code": "NL",
+                "country_name": "Netherlands",
+                "region_code": "NH",
+                "region_name": "North Holland",
+                "city": "Diemen",
+                "zip": "1101",
+                "latitude": 52.309051513671875,
+                "longitude": 4.940189838409424,
+                "location": {
+                  "geoname_id": 2756888,
+                  "capital": "Amsterdam",
+                  "languages": [
+                    {
+                      "code": "nl",
+                      "name": "Dutch",
+                      "native": "Nederlands"
+                    }
+                  ],
+                  "country_flag": "https://assets.ipstack.com/flags/nl.svg",
+                  "country_flag_emoji": "🇳🇱",
+                  "country_flag_emoji_unicode": "U+1F1F3 U+1F1F1",
+                  "calling_code": "31",
+                  "is_eu": true
+                },
+                "time_zone": {
+                  "id": "Europe/Amsterdam",
+                  "current_time": "2021-11-04T09:55:27+01:00",
+                  "gmt_offset": 3600,
+                  "code": "CET",
+                  "is_daylight_saving": false
+                },
+                "currency": {
+                  "code": "EUR",
+                  "name": "Euro",
+                  "plural": "euros",
+                  "symbol": "€",
+                  "symbol_native": "€"
+                },
+                "connection": {
+                  "asn": 206238,
+                  "isp": "Freedom Internet Bv"
+                }
+              }
+            }
+          ],
           "metadata": {
             "name": "RISC-V powered Stake Pool",
             "description": "RISC-V ISA powered Stake Pool",
@@ -16172,15 +16864,15 @@
           "twitter": "rv64stakepool",
           "github": "RV64-Stake-Pool",
           "youtube": "channel/UCWEeOlhT7b0TClzlqyeBRhw",
-          "qualityScore": 62.5
+          "qualityScore": 75
         }
       },
       "attrs": {
         "component-type": "DelegationSection",
         "component-id": "DelegationSection",
-        "component-cached-at": "2021-11-04T08:14:34.742Z",
-        "component-cached-in": "15 ms",
-        "component-resolved-in": "15 ms"
+        "component-cached-at": "2021-11-04T08:55:33.655Z",
+        "component-cached-in": "6.31 ms",
+        "component-resolved-in": "6.31 ms"
       },
       "components": {}
     }
