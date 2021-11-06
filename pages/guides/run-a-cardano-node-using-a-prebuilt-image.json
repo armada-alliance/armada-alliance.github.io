@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node-using-a-prebuilt-image\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node-using-a-prebuilt-image\",\"url\":\"https://armada-alliance.com/guides/run-a-cardano-node-using-a-prebuilt-image\",\"origin\":\"/guides/run-a-cardano-node-using-a-prebuilt-image\",\"title\":\"Raspberry Pi Stake Pool\",\"description\":\"Download a pre-configured image with everything installed to run a Cardano Node on a Raspberry Pi out of the box.\",\"aliases\":null,\"keywords\":[\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wcat-otg\",\"role\":\"author\"}],\"icon\":\"🥧\",\"updatedAt\":\"2021-08-26T20:44:24.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node-using-a-prebuilt-image.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/intermediate-guide/pi-pool-tutorial\",\"body\":\"![OTG Star Forge](https://github.com/armada-alliance/assets/raw/gh-pages/otg/Cardano-node-stake-pool.jpeg)\\n\\n## Summary\\n\\nPi-Pool was originally an image [Alessandro Konrad](/identities/alessandro-berry) hosted on his [GitHub](https://github.com/alessandrokonrad/Pi-Pool). It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.\\n\\nIt was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool stuff Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.\\n\\nI tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.\\n\\nI am proud to host a snapshot of the database folder that allows one to burn the image pull a chain snapshot with wget and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a [Raspberry Pi](/identities/raspberrypi).\\n\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=0ESufjRxAyI\\\" description=\\\"Raspberry Pi Cardano Relay\\\"/>\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var d=(a,e,o)=>e in a?l(a,e,{enumerable:!0,configurable:!0,writable:!0,value:o}):a[e]=o,n=(a,e)=>{for(var o in e||(e={}))s.call(e,o)&&d(a,o,e[o]);if(r)for(var o of r(e))i.call(e,o)&&d(a,o,e[o]);return a},p=(a,e)=>u(a,m(e));var h=(a,e)=>{var o={};for(var t in a)s.call(a,t)&&e.indexOf(t)<0&&(o[t]=a[t]);if(a!=null&&r)for(var t of r(a))e.indexOf(t)<0&&i.call(a,t)&&(o[t]=a[t]);return o};const makeShortcode=a=>function(o){return console.warn(\\\"Component \\\"+a+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",n({},o))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var t=o,{components:a}=t,e=h(t,[\\\"components\\\"]);return mdx(MDXLayout,p(n(n({},layoutProps),e),{components:a,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,mdx(\\\"img\\\",n({parentName:\\\"p\\\"},{src:\\\"https://github.com/armada-alliance/assets/raw/gh-pages/otg/Cardano-node-stake-pool.jpeg\\\",alt:\\\"OTG Star Forge\\\"}))),mdx(\\\"h2\\\",null,\\\"Summary\\\"),mdx(\\\"p\\\",null,\\\"Pi-Pool was originally an image \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"/identities/alessandro-berry\\\"}),\\\"Alessandro Konrad\\\"),\\\" hosted on his \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://github.com/alessandrokonrad/Pi-Pool\\\"}),\\\"GitHub\\\"),\\\". It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.\\\"),mdx(\\\"p\\\",null,\\\"It was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool stuff Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.\\\"),mdx(\\\"p\\\",null,\\\"I tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.\\\"),mdx(\\\"p\\\",null,\\\"I am proud to host a snapshot of the database folder that allows one to burn the image pull a chain snapshot with wget and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"/identities/raspberrypi\\\"}),\\\"Raspberry Pi\\\"),\\\".\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=0ESufjRxAyI\\\",description:\\\"Raspberry Pi Cardano Relay\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-06T09:12:29.848Z",
-  "_cachedIn": "181 ms",
-  "_resolvedIn": "181 ms",
+  "_cachedAt": "2021-11-06T10:13:28.235Z",
+  "_cachedIn": "169 ms",
+  "_resolvedIn": "169 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-11-06T09:12:29.848Z",
-    "component-cached-in": "181 ms",
-    "component-resolved-in": "181 ms"
+    "component-cached-at": "2021-11-06T10:13:28.235Z",
+    "component-cached-in": "169 ms",
+    "component-resolved-in": "169 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-06T09:12:29.848Z",
-      "_cachedIn": "218 μs",
-      "_resolvedIn": "218 μs",
+      "_cachedAt": "2021-11-06T10:13:28.235Z",
+      "_cachedIn": "226 μs",
+      "_resolvedIn": "226 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-06T09:12:29.848Z",
-        "component-cached-in": "218 μs",
-        "component-resolved-in": "218 μs"
+        "component-cached-at": "2021-11-06T10:13:28.235Z",
+        "component-cached-in": "226 μs",
+        "component-resolved-in": "226 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-06T09:12:29.848Z",
-          "_cachedIn": "128 μs",
-          "_resolvedIn": "128 μs",
+          "_cachedAt": "2021-11-06T10:13:28.235Z",
+          "_cachedIn": "135 μs",
+          "_resolvedIn": "135 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-06T09:12:01.734Z",
+              "createdAt": "2021-11-06T10:12:53.006Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9266,61 +9266,61 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003273
+                "rate": 0.00003261
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003273
+                "rate": 0.00003261
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.71
+                "rate": 2.7
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 12.81
+                "rate": 12.77
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.33
+                "rate": 8.3
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 227.05
+                "rate": 226.26
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 66.58
+                "rate": 66.35
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-06T09:12:29.848Z",
-            "component-cached-in": "128 μs",
-            "component-resolved-in": "128 μs"
+            "component-cached-at": "2021-11-06T10:13:28.235Z",
+            "component-cached-in": "135 μs",
+            "component-resolved-in": "135 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-06T09:12:29.848Z",
-          "_cachedIn": "151 μs",
-          "_resolvedIn": "151 μs",
+          "_cachedAt": "2021-11-06T10:13:28.235Z",
+          "_cachedIn": "156 μs",
+          "_resolvedIn": "156 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9331,17 +9331,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-06T09:12:29.848Z",
-            "component-cached-in": "151 μs",
-            "component-resolved-in": "151 μs"
+            "component-cached-at": "2021-11-06T10:13:28.235Z",
+            "component-cached-in": "156 μs",
+            "component-resolved-in": "156 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-06T09:12:29.848Z",
-              "_cachedIn": "36 μs",
-              "_resolvedIn": "36 μs",
+              "_cachedAt": "2021-11-06T10:13:28.235Z",
+              "_cachedIn": "38 μs",
+              "_resolvedIn": "38 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9401,9 +9401,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-06T09:12:29.848Z",
-                "component-cached-in": "36 μs",
-                "component-resolved-in": "36 μs"
+                "component-cached-at": "2021-11-06T10:13:28.235Z",
+                "component-cached-in": "38 μs",
+                "component-resolved-in": "38 μs"
               },
               "components": {}
             }
@@ -9412,9 +9412,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-06T09:12:29.848Z",
-          "_cachedIn": "80 μs",
-          "_resolvedIn": "80 μs",
+          "_cachedAt": "2021-11-06T10:13:28.235Z",
+          "_cachedIn": "84 μs",
+          "_resolvedIn": "84 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9423,9 +9423,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-06T09:12:29.848Z",
-            "component-cached-in": "80 μs",
-            "component-resolved-in": "80 μs"
+            "component-cached-at": "2021-11-06T10:13:28.235Z",
+            "component-cached-in": "84 μs",
+            "component-resolved-in": "84 μs"
           },
           "components": {}
         }
@@ -9434,9 +9434,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-06T09:12:29.848Z",
-      "_cachedIn": "158 μs",
-      "_resolvedIn": "158 μs",
+      "_cachedAt": "2021-11-06T10:13:28.235Z",
+      "_cachedIn": "166 μs",
+      "_resolvedIn": "166 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9468,18 +9468,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-11-06T09:12:29.848Z",
-        "component-cached-in": "158 μs",
-        "component-resolved-in": "158 μs"
+        "component-cached-at": "2021-11-06T10:13:28.235Z",
+        "component-cached-in": "166 μs",
+        "component-resolved-in": "166 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-06T09:12:29.848Z",
-      "_cachedIn": "79 μs",
-      "_resolvedIn": "79 μs",
+      "_cachedAt": "2021-11-06T10:13:28.235Z",
+      "_cachedIn": "85 μs",
+      "_resolvedIn": "85 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9491,18 +9491,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-11-06T09:12:29.848Z",
-        "component-cached-in": "79 μs",
-        "component-resolved-in": "79 μs"
+        "component-cached-at": "2021-11-06T10:13:28.235Z",
+        "component-cached-in": "85 μs",
+        "component-resolved-in": "85 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-06T09:12:29.848Z",
-      "_cachedIn": "157 μs",
-      "_resolvedIn": "157 μs",
+      "_cachedAt": "2021-11-06T10:13:28.235Z",
+      "_cachedIn": "166 μs",
+      "_resolvedIn": "166 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9526,9 +9526,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-11-06T09:12:29.848Z",
-        "component-cached-in": "157 μs",
-        "component-resolved-in": "157 μs"
+        "component-cached-at": "2021-11-06T10:13:28.235Z",
+        "component-cached-in": "166 μs",
+        "component-resolved-in": "166 μs"
       },
       "components": {}
     }
