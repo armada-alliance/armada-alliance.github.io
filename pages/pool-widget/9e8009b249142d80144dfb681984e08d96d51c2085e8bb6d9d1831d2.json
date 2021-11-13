@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Docker, Plutus, Research and Charity ASTOR\",\"slug\":\"/pool-widget/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2\",\"template\":\"PoolWidgetPage\",\"poolId\":\"9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-13T08:14:33.756Z",
-  "_cachedIn": "273 μs",
-  "_resolvedIn": "273 μs",
+  "_cachedAt": "2021-11-13T09:12:08.363Z",
+  "_cachedIn": "213 μs",
+  "_resolvedIn": "213 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2"
       },
       "description": "A container first approach to Cardano. ASTOR is non-profit. We donate 100% of the pool's margin to charity and pay monthly payouts to loyal delegators. With love by IT professionals from Bavaria.",
-      "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+      "image": "https://astorpool.net/img/astor-logo.png",
       "hasImage": true,
       "ticker": "ASTOR",
       "addr": "pool1n6qqnvjfzskcq9zdld5pnp8q3ktd28pqsh5tkmvarqcayr76puv",
@@ -32,7 +32,7 @@
       "totalStake": "16016222657010",
       "blocksLifetime": 124,
       "delegators": 72,
-      "saturated": 0.24017445812012428,
+      "saturated": 0.24017446930900768,
       "pledge": "200000000000",
       "pledged": "200002258492",
       "taxRatio": 0.01,
@@ -171,7 +171,7 @@
             },
             "time_zone": {
               "id": "Europe/Berlin",
-              "current_time": "2021-11-13T09:14:26+01:00",
+              "current_time": "2021-11-13T10:12:01+01:00",
               "gmt_offset": 3600,
               "code": "CET",
               "is_daylight_saving": false
@@ -190,8 +190,72 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Docker, Plutus, Research and Charity",
+        "description": "A container first approach to Cardano. ASTOR is non-profit. We donate 100% of the pool's margin to charity and pay monthly payouts to loyal delegators. With love by IT professionals from Bavaria.",
+        "ticker": "ASTOR",
+        "homepage": "https://astorpool.net",
+        "extended": "https://astorpool.net/extended.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://astorpool.net/img/favicon-univ.png",
+          "url_png_logo": "https://astorpool.net/img/astor-logo.png",
+          "location": "Bavaria, Germany",
+          "social": {
+            "twitter_handle": "AstorPool",
+            "telegram_handle": "AstorPool",
+            "_facebook_handle": "",
+            "_youtube_handle": "",
+            "_twitch_handle": "",
+            "discord_handle": "#8620",
+            "github_handle": "tdiesler/nessus-cardano"
+          },
+          "_company": {
+            "name": "Company Name",
+            "addr": "Street, Number",
+            "city": "London",
+            "country": "England",
+            "company_id": "123456789",
+            "vat_id": "GB123456789"
+          },
+          "about": {
+            "me": "ASTOR's main focus is to provide high quality multiarch Docker images. We donate 100% of the pool's margin to charity and reward loyal delegators through monthly payouts.",
+            "server": "Relay: Intel, 4 CPU, 8GB RAM, 200 Mbit/s, Docker. Block Producer: ARM64, 4 CPU, 8GB RAM, 200 Mbit/s, Docker.",
+            "_company": "..."
+          },
+          "_rss": "http(s) url to valid RSS feed"
+        },
+        "my-pool-ids": {
+          "0": "9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2"
+        },
+        "_when-satured-then-recommend": {
+          "0": "",
+          "1": ""
+        },
+        "_telegram-admin-handle": {
+          "0": ""
+        },
+        "_adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "relay 1 eu",
+              "type": "relay",
+              "key": "example_get_own_on_adapools.org/connect"
+            },
+            "1": {
+              "name": "relay 2 usa",
+              "type": "relay",
+              "key": "example_get_own_on_adapools.org/connect"
+            },
+            "2": {
+              "name": "block producer home",
+              "type": "bp",
+              "key": "example_get_own_on_adapools.org/connect"
+            }
+          }
+        }
+      },
       "telegram": "AstorPool",
       "twitter": "AstorPool",
       "github": "tdiesler/nessus-cardano",
@@ -202,17 +266,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-11-13T08:14:33.756Z",
-    "component-cached-in": "273 μs",
-    "component-resolved-in": "273 μs"
+    "component-cached-at": "2021-11-13T09:12:08.363Z",
+    "component-cached-in": "213 μs",
+    "component-resolved-in": "213 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-13T08:14:33.756Z",
-      "_cachedIn": "83 μs",
-      "_resolvedIn": "83 μs",
+      "_cachedAt": "2021-11-13T09:12:08.363Z",
+      "_cachedIn": "79 μs",
+      "_resolvedIn": "79 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -221,17 +285,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-13T08:14:33.756Z",
-        "component-cached-in": "83 μs",
-        "component-resolved-in": "83 μs"
+        "component-cached-at": "2021-11-13T09:12:08.363Z",
+        "component-cached-in": "79 μs",
+        "component-resolved-in": "79 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-13T08:14:33.756Z",
-          "_cachedIn": "44 μs",
-          "_resolvedIn": "44 μs",
+          "_cachedAt": "2021-11-13T09:12:08.363Z",
+          "_cachedIn": "42 μs",
+          "_resolvedIn": "42 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -239,7 +303,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-13T08:14:05.689Z",
+              "createdAt": "2021-11-13T09:11:42.265Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2917,7 +2981,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+                "image": "https://astorpool.net/img/astor-logo.png",
                 "updatedAt": "2021-10-17T08:42:30.000Z",
                 "filePath": "/en/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.md",
                 "rank": 13
@@ -9443,73 +9507,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.81
+                "rate": 1.8
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 2.08
+                "rate": 2.06
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003235
+                "rate": 0.00003221
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003235
+                "rate": 0.00003221
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.83
+                "rate": 2.81
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 13.24
+                "rate": 13.15
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 8.65
+                "rate": 8.59
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 236.53
+                "rate": 234.91
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 68.09
+                "rate": 67.62
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-13T08:14:33.756Z",
-            "component-cached-in": "44 μs",
-            "component-resolved-in": "44 μs"
+            "component-cached-at": "2021-11-13T09:12:08.363Z",
+            "component-cached-in": "42 μs",
+            "component-resolved-in": "42 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-13T08:14:33.756Z",
-          "_cachedIn": "63 μs",
-          "_resolvedIn": "63 μs",
+          "_cachedAt": "2021-11-13T09:12:08.363Z",
+          "_cachedIn": "60 μs",
+          "_resolvedIn": "60 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9520,17 +9584,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-13T08:14:33.756Z",
-            "component-cached-in": "63 μs",
-            "component-resolved-in": "63 μs"
+            "component-cached-at": "2021-11-13T09:12:08.363Z",
+            "component-cached-in": "60 μs",
+            "component-resolved-in": "60 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-13T08:14:33.756Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2021-11-13T09:12:08.363Z",
+              "_cachedIn": "18 μs",
+              "_resolvedIn": "18 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9590,9 +9654,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-13T08:14:33.756Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2021-11-13T09:12:08.363Z",
+                "component-cached-in": "18 μs",
+                "component-resolved-in": "18 μs"
               },
               "components": {}
             }
@@ -9601,7 +9665,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-13T08:14:33.756Z",
+          "_cachedAt": "2021-11-13T09:12:08.363Z",
           "_cachedIn": "14 μs",
           "_resolvedIn": "14 μs",
           "id": "Footer",
@@ -9612,7 +9676,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-13T08:14:33.756Z",
+            "component-cached-at": "2021-11-13T09:12:08.363Z",
             "component-cached-in": "14 μs",
             "component-resolved-in": "14 μs"
           },
