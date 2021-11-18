@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https://armada-alliance.com/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"🌊\",\"updatedAt\":\"2021-07-13T15:34:16.000Z\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n<\\\\/script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-17T23:13:05.916Z",
-  "_cachedIn": "198 ms",
-  "_resolvedIn": "198 ms",
+  "_cachedAt": "2021-11-18T00:42:03.178Z",
+  "_cachedIn": "181 ms",
+  "_resolvedIn": "181 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-11-17T23:13:05.916Z",
-    "component-cached-in": "198 ms",
-    "component-resolved-in": "198 ms"
+    "component-cached-at": "2021-11-18T00:42:03.178Z",
+    "component-cached-in": "181 ms",
+    "component-resolved-in": "181 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-17T23:13:05.916Z",
-      "_cachedIn": "202 μs",
-      "_resolvedIn": "202 μs",
+      "_cachedAt": "2021-11-18T00:42:03.178Z",
+      "_cachedIn": "224 μs",
+      "_resolvedIn": "224 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,17 +67,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-17T23:13:05.916Z",
-        "component-cached-in": "202 μs",
-        "component-resolved-in": "202 μs"
+        "component-cached-at": "2021-11-18T00:42:03.178Z",
+        "component-cached-in": "224 μs",
+        "component-resolved-in": "224 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-17T23:13:05.916Z",
-          "_cachedIn": "120 μs",
-          "_resolvedIn": "120 μs",
+          "_cachedAt": "2021-11-18T00:42:03.178Z",
+          "_cachedIn": "137 μs",
+          "_resolvedIn": "137 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -85,7 +85,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-17T23:12:39.459Z",
+              "createdAt": "2021-11-18T00:41:34.119Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1168,6 +1168,21 @@
                 "image": "https://stoicpool.com/wp-content/uploads/2021/11/RhysSPOImage.png",
                 "updatedAt": "2021-11-03T13:58:32.000Z",
                 "filePath": "/en/identities/Rhys_STOIC.md"
+              },
+              {
+                "id": "TesPool",
+                "language": "en",
+                "slug": "/identities/TesPool",
+                "url": "https://armada-alliance.com/identities/TesPool",
+                "origin": "/identities/TesPool",
+                "title": "TesPool",
+                "description": "TESP",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://tespool.online/assets/images/favicon.png",
+                "updatedAt": "2021-11-17T23:14:05.000Z",
+                "filePath": "/en/identities/TesPool.md"
               },
               {
                 "id": "Zebra_Danio",
@@ -2637,6 +2652,28 @@
                 "rank": 0
               },
               {
+                "id": "8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
+                "language": "en",
+                "slug": "/stake-pools/8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
+                "url": "https://armada-alliance.com/stake-pools/8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
+                "origin": "/stake-pools/8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
+                "title": "TesPool  (TESP🍀)",
+                "description": "Our team focus in the best performance and continuous operation of node. 20% of operator result are donated to education access charity.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "TesPool",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://tespool.online/assets/images/marca%20tespool.png",
+                "updatedAt": "2021-11-17T23:23:17.000Z",
+                "filePath": "/en/stake-pools/8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d.md",
+                "rank": 13
+              },
+              {
                 "id": "9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
                 "language": "en",
                 "slug": "/stake-pools/9382bd037bb313c831dd9d5250a6f3f07f286e31fe009f2564ec76bc",
@@ -3210,6 +3247,14 @@
                 "slug": "/pool-widget/8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
                 "template": "PoolWidgetPage",
                 "poolId": "8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "TesPool  TESP🍀",
+                "slug": "/pool-widget/8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
+                "template": "PoolWidgetPage",
+                "poolId": "8f77e8a0202c6e39a1c19fc51ae1d822f84b048b32ec22c07b18226d",
                 "hidden": true
               },
               {
@@ -9289,73 +9334,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.65
+                "rate": 1.67
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.87
+                "rate": 1.89
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003107
+                "rate": 0.00003111
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003107
+                "rate": 0.00003111
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.58
+                "rate": 2.6
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 11.94
+                "rate": 12.06
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 7.82
+                "rate": 7.89
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 213.73
+                "rate": 215.9
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 61.1
+                "rate": 61.74
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-17T23:13:05.916Z",
-            "component-cached-in": "120 μs",
-            "component-resolved-in": "120 μs"
+            "component-cached-at": "2021-11-18T00:42:03.178Z",
+            "component-cached-in": "137 μs",
+            "component-resolved-in": "137 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-17T23:13:05.916Z",
-          "_cachedIn": "142 μs",
-          "_resolvedIn": "142 μs",
+          "_cachedAt": "2021-11-18T00:42:03.178Z",
+          "_cachedIn": "158 μs",
+          "_resolvedIn": "158 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9366,17 +9411,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-17T23:13:05.916Z",
-            "component-cached-in": "142 μs",
-            "component-resolved-in": "142 μs"
+            "component-cached-at": "2021-11-18T00:42:03.178Z",
+            "component-cached-in": "158 μs",
+            "component-resolved-in": "158 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-17T23:13:05.916Z",
-              "_cachedIn": "36 μs",
-              "_resolvedIn": "36 μs",
+              "_cachedAt": "2021-11-18T00:42:03.178Z",
+              "_cachedIn": "39 μs",
+              "_resolvedIn": "39 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9436,9 +9481,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-17T23:13:05.916Z",
-                "component-cached-in": "36 μs",
-                "component-resolved-in": "36 μs"
+                "component-cached-at": "2021-11-18T00:42:03.178Z",
+                "component-cached-in": "39 μs",
+                "component-resolved-in": "39 μs"
               },
               "components": {}
             }
@@ -9447,9 +9492,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-17T23:13:05.916Z",
-          "_cachedIn": "79 μs",
-          "_resolvedIn": "79 μs",
+          "_cachedAt": "2021-11-18T00:42:03.178Z",
+          "_cachedIn": "83 μs",
+          "_resolvedIn": "83 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9458,9 +9503,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-17T23:13:05.916Z",
-            "component-cached-in": "79 μs",
-            "component-resolved-in": "79 μs"
+            "component-cached-at": "2021-11-18T00:42:03.178Z",
+            "component-cached-in": "83 μs",
+            "component-resolved-in": "83 μs"
           },
           "components": {}
         }
@@ -9469,9 +9514,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-17T23:13:05.916Z",
-      "_cachedIn": "145 μs",
-      "_resolvedIn": "145 μs",
+      "_cachedAt": "2021-11-18T00:42:03.178Z",
+      "_cachedIn": "164 μs",
+      "_resolvedIn": "164 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9520,18 +9565,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-11-17T23:13:05.916Z",
-        "component-cached-in": "145 μs",
-        "component-resolved-in": "145 μs"
+        "component-cached-at": "2021-11-18T00:42:03.178Z",
+        "component-cached-in": "164 μs",
+        "component-resolved-in": "164 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-17T23:13:05.916Z",
-      "_cachedIn": "80 μs",
-      "_resolvedIn": "80 μs",
+      "_cachedAt": "2021-11-18T00:42:03.177Z",
+      "_cachedIn": "86 μs",
+      "_resolvedIn": "86 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9543,18 +9588,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-11-17T23:13:05.916Z",
-        "component-cached-in": "80 μs",
-        "component-resolved-in": "80 μs"
+        "component-cached-at": "2021-11-18T00:42:03.177Z",
+        "component-cached-in": "86 μs",
+        "component-resolved-in": "86 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-17T23:13:05.916Z",
-      "_cachedIn": "144 μs",
-      "_resolvedIn": "144 μs",
+      "_cachedAt": "2021-11-18T00:42:03.178Z",
+      "_cachedIn": "163 μs",
+      "_resolvedIn": "163 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9575,9 +9620,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-11-17T23:13:05.916Z",
-        "component-cached-in": "144 μs",
-        "component-resolved-in": "144 μs"
+        "component-cached-at": "2021-11-18T00:42:03.178Z",
+        "component-cached-in": "163 μs",
+        "component-resolved-in": "163 μs"
       },
       "components": {}
     }
