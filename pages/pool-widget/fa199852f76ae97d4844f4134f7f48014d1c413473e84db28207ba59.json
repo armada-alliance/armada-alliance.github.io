@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"AdaPies AdaPi\",\"slug\":\"/pool-widget/fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59\",\"template\":\"PoolWidgetPage\",\"poolId\":\"fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-19T10:13:58.477Z",
-  "_cachedIn": "244 μs",
-  "_resolvedIn": "244 μs",
+  "_cachedAt": "2021-11-19T11:11:06.680Z",
+  "_cachedIn": "336 μs",
+  "_resolvedIn": "336 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,17 +24,17 @@
         "href": "/stake-pools/fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59"
       },
       "description": "Just having fun with pies",
-      "image": "https://DougDo.github.io/AdaPies/AdaPies.png",
+      "image": "https://static.adapools.org/pool_logo/fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59.png",
       "hasImage": true,
       "ticker": "AdaPi",
       "addr": "pool1lgves5hhdt5h6jzy7sf57l6gq9x3csf5w05ymv5zq7a9jfwn7kk",
       "website": "https://DougDo.github.io/AdaPies",
-      "totalStake": "1420195170",
+      "totalStake": "1419992533",
       "blocksLifetime": 0,
       "delegators": 3,
-      "saturated": 0.000021287690608485646,
+      "saturated": 0.00002128465364242326,
       "pledge": "1000000000",
-      "pledged": "1000000000",
+      "pledged": "999797363",
       "taxRatio": 0.005,
       "taxFix": "340000000",
       "roa": "0",
@@ -65,10 +65,10 @@
       ],
       "relays": [
         {
-          "addr": "113.253.165.62",
-          "port": 3003,
+          "addr": "AdaPies.asuscomm.com",
+          "port": 3001,
           "data": {
-            "ip": "113.253.165.62",
+            "ip": "113.253.166.247",
             "type": "ipv4",
             "continent_code": "AS",
             "continent_name": "Asia",
@@ -100,14 +100,32 @@
               "country_flag_emoji_unicode": "U+1F1ED U+1F1F0",
               "calling_code": "852",
               "is_eu": false
+            },
+            "time_zone": {
+              "id": "Asia/Hong_Kong",
+              "current_time": "2021-11-19T19:10:58+08:00",
+              "gmt_offset": 28800,
+              "code": "HKT",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "HKD",
+              "name": "Hong Kong Dollar",
+              "plural": "Hong Kong dollars",
+              "symbol": "HK$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 9304,
+              "isp": "Hgc Global Communications Limited"
             }
           }
         },
         {
-          "addr": "113.253.165.62",
+          "addr": "AdaPies.asuscomm.com",
           "port": 3002,
           "data": {
-            "ip": "113.253.165.62",
+            "ip": "113.253.166.247",
             "type": "ipv4",
             "continent_code": "AS",
             "continent_name": "Asia",
@@ -139,42 +157,87 @@
               "country_flag_emoji_unicode": "U+1F1ED U+1F1F0",
               "calling_code": "852",
               "is_eu": false
+            },
+            "time_zone": {
+              "id": "Asia/Hong_Kong",
+              "current_time": "2021-11-19T19:10:58+08:00",
+              "gmt_offset": 28800,
+              "code": "HKT",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "HKD",
+              "name": "Hong Kong Dollar",
+              "plural": "Hong Kong dollars",
+              "symbol": "HK$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 9304,
+              "isp": "Hgc Global Communications Limited"
+            }
+          }
+        },
+        {
+          "addr": "118.140.168.102",
+          "port": 3003,
+          "data": {
+            "ip": "118.140.168.102",
+            "type": "ipv4",
+            "continent_code": "AS",
+            "continent_name": "Asia",
+            "country_code": "HK",
+            "country_name": "Hong Kong SAR China",
+            "region_code": "HCW",
+            "region_name": "Central and Western",
+            "city": "Hong Kong",
+            "zip": null,
+            "latitude": 22.248310089111328,
+            "longitude": 114.15239715576172,
+            "location": {
+              "geoname_id": 1819729,
+              "capital": "City of Victoria",
+              "languages": [
+                {
+                  "code": "zh",
+                  "name": "Chinese",
+                  "native": "中文"
+                },
+                {
+                  "code": "en",
+                  "name": "English",
+                  "native": "English"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/hk.svg",
+              "country_flag_emoji": "🇭🇰",
+              "country_flag_emoji_unicode": "U+1F1ED U+1F1F0",
+              "calling_code": "852",
+              "is_eu": false
+            },
+            "time_zone": {
+              "id": "Asia/Hong_Kong",
+              "current_time": "2021-11-19T19:10:58+08:00",
+              "gmt_offset": 28800,
+              "code": "HKT",
+              "is_daylight_saving": false
+            },
+            "currency": {
+              "code": "HKD",
+              "name": "Hong Kong Dollar",
+              "plural": "Hong Kong dollars",
+              "symbol": "HK$",
+              "symbol_native": "$"
+            },
+            "connection": {
+              "asn": 9304,
+              "isp": "Hgc Global Communications Limited"
             }
           }
         }
       ],
-      "metadata": {
-        "name": "AdaPies",
-        "description": "Just having fun with pies",
-        "ticker": "AdaPi",
-        "homepage": "https://DougDo.github.io/AdaPies",
-        "extended": "https://DougDo.github.io/AdaPies/extendedPoolMetaData.json"
-      },
-      "extended": {
-        "info": {
-          "url_png_icon_64x64": "https://DougDo.github.io/AdaPies/AdaPies.png",
-          "url_png_logo": "https://DougDo.github.io/AdaPies/AdaPies.png",
-          "location": "CyberPlace, CyberWorld",
-          "social": {
-            "twitter_handle": "AdaPies",
-            "telegram_handle": "Doug Do",
-            "discord_handle": "",
-            "github_handle": "DougDo"
-          },
-          "about": {
-            "me": "Having fun with pies",
-            "server": "Just love pies",
-            "company": "🌟 AdaPies ⚡"
-          },
-          "my-pool-ids": {
-            "0": "pool1lgves5hhdt5h6jzy7sf57l6gq9x3csf5w05ymv5zq7a9jfwn7kk"
-          },
-          "when-satured-then-recommend": {
-            "0": "Some hex",
-            "1": "Some hex"
-          }
-        }
-      },
+      "metadata": null,
+      "extended": null,
       "telegram": "Doug Do",
       "twitter": "AdaPies",
       "github": "DougDo",
@@ -184,17 +247,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-11-19T10:13:58.477Z",
-    "component-cached-in": "244 μs",
-    "component-resolved-in": "244 μs"
+    "component-cached-at": "2021-11-19T11:11:06.680Z",
+    "component-cached-in": "336 μs",
+    "component-resolved-in": "336 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-19T10:13:58.477Z",
-      "_cachedIn": "87 μs",
-      "_resolvedIn": "87 μs",
+      "_cachedAt": "2021-11-19T11:11:06.680Z",
+      "_cachedIn": "108 μs",
+      "_resolvedIn": "108 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -203,17 +266,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-19T10:13:58.477Z",
-        "component-cached-in": "87 μs",
-        "component-resolved-in": "87 μs"
+        "component-cached-at": "2021-11-19T11:11:06.680Z",
+        "component-cached-in": "108 μs",
+        "component-resolved-in": "108 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-19T10:13:58.477Z",
-          "_cachedIn": "47 μs",
-          "_resolvedIn": "47 μs",
+          "_cachedAt": "2021-11-19T11:11:06.680Z",
+          "_cachedIn": "60 μs",
+          "_resolvedIn": "60 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -221,7 +284,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-19T10:13:27.647Z",
+              "createdAt": "2021-11-19T11:10:37.066Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -3197,7 +3260,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://DougDo.github.io/AdaPies/AdaPies.png",
+                "image": "https://static.adapools.org/pool_logo/fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59.png",
                 "updatedAt": "2021-10-12T04:22:20.000Z",
                 "filePath": "/en/stake-pools/fa199852f76ae97d4844f4134f7f48014d1c413473e84db28207ba59.md",
                 "rank": 0
@@ -9515,7 +9578,7 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.61
+                "rate": 1.6
               },
               {
                 "id": "USD",
@@ -9527,61 +9590,61 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00003177
+                "rate": 0.00003187
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00003177
+                "rate": 0.00003187
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.51
+                "rate": 2.5
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 11.59
+                "rate": 11.57
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 7.59
+                "rate": 7.58
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 206.57
+                "rate": 206.36
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 59.47
+                "rate": 59.33
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-19T10:13:58.477Z",
-            "component-cached-in": "47 μs",
-            "component-resolved-in": "47 μs"
+            "component-cached-at": "2021-11-19T11:11:06.680Z",
+            "component-cached-in": "60 μs",
+            "component-resolved-in": "60 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-19T10:13:58.477Z",
-          "_cachedIn": "66 μs",
-          "_resolvedIn": "66 μs",
+          "_cachedAt": "2021-11-19T11:11:06.680Z",
+          "_cachedIn": "82 μs",
+          "_resolvedIn": "82 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9592,17 +9655,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-19T10:13:58.477Z",
-            "component-cached-in": "66 μs",
-            "component-resolved-in": "66 μs"
+            "component-cached-at": "2021-11-19T11:11:06.680Z",
+            "component-cached-in": "82 μs",
+            "component-resolved-in": "82 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-19T10:13:58.477Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2021-11-19T11:11:06.680Z",
+              "_cachedIn": "26 μs",
+              "_resolvedIn": "26 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9662,9 +9725,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-19T10:13:58.477Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2021-11-19T11:11:06.680Z",
+                "component-cached-in": "26 μs",
+                "component-resolved-in": "26 μs"
               },
               "components": {}
             }
@@ -9673,9 +9736,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-19T10:13:58.477Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2021-11-19T11:11:06.680Z",
+          "_cachedIn": "19 μs",
+          "_resolvedIn": "19 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9684,9 +9747,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-19T10:13:58.477Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2021-11-19T11:11:06.680Z",
+            "component-cached-in": "19 μs",
+            "component-resolved-in": "19 μs"
           },
           "components": {}
         }
