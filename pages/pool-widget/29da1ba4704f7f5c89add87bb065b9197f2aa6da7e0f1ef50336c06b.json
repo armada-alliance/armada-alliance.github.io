@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Signal Pool SIGNL\",\"slug\":\"/pool-widget/29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b\",\"template\":\"PoolWidgetPage\",\"poolId\":\"29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-11-25T22:13:09.592Z",
-  "_cachedIn": "279 μs",
-  "_resolvedIn": "279 μs",
+  "_cachedAt": "2021-11-25T23:12:46.378Z",
+  "_cachedIn": "236 μs",
+  "_resolvedIn": "236 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "55112280",
       "blocksLifetime": 0,
       "delegators": 1,
-      "saturated": 8.257367682108875e-7,
+      "saturated": 8.257368450339588e-7,
       "pledge": "50000000",
       "pledged": "55112280",
       "taxRatio": 0,
@@ -82,8 +82,51 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Signal Pool",
+        "description": "Signal Pool - You can't stop the signal.",
+        "ticker": "SIGNL",
+        "homepage": "https://twitter.com/Signlpool",
+        "extended": "https://git.io/JRrm3"
+      },
+      "extended": {
+        "info": {
+          "location": "USA",
+          "social": {
+            "twitter_handle": "@Signlpool",
+            "telegram_handle": "Steve [SIGNL]",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "signladmin"
+          },
+          "about": {
+            "me": "A single pool operator focusing on decentralization and low power consumption.",
+            "server": "Raspberry Pi based pool. Under 40 watts total. We will expand relays as we grow."
+          }
+        },
+        "my-pool-ids": {
+          "0": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b"
+        },
+        "telegram-admin-handle": {
+          "0": "Steve [SIGNL]"
+        },
+        "adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "Pi Relay 1",
+              "type": "relay",
+              "key": "eed29c6afccb27f568459e35643a7acd"
+            },
+            "1": {
+              "name": "Block Producer Pi",
+              "type": "bp",
+              "key": "3cf49188400411b598c3f4a26f5a7bc2"
+            }
+          }
+        }
+      },
       "telegram": "Steve [SIGNL]",
       "twitter": "@Signlpool",
       "github": "signladmin",
@@ -93,17 +136,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-11-25T22:13:09.592Z",
-    "component-cached-in": "279 μs",
-    "component-resolved-in": "279 μs"
+    "component-cached-at": "2021-11-25T23:12:46.378Z",
+    "component-cached-in": "236 μs",
+    "component-resolved-in": "236 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-11-25T22:13:09.592Z",
-      "_cachedIn": "106 μs",
-      "_resolvedIn": "106 μs",
+      "_cachedAt": "2021-11-25T23:12:46.378Z",
+      "_cachedIn": "87 μs",
+      "_resolvedIn": "87 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -112,17 +155,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-11-25T22:13:09.592Z",
-        "component-cached-in": "106 μs",
-        "component-resolved-in": "106 μs"
+        "component-cached-at": "2021-11-25T23:12:46.378Z",
+        "component-cached-in": "87 μs",
+        "component-resolved-in": "87 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-25T22:13:09.592Z",
-          "_cachedIn": "45 μs",
-          "_resolvedIn": "45 μs",
+          "_cachedAt": "2021-11-25T23:12:46.378Z",
+          "_cachedIn": "47 μs",
+          "_resolvedIn": "47 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -130,7 +173,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-11-25T22:12:02.011Z",
+              "createdAt": "2021-11-25T23:12:14.394Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2618,7 +2661,7 @@
                     "donation address": "addr1q85ph43jag803t5cdusezhhn4t44psnv3fj4jhkcl5ngjlad7e84tru0xvfmue3e29rcmucsxfp380xl6qkj7ncentxsh0fztn"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.png",
+                "image": "https://raspberryrpi.com/wp-content/uploads/2021/05/RPI-Logo-Nederlandse-stakepool-e1621180854953.png",
                 "updatedAt": "2021-08-02T08:20:36.000Z",
                 "filePath": "/en/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.md",
                 "rank": 13
@@ -9424,73 +9467,73 @@
                 "id": "EUR",
                 "name": "Euro",
                 "symbol": "€",
-                "rate": 1.5
+                "rate": 1.52
               },
               {
                 "id": "USD",
                 "name": "U.S. Dollar",
                 "symbol": "$",
-                "rate": 1.68
+                "rate": 1.7
               },
               {
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00002867
+                "rate": 0.00002878
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00002867
+                "rate": 0.00002878
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.34
+                "rate": 2.36
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 10.75
+                "rate": 10.85
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 7.12
+                "rate": 7.19
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 194.15
+                "rate": 195.89
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 56.2
+                "rate": 56.71
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-11-25T22:13:09.592Z",
-            "component-cached-in": "45 μs",
-            "component-resolved-in": "45 μs"
+            "component-cached-at": "2021-11-25T23:12:46.378Z",
+            "component-cached-in": "47 μs",
+            "component-resolved-in": "47 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-25T22:13:09.592Z",
-          "_cachedIn": "84 μs",
-          "_resolvedIn": "84 μs",
+          "_cachedAt": "2021-11-25T23:12:46.378Z",
+          "_cachedIn": "66 μs",
+          "_resolvedIn": "66 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9501,15 +9544,15 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-11-25T22:13:09.592Z",
-            "component-cached-in": "84 μs",
-            "component-resolved-in": "84 μs"
+            "component-cached-at": "2021-11-25T23:12:46.378Z",
+            "component-cached-in": "66 μs",
+            "component-resolved-in": "66 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-11-25T22:13:09.592Z",
+              "_cachedAt": "2021-11-25T23:12:46.378Z",
               "_cachedIn": "20 μs",
               "_resolvedIn": "20 μs",
               "id": "SearchBox",
@@ -9571,7 +9614,7 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-11-25T22:13:09.592Z",
+                "component-cached-at": "2021-11-25T23:12:46.378Z",
                 "component-cached-in": "20 μs",
                 "component-resolved-in": "20 μs"
               },
@@ -9582,9 +9625,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-11-25T22:13:09.592Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2021-11-25T23:12:46.378Z",
+          "_cachedIn": "16 μs",
+          "_resolvedIn": "16 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9593,9 +9636,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-11-25T22:13:09.592Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2021-11-25T23:12:46.378Z",
+            "component-cached-in": "16 μs",
+            "component-resolved-in": "16 μs"
           },
           "components": {}
         }
