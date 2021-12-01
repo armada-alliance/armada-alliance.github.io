@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"MEME Pool MEME\",\"slug\":\"/pool-widget/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386\",\"template\":\"PoolWidgetPage\",\"poolId\":\"c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-12-01T00:44:38.439Z",
-  "_cachedIn": "283 μs",
-  "_resolvedIn": "283 μs",
+  "_cachedAt": "2021-12-01T02:01:11.479Z",
+  "_cachedIn": "215 μs",
+  "_resolvedIn": "215 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "4559562359",
       "blocksLifetime": 3,
       "delegators": 18,
-      "saturated": 0.00006828595568672277,
+      "saturated": 0.00006828595989375853,
       "pledge": "69420000000",
       "pledged": "5821255",
       "taxRatio": 0.01,
@@ -171,17 +171,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-12-01T00:44:38.439Z",
-    "component-cached-in": "283 μs",
-    "component-resolved-in": "283 μs"
+    "component-cached-at": "2021-12-01T02:01:11.479Z",
+    "component-cached-in": "215 μs",
+    "component-resolved-in": "215 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-12-01T00:44:38.439Z",
-      "_cachedIn": "85 μs",
-      "_resolvedIn": "85 μs",
+      "_cachedAt": "2021-12-01T02:01:11.479Z",
+      "_cachedIn": "77 μs",
+      "_resolvedIn": "77 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -190,17 +190,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-12-01T00:44:38.439Z",
-        "component-cached-in": "85 μs",
-        "component-resolved-in": "85 μs"
+        "component-cached-at": "2021-12-01T02:01:11.479Z",
+        "component-cached-in": "77 μs",
+        "component-resolved-in": "77 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-12-01T00:44:38.439Z",
-          "_cachedIn": "46 μs",
-          "_resolvedIn": "46 μs",
+          "_cachedAt": "2021-12-01T02:01:11.478Z",
+          "_cachedIn": "43 μs",
+          "_resolvedIn": "43 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -208,7 +208,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2021-12-01T00:43:54.645Z",
+              "createdAt": "2021-12-01T02:00:42.790Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2163,6 +2163,21 @@
                 "filePath": "/en/identities/tony-piada.md"
               },
               {
+                "id": "ttymrz-elmpi",
+                "language": "en",
+                "slug": "/identities/ttymrz-elmpi",
+                "url": "https://armada-alliance.com/identities/ttymrz-elmpi",
+                "origin": "/identities/ttymrz-elmpi",
+                "title": "ttymrz",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-11-30T14:17:10.000Z",
+                "filePath": "/en/identities/ttymrz-elmpi.md"
+              },
+              {
                 "id": "wael-ivie",
                 "language": "en",
                 "slug": "/identities/wael-ivie",
@@ -2722,6 +2737,28 @@
                 "updatedAt": "2021-07-28T12:47:53.000Z",
                 "filePath": "/en/stake-pools/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c.md",
                 "rank": 63
+              },
+              {
+                "id": "7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d",
+                "language": "en",
+                "slug": "/stake-pools/7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d",
+                "url": "https://armada-alliance.com/stake-pools/7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d",
+                "origin": "/stake-pools/7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d",
+                "title": "ELMPI (ELMPI)",
+                "description": "Embedded Linux + Raspberry Pi + Mobile + Low Power Consumption Stake Pool 省エネ軽量Stake Poolを追求します。",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "ttymrz-elmpi",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://elmpi.net/img/elmpi-icon-c-180.png",
+                "updatedAt": "2021-12-01T00:55:04.000Z",
+                "filePath": "/en/stake-pools/7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d.md",
+                "rank": 13
               },
               {
                 "id": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
@@ -3383,6 +3420,14 @@
                 "slug": "/pool-widget/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
                 "template": "PoolWidgetPage",
                 "poolId": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "ELMPI ELMPI",
+                "slug": "/pool-widget/7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d",
+                "template": "PoolWidgetPage",
+                "poolId": "7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d",
                 "hidden": true
               },
               {
@@ -9514,61 +9559,61 @@
                 "id": "BTC",
                 "name": "Bitcoin",
                 "symbol": "BTC",
-                "rate": 0.00002733
+                "rate": 0.00002742
               },
               {
                 "id": "BTC",
                 "name": "Ethereum",
                 "symbol": "ETH",
-                "rate": 0.00002733
+                "rate": 0.00002742
               },
               {
                 "id": "AUD",
                 "name": "Australian Dollar",
                 "symbol": "AUD",
-                "rate": 2.2
+                "rate": 2.19
               },
               {
                 "id": "CNY",
                 "name": "Chinese Yuan",
                 "symbol": "¥",
-                "rate": 9.98
+                "rate": 9.96
               },
               {
                 "id": "MYR",
                 "name": "Malaysian Ringgit",
                 "symbol": "RM",
-                "rate": 6.59
+                "rate": 6.58
               },
               {
                 "id": "JPY",
                 "name": "Japanese Yen",
                 "symbol": "¥",
-                "rate": 177.57
+                "rate": 177.68
               },
               {
                 "id": "THB",
                 "name": "Thai Baht",
                 "symbol": "฿",
-                "rate": 52.82
+                "rate": 52.76
               }
             ]
           },
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-12-01T00:44:38.439Z",
-            "component-cached-in": "46 μs",
-            "component-resolved-in": "46 μs"
+            "component-cached-at": "2021-12-01T02:01:11.478Z",
+            "component-cached-in": "43 μs",
+            "component-resolved-in": "43 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-12-01T00:44:38.439Z",
-          "_cachedIn": "64 μs",
-          "_resolvedIn": "64 μs",
+          "_cachedAt": "2021-12-01T02:01:11.478Z",
+          "_cachedIn": "59 μs",
+          "_resolvedIn": "59 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9579,17 +9624,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-12-01T00:44:38.439Z",
-            "component-cached-in": "64 μs",
-            "component-resolved-in": "64 μs"
+            "component-cached-at": "2021-12-01T02:01:11.478Z",
+            "component-cached-in": "59 μs",
+            "component-resolved-in": "59 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-12-01T00:44:38.439Z",
-              "_cachedIn": "19 μs",
-              "_resolvedIn": "19 μs",
+              "_cachedAt": "2021-12-01T02:01:11.478Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9649,9 +9694,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-12-01T00:44:38.439Z",
-                "component-cached-in": "19 μs",
-                "component-resolved-in": "19 μs"
+                "component-cached-at": "2021-12-01T02:01:11.478Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -9660,7 +9705,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-12-01T00:44:38.439Z",
+          "_cachedAt": "2021-12-01T02:01:11.478Z",
           "_cachedIn": "15 μs",
           "_resolvedIn": "15 μs",
           "id": "Footer",
@@ -9671,7 +9716,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-12-01T00:44:38.439Z",
+            "component-cached-at": "2021-12-01T02:01:11.478Z",
             "component-cached-in": "15 μs",
             "component-resolved-in": "15 μs"
           },
