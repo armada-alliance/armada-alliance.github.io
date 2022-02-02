@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentitiesPage\",\"version\":1},\"props\":{\"id\":\"identities\",\"language\":\"en\",\"slug\":\"/identities\",\"url\":\"https://armada-alliance.com/identities\",\"origin\":\"/identities\",\"title\":\"Identities\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentitiesPage\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/identities.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2022-02-02T22:11:28.142Z",
-  "_cachedIn": "457 ms",
-  "_resolvedIn": "457 ms",
+  "_cachedAt": "2022-02-02T22:58:03.838Z",
+  "_cachedIn": "489 ms",
+  "_resolvedIn": "489 ms",
   "id": "IdentitiesPage",
   "type": "IdentitiesPage",
   "status": "resolved",
@@ -42,6 +42,21 @@
         "pools": [
           "73a527af03d38b3659f20b263000a1f72d3f3b867df5a2bb0e5516f1"
         ]
+      },
+      {
+        "id": "ARRK",
+        "name": "ARRK POOL",
+        "description": "SPO",
+        "image": "https://armada-alliance.com/assets/ship-420.png",
+        "telegram": "arrkpool",
+        "twitter": "jacob_neider",
+        "website": "https://arrk.live/",
+        "github": "jacobneider",
+        "link": {
+          "name": "ARRK POOL",
+          "href": "/identities/ARRK"
+        },
+        "pools": []
       },
       {
         "id": "Adapies",
@@ -1136,17 +1151,17 @@
   "attrs": {
     "component-type": "IdentitiesPage",
     "component-id": "IdentitiesPage",
-    "component-cached-at": "2022-02-02T22:11:28.142Z",
-    "component-cached-in": "457 ms",
-    "component-resolved-in": "457 ms"
+    "component-cached-at": "2022-02-02T22:58:03.838Z",
+    "component-cached-in": "489 ms",
+    "component-resolved-in": "489 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-02T22:11:28.142Z",
-      "_cachedIn": "450 ms",
-      "_resolvedIn": "450 ms",
+      "_cachedAt": "2022-02-02T22:58:03.838Z",
+      "_cachedIn": "481 ms",
+      "_resolvedIn": "481 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -1155,17 +1170,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-02-02T22:11:28.142Z",
-        "component-cached-in": "450 ms",
-        "component-resolved-in": "450 ms"
+        "component-cached-at": "2022-02-02T22:58:03.838Z",
+        "component-cached-in": "481 ms",
+        "component-resolved-in": "481 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-02T22:11:28.142Z",
-          "_cachedIn": "599 μs",
-          "_resolvedIn": "599 μs",
+          "_cachedAt": "2022-02-02T22:58:03.838Z",
+          "_cachedIn": "619 μs",
+          "_resolvedIn": "619 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -1173,7 +1188,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-02-02T22:11:15.188Z",
+              "createdAt": "2022-02-02T22:57:46.680Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2181,6 +2196,21 @@
                 "image": "https://5hare-pool.5pecia1.dev/img/logo.png",
                 "updatedAt": "2021-11-18T00:34:35.000Z",
                 "filePath": "/en/identities/5pecia1.md"
+              },
+              {
+                "id": "ARRK",
+                "language": "en",
+                "slug": "/identities/ARRK",
+                "url": "https://armada-alliance.com/identities/ARRK",
+                "origin": "/identities/ARRK",
+                "title": "ARRK POOL",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2022-02-02T22:32:43.000Z",
+                "filePath": "/en/identities/ARRK.md"
               },
               {
                 "id": "Adapies",
@@ -3549,6 +3579,28 @@
                 "rank": 0
               },
               {
+                "id": "3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e",
+                "language": "en",
+                "slug": "/stake-pools/3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e",
+                "url": "https://armada-alliance.com/stake-pools/3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e",
+                "origin": "/stake-pools/3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e",
+                "title": "ARRK POOL (ARRK)",
+                "description": "Different operators sharing their unique staking experiences and builds that best suits their lifestyles all in order to help grow the community.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "ARRK POOL",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://user-images.githubusercontent.com/77803935/133521830-beac8625-549f-43db-a3df-38157a972918.jpg",
+                "updatedAt": "2022-02-02T22:57:13.000Z",
+                "filePath": "/en/stake-pools/3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e.md",
+                "rank": 38
+              },
+              {
                 "id": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
                 "language": "en",
                 "slug": "/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
@@ -4329,6 +4381,14 @@
                 "slug": "/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
                 "template": "PoolWidgetPage",
                 "poolId": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "ARRK POOL ARRK",
+                "slug": "/pool-widget/3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e",
+                "template": "PoolWidgetPage",
+                "poolId": "3ed1b022f921fa2d37894e3592ac2271a00e25ef706df7c86743006e",
                 "hidden": true
               },
               {
@@ -10567,18 +10627,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-02-02T22:11:28.142Z",
-            "component-cached-in": "599 μs",
-            "component-resolved-in": "599 μs"
+            "component-cached-at": "2022-02-02T22:58:03.838Z",
+            "component-cached-in": "619 μs",
+            "component-resolved-in": "619 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-02T22:11:28.142Z",
-          "_cachedIn": "755 μs",
-          "_resolvedIn": "755 μs",
+          "_cachedAt": "2022-02-02T22:58:03.838Z",
+          "_cachedIn": "797 μs",
+          "_resolvedIn": "797 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -10589,17 +10649,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-02-02T22:11:28.142Z",
-            "component-cached-in": "755 μs",
-            "component-resolved-in": "755 μs"
+            "component-cached-at": "2022-02-02T22:58:03.838Z",
+            "component-cached-in": "797 μs",
+            "component-resolved-in": "797 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-02-02T22:11:28.142Z",
-              "_cachedIn": "200 μs",
-              "_resolvedIn": "200 μs",
+              "_cachedAt": "2022-02-02T22:58:03.838Z",
+              "_cachedIn": "220 μs",
+              "_resolvedIn": "220 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -10659,9 +10719,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-02-02T22:11:28.142Z",
-                "component-cached-in": "200 μs",
-                "component-resolved-in": "200 μs"
+                "component-cached-at": "2022-02-02T22:58:03.838Z",
+                "component-cached-in": "220 μs",
+                "component-resolved-in": "220 μs"
               },
               "components": {}
             }
@@ -10670,9 +10730,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-02T22:11:28.142Z",
-          "_cachedIn": "403 μs",
-          "_resolvedIn": "403 μs",
+          "_cachedAt": "2022-02-02T22:58:03.838Z",
+          "_cachedIn": "408 μs",
+          "_resolvedIn": "408 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -10681,9 +10741,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-02-02T22:11:28.142Z",
-            "component-cached-in": "403 μs",
-            "component-resolved-in": "403 μs"
+            "component-cached-at": "2022-02-02T22:58:03.838Z",
+            "component-cached-in": "408 μs",
+            "component-resolved-in": "408 μs"
           },
           "components": {}
         }
