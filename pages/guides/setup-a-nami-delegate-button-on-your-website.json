@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https://armada-alliance.com/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"🌊\",\"updatedAt\":\"2021-07-13T15:34:16.000Z\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n<\\\\/script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2022-02-03T09:12:15.380Z",
-  "_cachedIn": "147 ms",
-  "_resolvedIn": "147 ms",
+  "_cachedAt": "2022-02-03T10:18:52.284Z",
+  "_cachedIn": "126 ms",
+  "_resolvedIn": "126 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -48,15 +48,15 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2022-02-03T09:12:15.380Z",
-    "component-cached-in": "147 ms",
-    "component-resolved-in": "147 ms"
+    "component-cached-at": "2022-02-03T10:18:52.284Z",
+    "component-cached-in": "126 ms",
+    "component-resolved-in": "126 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T09:12:15.380Z",
+      "_cachedAt": "2022-02-03T10:18:52.284Z",
       "_cachedIn": "167 μs",
       "_resolvedIn": "167 μs",
       "id": "Layout",
@@ -67,7 +67,7 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-02-03T09:12:15.380Z",
+        "component-cached-at": "2022-02-03T10:18:52.284Z",
         "component-cached-in": "167 μs",
         "component-resolved-in": "167 μs"
       },
@@ -75,7 +75,7 @@
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-03T09:12:15.380Z",
+          "_cachedAt": "2022-02-03T10:18:52.284Z",
           "_cachedIn": "100 μs",
           "_resolvedIn": "100 μs",
           "id": "Context",
@@ -85,7 +85,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-02-03T09:12:00.515Z",
+              "createdAt": "2022-02-03T10:16:27.755Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1455,6 +1455,21 @@
                 "filePath": "/en/identities/george-vela.md"
               },
               {
+                "id": "happy",
+                "language": "en",
+                "slug": "/identities/happy",
+                "url": "https://armada-alliance.com/identities/happy",
+                "origin": "/identities/happy",
+                "title": "Happy Raspberry ❤️",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://happyraspberrypool.com/assets/images/HappyRaspberry.png",
+                "updatedAt": "2021-12-17T11:36:04.000Z",
+                "filePath": "/en/identities/happy.md"
+              },
+              {
                 "id": "iog",
                 "language": "en",
                 "slug": "/identities/iog",
@@ -2558,7 +2573,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://api.xor-nand.io/xorn.png",
+                "image": "https://cdn.adapools.org/pool_logo/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.png",
                 "updatedAt": "2021-10-07T08:26:37.000Z",
                 "filePath": "/en/stake-pools/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.md",
                 "rank": 25
@@ -2672,6 +2687,28 @@
                 "updatedAt": "2021-08-08T15:00:50.000Z",
                 "filePath": "/en/stake-pools/827900818541013d518ee6b2af343a973c8d836884fb000742307400.md",
                 "rank": 0
+              },
+              {
+                "id": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
+                "language": "en",
+                "slug": "/stake-pools/86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
+                "url": "https://armada-alliance.com/stake-pools/86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
+                "origin": "/stake-pools/86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
+                "title": "Happy Raspberry ️ (HAPPY)",
+                "description": "Passionate IT enthusiast, looking forward to all the opportunities for Technologies to improve peoples lives, like Cardano. Raspberry Pi's, 99,9% up-time, on-premise, whole household is powered by renewable energy, Czech Republic, 10% planting trees.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "happy",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://happyraspberrypool.com/assets/images/HappyRaspberry.png",
+                "updatedAt": "2022-02-03T10:16:00.000Z",
+                "filePath": "/en/stake-pools/86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86.md",
+                "rank": 50
               },
               {
                 "id": "8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
@@ -3239,6 +3276,14 @@
                 "slug": "/pool-widget/827900818541013d518ee6b2af343a973c8d836884fb000742307400",
                 "template": "PoolWidgetPage",
                 "poolId": "827900818541013d518ee6b2af343a973c8d836884fb000742307400",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Happy Raspberry ️ HAPPY",
+                "slug": "/pool-widget/86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
+                "template": "PoolWidgetPage",
+                "poolId": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
                 "hidden": true
               },
               {
@@ -9373,7 +9418,7 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-02-03T09:12:15.380Z",
+            "component-cached-at": "2022-02-03T10:18:52.284Z",
             "component-cached-in": "100 μs",
             "component-resolved-in": "100 μs"
           },
@@ -9382,9 +9427,9 @@
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-03T09:12:15.380Z",
-          "_cachedIn": "118 μs",
-          "_resolvedIn": "118 μs",
+          "_cachedAt": "2022-02-03T10:18:52.284Z",
+          "_cachedIn": "117 μs",
+          "_resolvedIn": "117 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9395,15 +9440,15 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-02-03T09:12:15.380Z",
-            "component-cached-in": "118 μs",
-            "component-resolved-in": "118 μs"
+            "component-cached-at": "2022-02-03T10:18:52.284Z",
+            "component-cached-in": "117 μs",
+            "component-resolved-in": "117 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-02-03T09:12:15.380Z",
+              "_cachedAt": "2022-02-03T10:18:52.284Z",
               "_cachedIn": "30 μs",
               "_resolvedIn": "30 μs",
               "id": "SearchBox",
@@ -9465,7 +9510,7 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-02-03T09:12:15.380Z",
+                "component-cached-at": "2022-02-03T10:18:52.284Z",
                 "component-cached-in": "30 μs",
                 "component-resolved-in": "30 μs"
               },
@@ -9476,7 +9521,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-03T09:12:15.380Z",
+          "_cachedAt": "2022-02-03T10:18:52.284Z",
           "_cachedIn": "64 μs",
           "_resolvedIn": "64 μs",
           "id": "Footer",
@@ -9487,7 +9532,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-02-03T09:12:15.380Z",
+            "component-cached-at": "2022-02-03T10:18:52.284Z",
             "component-cached-in": "64 μs",
             "component-resolved-in": "64 μs"
           },
@@ -9498,7 +9543,7 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T09:12:15.380Z",
+      "_cachedAt": "2022-02-03T10:18:52.284Z",
       "_cachedIn": "121 μs",
       "_resolvedIn": "121 μs",
       "id": "PageHeader",
@@ -9549,7 +9594,7 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2022-02-03T09:12:15.380Z",
+        "component-cached-at": "2022-02-03T10:18:52.284Z",
         "component-cached-in": "121 μs",
         "component-resolved-in": "121 μs"
       },
@@ -9558,9 +9603,9 @@
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T09:12:15.380Z",
-      "_cachedIn": "64 μs",
-      "_resolvedIn": "64 μs",
+      "_cachedAt": "2022-02-03T10:18:52.284Z",
+      "_cachedIn": "67 μs",
+      "_resolvedIn": "67 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9572,18 +9617,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2022-02-03T09:12:15.380Z",
-        "component-cached-in": "64 μs",
-        "component-resolved-in": "64 μs"
+        "component-cached-at": "2022-02-03T10:18:52.284Z",
+        "component-cached-in": "67 μs",
+        "component-resolved-in": "67 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T09:12:15.380Z",
-      "_cachedIn": "120 μs",
-      "_resolvedIn": "120 μs",
+      "_cachedAt": "2022-02-03T10:18:52.284Z",
+      "_cachedIn": "121 μs",
+      "_resolvedIn": "121 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9604,9 +9649,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2022-02-03T09:12:15.380Z",
-        "component-cached-in": "120 μs",
-        "component-resolved-in": "120 μs"
+        "component-cached-at": "2022-02-03T10:18:52.284Z",
+        "component-cached-in": "121 μs",
+        "component-resolved-in": "121 μs"
       },
       "components": {}
     }
