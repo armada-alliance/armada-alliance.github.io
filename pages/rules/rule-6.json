@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"RuleDetailPage\",\"version\":1},\"props\":{\"id\":\"rule-6\",\"language\":\"en\",\"slug\":\"/rules/rule-6\",\"url\":\"https://armada-alliance.com/rules/rule-6\",\"origin\":\"/rules/rule-6\",\"title\":\"Pool should have their nodes defined\",\"description\":\"Make sure to define your nodes in the pool markdown file.\",\"aliases\":null,\"keywords\":null,\"template\":\"RuleDetailPage\",\"updatedAt\":\"2021-07-24T17:52:06.000Z\",\"filePath\":\"/en/rules/rule-6.md\",\"number\":6,\"body\":\"```yaml\\n---\\ntemplate: PoolDetailPage\\nticker: SBLYR\\nmemberSince: 2021-04-18\\nidentities: \\n  - id: sublayerio\\n    role: spo\\nnodes:\\n  - role: producer\\n    deviceId: mac-mini-m1-16gb\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n---\\n```\\n[View source](https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md)\\n\\n## Fields\\n\\n### role\\n\\nThe available options for `role` are: \\n- `relay`\\n- `producer`\\n\\n### deviceId\\n`deviceId` is not required. The available options for `deviceId` are: \\n- `raspberry-pi-4-8gb`\\n- `mac-mini-16gb`\\n\\n### name\\nYou're also allowed to just specify a `name` for your node:\\n\\n```yaml\\n---\\nnodes:\\n  - role: producer\\n    name: VPS in the cloud\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n```\\n\\n### storage\\n\\nStorage is a text describing the storage of the node. It will get displayed on the website.\\n\\n### processor\\n\\nProcessor is a text describing the processor of the node. It will get displayed on the website.\\n\\n### memory\\n\\nMemory is a text describing the memory of the node. It will get displayed on the website.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,m=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,t=Object.prototype.propertyIsEnumerable;var p=(e,a,i)=>a in e?c(e,a,{enumerable:!0,configurable:!0,writable:!0,value:i}):e[a]=i,n=(e,a)=>{for(var i in a||(a={}))l.call(a,i)&&p(e,i,a[i]);if(o)for(var i of o(a))t.call(a,i)&&p(e,i,a[i]);return e},d=(e,a)=>m(e,u(a));var s=(e,a)=>{var i={};for(var r in e)l.call(e,r)&&a.indexOf(r)<0&&(i[r]=e[r]);if(e!=null&&o)for(var r of o(e))a.indexOf(r)<0&&t.call(e,r)&&(i[r]=e[r]);return i};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(i){var r=i,{components:e}=r,a=s(r,[\\\"components\\\"]);return mdx(MDXLayout,d(n(n({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-yaml\\\"}),`---\\ntemplate: PoolDetailPage\\nticker: SBLYR\\nmemberSince: 2021-04-18\\nidentities: \\n  - id: sublayerio\\n    role: spo\\nnodes:\\n  - role: producer\\n    deviceId: mac-mini-m1-16gb\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n---\\n`)),mdx(\\\"p\\\",null,mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md\\\"}),\\\"View source\\\")),mdx(\\\"h2\\\",null,\\\"Fields\\\"),mdx(\\\"h3\\\",null,\\\"role\\\"),mdx(\\\"p\\\",null,\\\"The available options for \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"role\\\"),\\\" are: \\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"relay\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"producer\\\"))),mdx(\\\"h3\\\",null,\\\"deviceId\\\"),mdx(\\\"p\\\",null,mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"deviceId\\\"),\\\" is not required. The available options for \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"deviceId\\\"),\\\" are: \\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"raspberry-pi-4-8gb\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"inlineCode\\\",{parentName:\\\"li\\\"},\\\"mac-mini-16gb\\\"))),mdx(\\\"h3\\\",null,\\\"name\\\"),mdx(\\\"p\\\",null,\\\"You're also allowed to just specify a \\\",mdx(\\\"inlineCode\\\",{parentName:\\\"p\\\"},\\\"name\\\"),\\\" for your node:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",n({parentName:\\\"pre\\\"},{className:\\\"language-yaml\\\"}),`---\\nnodes:\\n  - role: producer\\n    name: VPS in the cloud\\n  - role: relay \\n    deviceId: raspberry-pi-4-8gb\\n    storage: Crucial BX500 Internal SSD 120GB\\n`)),mdx(\\\"h3\\\",null,\\\"storage\\\"),mdx(\\\"p\\\",null,\\\"Storage is a text describing the storage of the node. It will get displayed on the website.\\\"),mdx(\\\"h3\\\",null,\\\"processor\\\"),mdx(\\\"p\\\",null,\\\"Processor is a text describing the processor of the node. It will get displayed on the website.\\\"),mdx(\\\"h3\\\",null,\\\"memory\\\"),mdx(\\\"p\\\",null,\\\"Memory is a text describing the memory of the node. It will get displayed on the website.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2022-02-03T08:14:52.534Z",
-  "_cachedIn": "1.09 ms",
-  "_resolvedIn": "1.09 ms",
+  "_cachedAt": "2022-02-03T09:12:16.709Z",
+  "_cachedIn": "4.34 ms",
+  "_resolvedIn": "4.34 ms",
   "id": "RuleDetailPage",
   "type": "RuleDetailPage",
   "status": "resolved",
@@ -32,17 +32,17 @@
   "attrs": {
     "component-type": "RuleDetailPage",
     "component-id": "RuleDetailPage",
-    "component-cached-at": "2022-02-03T08:14:52.534Z",
-    "component-cached-in": "1.09 ms",
-    "component-resolved-in": "1.09 ms"
+    "component-cached-at": "2022-02-03T09:12:16.709Z",
+    "component-cached-in": "4.34 ms",
+    "component-resolved-in": "4.34 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T08:14:52.534Z",
-      "_cachedIn": "839 μs",
-      "_resolvedIn": "839 μs",
+      "_cachedAt": "2022-02-03T09:12:16.709Z",
+      "_cachedIn": "3.77 ms",
+      "_resolvedIn": "3.77 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -51,17 +51,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-02-03T08:14:52.534Z",
-        "component-cached-in": "839 μs",
-        "component-resolved-in": "839 μs"
+        "component-cached-at": "2022-02-03T09:12:16.709Z",
+        "component-cached-in": "3.77 ms",
+        "component-resolved-in": "3.77 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-03T08:14:52.534Z",
-          "_cachedIn": "405 μs",
-          "_resolvedIn": "405 μs",
+          "_cachedAt": "2022-02-03T09:12:16.708Z",
+          "_cachedIn": "714 μs",
+          "_resolvedIn": "714 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -69,7 +69,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-02-03T08:14:36.741Z",
+              "createdAt": "2022-02-03T09:12:00.515Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2482,28 +2482,6 @@
                 "rank": 38
               },
               {
-                "id": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-                "language": "en",
-                "slug": "/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-                "url": "https://armada-alliance.com/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-                "origin": "/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-                "title": "SBC-Mining (SBC)",
-                "description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
-                "aliases": null,
-                "keywords": null,
-                "template": "PoolDetailPage",
-                "identities": [
-                  {
-                    "id": "sbc-mining",
-                    "role": "spo"
-                  }
-                ],
-                "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
-                "updatedAt": "2021-07-28T12:47:53.000Z",
-                "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md",
-                "rank": 38
-              },
-              {
                 "id": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
                 "language": "en",
                 "slug": "/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
@@ -2590,51 +2568,6 @@
                 "updatedAt": "2021-11-18T00:34:35.000Z",
                 "filePath": "/en/stake-pools/73a527af03d38b3659f20b263000a1f72d3f3b867df5a2bb0e5516f1.md",
                 "rank": 0
-              },
-              {
-                "id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-                "language": "en",
-                "slug": "/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-                "url": "https://armada-alliance.com/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-                "origin": "/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-                "title": "Raspberry (RPI)",
-                "description": "Raspberry Pi Pool",
-                "aliases": null,
-                "keywords": null,
-                "template": "PoolDetailPage",
-                "identities": [
-                  {
-                    "id": "thyes_MB",
-                    "role": "spo",
-                    "donation address": "addr1q85ph43jag803t5cdusezhhn4t44psnv3fj4jhkcl5ngjlad7e84tru0xvfmue3e29rcmucsxfp380xl6qkj7ncentxsh0fztn"
-                  }
-                ],
-                "image": "https://raspberryrpi.com/wp-content/uploads/2021/05/RPI-Logo-Nederlandse-stakepool-e1621180854953.png",
-                "updatedAt": "2022-01-18T22:16:16.000Z",
-                "filePath": "/en/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.md",
-                "rank": 13
-              },
-              {
-                "id": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-                "language": "en",
-                "slug": "/stake-pools/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-                "url": "https://armada-alliance.com/stake-pools/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-                "origin": "/stake-pools/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-                "title": "PIEBR Pool (PIEBR)",
-                "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
-                "aliases": null,
-                "keywords": null,
-                "template": "PoolDetailPage",
-                "identities": [
-                  {
-                    "id": "karnagge",
-                    "role": "spo"
-                  }
-                ],
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-28T12:47:53.000Z",
-                "filePath": "/en/stake-pools/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c.md",
-                "rank": 63
               },
               {
                 "id": "7d49f7486660c27f0fded15ba46ba8e3c8d3427aba360936034d7d9d",
@@ -3015,28 +2948,6 @@
                 "rank": 0
               },
               {
-                "id": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-                "language": "en",
-                "slug": "/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-                "url": "https://armada-alliance.com/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-                "origin": "/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-                "title": "MEME Pool (MEME)",
-                "description": "They don't know I run a Cardano stake pool.",
-                "aliases": null,
-                "keywords": null,
-                "template": "PoolDetailPage",
-                "identities": [
-                  {
-                    "id": "geoff",
-                    "role": "spo"
-                  }
-                ],
-                "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2022-01-18T22:16:16.000Z",
-                "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md",
-                "rank": 0
-              },
-              {
                 "id": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
                 "language": "en",
                 "slug": "/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
@@ -3078,28 +2989,6 @@
                 "image": "https://adacardano.cl/logo.png",
                 "updatedAt": "2021-09-09T04:03:30.000Z",
                 "filePath": "/en/stake-pools/de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef.md",
-                "rank": 0
-              },
-              {
-                "id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
-                "language": "en",
-                "slug": "/stake-pools/e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
-                "url": "https://armada-alliance.com/stake-pools/e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
-                "origin": "/stake-pools/e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
-                "title": "Wottlenft (WOT)",
-                "description": "Wottlenft is a Sustainable Cardano Auction Platform with a mission to assist social enterprises worldwide ",
-                "aliases": null,
-                "keywords": null,
-                "template": "PoolDetailPage",
-                "identities": [
-                  {
-                    "id": "kopy-o",
-                    "role": "spo"
-                  }
-                ],
-                "image": "https://raw.githubusercontent.com/eltontay/wottlenftstakingpool/main/WOTlogo.png",
-                "updatedAt": "2022-01-18T22:16:16.000Z",
-                "filePath": "/en/stake-pools/e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253.md",
                 "rank": 0
               },
               {
@@ -3274,14 +3163,6 @@
               },
               {
                 "language": "en",
-                "title": "SBC-Mining SBC",
-                "slug": "/pool-widget/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-                "template": "PoolWidgetPage",
-                "poolId": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-                "hidden": true
-              },
-              {
-                "language": "en",
                 "title": "ZenPool ZAZEN",
                 "slug": "/pool-widget/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
                 "template": "PoolWidgetPage",
@@ -3310,22 +3191,6 @@
                 "slug": "/pool-widget/73a527af03d38b3659f20b263000a1f72d3f3b867df5a2bb0e5516f1",
                 "template": "PoolWidgetPage",
                 "poolId": "73a527af03d38b3659f20b263000a1f72d3f3b867df5a2bb0e5516f1",
-                "hidden": true
-              },
-              {
-                "language": "en",
-                "title": "Raspberry RPI",
-                "slug": "/pool-widget/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-                "template": "PoolWidgetPage",
-                "poolId": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-                "hidden": true
-              },
-              {
-                "language": "en",
-                "title": "PIEBR Pool PIEBR",
-                "slug": "/pool-widget/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-                "template": "PoolWidgetPage",
-                "poolId": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
                 "hidden": true
               },
               {
@@ -3466,14 +3331,6 @@
               },
               {
                 "language": "en",
-                "title": "MEME Pool MEME",
-                "slug": "/pool-widget/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-                "template": "PoolWidgetPage",
-                "poolId": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-                "hidden": true
-              },
-              {
-                "language": "en",
                 "title": "ADASRN SRN",
                 "slug": "/pool-widget/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
                 "template": "PoolWidgetPage",
@@ -3486,14 +3343,6 @@
                 "slug": "/pool-widget/de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
                 "template": "PoolWidgetPage",
                 "poolId": "de16904b33d013f4db5460957d9c50cbfbacc50a396f878d0c1effef",
-                "hidden": true
-              },
-              {
-                "language": "en",
-                "title": "Wottlenft WOT",
-                "slug": "/pool-widget/e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
-                "template": "PoolWidgetPage",
-                "poolId": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
                 "hidden": true
               },
               {
@@ -9508,18 +9357,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-02-03T08:14:52.534Z",
-            "component-cached-in": "405 μs",
-            "component-resolved-in": "405 μs"
+            "component-cached-at": "2022-02-03T09:12:16.708Z",
+            "component-cached-in": "714 μs",
+            "component-resolved-in": "714 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-03T08:14:52.534Z",
-          "_cachedIn": "524 μs",
-          "_resolvedIn": "524 μs",
+          "_cachedAt": "2022-02-03T09:12:16.709Z",
+          "_cachedIn": "1.39 ms",
+          "_resolvedIn": "1.39 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9530,17 +9379,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-02-03T08:14:52.534Z",
-            "component-cached-in": "524 μs",
-            "component-resolved-in": "524 μs"
+            "component-cached-at": "2022-02-03T09:12:16.709Z",
+            "component-cached-in": "1.39 ms",
+            "component-resolved-in": "1.39 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-02-03T08:14:52.534Z",
-              "_cachedIn": "129 μs",
-              "_resolvedIn": "129 μs",
+              "_cachedAt": "2022-02-03T09:12:16.709Z",
+              "_cachedIn": "643 μs",
+              "_resolvedIn": "643 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9600,9 +9449,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-02-03T08:14:52.534Z",
-                "component-cached-in": "129 μs",
-                "component-resolved-in": "129 μs"
+                "component-cached-at": "2022-02-03T09:12:16.709Z",
+                "component-cached-in": "643 μs",
+                "component-resolved-in": "643 μs"
               },
               "components": {}
             }
@@ -9611,9 +9460,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-03T08:14:52.534Z",
-          "_cachedIn": "215 μs",
-          "_resolvedIn": "215 μs",
+          "_cachedAt": "2022-02-03T09:12:16.708Z",
+          "_cachedIn": "345 μs",
+          "_resolvedIn": "345 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9622,9 +9471,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-02-03T08:14:52.534Z",
-            "component-cached-in": "215 μs",
-            "component-resolved-in": "215 μs"
+            "component-cached-at": "2022-02-03T09:12:16.708Z",
+            "component-cached-in": "345 μs",
+            "component-resolved-in": "345 μs"
           },
           "components": {}
         }
@@ -9633,9 +9482,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T08:14:52.534Z",
-      "_cachedIn": "603 μs",
-      "_resolvedIn": "603 μs",
+      "_cachedAt": "2022-02-03T09:12:16.708Z",
+      "_cachedIn": "2.82 ms",
+      "_resolvedIn": "2.82 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9648,18 +9497,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2022-02-03T08:14:52.534Z",
-        "component-cached-in": "603 μs",
-        "component-resolved-in": "603 μs"
+        "component-cached-at": "2022-02-03T09:12:16.708Z",
+        "component-cached-in": "2.82 ms",
+        "component-resolved-in": "2.82 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T08:14:52.533Z",
-      "_cachedIn": "373 μs",
-      "_resolvedIn": "373 μs",
+      "_cachedAt": "2022-02-03T09:12:16.707Z",
+      "_cachedIn": "2.41 ms",
+      "_resolvedIn": "2.41 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9671,18 +9520,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2022-02-03T08:14:52.533Z",
-        "component-cached-in": "373 μs",
-        "component-resolved-in": "373 μs"
+        "component-cached-at": "2022-02-03T09:12:16.707Z",
+        "component-cached-in": "2.41 ms",
+        "component-resolved-in": "2.41 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-03T08:14:52.534Z",
-      "_cachedIn": "602 μs",
-      "_resolvedIn": "602 μs",
+      "_cachedAt": "2022-02-03T09:12:16.708Z",
+      "_cachedIn": "2.82 ms",
+      "_resolvedIn": "2.82 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9701,9 +9550,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2022-02-03T08:14:52.534Z",
-        "component-cached-in": "602 μs",
-        "component-resolved-in": "602 μs"
+        "component-cached-at": "2022-02-03T09:12:16.708Z",
+        "component-cached-in": "2.82 ms",
+        "component-resolved-in": "2.82 ms"
       },
       "components": {}
     }
