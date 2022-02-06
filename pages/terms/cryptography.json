@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cryptography\",\"language\":\"en\",\"slug\":\"/terms/cryptography\",\"url\":\"https://armada-alliance.com/terms/cryptography\",\"origin\":\"/terms/cryptography\",\"title\":\"Cryptography\",\"description\":\"Cryptography is a set of rules for encoding information into a message that can only be decoded by someone with the same knowledge of the secret key.\",\"aliases\":[\"cryptography\",\"crypto\",\"cryptology\",\"blockchain\",\"blockchains\",\"proof of work\",\"proof of work algorithm\",\"proof of stake\",\"bitcoin\",\"Satoshi Nakamoto\",\"ethereum\",\"cardano\",\"cipher\"],\"keywords\":[\"cryptography\",\"crypto\",\"cryptology\",\"blockchain\",\"blockchains\",\"proof of work\",\"proof of work algorithm\",\"proof of stake\",\"bitcoin\",\"satoshi Nakamoto\",\"ethereum\",\"cardano\",\"what is crypto\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-08-15T00:27:10.000Z\",\"filePath\":\"/en/terms/cryptography.md\",\"body\":\"![Cipher](https://github.com/armada-alliance/assets/blob/gh-pages/enigma.jpg?raw=true)\\n\\n## What is Cryptography?\\n\\n[Cryptography](https://csrc.nist.gov/glossary/term/cryptography) is a subset of the scientific field of [cryptology](/terms/cryptology) that deals with the encoding and decoding of information. The main goal of cryptography is to prevent unauthorized access to information. The history of cryptography goes back to around 1900 BCE in Egypt, where it was essentially a way of writing hieroglyphs in an encrypted manner.\\n\\nToday's cryptography uses advanced mathematics and computer science techniques to encode and decode messages or information in a secure method. The cryptographic techniques used are known as cryptographic algorithms, hence where the name crypto comes from. Crypto algorithms are designed around the theory of [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory) and a [computational hardness assumption](https://en.wikipedia.org/wiki/Computational_hardness_assumption) which makes breaking or decoding the crypto algorithm infeasible to an adversary, both in computational time and resources.\\n\\n***Three main branches of cryptography:***\\n\\n1. **Symmetric (Secret-Key) Algorithms:** The form of cryptography most commonly thought of: where two parties have an encryption and decryption method to share a private key. This symmetric method was the type of cryptography used from antiquity up until the mid-1970s. Symmetric ciphers are still in use with many applications like bulk data encryption, integrity checking of messages, the .NET framework, and more.\\n\\n2. **Asymmetric (Public-Key) Algorithms:** A new type of cipher introduced in 1976 by researchers Whitfield Diffie, Martin Hellman, and Ralph Merkle. The difference in this cipher compared to its symmetric counterpart is that a user posses a secret key and a public key to use in encoding and decoding information. Some applications for asymmetric algorithms are digital signatures, key-establishment, and data encryption.\\n\\n3. **Cryptographic Protocols:** Cryptographic protocols are the mechanisms or systems that apply cryptographic algorithms. You can think of a house where the symmetric and asymmetric algorithms are the building blocks or foundations that allow applications and protocols to build on top of them. Some crypto protocols are [Proof of Work](/terms/proof-of-work) and [Proof of Stake](/terms/proof-of-stake) blockchains, secure socket layer (SSL), and transport layer security (TSL).\\n\\n\\n***Features of cryptography:***\\n\\n- **Confidentiality:** No one can read or access the information in a message except the intended receiver.\\n\\n- **Integrity:** Ensures the receiver cannot alter or destroy the original message.\\n\\n- **Non-repudiation:** Proves that the sender sent the message and thus cannot deny they sent it in the future.\\n\\n- **Authentication:** Verifies the correct sender/receiver identities and the destination/origin of the message.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,l=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var s=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,o=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&s(e,a,t[a]);if(n)for(var a of n(t))p.call(t,a)&&s(e,a,t[a]);return e},m=(e,t)=>l(e,y(t));var h=(e,t)=>{var a={};for(var r in e)i.call(e,r)&&t.indexOf(r)<0&&(a[r]=e[r]);if(e!=null&&n)for(var r of n(e))t.indexOf(r)<0&&p.call(e,r)&&(a[r]=e[r]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var r=a,{components:e}=r,t=h(r,[\\\"components\\\"]);return mdx(MDXLayout,m(o(o({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,mdx(\\\"img\\\",o({parentName:\\\"p\\\"},{src:\\\"https://github.com/armada-alliance/assets/blob/gh-pages/enigma.jpg?raw=true\\\",alt:\\\"Cipher\\\"}))),mdx(\\\"h2\\\",null,\\\"What is Cryptography?\\\"),mdx(\\\"p\\\",null,mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"https://csrc.nist.gov/glossary/term/cryptography\\\"}),\\\"Cryptography\\\"),\\\" is a subset of the scientific field of \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/cryptology\\\"}),\\\"cryptology\\\"),\\\" that deals with the encoding and decoding of information. The main goal of cryptography is to prevent unauthorized access to information. The history of cryptography goes back to around 1900 BCE in Egypt, where it was essentially a way of writing hieroglyphs in an encrypted manner.\\\"),mdx(\\\"p\\\",null,\\\"Today's cryptography uses advanced mathematics and computer science techniques to encode and decode messages or information in a secure method. The cryptographic techniques used are known as cryptographic algorithms, hence where the name crypto comes from. Crypto algorithms are designed around the theory of \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"https://en.wikipedia.org/wiki/Computational_complexity_theory\\\"}),\\\"Computational complexity theory\\\"),\\\" and a \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"https://en.wikipedia.org/wiki/Computational_hardness_assumption\\\"}),\\\"computational hardness assumption\\\"),\\\" which makes breaking or decoding the crypto algorithm infeasible to an adversary, both in computational time and resources.\\\"),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Three main branches of cryptography:\\\"))),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Symmetric (Secret-Key) Algorithms:\\\"),\\\" The form of cryptography most commonly thought of: where two parties have an encryption and decryption method to share a private key. This symmetric method was the type of cryptography used from antiquity up until the mid-1970s. Symmetric ciphers are still in use with many applications like bulk data encryption, integrity checking of messages, the .NET framework, and more.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Asymmetric (Public-Key) Algorithms:\\\"),\\\" A new type of cipher introduced in 1976 by researchers Whitfield Diffie, Martin Hellman, and Ralph Merkle. The difference in this cipher compared to its symmetric counterpart is that a user posses a secret key and a public key to use in encoding and decoding information. Some applications for asymmetric algorithms are digital signatures, key-establishment, and data encryption.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Cryptographic Protocols:\\\"),\\\" Cryptographic protocols are the mechanisms or systems that apply cryptographic algorithms. You can think of a house where the symmetric and asymmetric algorithms are the building blocks or foundations that allow applications and protocols to build on top of them. Some crypto protocols are \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/proof-of-work\\\"}),\\\"Proof of Work\\\"),\\\" and \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/proof-of-stake\\\"}),\\\"Proof of Stake\\\"),\\\" blockchains, secure socket layer (SSL), and transport layer security (TSL).\\\"))),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Features of cryptography:\\\"))),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Confidentiality:\\\"),\\\" No one can read or access the information in a message except the intended receiver.\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Integrity:\\\"),\\\" Ensures the receiver cannot alter or destroy the original message.\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Non-repudiation:\\\"),\\\" Proves that the sender sent the message and thus cannot deny they sent it in the future.\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Authentication:\\\"),\\\" Verifies the correct sender/receiver identities and the destination/origin of the message.\\\"))))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2022-02-06T06:14:10.634Z",
-  "_cachedIn": "6.01 ms",
-  "_resolvedIn": "6.01 ms",
+  "_cachedAt": "2022-02-06T07:12:24.805Z",
+  "_cachedIn": "1.2 ms",
+  "_resolvedIn": "1.2 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -65,17 +65,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2022-02-06T06:14:10.634Z",
-    "component-cached-in": "6.01 ms",
-    "component-resolved-in": "6.01 ms"
+    "component-cached-at": "2022-02-06T07:12:24.805Z",
+    "component-cached-in": "1.2 ms",
+    "component-resolved-in": "1.2 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-06T06:14:10.633Z",
-      "_cachedIn": "5.28 ms",
-      "_resolvedIn": "5.28 ms",
+      "_cachedAt": "2022-02-06T07:12:24.805Z",
+      "_cachedIn": "803 μs",
+      "_resolvedIn": "803 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -84,17 +84,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-02-06T06:14:10.633Z",
-        "component-cached-in": "5.28 ms",
-        "component-resolved-in": "5.28 ms"
+        "component-cached-at": "2022-02-06T07:12:24.805Z",
+        "component-cached-in": "803 μs",
+        "component-resolved-in": "803 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-06T06:14:10.631Z",
-          "_cachedIn": "1.77 ms",
-          "_resolvedIn": "1.77 ms",
+          "_cachedAt": "2022-02-06T07:12:24.804Z",
+          "_cachedIn": "474 μs",
+          "_resolvedIn": "474 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -102,7 +102,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-02-06T06:13:53.401Z",
+              "createdAt": "2022-02-06T07:12:03.511Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9499,18 +9499,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-02-06T06:14:10.631Z",
-            "component-cached-in": "1.77 ms",
-            "component-resolved-in": "1.77 ms"
+            "component-cached-at": "2022-02-06T07:12:24.804Z",
+            "component-cached-in": "474 μs",
+            "component-resolved-in": "474 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-06T06:14:10.633Z",
-          "_cachedIn": "4.11 ms",
-          "_resolvedIn": "4.11 ms",
+          "_cachedAt": "2022-02-06T07:12:24.805Z",
+          "_cachedIn": "612 μs",
+          "_resolvedIn": "612 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9521,17 +9521,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-02-06T06:14:10.633Z",
-            "component-cached-in": "4.11 ms",
-            "component-resolved-in": "4.11 ms"
+            "component-cached-at": "2022-02-06T07:12:24.805Z",
+            "component-cached-in": "612 μs",
+            "component-resolved-in": "612 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-02-06T06:14:10.631Z",
-              "_cachedIn": "496 μs",
-              "_resolvedIn": "496 μs",
+              "_cachedAt": "2022-02-06T07:12:24.805Z",
+              "_cachedIn": "103 μs",
+              "_resolvedIn": "103 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9591,9 +9591,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-02-06T06:14:10.631Z",
-                "component-cached-in": "496 μs",
-                "component-resolved-in": "496 μs"
+                "component-cached-at": "2022-02-06T07:12:24.805Z",
+                "component-cached-in": "103 μs",
+                "component-resolved-in": "103 μs"
               },
               "components": {}
             }
@@ -9602,9 +9602,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-02-06T06:14:10.630Z",
-          "_cachedIn": "999 μs",
-          "_resolvedIn": "999 μs",
+          "_cachedAt": "2022-02-06T07:12:24.804Z",
+          "_cachedIn": "259 μs",
+          "_resolvedIn": "259 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9613,9 +9613,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-02-06T06:14:10.630Z",
-            "component-cached-in": "999 μs",
-            "component-resolved-in": "999 μs"
+            "component-cached-at": "2022-02-06T07:12:24.804Z",
+            "component-cached-in": "259 μs",
+            "component-resolved-in": "259 μs"
           },
           "components": {}
         }
@@ -9624,9 +9624,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-06T06:14:10.631Z",
-      "_cachedIn": "2.53 ms",
-      "_resolvedIn": "2.53 ms",
+      "_cachedAt": "2022-02-06T07:12:24.804Z",
+      "_cachedIn": "528 μs",
+      "_resolvedIn": "528 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9657,18 +9657,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2022-02-06T06:14:10.631Z",
-        "component-cached-in": "2.53 ms",
-        "component-resolved-in": "2.53 ms"
+        "component-cached-at": "2022-02-06T07:12:24.804Z",
+        "component-cached-in": "528 μs",
+        "component-resolved-in": "528 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-06T06:14:10.630Z",
-      "_cachedIn": "1.57 ms",
-      "_resolvedIn": "1.57 ms",
+      "_cachedAt": "2022-02-06T07:12:24.804Z",
+      "_cachedIn": "254 μs",
+      "_resolvedIn": "254 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9680,18 +9680,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2022-02-06T06:14:10.630Z",
-        "component-cached-in": "1.57 ms",
-        "component-resolved-in": "1.57 ms"
+        "component-cached-at": "2022-02-06T07:12:24.804Z",
+        "component-cached-in": "254 μs",
+        "component-resolved-in": "254 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-02-06T06:14:10.631Z",
-      "_cachedIn": "2.53 ms",
-      "_resolvedIn": "2.53 ms",
+      "_cachedAt": "2022-02-06T07:12:24.804Z",
+      "_cachedIn": "529 μs",
+      "_resolvedIn": "529 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9710,9 +9710,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2022-02-06T06:14:10.631Z",
-        "component-cached-in": "2.53 ms",
-        "component-resolved-in": "2.53 ms"
+        "component-cached-at": "2022-02-06T07:12:24.804Z",
+        "component-cached-in": "529 μs",
+        "component-resolved-in": "529 μs"
       },
       "components": {}
     }
