@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"BEADA Cardano stake pool BEADA\",\"slug\":\"/pool-widget/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618\",\"template\":\"PoolWidgetPage\",\"poolId\":\"a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-03-06T21:11:40.758Z",
-  "_cachedIn": "593 μs",
-  "_resolvedIn": "593 μs",
+  "_cachedAt": "2022-03-06T22:12:53.337Z",
+  "_cachedIn": "155 μs",
+  "_resolvedIn": "155 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,18 +24,18 @@
         "href": "/stake-pools/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618"
       },
       "description": "BEADA pool: supporting our planet as a beekeeper, while also educating and training others in the importance of keeping bees for our planet! Our pool is 100% decentralised, hosted on hardware at home. NO centralised virtual servers!",
-      "image": "https://armada-alliance.com/assets/ship-420.png",
-      "hasImage": false,
+      "image": "https://www.beadapool.com/media/logoklein.png",
+      "hasImage": true,
       "ticker": "BEADA",
       "addr": "pool14qpadfdjzw6jkwxy67uhey6tjpyppsmwgz5awfsxwrtpsecslpc",
       "website": "www.beadapool.com",
       "totalStake": "5847951986",
       "blocksLifetime": 0,
       "delegators": 1,
-      "saturated": 0.0000868651349639703,
+      "saturated": 0.00008683064576702207,
       "pledge": "5800000000",
-      "pledged": "5847951986",
-      "taxRatio": 0.02,
+      "pledged": "5847754145",
+      "taxRatio": 0.01,
       "taxFix": "340000000",
       "roa": "0",
       "memberSince": null,
@@ -106,7 +106,7 @@
             },
             "time_zone": {
               "id": "Europe/Brussels",
-              "current_time": "2022-03-06T22:11:35+01:00",
+              "current_time": "2022-03-06T23:12:47+01:00",
               "gmt_offset": 3600,
               "code": "CET",
               "is_daylight_saving": false
@@ -129,28 +129,60 @@
         "name": "BEADA Cardano stake pool",
         "description": "BEADA pool: supporting our planet as a beekeeper, while also educating and training others in the importance of keeping bees for our planet! Our pool is 100% decentralised, hosted on hardware at home. NO centralised virtual servers!",
         "ticker": "BEADA",
-        "homepage": "www.beadapool.com"
+        "homepage": "www.beadapool.com",
+        "extended": "https://beadapool.com/media/extendedMetaData.json"
       },
-      "extended": null,
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://www.beadapool.com/media/flavicon.png",
+          "url_png_logo": "https://www.beadapool.com/media/logoklein.png",
+          "location": "Belgium",
+          "social": {
+            "twitter_handle": "BeadaPool",
+            "telegram_handle": "BeADApool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "robbyja"
+          },
+          "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "Hi there, let me introduce myself. In my pool I'm combining 2 large aspects of my life, Cardano and beekeeping. Beekeeping started as a hobby, but turned into a passion. It's very rewarding working with bees, and educating others about bees and their importance and benefit to our environment. I educate people that want to learn more, and help people that want to start beekeeping themselves. My Cardano journey started with Charles Hoskinson's whiteboard video, and that let me down the rabbit hole all the way to starting my own stakepool! It's philisophy and community is what I value most about it.",
+            "server": "Our pool is hosted at home, on energy efficient ARM servers powered by solar on our roof. This ensures truely decentralised, eco-friendly and reliable operation.",
+            "company": ""
+          },
+          "my-pool-ids": {
+            "0": "pool14qpadfdjzw6jkwxy67uhey6tjpyppsmwgz5awfsxwrtpsecslpc"
+          }
+        }
+      },
       "telegram": "BeADApool",
       "twitter": "BeadaPool",
-      "qualityScore": 62.5
+      "qualityScore": 75
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-03-06T21:11:40.758Z",
-    "component-cached-in": "593 μs",
-    "component-resolved-in": "593 μs"
+    "component-cached-at": "2022-03-06T22:12:53.337Z",
+    "component-cached-in": "155 μs",
+    "component-resolved-in": "155 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-03-06T21:11:40.758Z",
-      "_cachedIn": "76 μs",
-      "_resolvedIn": "76 μs",
+      "_cachedAt": "2022-03-06T22:12:53.337Z",
+      "_cachedIn": "50 μs",
+      "_resolvedIn": "50 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -159,17 +191,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-03-06T21:11:40.758Z",
-        "component-cached-in": "76 μs",
-        "component-resolved-in": "76 μs"
+        "component-cached-at": "2022-03-06T22:12:53.337Z",
+        "component-cached-in": "50 μs",
+        "component-resolved-in": "50 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-03-06T21:11:40.758Z",
-          "_cachedIn": "41 μs",
-          "_resolvedIn": "41 μs",
+          "_cachedAt": "2022-03-06T22:12:53.337Z",
+          "_cachedIn": "29 μs",
+          "_resolvedIn": "29 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -177,7 +209,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-03-06T21:11:24.607Z",
+              "createdAt": "2022-03-06T22:12:36.854Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -3114,10 +3146,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "image": "https://www.beadapool.com/media/logoklein.png",
                 "updatedAt": "2022-02-26T12:00:13.000Z",
                 "filePath": "/en/stake-pools/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.md",
-                "rank": 38
+                "rank": 25
               },
               {
                 "id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
@@ -9679,18 +9711,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-03-06T21:11:40.758Z",
-            "component-cached-in": "41 μs",
-            "component-resolved-in": "41 μs"
+            "component-cached-at": "2022-03-06T22:12:53.337Z",
+            "component-cached-in": "29 μs",
+            "component-resolved-in": "29 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-03-06T21:11:40.758Z",
-          "_cachedIn": "59 μs",
-          "_resolvedIn": "59 μs",
+          "_cachedAt": "2022-03-06T22:12:53.337Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9701,17 +9733,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-03-06T21:11:40.758Z",
-            "component-cached-in": "59 μs",
-            "component-resolved-in": "59 μs"
+            "component-cached-at": "2022-03-06T22:12:53.337Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-03-06T21:11:40.758Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2022-03-06T22:12:53.337Z",
+              "_cachedIn": "11 μs",
+              "_resolvedIn": "11 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9771,9 +9803,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-03-06T21:11:40.758Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2022-03-06T22:12:53.337Z",
+                "component-cached-in": "11 μs",
+                "component-resolved-in": "11 μs"
               },
               "components": {}
             }
@@ -9782,9 +9814,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-03-06T21:11:40.758Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2022-03-06T22:12:53.337Z",
+          "_cachedIn": "11 μs",
+          "_resolvedIn": "11 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9793,9 +9825,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-03-06T21:11:40.758Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2022-03-06T22:12:53.337Z",
+            "component-cached-in": "11 μs",
+            "component-resolved-in": "11 μs"
           },
           "components": {}
         }
