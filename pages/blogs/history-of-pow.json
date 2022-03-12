@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"history-of-pow\",\"language\":\"en\",\"slug\":\"/blogs/history-of-pow\",\"url\":\"https://armada-alliance.com/blogs/history-of-pow\",\"origin\":\"/blogs/history-of-pow\",\"title\":\"A Brief History of PoW\",\"description\":null,\"aliases\":[\"proof-of-work\",\"pow\",\"mining crypto\",\"mining btc\",\"mining bitcoin\",\"bitcoin\"],\"keywords\":[\"bitcoin\",\"bitcoin network\",\"crypto\",\"proof-of-work\"],\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"image\":\"/PoW.webp\",\"updatedAt\":\"2021-08-20T00:32:14.000Z\",\"filePath\":\"/en/blogs/history-of-pow.md\",\"imageCaption\":\"Credits to [@Peggy_Marco](https://pixabay.com/users/peggy_marco-1553824/) at Pixbay\",\"body\":\"## ***Intro***\\n\\nIn peer-to-peer cryptocurrencies, the dominant protocols are Proof of Work and [Proof of Stake](/terms/proof-of-stake). Bitcoin is a peer-to-peer cryptocurrency network that utilizes Sakatoshi Nakamoto's Proof of Work consensus. [Cardano](/identities/cardano), a peer-to-peer cryptocurrency, uses the Ouroboros Proof of Stake consensus to secure and reward its network. But where, when, and how did these types of [cryptography](/terms/cryptography) become so valuable and influential in today's digital life? Is one better than the other?\\n\\n## ***The Early Days***\\n\\nThe history of Proof of Work dates back to the early 1990s, with its first use case being to combat Email spam messages. In 1992, IBM researchers Cynthia Dwork and Moni Naor released a paper titled [\\\"Pricing via Processing or Combatting Junk Mail\\\"](https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf). According to Dwork and Naor, \\\"The main idea is to require a user to compute a moderately hard, but not intractable, function in order to gain access to the resource, thus preventing frivolous use.\\\" they called these types of functions ***pricing functions***. \\n\\nThe simplest of pricing functions is to base the difficulty of sending a message on a computationally difficult (not infeasible) task like extracting square roots. Extracting or verifying a square root is less complicated and requires less computational time for a CPU compared to calculating the square root of a number. \\n\\n![Extracting Square Roots](https://github.com/armada-alliance/assets/raw/gh-pages/extracting-sqrt.png)\\n\\nAs you can see above, verifying the square root of a number requires only one multiplication. However, this is not a common pricing function because you need to use large numbers thousands of digits long since modern computers can calculate square roots remarkably fast.\\n\\n\\nDwork and Naor proposed various other pricing functions like the Fiat-Shamir signature scheme and the Ong-Schnorr-Shamir (crackled) signature scheme. Using the pricing functions along with hash functions like DES, MD4 & MD5, Subset Sum, and Snefru they essentially developed the first PoW protocol. \\n\\n## ***Hashcash*** \\n\\nLater in 1997, a member of the infamous [Cypherpunks mailing list](https://lists.cpunks.org/mailman/listinfo/cypherpunks) known as Adam Back brought the HashCash protocol to the world as a \\\"proof-of-work algorithm, which has been used as a denial-of-service counter measure technique in a number of systems\\\". [Hashcash](http://www.hashcash.org/) was developed by Back mainly to help combat denial of service and Email spam, similar to the work done by Dwork and Naor. You can think of Hashcash as being a sort of throttle or control valve to limit widespread abuse of various un-metered internet resources.\\n\\nHashcash uses a [\\\"partial hash collision based postage scheme\\\"](http://www.hashcash.org/papers/announce.txt). Essentially it puts a cryptographic hash \\\"stamp\\\" on E-mails sent by a user to add a layer of computational cost. This added CPU cost function is very similar to the technology found in the research from Dwork and Naor. Adam Back was unaware of the work already done before by Dwork and Naor and still managed to make a similar Proof of Work crypto protocol. Just like verifying a square root, partial hash collisions can be verified easily and are moderately difficult cost-functions (not infeasible like full hash collisions).\\n\\nAccording to  Back, [\\\"Hashcash is a non-interactive, pubicly auditable, trapdoor-free cost function with unbounded probablistic cost.\\\"](http://www.hashcash.org/papers/hashcash.pdf). I know that is a lot to take in, but for simplicity's sake, Hashcash is comparable to the Bitcoin protocol. In fact, Adam Back's Hashcash is one of the few papers cited by Satoshi Nakamoto in the Bitcoin whitepaper, interesting 🧐. \\n\\nOverall there are some exciting discoveries found in Hashcash like the minting of digital tokens to verify users of a server and protection from [double-spending](/terms/double-spending-problem), much like Bitcoin. The full description and design of the Hashcash protocol can be found [here](http://www.hashcash.org/papers/hashcash.pdf). \\n\\n## ***Reuseable Proofs of Work - RPoW***\\nAnother Proof of Work protocol closely tied to Bitcoin is Reuseable Proofs of Work invented by Hal Finney. Even though RPoW was just a prototype PoW it is a key development in the formation of cryptocurrencies like Bitcoin. By using a \\\"minting\\\" cost-function to create tokens to be used on a server, however, RPoW then keeps track of ownership of server tokens by signing using a cryptographic key. This allows for the RPoW client to transfer the token to another key via a transfer order. The trusted server would then register the token as belonging to the corresponding private key. \\n\\nThere were some issues however with the RPoW approach, sort of like Hashcash the double-spending problem still exists although RPoW has claimed to solve it by using a centralized trusted server to verify minting/ownership of tokens. This was still not a perfect solution because it required the use of a centralized server to verify signatures and protection from double-spending, which is not ideal for decentralization.\\n\\n## ***Bitcoin***\\n\\nThen in 2008, amidst the global financial crisis known as the [Great Recession](https://www.thebalance.com/the-great-recession-of-2008-explanation-with-dates-4056832), upon a cryptography mailing list appeared a new piece of innovation from a member known as Satoshi Nakamoto. The Email's\\ntitle is [\\\"Bitcoin P2P e-cash paper\\\"]((https://satoshi.nakamotoinstitute.org/emails/cryptography/1/)), and the first line of this Email Nakamoto states \\\"I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.\\\". Included in the message was the link to the Bitcoin whitepaper marking the beginning of Bitcoin. \\n\\n![BTC Privacy Model](https://github.com/armada-alliance/assets/raw/gh-pages/btc-privacy.png)\\n\\n***Here are the key elements of Bitcoin according to Satoshi Nakamoto:***\\n\\n- ***Double-spending is prevented with a peer-to-peer network.***\\n- ***No mint or other trusted parties.***\\n- ***Participants can be anonymous.***\\n- ***New coins are made from Hashcash style proof-of-work.***\\n- ***The proof-of-work for new coin generation also powers the network to prevent double-spending.***\\n\\nThis was all great sounding in theory but in reality, such a protocol seemed unpractical. This led to a very consistent long thread of communication on the [cryptography mailing list](https://satoshi.nakamotoinstitute.org/emails/) which acted as a type of peer review process similar to that in academia. Many questions arose about the scalability of the protocol, centralization, mining of tokens, network resource needs, security vulnerabilities, and more.\\n\\nNonetheless, by January of 2009, the majority of kinks were hammered out and the [first version of the Bitcoin protocol](https://satoshi.nakamotoinstitute.org/emails/) was released. A perfect time to release such a revolutionary technology. Right after the big banks were bailed out by the U.S. Congress, while many Americans suffered to make ends meet. The lack of trust was at an all-time high with major institutions that control the financial world. Bitcoin was seen by many like myself as a sense of hope, community, and financial freedom.\\n\\nToday Bitcoin is still alive and well, leading the way in cryptocurrency market capitalization. While many other protocols have been developed most notably Proof of Stake, Bitcoin still remains a top player and is debatably the most secure decentralized protocol to this day. \",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,m=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var h=(e,a,o)=>a in e?l(e,a,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[a]=o,t=(e,a)=>{for(var o in a||(a={}))s.call(a,o)&&h(e,o,a[o]);if(n)for(var o of n(a))i.call(a,o)&&h(e,o,a[o]);return e},p=(e,a)=>m(e,u(a));var c=(e,a)=>{var o={};for(var r in e)s.call(e,r)&&a.indexOf(r)<0&&(o[r]=e[r]);if(e!=null&&n)for(var r of n(e))a.indexOf(r)<0&&i.call(e,r)&&(o[r]=e[r]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var r=o,{components:e}=r,a=c(r,[\\\"components\\\"]);return mdx(MDXLayout,p(t(t({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Intro\\\"))),mdx(\\\"p\\\",null,\\\"In peer-to-peer cryptocurrencies, the dominant protocols are Proof of Work and \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"/terms/proof-of-stake\\\"}),\\\"Proof of Stake\\\"),\\\". Bitcoin is a peer-to-peer cryptocurrency network that utilizes Sakatoshi Nakamoto's Proof of Work consensus. \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"/identities/cardano\\\"}),\\\"Cardano\\\"),\\\", a peer-to-peer cryptocurrency, uses the Ouroboros Proof of Stake consensus to secure and reward its network. But where, when, and how did these types of \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"/terms/cryptography\\\"}),\\\"cryptography\\\"),\\\" become so valuable and influential in today's digital life? Is one better than the other?\\\"),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"The Early Days\\\"))),mdx(\\\"p\\\",null,\\\"The history of Proof of Work dates back to the early 1990s, with its first use case being to combat Email spam messages. In 1992, IBM researchers Cynthia Dwork and Moni Naor released a paper titled \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf\\\"}),'\\\"Pricing via Processing or Combatting Junk Mail\\\"'),'. According to Dwork and Naor, \\\"The main idea is to require a user to compute a moderately hard, but not intractable, function in order to gain access to the resource, thus preventing frivolous use.\\\" they called these types of functions ',mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"pricing functions\\\")),\\\". \\\"),mdx(\\\"p\\\",null,\\\"The simplest of pricing functions is to base the difficulty of sending a message on a computationally difficult (not infeasible) task like extracting square roots. Extracting or verifying a square root is less complicated and requires less computational time for a CPU compared to calculating the square root of a number. \\\"),mdx(\\\"p\\\",null,mdx(\\\"img\\\",t({parentName:\\\"p\\\"},{src:\\\"https://github.com/armada-alliance/assets/raw/gh-pages/extracting-sqrt.png\\\",alt:\\\"Extracting Square Roots\\\"}))),mdx(\\\"p\\\",null,\\\"As you can see above, verifying the square root of a number requires only one multiplication. However, this is not a common pricing function because you need to use large numbers thousands of digits long since modern computers can calculate square roots remarkably fast.\\\"),mdx(\\\"p\\\",null,\\\"Dwork and Naor proposed various other pricing functions like the Fiat-Shamir signature scheme and the Ong-Schnorr-Shamir (crackled) signature scheme. Using the pricing functions along with hash functions like DES, MD4 & MD5, Subset Sum, and Snefru they essentially developed the first PoW protocol. \\\"),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Hashcash\\\"))),mdx(\\\"p\\\",null,\\\"Later in 1997, a member of the infamous \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://lists.cpunks.org/mailman/listinfo/cypherpunks\\\"}),\\\"Cypherpunks mailing list\\\"),' known as Adam Back brought the HashCash protocol to the world as a \\\"proof-of-work algorithm, which has been used as a denial-of-service counter measure technique in a number of systems\\\". ',mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"http://www.hashcash.org/\\\"}),\\\"Hashcash\\\"),\\\" was developed by Back mainly to help combat denial of service and Email spam, similar to the work done by Dwork and Naor. You can think of Hashcash as being a sort of throttle or control valve to limit widespread abuse of various un-metered internet resources.\\\"),mdx(\\\"p\\\",null,\\\"Hashcash uses a \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"http://www.hashcash.org/papers/announce.txt\\\"}),'\\\"partial hash collision based postage scheme\\\"'),'. Essentially it puts a cryptographic hash \\\"stamp\\\" on E-mails sent by a user to add a layer of computational cost. This added CPU cost function is very similar to the technology found in the research from Dwork and Naor. Adam Back was unaware of the work already done before by Dwork and Naor and still managed to make a similar Proof of Work crypto protocol. Just like verifying a square root, partial hash collisions can be verified easily and are moderately difficult cost-functions (not infeasible like full hash collisions).'),mdx(\\\"p\\\",null,\\\"According to  Back, \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"http://www.hashcash.org/papers/hashcash.pdf\\\"}),'\\\"Hashcash is a non-interactive, pubicly auditable, trapdoor-free cost function with unbounded probablistic cost.\\\"'),\\\". I know that is a lot to take in, but for simplicity's sake, Hashcash is comparable to the Bitcoin protocol. In fact, Adam Back's Hashcash is one of the few papers cited by Satoshi Nakamoto in the Bitcoin whitepaper, interesting \\\\u{1F9D0}. \\\"),mdx(\\\"p\\\",null,\\\"Overall there are some exciting discoveries found in Hashcash like the minting of digital tokens to verify users of a server and protection from \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"/terms/double-spending-problem\\\"}),\\\"double-spending\\\"),\\\", much like Bitcoin. The full description and design of the Hashcash protocol can be found \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"http://www.hashcash.org/papers/hashcash.pdf\\\"}),\\\"here\\\"),\\\". \\\"),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Reuseable Proofs of Work - RPoW\\\"))),mdx(\\\"p\\\",null,'Another Proof of Work protocol closely tied to Bitcoin is Reuseable Proofs of Work invented by Hal Finney. Even though RPoW was just a prototype PoW it is a key development in the formation of cryptocurrencies like Bitcoin. By using a \\\"minting\\\" cost-function to create tokens to be used on a server, however, RPoW then keeps track of ownership of server tokens by signing using a cryptographic key. This allows for the RPoW client to transfer the token to another key via a transfer order. The trusted server would then register the token as belonging to the corresponding private key. '),mdx(\\\"p\\\",null,\\\"There were some issues however with the RPoW approach, sort of like Hashcash the double-spending problem still exists although RPoW has claimed to solve it by using a centralized trusted server to verify minting/ownership of tokens. This was still not a perfect solution because it required the use of a centralized server to verify signatures and protection from double-spending, which is not ideal for decentralization.\\\"),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Bitcoin\\\"))),mdx(\\\"p\\\",null,\\\"Then in 2008, amidst the global financial crisis known as the \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://www.thebalance.com/the-great-recession-of-2008-explanation-with-dates-4056832\\\"}),\\\"Great Recession\\\"),`, upon a cryptography mailing list appeared a new piece of innovation from a member known as Satoshi Nakamoto. The Email's\\ntitle is `,mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"(https://satoshi.nakamotoinstitute.org/emails/cryptography/1/)\\\"}),'\\\"Bitcoin P2P e-cash paper\\\"'),`, and the first line of this Email Nakamoto states \\\"I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.\\\". Included in the message was the link to the Bitcoin whitepaper marking the beginning of Bitcoin. `),mdx(\\\"p\\\",null,mdx(\\\"img\\\",t({parentName:\\\"p\\\"},{src:\\\"https://github.com/armada-alliance/assets/raw/gh-pages/btc-privacy.png\\\",alt:\\\"BTC Privacy Model\\\"}))),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Here are the key elements of Bitcoin according to Satoshi Nakamoto:\\\"))),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Double-spending is prevented with a peer-to-peer network.\\\"))),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"No mint or other trusted parties.\\\"))),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Participants can be anonymous.\\\"))),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"New coins are made from Hashcash style proof-of-work.\\\"))),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"strong\\\",{parentName:\\\"li\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"The proof-of-work for new coin generation also powers the network to prevent double-spending.\\\")))),mdx(\\\"p\\\",null,\\\"This was all great sounding in theory but in reality, such a protocol seemed unpractical. This led to a very consistent long thread of communication on the \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://satoshi.nakamotoinstitute.org/emails/\\\"}),\\\"cryptography mailing list\\\"),\\\" which acted as a type of peer review process similar to that in academia. Many questions arose about the scalability of the protocol, centralization, mining of tokens, network resource needs, security vulnerabilities, and more.\\\"),mdx(\\\"p\\\",null,\\\"Nonetheless, by January of 2009, the majority of kinks were hammered out and the \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://satoshi.nakamotoinstitute.org/emails/\\\"}),\\\"first version of the Bitcoin protocol\\\"),\\\" was released. A perfect time to release such a revolutionary technology. Right after the big banks were bailed out by the U.S. Congress, while many Americans suffered to make ends meet. The lack of trust was at an all-time high with major institutions that control the financial world. Bitcoin was seen by many like myself as a sense of hope, community, and financial freedom.\\\"),mdx(\\\"p\\\",null,\\\"Today Bitcoin is still alive and well, leading the way in cryptocurrency market capitalization. While many other protocols have been developed most notably Proof of Stake, Bitcoin still remains a top player and is debatably the most secure decentralized protocol to this day. \\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2022-03-11T21:11:39.762Z",
-  "_cachedIn": "4.35 ms",
-  "_resolvedIn": "4.35 ms",
+  "_cachedAt": "2022-03-11T23:13:28.157Z",
+  "_cachedIn": "782 ms",
+  "_resolvedIn": "782 ms",
   "id": "BlogDetailPage",
   "type": "BlogDetailPage",
   "status": "resolved",
@@ -51,17 +51,17 @@
   "attrs": {
     "component-type": "BlogDetailPage",
     "component-id": "BlogDetailPage",
-    "component-cached-at": "2022-03-11T21:11:39.762Z",
-    "component-cached-in": "4.35 ms",
-    "component-resolved-in": "4.35 ms"
+    "component-cached-at": "2022-03-11T23:13:28.157Z",
+    "component-cached-in": "782 ms",
+    "component-resolved-in": "782 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-03-11T21:11:39.762Z",
-      "_cachedIn": "3.11 ms",
-      "_resolvedIn": "3.11 ms",
+      "_cachedAt": "2022-03-11T23:13:28.157Z",
+      "_cachedIn": "769 ms",
+      "_resolvedIn": "769 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,17 +70,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-03-11T21:11:39.762Z",
-        "component-cached-in": "3.11 ms",
-        "component-resolved-in": "3.11 ms"
+        "component-cached-at": "2022-03-11T23:13:28.157Z",
+        "component-cached-in": "769 ms",
+        "component-resolved-in": "769 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-03-11T21:11:39.761Z",
-          "_cachedIn": "1.54 ms",
-          "_resolvedIn": "1.54 ms",
+          "_cachedAt": "2022-03-11T23:13:28.156Z",
+          "_cachedIn": "1.64 ms",
+          "_resolvedIn": "1.64 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -88,7 +88,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-03-11T21:11:19.330Z",
+              "createdAt": "2022-03-11T23:13:07.792Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -9590,18 +9590,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-03-11T21:11:39.761Z",
-            "component-cached-in": "1.54 ms",
-            "component-resolved-in": "1.54 ms"
+            "component-cached-at": "2022-03-11T23:13:28.156Z",
+            "component-cached-in": "1.64 ms",
+            "component-resolved-in": "1.64 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-03-11T21:11:39.761Z",
-          "_cachedIn": "1.82 ms",
-          "_resolvedIn": "1.82 ms",
+          "_cachedAt": "2022-03-11T23:13:28.156Z",
+          "_cachedIn": "2.37 ms",
+          "_resolvedIn": "2.37 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9612,17 +9612,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-03-11T21:11:39.761Z",
-            "component-cached-in": "1.82 ms",
-            "component-resolved-in": "1.82 ms"
+            "component-cached-at": "2022-03-11T23:13:28.156Z",
+            "component-cached-in": "2.37 ms",
+            "component-resolved-in": "2.37 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-03-11T21:11:39.761Z",
-              "_cachedIn": "263 μs",
-              "_resolvedIn": "263 μs",
+              "_cachedAt": "2022-03-11T23:13:28.156Z",
+              "_cachedIn": "635 μs",
+              "_resolvedIn": "635 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9682,9 +9682,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-03-11T21:11:39.761Z",
-                "component-cached-in": "263 μs",
-                "component-resolved-in": "263 μs"
+                "component-cached-at": "2022-03-11T23:13:28.156Z",
+                "component-cached-in": "635 μs",
+                "component-resolved-in": "635 μs"
               },
               "components": {}
             }
@@ -9693,9 +9693,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-03-11T21:11:39.760Z",
-          "_cachedIn": "721 μs",
-          "_resolvedIn": "721 μs",
+          "_cachedAt": "2022-03-11T23:13:28.155Z",
+          "_cachedIn": "797 μs",
+          "_resolvedIn": "797 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9704,9 +9704,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-03-11T21:11:39.760Z",
-            "component-cached-in": "721 μs",
-            "component-resolved-in": "721 μs"
+            "component-cached-at": "2022-03-11T23:13:28.155Z",
+            "component-cached-in": "797 μs",
+            "component-resolved-in": "797 μs"
           },
           "components": {}
         }
@@ -9715,9 +9715,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-03-11T21:11:39.761Z",
-      "_cachedIn": "2.27 ms",
-      "_resolvedIn": "2.27 ms",
+      "_cachedAt": "2022-03-11T23:13:28.155Z",
+      "_cachedIn": "768 ms",
+      "_resolvedIn": "768 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9748,18 +9748,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2022-03-11T21:11:39.761Z",
-        "component-cached-in": "2.27 ms",
-        "component-resolved-in": "2.27 ms"
+        "component-cached-at": "2022-03-11T23:13:28.155Z",
+        "component-cached-in": "768 ms",
+        "component-resolved-in": "768 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-03-11T21:11:39.760Z",
-      "_cachedIn": "1.52 ms",
-      "_resolvedIn": "1.52 ms",
+      "_cachedAt": "2022-03-11T23:13:28.154Z",
+      "_cachedIn": "767 ms",
+      "_resolvedIn": "767 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9771,18 +9771,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2022-03-11T21:11:39.760Z",
-        "component-cached-in": "1.52 ms",
-        "component-resolved-in": "1.52 ms"
+        "component-cached-at": "2022-03-11T23:13:28.154Z",
+        "component-cached-in": "767 ms",
+        "component-resolved-in": "767 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-03-11T21:11:39.761Z",
-      "_cachedIn": "2.27 ms",
-      "_resolvedIn": "2.27 ms",
+      "_cachedAt": "2022-03-11T23:13:28.155Z",
+      "_cachedIn": "768 ms",
+      "_resolvedIn": "768 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9801,9 +9801,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2022-03-11T21:11:39.761Z",
-        "component-cached-in": "2.27 ms",
-        "component-resolved-in": "2.27 ms"
+        "component-cached-at": "2022-03-11T23:13:28.155Z",
+        "component-cached-in": "768 ms",
+        "component-resolved-in": "768 ms"
       },
       "components": {}
     }
