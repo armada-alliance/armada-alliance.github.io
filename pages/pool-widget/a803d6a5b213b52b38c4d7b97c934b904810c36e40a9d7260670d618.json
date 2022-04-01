@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"BEADA Cardano stake pool BEADA\",\"slug\":\"/pool-widget/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618\",\"template\":\"PoolWidgetPage\",\"poolId\":\"a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-04-01T15:15:04.150Z",
-  "_cachedIn": "209 μs",
-  "_resolvedIn": "209 μs",
+  "_cachedAt": "2022-04-01T17:17:28.772Z",
+  "_cachedIn": "263 μs",
+  "_resolvedIn": "263 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,12 +29,12 @@
       "ticker": "BEADA",
       "addr": "pool14qpadfdjzw6jkwxy67uhey6tjpyppsmwgz5awfsxwrtpsecslpc",
       "website": "www.beadapool.com",
-      "totalStake": "6785610567",
+      "totalStake": "6785411626",
       "blocksLifetime": 0,
       "delegators": 3,
-      "saturated": 0.00010056018590588422,
+      "saturated": 0.00010055725031073859,
       "pledge": "5800000000",
-      "pledged": "5847754145",
+      "pledged": "5847555204",
       "taxRatio": 0.01,
       "taxFix": "340000000",
       "roa": "0",
@@ -106,7 +106,7 @@
             },
             "time_zone": {
               "id": "Europe/Brussels",
-              "current_time": "2022-04-01T17:14:57+02:00",
+              "current_time": "2022-04-01T19:17:22+02:00",
               "gmt_offset": 7200,
               "code": "CEST",
               "is_daylight_saving": true
@@ -123,11 +123,63 @@
               "isp": "Telenet Bvba"
             }
           }
+        },
+        {
+          "addr": "beadapool2.ddns.net",
+          "port": 6000,
+          "data": {
+            "ip": "130.61.130.107",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "DE",
+            "country_name": "Germany",
+            "region_code": "HE",
+            "region_name": "Hesse",
+            "city": "Frankfurt am Main",
+            "zip": "60311",
+            "latitude": 50.11090087890625,
+            "longitude": 8.682100296020508,
+            "location": {
+              "geoname_id": 2925533,
+              "capital": "Berlin",
+              "languages": [
+                {
+                  "code": "de",
+                  "name": "German",
+                  "native": "Deutsch"
+                }
+              ],
+              "country_flag": "https://assets.ipstack.com/flags/de.svg",
+              "country_flag_emoji": "🇩🇪",
+              "country_flag_emoji_unicode": "U+1F1E9 U+1F1EA",
+              "calling_code": "49",
+              "is_eu": true
+            },
+            "time_zone": {
+              "id": "Europe/Berlin",
+              "current_time": "2022-04-01T19:17:22+02:00",
+              "gmt_offset": 7200,
+              "code": "CEST",
+              "is_daylight_saving": true
+            },
+            "currency": {
+              "code": "EUR",
+              "name": "Euro",
+              "plural": "euros",
+              "symbol": "€",
+              "symbol_native": "€"
+            },
+            "connection": {
+              "asn": 31898,
+              "isp": "Oracle Corporation"
+            }
+          }
         }
       ],
       "metadata": {
         "name": "BEADA Cardano stake pool",
-        "description": "BEADA pool: supporting our planet as a beekeeper, while also educating and training others in the importance of keeping bees for our planet! Our pool is 100% decentralised, hosted on hardware at home. NO centralised virtual servers!",
+        "description": "BEADA pool: supporting our planet as a beekeeper, while also educating and training others in the importance of bees for our planet! Additionally, we will donate 20% of pool rewards to charity! Our pool is hosted on hardware at home, powered by solar.",
         "ticker": "BEADA",
         "homepage": "www.beadapool.com",
         "extended": "https://beadapool.com/media/extendedMetaData.json"
@@ -167,23 +219,23 @@
       "telegram": "BeADApool",
       "twitter": "BeadaPool",
       "github": "robbyja",
-      "qualityScore": 75
+      "qualityScore": 87.5
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-04-01T15:15:04.150Z",
-    "component-cached-in": "209 μs",
-    "component-resolved-in": "209 μs"
+    "component-cached-at": "2022-04-01T17:17:28.772Z",
+    "component-cached-in": "263 μs",
+    "component-resolved-in": "263 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-04-01T15:15:04.150Z",
-      "_cachedIn": "77 μs",
-      "_resolvedIn": "77 μs",
+      "_cachedAt": "2022-04-01T17:17:28.772Z",
+      "_cachedIn": "78 μs",
+      "_resolvedIn": "78 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -192,17 +244,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-04-01T15:15:04.150Z",
-        "component-cached-in": "77 μs",
-        "component-resolved-in": "77 μs"
+        "component-cached-at": "2022-04-01T17:17:28.772Z",
+        "component-cached-in": "78 μs",
+        "component-resolved-in": "78 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-01T15:15:04.150Z",
-          "_cachedIn": "43 μs",
-          "_resolvedIn": "43 μs",
+          "_cachedAt": "2022-04-01T17:17:28.772Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -210,7 +262,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-04-01T15:14:42.526Z",
+              "createdAt": "2022-04-01T17:17:09.923Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -3128,7 +3180,7 @@
                 "image": "https://www.beadapool.com/media/logoklein.png",
                 "updatedAt": "2022-02-26T12:00:13.000Z",
                 "filePath": "/en/stake-pools/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.md",
-                "rank": 25
+                "rank": 13
               },
               {
                 "id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
@@ -9682,16 +9734,16 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-04-01T15:15:04.150Z",
-            "component-cached-in": "43 μs",
-            "component-resolved-in": "43 μs"
+            "component-cached-at": "2022-04-01T17:17:28.772Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-01T15:15:04.150Z",
+          "_cachedAt": "2022-04-01T17:17:28.772Z",
           "_cachedIn": "60 μs",
           "_resolvedIn": "60 μs",
           "id": "Header",
@@ -9704,7 +9756,7 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-04-01T15:15:04.150Z",
+            "component-cached-at": "2022-04-01T17:17:28.772Z",
             "component-cached-in": "60 μs",
             "component-resolved-in": "60 μs"
           },
@@ -9712,9 +9764,9 @@
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-04-01T15:15:04.150Z",
-              "_cachedIn": "17 μs",
-              "_resolvedIn": "17 μs",
+              "_cachedAt": "2022-04-01T17:17:28.772Z",
+              "_cachedIn": "20 μs",
+              "_resolvedIn": "20 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9774,9 +9826,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-04-01T15:15:04.150Z",
-                "component-cached-in": "17 μs",
-                "component-resolved-in": "17 μs"
+                "component-cached-at": "2022-04-01T17:17:28.772Z",
+                "component-cached-in": "20 μs",
+                "component-resolved-in": "20 μs"
               },
               "components": {}
             }
@@ -9785,9 +9837,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-01T15:15:04.150Z",
-          "_cachedIn": "15 μs",
-          "_resolvedIn": "15 μs",
+          "_cachedAt": "2022-04-01T17:17:28.772Z",
+          "_cachedIn": "14 μs",
+          "_resolvedIn": "14 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9796,9 +9848,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-04-01T15:15:04.150Z",
-            "component-cached-in": "15 μs",
-            "component-resolved-in": "15 μs"
+            "component-cached-at": "2022-04-01T17:17:28.772Z",
+            "component-cached-in": "14 μs",
+            "component-resolved-in": "14 μs"
           },
           "components": {}
         }
