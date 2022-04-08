@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"SeasideStaking SEA\",\"slug\":\"/pool-widget/f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc\",\"template\":\"PoolWidgetPage\",\"poolId\":\"f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-04-08T18:17:33.284Z",
-  "_cachedIn": "226 μs",
-  "_resolvedIn": "226 μs",
+  "_cachedAt": "2022-04-08T20:14:30.901Z",
+  "_cachedIn": "201 μs",
+  "_resolvedIn": "201 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "SEA",
       "addr": "pool17xh922cr9skc0fqk7sr8at6xx6eluh5qyv9p7ca2x0mtc3st0mz",
       "website": "https://seaside-staking.github.io/",
-      "totalStake": "1823763496741",
+      "totalStake": "1824700874955",
       "blocksLifetime": 41,
       "delegators": 1025,
-      "saturated": 0.027016763440060015,
+      "saturated": 0.02703065215535914,
       "pledge": "20200000000",
       "pledged": "27381488798",
       "taxRatio": 0.01,
@@ -105,7 +105,7 @@
             },
             "time_zone": {
               "id": "America/New_York",
-              "current_time": "2022-04-08T14:17:26-04:00",
+              "current_time": "2022-04-08T16:14:24-04:00",
               "gmt_offset": -14400,
               "code": "EDT",
               "is_daylight_saving": true
@@ -157,7 +157,7 @@
             },
             "time_zone": {
               "id": "Australia/Melbourne",
-              "current_time": "2022-04-09T04:17:26+10:00",
+              "current_time": "2022-04-09T06:14:24+10:00",
               "gmt_offset": 36000,
               "code": "AEST",
               "is_daylight_saving": false
@@ -229,17 +229,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-04-08T18:17:33.284Z",
-    "component-cached-in": "226 μs",
-    "component-resolved-in": "226 μs"
+    "component-cached-at": "2022-04-08T20:14:30.901Z",
+    "component-cached-in": "201 μs",
+    "component-resolved-in": "201 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-04-08T18:17:33.284Z",
-      "_cachedIn": "84 μs",
-      "_resolvedIn": "84 μs",
+      "_cachedAt": "2022-04-08T20:14:30.901Z",
+      "_cachedIn": "71 μs",
+      "_resolvedIn": "71 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -248,17 +248,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-04-08T18:17:33.284Z",
-        "component-cached-in": "84 μs",
-        "component-resolved-in": "84 μs"
+        "component-cached-at": "2022-04-08T20:14:30.901Z",
+        "component-cached-in": "71 μs",
+        "component-resolved-in": "71 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-08T18:17:33.284Z",
-          "_cachedIn": "47 μs",
-          "_resolvedIn": "47 μs",
+          "_cachedAt": "2022-04-08T20:14:30.901Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -266,7 +266,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-04-08T18:17:11.830Z",
+              "createdAt": "2022-04-08T20:14:11.423Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1111,6 +1111,33 @@
                 "icon": "🥧",
                 "updatedAt": "2022-02-19T23:16:38.000Z",
                 "filePath": "/en/guides/run-a-cardano-node-using-a-prebuilt-image.md"
+              },
+              {
+                "id": "run-a-cardano-node-with-docker",
+                "language": "en",
+                "slug": "/guides/run-a-cardano-node-with-docker",
+                "url": "https://armada-alliance.com/guides/run-a-cardano-node-with-docker",
+                "origin": "/guides/run-a-cardano-node-with-docker",
+                "title": "Docker Image Cardano Node",
+                "description": "Run a Cardano Node in a Docker container",
+                "aliases": null,
+                "keywords": [
+                  "Stake Pool Operation",
+                  "Docker",
+                  "Raspberry Pi",
+                  "Mac M1",
+                  "ARM"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "julien-terrier",
+                    "role": "author"
+                  }
+                ],
+                "icon": "🐳",
+                "updatedAt": "2022-04-08T16:11:01.000Z",
+                "filePath": "/en/guides/run-a-cardano-node-with-docker.md"
               },
               {
                 "id": "run-a-cardano-node",
@@ -9738,18 +9765,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-04-08T18:17:33.284Z",
-            "component-cached-in": "47 μs",
-            "component-resolved-in": "47 μs"
+            "component-cached-at": "2022-04-08T20:14:30.901Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-08T18:17:33.284Z",
-          "_cachedIn": "66 μs",
-          "_resolvedIn": "66 μs",
+          "_cachedAt": "2022-04-08T20:14:30.901Z",
+          "_cachedIn": "55 μs",
+          "_resolvedIn": "55 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9760,17 +9787,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-04-08T18:17:33.284Z",
-            "component-cached-in": "66 μs",
-            "component-resolved-in": "66 μs"
+            "component-cached-at": "2022-04-08T20:14:30.901Z",
+            "component-cached-in": "55 μs",
+            "component-resolved-in": "55 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-04-08T18:17:33.284Z",
-              "_cachedIn": "19 μs",
-              "_resolvedIn": "19 μs",
+              "_cachedAt": "2022-04-08T20:14:30.901Z",
+              "_cachedIn": "16 μs",
+              "_resolvedIn": "16 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9830,9 +9857,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-04-08T18:17:33.284Z",
-                "component-cached-in": "19 μs",
-                "component-resolved-in": "19 μs"
+                "component-cached-at": "2022-04-08T20:14:30.901Z",
+                "component-cached-in": "16 μs",
+                "component-resolved-in": "16 μs"
               },
               "components": {}
             }
@@ -9841,9 +9868,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-08T18:17:33.284Z",
-          "_cachedIn": "17 μs",
-          "_resolvedIn": "17 μs",
+          "_cachedAt": "2022-04-08T20:14:30.901Z",
+          "_cachedIn": "14 μs",
+          "_resolvedIn": "14 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9852,9 +9879,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-04-08T18:17:33.284Z",
-            "component-cached-in": "17 μs",
-            "component-resolved-in": "17 μs"
+            "component-cached-at": "2022-04-08T20:14:30.901Z",
+            "component-cached-in": "14 μs",
+            "component-resolved-in": "14 μs"
           },
           "components": {}
         }
