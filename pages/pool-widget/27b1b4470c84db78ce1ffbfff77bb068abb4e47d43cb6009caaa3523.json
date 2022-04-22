@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"CloudStruct Cardano Staking CSCS\",\"slug\":\"/pool-widget/27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523\",\"template\":\"PoolWidgetPage\",\"poolId\":\"27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-04-22T13:33:01.349Z",
-  "_cachedIn": "251 μs",
-  "_resolvedIn": "251 μs",
+  "_cachedAt": "2022-04-22T15:14:50.017Z",
+  "_cachedIn": "248 μs",
+  "_resolvedIn": "248 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,15 +24,15 @@
         "href": "/stake-pools/27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523"
       },
       "description": "Highly-available, secure cloud-based pool with multiple relays, managed by cloud infrastructure specialists - Supporting online privacy and liberty. Donating to the Electronic Frontier Foundation.",
-      "image": "https://armada-alliance.com/assets/ship-420.png",
-      "hasImage": false,
+      "image": "https://cardano.cloudstruct.net/images/icon-01.png",
+      "hasImage": true,
       "ticker": "CSCS",
       "addr": "pool1y7cmg3cvsndh3nsll0llw7asdz4mferag09kqzw24g6jx2ce5ws",
       "website": "https://cardano.cloudstruct.net",
-      "totalStake": "15172152725359",
+      "totalStake": "15170379041763",
       "blocksLifetime": 6,
       "delegators": 32,
-      "saturated": 0.22448393174949013,
+      "saturated": 0.2244577098619731,
       "pledge": "6000000000",
       "pledged": "6356054527",
       "taxRatio": 0.01,
@@ -100,7 +100,7 @@
             },
             "time_zone": {
               "id": "America/New_York",
-              "current_time": "2022-04-22T09:32:54-04:00",
+              "current_time": "2022-04-22T11:14:41-04:00",
               "gmt_offset": -14400,
               "code": "EDT",
               "is_daylight_saving": true
@@ -152,7 +152,7 @@
             },
             "time_zone": {
               "id": "America/Sao_Paulo",
-              "current_time": "2022-04-22T10:32:54-03:00",
+              "current_time": "2022-04-22T12:14:41-03:00",
               "gmt_offset": -10800,
               "code": "-03",
               "is_daylight_saving": false
@@ -171,29 +171,82 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "CloudStruct Cardano Staking",
+        "description": "Highly-available, secure cloud-based pool with multiple relays, managed by cloud infrastructure specialists - Supporting online privacy and liberty. Donating to the Electronic Frontier Foundation.",
+        "ticker": "CSCS",
+        "homepage": "https://cardano.cloudstruct.net",
+        "extended": "https://cscs-pool-metadata.s3.amazonaws.com/extended-20211008-232118.json"
+      },
+      "extended": {
+        "info": {
+          "location": "Ocean, NJ",
+          "url_png_logo_64x64": "https://cardano.cloudstruct.net/images/64px.png",
+          "url_png_logo": "https://cardano.cloudstruct.net/images/icon-01.png",
+          "social": {
+            "twitter_handle": "CSCS_pool",
+            "telegram_handle": "CSCS_pool",
+            "github_handle": "cloudstruct",
+            "discord_handle": "5fPRZnX4qW"
+          },
+          "company": {
+            "name": "CloudStruct, LLC.",
+            "country": "United States of America"
+          },
+          "about": {
+            "me": "Principal/Staff level operations engineers and open source developers with decades combined experience in telecommunications, big data, and distributed systems",
+            "server": "ARM relays and block producers, hosted in AWS with relays in North and South America",
+            "company": "Cloud based software and services for the Cardano Blockchain"
+          }
+        },
+        "my-pool-ids": {
+          "0": "27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523"
+        },
+        "telegram-admin-handle": {
+          "0": "CSCS_pool"
+        },
+        "votes": {
+          "https://cips.cardano.org/cips/cip7/": {
+            "vote": "Yes"
+          },
+          "https://cips.cardano.org/cips/cip8/": {
+            "vote": "Yes"
+          },
+          "https://cips.cardano.org/cips/cip12/": {
+            "vote": "Yes"
+          },
+          "https://cips.cardano.org/cips/cip22/": {
+            "vote": "Yes"
+          },
+          "https://cips.cardano.org/cips/cip23/": {
+            "vote": "Yes"
+          },
+          "https://cips.cardano.org/cips/cip24/": {
+            "vote": "Yes"
+          }
+        }
+      },
       "telegram": "CSCS_pool",
       "twitter": "CSCS_pool",
       "github": "cloudstruct",
       "discord": "5fPRZnX4qW",
-      "qualityScore": 87.5
+      "qualityScore": 100
     }
   },
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-04-22T13:33:01.349Z",
-    "component-cached-in": "251 μs",
-    "component-resolved-in": "251 μs"
+    "component-cached-at": "2022-04-22T15:14:50.017Z",
+    "component-cached-in": "248 μs",
+    "component-resolved-in": "248 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-04-22T13:33:01.349Z",
-      "_cachedIn": "69 μs",
-      "_resolvedIn": "69 μs",
+      "_cachedAt": "2022-04-22T15:14:50.017Z",
+      "_cachedIn": "74 μs",
+      "_resolvedIn": "74 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -202,17 +255,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-04-22T13:33:01.349Z",
-        "component-cached-in": "69 μs",
-        "component-resolved-in": "69 μs"
+        "component-cached-at": "2022-04-22T15:14:50.017Z",
+        "component-cached-in": "74 μs",
+        "component-resolved-in": "74 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-22T13:33:01.349Z",
-          "_cachedIn": "38 μs",
-          "_resolvedIn": "38 μs",
+          "_cachedAt": "2022-04-22T15:14:50.017Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -220,7 +273,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-04-22T13:32:44.249Z",
+              "createdAt": "2022-04-22T15:14:29.660Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2605,10 +2658,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "image": "https://cardano.cloudstruct.net/images/icon-01.png",
                 "updatedAt": "2022-02-26T01:20:10.000Z",
                 "filePath": "/en/stake-pools/27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523.md",
-                "rank": 13
+                "rank": 0
               },
               {
                 "id": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b",
@@ -9719,18 +9772,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-04-22T13:33:01.349Z",
-            "component-cached-in": "38 μs",
-            "component-resolved-in": "38 μs"
+            "component-cached-at": "2022-04-22T15:14:50.017Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-22T13:33:01.349Z",
-          "_cachedIn": "54 μs",
-          "_resolvedIn": "54 μs",
+          "_cachedAt": "2022-04-22T15:14:50.017Z",
+          "_cachedIn": "57 μs",
+          "_resolvedIn": "57 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9741,17 +9794,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-04-22T13:33:01.349Z",
-            "component-cached-in": "54 μs",
-            "component-resolved-in": "54 μs"
+            "component-cached-at": "2022-04-22T15:14:50.017Z",
+            "component-cached-in": "57 μs",
+            "component-resolved-in": "57 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-04-22T13:33:01.349Z",
-              "_cachedIn": "15 μs",
-              "_resolvedIn": "15 μs",
+              "_cachedAt": "2022-04-22T15:14:50.017Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9811,9 +9864,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-04-22T13:33:01.349Z",
-                "component-cached-in": "15 μs",
-                "component-resolved-in": "15 μs"
+                "component-cached-at": "2022-04-22T15:14:50.017Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -9822,9 +9875,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-04-22T13:33:01.349Z",
-          "_cachedIn": "17 μs",
-          "_resolvedIn": "17 μs",
+          "_cachedAt": "2022-04-22T15:14:50.017Z",
+          "_cachedIn": "16 μs",
+          "_resolvedIn": "16 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9833,9 +9886,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-04-22T13:33:01.349Z",
-            "component-cached-in": "17 μs",
-            "component-resolved-in": "17 μs"
+            "component-cached-at": "2022-04-22T15:14:50.017Z",
+            "component-cached-in": "16 μs",
+            "component-resolved-in": "16 μs"
           },
           "components": {}
         }
