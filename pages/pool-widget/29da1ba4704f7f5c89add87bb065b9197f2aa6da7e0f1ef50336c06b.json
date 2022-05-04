@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Signal Pool SIGNL\",\"slug\":\"/pool-widget/29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b\",\"template\":\"PoolWidgetPage\",\"poolId\":\"29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-05-04T14:13:43.403Z",
-  "_cachedIn": "277 μs",
-  "_resolvedIn": "277 μs",
+  "_cachedAt": "2022-05-04T16:21:56.328Z",
+  "_cachedIn": "309 μs",
+  "_resolvedIn": "309 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "55112280",
       "blocksLifetime": 0,
       "delegators": 1,
-      "saturated": 8.147850660384886e-7,
+      "saturated": 8.147851648024574e-7,
       "pledge": "50000000",
       "pledged": "55112280",
       "taxRatio": 0,
@@ -82,8 +82,51 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "Signal Pool",
+        "description": "Signal Pool - You can't stop the signal.",
+        "ticker": "SIGNL",
+        "homepage": "https://twitter.com/Signlpool",
+        "extended": "https://git.io/JRrm3"
+      },
+      "extended": {
+        "info": {
+          "location": "USA",
+          "social": {
+            "twitter_handle": "@Signlpool",
+            "telegram_handle": "Steve [SIGNL]",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "signladmin"
+          },
+          "about": {
+            "me": "A single pool operator focusing on decentralization and low power consumption.",
+            "server": "Raspberry Pi based pool. Under 40 watts total. We will expand relays as we grow."
+          }
+        },
+        "my-pool-ids": {
+          "0": "29da1ba4704f7f5c89add87bb065b9197f2aa6da7e0f1ef50336c06b"
+        },
+        "telegram-admin-handle": {
+          "0": "Steve [SIGNL]"
+        },
+        "adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "Pi Relay 1",
+              "type": "relay",
+              "key": "eed29c6afccb27f568459e35643a7acd"
+            },
+            "1": {
+              "name": "Block Producer Pi",
+              "type": "bp",
+              "key": "3cf49188400411b598c3f4a26f5a7bc2"
+            }
+          }
+        }
+      },
       "telegram": "Steve [SIGNL]",
       "twitter": "@Signlpool",
       "github": "signladmin",
@@ -93,17 +136,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-05-04T14:13:43.403Z",
-    "component-cached-in": "277 μs",
-    "component-resolved-in": "277 μs"
+    "component-cached-at": "2022-05-04T16:21:56.328Z",
+    "component-cached-in": "309 μs",
+    "component-resolved-in": "309 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-05-04T14:13:43.403Z",
-      "_cachedIn": "86 μs",
-      "_resolvedIn": "86 μs",
+      "_cachedAt": "2022-05-04T16:21:56.328Z",
+      "_cachedIn": "108 μs",
+      "_resolvedIn": "108 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -112,17 +155,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-05-04T14:13:43.403Z",
-        "component-cached-in": "86 μs",
-        "component-resolved-in": "86 μs"
+        "component-cached-at": "2022-05-04T16:21:56.328Z",
+        "component-cached-in": "108 μs",
+        "component-resolved-in": "108 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-05-04T14:13:43.403Z",
-          "_cachedIn": "48 μs",
-          "_resolvedIn": "48 μs",
+          "_cachedAt": "2022-05-04T16:21:56.328Z",
+          "_cachedIn": "60 μs",
+          "_resolvedIn": "60 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -130,7 +173,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-05-04T14:13:24.490Z",
+              "createdAt": "2022-05-04T16:21:34.592Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2588,7 +2631,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.png",
+                "image": "https://github.com/ruby-pool/ruby-web-app/blob/main/logo.png?raw=true",
                 "updatedAt": "2021-10-26T07:27:05.000Z",
                 "filePath": "/en/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.md",
                 "rank": 0
@@ -3072,7 +3115,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://www.beadapool.com/media/logoklein.png",
+                "image": "https://cdn.adapools.org/pool_logo/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.png",
                 "updatedAt": "2022-02-26T12:00:13.000Z",
                 "filePath": "/en/stake-pools/a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618.md",
                 "rank": 13
@@ -9629,18 +9672,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-05-04T14:13:43.403Z",
-            "component-cached-in": "48 μs",
-            "component-resolved-in": "48 μs"
+            "component-cached-at": "2022-05-04T16:21:56.328Z",
+            "component-cached-in": "60 μs",
+            "component-resolved-in": "60 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-05-04T14:13:43.403Z",
-          "_cachedIn": "66 μs",
-          "_resolvedIn": "66 μs",
+          "_cachedAt": "2022-05-04T16:21:56.328Z",
+          "_cachedIn": "82 μs",
+          "_resolvedIn": "82 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9651,17 +9694,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-05-04T14:13:43.403Z",
-            "component-cached-in": "66 μs",
-            "component-resolved-in": "66 μs"
+            "component-cached-at": "2022-05-04T16:21:56.328Z",
+            "component-cached-in": "82 μs",
+            "component-resolved-in": "82 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-05-04T14:13:43.403Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2022-05-04T16:21:56.328Z",
+              "_cachedIn": "25 μs",
+              "_resolvedIn": "25 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9721,9 +9764,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-05-04T14:13:43.403Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2022-05-04T16:21:56.328Z",
+                "component-cached-in": "25 μs",
+                "component-resolved-in": "25 μs"
               },
               "components": {}
             }
@@ -9732,9 +9775,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-05-04T14:13:43.403Z",
-          "_cachedIn": "18 μs",
-          "_resolvedIn": "18 μs",
+          "_cachedAt": "2022-05-04T16:21:56.328Z",
+          "_cachedIn": "20 μs",
+          "_resolvedIn": "20 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9743,9 +9786,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-05-04T14:13:43.403Z",
-            "component-cached-in": "18 μs",
-            "component-resolved-in": "18 μs"
+            "component-cached-at": "2022-05-04T16:21:56.328Z",
+            "component-cached-in": "20 μs",
+            "component-resolved-in": "20 μs"
           },
           "components": {}
         }
