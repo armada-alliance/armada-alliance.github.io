@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Mini Pool MINI1\",\"slug\":\"/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2\",\"template\":\"PoolWidgetPage\",\"poolId\":\"c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-05-04T18:17:39.193Z",
-  "_cachedIn": "284 μs",
-  "_resolvedIn": "284 μs",
+  "_cachedAt": "2022-05-04T20:15:37.706Z",
+  "_cachedIn": "237 μs",
+  "_resolvedIn": "237 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2"
       },
       "description": "A small energy-efficient Cardano Stake Pool running on Mac Mini M1 &amp; Raspberry Pi's located in Switzerland",
-      "image": "https://cdn.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+      "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
       "hasImage": true,
       "ticker": "MINI1",
       "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
@@ -32,7 +32,7 @@
       "totalStake": "100476458412",
       "blocksLifetime": 6,
       "delegators": 17,
-      "saturated": 0.0014854536265802667,
+      "saturated": 0.0014854538409099709,
       "pledge": "11000000000",
       "pledged": "11005202691",
       "taxRatio": 0,
@@ -160,7 +160,42 @@
         "homepage": "https://www.adaministake.com",
         "extended": "https://git.io/JGjRk"
       },
-      "extended": null,
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://raw.githubusercontent.com/jterrier84/minipool/main/Mini1LogoSmall.png",
+          "url_png_logo": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
+          "location": "Weiningen | Zurich | Switzerland",
+          "social": {
+            "twitter_handle": "JuL71695233",
+            "telegram_handle": "mini1pool",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "jterrier84"
+          },
+          "company": {
+            "name": "Mini Stake Pool",
+            "addr": "",
+            "city": "Weiningen | Zurich | Switzerland",
+            "country": "CH",
+            "company_id": "",
+            "vat_id": ""
+          },
+          "about": {
+            "me": "Dedicated Cardano pool operator located in Weiningen, Zurich. Always put sustainability first. Big supporter of the Cardano dream and vision.",
+            "server": "The entire pool is running on totally 3 Raspberry Pi's, 1 Core and 2 Relays. The entire power consumption including router is 30 Watt. The electricity comes from 100% hydropower-plants from Switzerland and abroad.",
+            "company": ""
+          },
+          "my-pool-ids": {
+            "0": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+            "1": ""
+          },
+          "telegram-admin-handle": {
+            "0": "mini1pool"
+          }
+        }
+      },
       "telegram": "mini1pool",
       "twitter": "JuL71695233",
       "github": "jterrier84",
@@ -170,17 +205,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-05-04T18:17:39.193Z",
-    "component-cached-in": "284 μs",
-    "component-resolved-in": "284 μs"
+    "component-cached-at": "2022-05-04T20:15:37.706Z",
+    "component-cached-in": "237 μs",
+    "component-resolved-in": "237 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-05-04T18:17:39.193Z",
-      "_cachedIn": "94 μs",
-      "_resolvedIn": "94 μs",
+      "_cachedAt": "2022-05-04T20:15:37.706Z",
+      "_cachedIn": "73 μs",
+      "_resolvedIn": "73 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -189,17 +224,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-05-04T18:17:39.193Z",
-        "component-cached-in": "94 μs",
-        "component-resolved-in": "94 μs"
+        "component-cached-at": "2022-05-04T20:15:37.706Z",
+        "component-cached-in": "73 μs",
+        "component-resolved-in": "73 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-05-04T18:17:39.193Z",
-          "_cachedIn": "49 μs",
-          "_resolvedIn": "49 μs",
+          "_cachedAt": "2022-05-04T20:15:37.706Z",
+          "_cachedIn": "40 μs",
+          "_resolvedIn": "40 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -207,7 +242,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-05-04T18:17:13.384Z",
+              "createdAt": "2022-05-04T20:15:20.757Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2504,7 +2539,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.png",
+                "image": "https://raw.githubusercontent.com/siberiapool/siberiapool.github.io/main/logo_925x885.jpg",
                 "updatedAt": "2021-09-09T15:26:19.000Z",
                 "filePath": "/en/stake-pools/1416ab45d3dac1a2b002dbcfa0177e679b38a030e15283114cec32ed.md",
                 "rank": 25
@@ -3219,7 +3254,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+                "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
                 "updatedAt": "2022-04-18T20:10:45.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md",
                 "rank": 0
@@ -9706,18 +9741,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-05-04T18:17:39.193Z",
-            "component-cached-in": "49 μs",
-            "component-resolved-in": "49 μs"
+            "component-cached-at": "2022-05-04T20:15:37.706Z",
+            "component-cached-in": "40 μs",
+            "component-resolved-in": "40 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-05-04T18:17:39.193Z",
-          "_cachedIn": "70 μs",
-          "_resolvedIn": "70 μs",
+          "_cachedAt": "2022-05-04T20:15:37.706Z",
+          "_cachedIn": "56 μs",
+          "_resolvedIn": "56 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9728,17 +9763,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-05-04T18:17:39.193Z",
-            "component-cached-in": "70 μs",
-            "component-resolved-in": "70 μs"
+            "component-cached-at": "2022-05-04T20:15:37.706Z",
+            "component-cached-in": "56 μs",
+            "component-resolved-in": "56 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-05-04T18:17:39.193Z",
-              "_cachedIn": "22 μs",
-              "_resolvedIn": "22 μs",
+              "_cachedAt": "2022-05-04T20:15:37.706Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9798,9 +9833,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-05-04T18:17:39.193Z",
-                "component-cached-in": "22 μs",
-                "component-resolved-in": "22 μs"
+                "component-cached-at": "2022-05-04T20:15:37.706Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -9809,9 +9844,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-05-04T18:17:39.193Z",
-          "_cachedIn": "16 μs",
-          "_resolvedIn": "16 μs",
+          "_cachedAt": "2022-05-04T20:15:37.706Z",
+          "_cachedIn": "15 μs",
+          "_resolvedIn": "15 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9820,9 +9855,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-05-04T18:17:39.193Z",
-            "component-cached-in": "16 μs",
-            "component-resolved-in": "16 μs"
+            "component-cached-at": "2022-05-04T20:15:37.706Z",
+            "component-cached-in": "15 μs",
+            "component-resolved-in": "15 μs"
           },
           "components": {}
         }
