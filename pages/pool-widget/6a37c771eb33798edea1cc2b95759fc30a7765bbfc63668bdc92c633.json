@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"XOR NAND XORN\",\"slug\":\"/pool-widget/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633\",\"template\":\"PoolWidgetPage\",\"poolId\":\"6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-07-04T05:27:18.014Z",
-  "_cachedIn": "230 μs",
-  "_resolvedIn": "230 μs",
+  "_cachedAt": "2022-07-04T07:13:16.784Z",
+  "_cachedIn": "236 μs",
+  "_resolvedIn": "236 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -24,7 +24,7 @@
         "href": "/stake-pools/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633"
       },
       "description": "XOR NAND ADA Stake Pool",
-      "image": "https://cdn.adapools.org/pool_logo/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.png",
+      "image": "https://api.xor-nand.io/xorn.png",
       "hasImage": true,
       "ticker": "XORN",
       "addr": "pool1dgmuwu0txducah4pes4e2avlcv98wedml33kdz7ujtrrxk8xv9y",
@@ -32,7 +32,7 @@
       "totalStake": "788586209479",
       "blocksLifetime": 134,
       "delegators": 18,
-      "saturated": 0.011591980408085182,
+      "saturated": 0.011591980991110095,
       "pledge": "250000000000",
       "pledged": "250010553415",
       "taxRatio": 0.013,
@@ -125,8 +125,47 @@
           }
         }
       ],
-      "metadata": null,
-      "extended": null,
+      "metadata": {
+        "name": "XOR NAND",
+        "description": "XOR NAND ADA Stake Pool",
+        "ticker": "XORN",
+        "homepage": "https://www.xor-nand.io/",
+        "extended": "https://api.xor-nand.io/xorn_extended.json"
+      },
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://api.xor-nand.io/xorn_64x64.png",
+          "url_png_logo": "https://api.xor-nand.io/xorn.png",
+          "location": "London, England",
+          "social": {
+            "twitter_handle": "xor_nand_xorn"
+          },
+          "about": {
+            "me": "We are a group of top crypto developers taking an active part in the DeFi crypto ecosystem in London, Tel-Aviv & New York startup scene.",
+            "server": "Cloud hosted, high performance & high availability deployment at datacenters around the globe, with a lightning fast file system for higher chances of ADA rewards.",
+            "company": "We invested our hard-earned cash to build super-fast Cardano stake-pool infrastructure."
+          }
+        },
+        "my-pool-ids": {
+          "0": "6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633"
+        },
+        "when-satured-then-recommend": {
+          "0": "bcd7cf751b59f949170a7e6599f9ac03e49b32c19f3f1d8dad3ac210",
+          "1": "e151c6e13d6e6ffe8ed7a99ab40d31164592f8fb1ceeb1b24db49d2f"
+        },
+        "telegram-admin-handle": {
+          "0": "nandxor"
+        },
+        "adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "XORN Block Producer",
+              "type": "bp",
+              "key": "b57d9803ce1236ed8064edea8ddaa5e4"
+            }
+          }
+        }
+      },
       "twitter": "xor_nand_xorn",
       "qualityScore": 75
     }
@@ -134,17 +173,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-07-04T05:27:18.014Z",
-    "component-cached-in": "230 μs",
-    "component-resolved-in": "230 μs"
+    "component-cached-at": "2022-07-04T07:13:16.784Z",
+    "component-cached-in": "236 μs",
+    "component-resolved-in": "236 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-07-04T05:27:18.014Z",
-      "_cachedIn": "70 μs",
-      "_resolvedIn": "70 μs",
+      "_cachedAt": "2022-07-04T07:13:16.784Z",
+      "_cachedIn": "69 μs",
+      "_resolvedIn": "69 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -153,15 +192,15 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-07-04T05:27:18.014Z",
-        "component-cached-in": "70 μs",
-        "component-resolved-in": "70 μs"
+        "component-cached-at": "2022-07-04T07:13:16.784Z",
+        "component-cached-in": "69 μs",
+        "component-resolved-in": "69 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-04T05:27:18.014Z",
+          "_cachedAt": "2022-07-04T07:13:16.784Z",
           "_cachedIn": "36 μs",
           "_resolvedIn": "36 μs",
           "id": "Context",
@@ -171,7 +210,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-07-04T05:24:55.616Z",
+              "createdAt": "2022-07-04T07:12:47.670Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2783,7 +2822,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://cdn.adapools.org/pool_logo/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.png",
+                "image": "https://api.xor-nand.io/xorn.png",
                 "updatedAt": "2021-10-07T08:26:37.000Z",
                 "filePath": "/en/stake-pools/6a37c771eb33798edea1cc2b95759fc30a7765bbfc63668bdc92c633.md",
                 "rank": 25
@@ -9610,7 +9649,7 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-07-04T05:27:18.014Z",
+            "component-cached-at": "2022-07-04T07:13:16.784Z",
             "component-cached-in": "36 μs",
             "component-resolved-in": "36 μs"
           },
@@ -9619,7 +9658,7 @@
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-04T05:27:18.014Z",
+          "_cachedAt": "2022-07-04T07:13:16.784Z",
           "_cachedIn": "56 μs",
           "_resolvedIn": "56 μs",
           "id": "Header",
@@ -9632,7 +9671,7 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-07-04T05:27:18.014Z",
+            "component-cached-at": "2022-07-04T07:13:16.784Z",
             "component-cached-in": "56 μs",
             "component-resolved-in": "56 μs"
           },
@@ -9640,7 +9679,7 @@
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-07-04T05:27:18.014Z",
+              "_cachedAt": "2022-07-04T07:13:16.784Z",
               "_cachedIn": "20 μs",
               "_resolvedIn": "20 μs",
               "id": "SearchBox",
@@ -9702,7 +9741,7 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-07-04T05:27:18.014Z",
+                "component-cached-at": "2022-07-04T07:13:16.784Z",
                 "component-cached-in": "20 μs",
                 "component-resolved-in": "20 μs"
               },
@@ -9713,7 +9752,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-04T05:27:18.014Z",
+          "_cachedAt": "2022-07-04T07:13:16.784Z",
           "_cachedIn": "15 μs",
           "_resolvedIn": "15 μs",
           "id": "Footer",
@@ -9724,7 +9763,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-07-04T05:27:18.014Z",
+            "component-cached-at": "2022-07-04T07:13:16.784Z",
             "component-cached-in": "15 μs",
             "component-resolved-in": "15 μs"
           },
