@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"RADAR Stake Pool RADAR\",\"slug\":\"/pool-widget/fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65\",\"template\":\"PoolWidgetPage\",\"poolId\":\"fd2a060be85493dfdb03eecb6343a76636823d223d680a202b900f65\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-07-08T20:16:57.036Z",
-  "_cachedIn": "333 μs",
-  "_resolvedIn": "333 μs",
+  "_cachedAt": "2022-07-08T22:15:12.034Z",
+  "_cachedIn": "258 μs",
+  "_resolvedIn": "258 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "RADAR",
       "addr": "pool1l54qvzlg2jfalkcram9kxsa8vcmgy0fz845q5gptjq8k20kzg2r",
       "website": "https://radarstakepool.org",
-      "totalStake": "8829341215368",
+      "totalStake": "8829339048283",
       "blocksLifetime": 443,
       "delegators": 232,
-      "saturated": 0.12974148281694384,
+      "saturated": 0.12974145956970892,
       "pledge": "100000000000",
       "pledged": "120666329880",
       "taxRatio": 0.01,
@@ -180,17 +180,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-07-08T20:16:57.036Z",
-    "component-cached-in": "333 μs",
-    "component-resolved-in": "333 μs"
+    "component-cached-at": "2022-07-08T22:15:12.034Z",
+    "component-cached-in": "258 μs",
+    "component-resolved-in": "258 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-07-08T20:16:57.036Z",
-      "_cachedIn": "103 μs",
-      "_resolvedIn": "103 μs",
+      "_cachedAt": "2022-07-08T22:15:12.034Z",
+      "_cachedIn": "79 μs",
+      "_resolvedIn": "79 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -199,17 +199,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-07-08T20:16:57.036Z",
-        "component-cached-in": "103 μs",
-        "component-resolved-in": "103 μs"
+        "component-cached-at": "2022-07-08T22:15:12.034Z",
+        "component-cached-in": "79 μs",
+        "component-resolved-in": "79 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-08T20:16:57.036Z",
-          "_cachedIn": "56 μs",
-          "_resolvedIn": "56 μs",
+          "_cachedAt": "2022-07-08T22:15:12.034Z",
+          "_cachedIn": "45 μs",
+          "_resolvedIn": "45 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -217,7 +217,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-07-08T20:14:27.565Z",
+              "createdAt": "2022-07-08T22:12:44.319Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1357,6 +1357,21 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2022-02-03T11:00:10.000Z",
                 "filePath": "/en/identities/Dina_SEA.md"
+              },
+              {
+                "id": "FFR",
+                "language": "en",
+                "slug": "/identities/FFR",
+                "url": "https://armada-alliance.com/identities/FFR",
+                "origin": "/identities/FFR",
+                "title": "Fat Frog [FFR]",
+                "description": "Founder, SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://fatfrog.io/img/common/contact-hero.png",
+                "updatedAt": "2022-07-06T19:44:46.000Z",
+                "filePath": "/en/identities/FFR.md"
               },
               {
                 "id": "Hans_SEA",
@@ -2542,6 +2557,28 @@
                 "rank": 25
               },
               {
+                "id": "213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
+                "language": "en",
+                "slug": "/stake-pools/213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
+                "url": "https://armada-alliance.com/stake-pools/213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
+                "origin": "/stake-pools/213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
+                "title": "Fat Frog Cardano Stake Pool (FFR)",
+                "description": "The Fat Frog Cardano Stake Pool is a single operator stake pool and is a member of The Cardano Single Pool Alliance, The Armada Alliance, and The Cardano xSPO Alliance. Our primary goal is to promote True Decentralization for the Cardano blockchain.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "FFR",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2022-07-08T21:33:34.000Z",
+                "filePath": "/en/stake-pools/213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638.md",
+                "rank": 50
+              },
+              {
                 "id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
                 "language": "en",
                 "slug": "/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
@@ -3378,6 +3415,14 @@
                 "slug": "/pool-widget/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
                 "template": "PoolWidgetPage",
                 "poolId": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Fat Frog Cardano Stake Pool FFR",
+                "slug": "/pool-widget/213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
+                "template": "PoolWidgetPage",
+                "poolId": "213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
                 "hidden": true
               },
               {
@@ -9656,18 +9701,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-07-08T20:16:57.036Z",
-            "component-cached-in": "56 μs",
-            "component-resolved-in": "56 μs"
+            "component-cached-at": "2022-07-08T22:15:12.034Z",
+            "component-cached-in": "45 μs",
+            "component-resolved-in": "45 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-08T20:16:57.036Z",
-          "_cachedIn": "78 μs",
-          "_resolvedIn": "78 μs",
+          "_cachedAt": "2022-07-08T22:15:12.034Z",
+          "_cachedIn": "61 μs",
+          "_resolvedIn": "61 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9678,17 +9723,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-07-08T20:16:57.036Z",
-            "component-cached-in": "78 μs",
-            "component-resolved-in": "78 μs"
+            "component-cached-at": "2022-07-08T22:15:12.034Z",
+            "component-cached-in": "61 μs",
+            "component-resolved-in": "61 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-07-08T20:16:57.036Z",
-              "_cachedIn": "22 μs",
-              "_resolvedIn": "22 μs",
+              "_cachedAt": "2022-07-08T22:15:12.034Z",
+              "_cachedIn": "17 μs",
+              "_resolvedIn": "17 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9748,9 +9793,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-07-08T20:16:57.036Z",
-                "component-cached-in": "22 μs",
-                "component-resolved-in": "22 μs"
+                "component-cached-at": "2022-07-08T22:15:12.034Z",
+                "component-cached-in": "17 μs",
+                "component-resolved-in": "17 μs"
               },
               "components": {}
             }
@@ -9759,9 +9804,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-08T20:16:57.036Z",
-          "_cachedIn": "19 μs",
-          "_resolvedIn": "19 μs",
+          "_cachedAt": "2022-07-08T22:15:12.034Z",
+          "_cachedIn": "17 μs",
+          "_resolvedIn": "17 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9770,9 +9815,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-07-08T20:16:57.036Z",
-            "component-cached-in": "19 μs",
-            "component-resolved-in": "19 μs"
+            "component-cached-at": "2022-07-08T22:15:12.034Z",
+            "component-cached-in": "17 μs",
+            "component-resolved-in": "17 μs"
           },
           "components": {}
         }
