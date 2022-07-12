@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node-with-docker\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node-with-docker\",\"url\":\"https://armada-alliance.com/guides/run-a-cardano-node-with-docker\",\"origin\":\"/guides/run-a-cardano-node-with-docker\",\"title\":\"Docker Image Cardano Node\",\"description\":\"Run a Cardano Node in a Docker container\",\"aliases\":null,\"keywords\":[\"Stake Pool Operation\",\"Docker\",\"Raspberry Pi\",\"Mac M1\",\"ARM\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"julien-terrier\",\"role\":\"author\"}],\"icon\":\"🐳\",\"updatedAt\":\"2022-06-27T18:42:59.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node-with-docker.md\",\"externalLink\":\"https://armada-alliance.gitbook.io/welcome/stake-pool-guides/docker-pool-guide\",\"body\":\"## Why using docker image to run a Cardano node?\\n\\nThe advantage of deploying a Cardano node as a Docker image is that it can be installed seamlessly and launched right out of the box. \\nIf you ever decide to remove it, you only have to delete one file - the image. Another advantage is that the created image can run on any \\noperating system where Docker is installed. Using Docker reduces the complexity and effort of setting up a Cardano node compared to the \\ntraditional way (for example, you don't have to deal with systemd settings).\\n\\n**The docker image includes all necessary tools to run and monitor a Cardano node:**\\n1. cardano-node & cardano-cli - Cardano binaries to run the node (Download compiled binaries from [Armada Alliance GitHub](https://github.com/armada-alliance/cardano-node-binaries)) \\n2. gLiveView - Monitoring tool for the Cardano node\\n3. ScheduledBlocks - Tool to query the scheduled slots for a block production node. (Credits for this tool goes to [SNAKE POOL](https://github.com/asnakep/ScheduledBlocks))\\n4. Cardano Submit Transaction API - API to connect with a Cardano wallet (e.g. Nami) to send transactions via your own full node\\n\\n**_If you are enjoying the content of this project, please consider supporting me by delegating to my stake pool, ticker MINI1 or donating ₳D₳ to: \\naddr1qygv5fqsfjhfgkx7fhkkegxksx56dsu262vhaxr4mvuukt8uqh7nhjs3pcl98xr2zhmtqk6qkmr4gszxjrs3lnpedqdqyr3jzc_**\\n\\nThanks!\\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,h=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,d=Object.prototype.propertyIsEnumerable;var s=(e,o,a)=>o in e?p(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,n=(e,o)=>{for(var a in o||(o={}))i.call(o,a)&&s(e,a,o[a]);if(r)for(var a of r(o))d.call(o,a)&&s(e,a,o[a]);return e},l=(e,o)=>h(e,m(o));var c=(e,o)=>{var a={};for(var t in e)i.call(e,t)&&o.indexOf(t)<0&&(a[t]=e[t]);if(e!=null&&r)for(var t of r(e))o.indexOf(t)<0&&d.call(e,t)&&(a[t]=e[t]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:e}=t,o=c(t,[\\\"components\\\"]);return mdx(MDXLayout,l(n(n({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Why using docker image to run a Cardano node?\\\"),mdx(\\\"p\\\",null,`The advantage of deploying a Cardano node as a Docker image is that it can be installed seamlessly and launched right out of the box.\\nIf you ever decide to remove it, you only have to delete one file - the image. Another advantage is that the created image can run on any\\noperating system where Docker is installed. Using Docker reduces the complexity and effort of setting up a Cardano node compared to the\\ntraditional way (for example, you don't have to deal with systemd settings).`),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"The docker image includes all necessary tools to run and monitor a Cardano node:\\\")),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"cardano-node & cardano-cli - Cardano binaries to run the node (Download compiled binaries from \\\",mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"https://github.com/armada-alliance/cardano-node-binaries\\\"}),\\\"Armada Alliance GitHub\\\"),\\\") \\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"gLiveView - Monitoring tool for the Cardano node\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"ScheduledBlocks - Tool to query the scheduled slots for a block production node. (Credits for this tool goes to \\\",mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"https://github.com/asnakep/ScheduledBlocks\\\"}),\\\"SNAKE POOL\\\"),\\\")\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Cardano Submit Transaction API - API to connect with a Cardano wallet (e.g. Nami) to send transactions via your own full node\\\")),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},`If you are enjoying the content of this project, please consider supporting me by delegating to my stake pool, ticker MINI1 or donating \\\\u20B3D\\\\u20B3 to:\\naddr1qygv5fqsfjhfgkx7fhkkegxksx56dsu262vhaxr4mvuukt8uqh7nhjs3pcl98xr2zhmtqk6qkmr4gszxjrs3lnpedqdqyr3jzc`))),mdx(\\\"p\\\",null,\\\"Thanks!\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2022-07-12T05:40:42.919Z",
-  "_cachedIn": "167 ms",
-  "_resolvedIn": "167 ms",
+  "_cachedAt": "2022-07-12T07:25:11.239Z",
+  "_cachedIn": "185 ms",
+  "_resolvedIn": "185 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2022-07-12T05:40:42.919Z",
-    "component-cached-in": "167 ms",
-    "component-resolved-in": "167 ms"
+    "component-cached-at": "2022-07-12T07:25:11.239Z",
+    "component-cached-in": "185 ms",
+    "component-resolved-in": "185 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-07-12T05:40:42.919Z",
-      "_cachedIn": "162 μs",
-      "_resolvedIn": "162 μs",
+      "_cachedAt": "2022-07-12T07:25:11.239Z",
+      "_cachedIn": "176 μs",
+      "_resolvedIn": "176 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,17 +65,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-07-12T05:40:42.919Z",
-        "component-cached-in": "162 μs",
-        "component-resolved-in": "162 μs"
+        "component-cached-at": "2022-07-12T07:25:11.239Z",
+        "component-cached-in": "176 μs",
+        "component-resolved-in": "176 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-12T05:40:42.919Z",
-          "_cachedIn": "94 μs",
-          "_resolvedIn": "94 μs",
+          "_cachedAt": "2022-07-12T07:25:11.238Z",
+          "_cachedIn": "100 μs",
+          "_resolvedIn": "100 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -83,7 +83,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-07-12T05:38:19.439Z",
+              "createdAt": "2022-07-12T07:22:42.937Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2439,10 +2439,10 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "image": "https://fatfrog.io/fat-frog-icon-192x192.png",
                 "updatedAt": "2022-07-08T21:33:34.000Z",
                 "filePath": "/en/stake-pools/213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638.md",
-                "rank": 50
+                "rank": 38
               },
               {
                 "id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
@@ -9567,18 +9567,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-07-12T05:40:42.919Z",
-            "component-cached-in": "94 μs",
-            "component-resolved-in": "94 μs"
+            "component-cached-at": "2022-07-12T07:25:11.238Z",
+            "component-cached-in": "100 μs",
+            "component-resolved-in": "100 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-12T05:40:42.919Z",
-          "_cachedIn": "112 μs",
-          "_resolvedIn": "112 μs",
+          "_cachedAt": "2022-07-12T07:25:11.238Z",
+          "_cachedIn": "119 μs",
+          "_resolvedIn": "119 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9589,17 +9589,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-07-12T05:40:42.919Z",
-            "component-cached-in": "112 μs",
-            "component-resolved-in": "112 μs"
+            "component-cached-at": "2022-07-12T07:25:11.238Z",
+            "component-cached-in": "119 μs",
+            "component-resolved-in": "119 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-07-12T05:40:42.919Z",
-              "_cachedIn": "28 μs",
-              "_resolvedIn": "28 μs",
+              "_cachedAt": "2022-07-12T07:25:11.238Z",
+              "_cachedIn": "31 μs",
+              "_resolvedIn": "31 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9659,9 +9659,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-07-12T05:40:42.919Z",
-                "component-cached-in": "28 μs",
-                "component-resolved-in": "28 μs"
+                "component-cached-at": "2022-07-12T07:25:11.238Z",
+                "component-cached-in": "31 μs",
+                "component-resolved-in": "31 μs"
               },
               "components": {}
             }
@@ -9670,9 +9670,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-12T05:40:42.919Z",
-          "_cachedIn": "60 μs",
-          "_resolvedIn": "60 μs",
+          "_cachedAt": "2022-07-12T07:25:11.238Z",
+          "_cachedIn": "65 μs",
+          "_resolvedIn": "65 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9681,9 +9681,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-07-12T05:40:42.919Z",
-            "component-cached-in": "60 μs",
-            "component-resolved-in": "60 μs"
+            "component-cached-at": "2022-07-12T07:25:11.238Z",
+            "component-cached-in": "65 μs",
+            "component-resolved-in": "65 μs"
           },
           "components": {}
         }
@@ -9692,9 +9692,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-07-12T05:40:42.919Z",
-      "_cachedIn": "117 μs",
-      "_resolvedIn": "117 μs",
+      "_cachedAt": "2022-07-12T07:25:11.238Z",
+      "_cachedIn": "126 μs",
+      "_resolvedIn": "126 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -9724,18 +9724,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2022-07-12T05:40:42.919Z",
-        "component-cached-in": "117 μs",
-        "component-resolved-in": "117 μs"
+        "component-cached-at": "2022-07-12T07:25:11.238Z",
+        "component-cached-in": "126 μs",
+        "component-resolved-in": "126 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-07-12T05:40:42.919Z",
-      "_cachedIn": "59 μs",
-      "_resolvedIn": "59 μs",
+      "_cachedAt": "2022-07-12T07:25:11.238Z",
+      "_cachedIn": "67 μs",
+      "_resolvedIn": "67 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -9747,18 +9747,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2022-07-12T05:40:42.919Z",
-        "component-cached-in": "59 μs",
-        "component-resolved-in": "59 μs"
+        "component-cached-at": "2022-07-12T07:25:11.238Z",
+        "component-cached-in": "67 μs",
+        "component-resolved-in": "67 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-07-12T05:40:42.919Z",
-      "_cachedIn": "116 μs",
-      "_resolvedIn": "116 μs",
+      "_cachedAt": "2022-07-12T07:25:11.238Z",
+      "_cachedIn": "124 μs",
+      "_resolvedIn": "124 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -9782,9 +9782,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2022-07-12T05:40:42.919Z",
-        "component-cached-in": "116 μs",
-        "component-resolved-in": "116 μs"
+        "component-cached-at": "2022-07-12T07:25:11.238Z",
+        "component-cached-in": "124 μs",
+        "component-resolved-in": "124 μs"
       },
       "components": {}
     }
