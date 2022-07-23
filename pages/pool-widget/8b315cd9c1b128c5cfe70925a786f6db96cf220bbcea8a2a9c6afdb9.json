@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Antrix ANTRX\",\"slug\":\"/pool-widget/8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9\",\"template\":\"PoolWidgetPage\",\"poolId\":\"8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2022-07-23T01:17:13.209Z",
-  "_cachedIn": "230 μs",
-  "_resolvedIn": "230 μs",
+  "_cachedAt": "2022-07-23T02:52:23.315Z",
+  "_cachedIn": "227 μs",
+  "_resolvedIn": "227 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "2042749373052",
       "blocksLifetime": 1,
       "delegators": 54,
-      "saturated": 0.029982409727399247,
+      "saturated": 0.02998241161164893,
       "pledge": "1000000000",
       "pledged": "2896105396",
       "taxRatio": 0.02,
@@ -159,17 +159,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2022-07-23T01:17:13.209Z",
-    "component-cached-in": "230 μs",
-    "component-resolved-in": "230 μs"
+    "component-cached-at": "2022-07-23T02:52:23.315Z",
+    "component-cached-in": "227 μs",
+    "component-resolved-in": "227 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2022-07-23T01:17:13.209Z",
-      "_cachedIn": "78 μs",
-      "_resolvedIn": "78 μs",
+      "_cachedAt": "2022-07-23T02:52:23.315Z",
+      "_cachedIn": "69 μs",
+      "_resolvedIn": "69 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -178,17 +178,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2022-07-23T01:17:13.209Z",
-        "component-cached-in": "78 μs",
-        "component-resolved-in": "78 μs"
+        "component-cached-at": "2022-07-23T02:52:23.315Z",
+        "component-cached-in": "69 μs",
+        "component-resolved-in": "69 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-23T01:17:13.209Z",
-          "_cachedIn": "42 μs",
-          "_resolvedIn": "42 μs",
+          "_cachedAt": "2022-07-23T02:52:23.315Z",
+          "_cachedIn": "37 μs",
+          "_resolvedIn": "37 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -196,7 +196,7 @@
           "props": {
             "host": "https://armada-alliance.com",
             "schema": {
-              "createdAt": "2022-07-23T01:14:44.584Z",
+              "createdAt": "2022-07-23T02:49:53.937Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2298,6 +2298,21 @@
                 "filePath": "/en/identities/thyes_MB.md"
               },
               {
+                "id": "token",
+                "language": "en",
+                "slug": "/identities/token",
+                "url": "https://armada-alliance.com/identities/token",
+                "origin": "/identities/token",
+                "title": "token 🤖",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://pool.pm/registry/0171c997b8853fde686763d93b36ab8e04ce947bb6aa09a9ee5c4401/TOKEN/logo.png",
+                "updatedAt": "2022-07-22T16:09:31.000Z",
+                "filePath": "/en/identities/token.md"
+              },
+              {
                 "id": "tony-piada",
                 "language": "en",
                 "slug": "/identities/tony-piada",
@@ -2549,6 +2564,28 @@
                 "updatedAt": "2021-08-27T16:32:36.000Z",
                 "filePath": "/en/stake-pools/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c.md",
                 "rank": 25
+              },
+              {
+                "id": "1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
+                "language": "en",
+                "slug": "/stake-pools/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
+                "url": "https://armada-alliance.com/stake-pools/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
+                "origin": "/stake-pools/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
+                "title": "Token Stake Pool (TOKEN)",
+                "description": "Solar-powered nodes with block producer on arm-based M1 Apple Silicon. Fungible token distribution at https://dripdropz.io/explore-projects/TOKEN",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "token",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://pool.pm/registry/0171c997b8853fde686763d93b36ab8e04ce947bb6aa09a9ee5c4401/TOKEN/logo.png",
+                "updatedAt": "2022-07-22T16:10:26.000Z",
+                "filePath": "/en/stake-pools/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737.md",
+                "rank": 13
               },
               {
                 "id": "213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
@@ -3431,6 +3468,14 @@
                 "slug": "/pool-widget/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
                 "template": "PoolWidgetPage",
                 "poolId": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Token Stake Pool TOKEN",
+                "slug": "/pool-widget/1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
+                "template": "PoolWidgetPage",
+                "poolId": "1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
                 "hidden": true
               },
               {
@@ -9725,18 +9770,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2022-07-23T01:17:13.209Z",
-            "component-cached-in": "42 μs",
-            "component-resolved-in": "42 μs"
+            "component-cached-at": "2022-07-23T02:52:23.315Z",
+            "component-cached-in": "37 μs",
+            "component-resolved-in": "37 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-23T01:17:13.209Z",
-          "_cachedIn": "59 μs",
-          "_resolvedIn": "59 μs",
+          "_cachedAt": "2022-07-23T02:52:23.315Z",
+          "_cachedIn": "53 μs",
+          "_resolvedIn": "53 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -9747,17 +9792,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2022-07-23T01:17:13.209Z",
-            "component-cached-in": "59 μs",
-            "component-resolved-in": "59 μs"
+            "component-cached-at": "2022-07-23T02:52:23.315Z",
+            "component-cached-in": "53 μs",
+            "component-resolved-in": "53 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2022-07-23T01:17:13.209Z",
-              "_cachedIn": "19 μs",
-              "_resolvedIn": "19 μs",
+              "_cachedAt": "2022-07-23T02:52:23.315Z",
+              "_cachedIn": "16 μs",
+              "_resolvedIn": "16 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -9817,9 +9862,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2022-07-23T01:17:13.209Z",
-                "component-cached-in": "19 μs",
-                "component-resolved-in": "19 μs"
+                "component-cached-at": "2022-07-23T02:52:23.315Z",
+                "component-cached-in": "16 μs",
+                "component-resolved-in": "16 μs"
               },
               "components": {}
             }
@@ -9828,9 +9873,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2022-07-23T01:17:13.209Z",
-          "_cachedIn": "14 μs",
-          "_resolvedIn": "14 μs",
+          "_cachedAt": "2022-07-23T02:52:23.315Z",
+          "_cachedIn": "13 μs",
+          "_resolvedIn": "13 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -9839,9 +9884,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2022-07-23T01:17:13.209Z",
-            "component-cached-in": "14 μs",
-            "component-resolved-in": "14 μs"
+            "component-cached-at": "2022-07-23T02:52:23.315Z",
+            "component-cached-in": "13 μs",
+            "component-resolved-in": "13 μs"
           },
           "components": {}
         }
